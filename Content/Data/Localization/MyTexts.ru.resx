@@ -203,7 +203,7 @@
     <value>Терминал не подключён к кораблю</value>
   </data>
   <data name="DisplayName_Item_AngleGrinder" xml:space="preserve">
-    <value>Дробилка</value>
+    <value>Болгарка</value>
     <comment>Угловая болгарка - ручной инструмент для разборки блоков</comment>
   </data>
   <data name="DisplayName_Block_Antenna" xml:space="preserve">
@@ -465,7 +465,7 @@
     <value>Малый реактор</value>
   </data>
   <data name="DisplayName_Item_SmallSteelTube" xml:space="preserve">
-    <value>Маленькая стальная трубка</value>
+    <value>Маленькая стальная труба</value>
   </data>
   <data name="DisplayName_Block_SmallThrust" xml:space="preserve">
     <value>Ионный ускоритель</value>
@@ -647,10 +647,10 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Застряли? 
     
     
-Нажатие {0} позволит вам совершить самоубийство и возродиться в вашей медицинской комнате.</value>
+Нажатие {0} позволит вам возродиться в вашей медицинской комнате.</value>
   </data>
   <data name="Hint04Control0" xml:space="preserve">
-    <value>САМОУБИЙСТВО</value>
+    <value>ВОЗРОЖДЕНИЕ</value>
   </data>
   <data name="Hint05Text" xml:space="preserve">
     <value>Вы знали? 
@@ -1537,7 +1537,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <comment>Chemical symbol. Do not translate!</comment>
   </data>
   <data name="BlockPropertiesText_MotorCurrentAngle" xml:space="preserve">
-    <value>Текущий угол:</value>
+    <value>Текущий угол: </value>
   </data>
   <data name="BlockPropertyValue_MotorAngleUnlimited" xml:space="preserve">
     <value>Не ограничено</value>
@@ -1885,7 +1885,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Разборка</value>
   </data>
   <data name="ScreenTerminalProduction_GainedAndAvailable" xml:space="preserve">
-    <value>Получим / Доступно</value>
+    <value>Выход / Доступно</value>
   </data>
   <data name="ScreenTerminalProduction_Inventory" xml:space="preserve">
     <value>Инвентарь:</value>
@@ -2050,7 +2050,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Колесо 5x5</value>
   </data>
   <data name="DisplayName_Block_ShipGrinder" xml:space="preserve">
-    <value>Измельчитель</value>
+    <value>Болгарка</value>
   </data>
   <data name="BlockPropertyDescription_GyroPower" xml:space="preserve">
     <value>Сила гироскопа зависит от подаваемой энергии.</value>
@@ -2444,11 +2444,11 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Заряд: </value>
   </data>
   <data name="ToolTipBatteryBlock" xml:space="preserve">
-    <value>Отметьте для хранения энергии, снимите для её отдачи</value>
+    <value>Отметьте для накопления энергии, снимите для её отдачи</value>
     <comment>checkbox tooltip (eg. on BatteryBlock).</comment>
   </data>
   <data name="BlockPropertyTitle_Recharge" xml:space="preserve">
-    <value>Перезарядка</value>
+    <value>Заряжать</value>
     <comment>Recharge checkbox in terminal (eg. on BatteryBlock).</comment>
   </data>
   <data name="BlockOwner_ShareNone" xml:space="preserve">
@@ -2821,7 +2821,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Большой корабль</value>
   </data>
   <data name="CustomShipName_SmallShip" xml:space="preserve">
-    <value>Малый корабль</value>
+    <value>Маленький корабль</value>
   </data>
   <data name="BroadcastStatus_PhysicallyConnected" xml:space="preserve">
     <value>Прямой доступ</value>
@@ -3397,7 +3397,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Космосфера</value>
   </data>
   <data name="DisplayName_GridCreateTool_CreateSmallShip" xml:space="preserve">
-    <value>Создать новый малый корабль</value>
+    <value>Создать новый маленький корабль</value>
   </data>
   <data name="DisplayName_GridCreateTool_CreateLargeShip" xml:space="preserve">
     <value>Создать новый большой корабль</value>
@@ -4269,7 +4269,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Генератор кислорода</value>
   </data>
   <data name="DisplayName_Block_OxygenTank" xml:space="preserve">
-    <value>Баллон с кислородом</value>
+    <value>Кислородный бак</value>
   </data>
   <data name="DisplayName_BlueprintClass_Ice" xml:space="preserve">
     <value>Лёд</value>
@@ -4296,16 +4296,16 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Герметичная дверь ангара</value>
   </data>
   <data name="BlockPropertyTitle_LargeTurretTargetCharacters" xml:space="preserve">
-    <value>Атаковать людей</value>
+    <value>Стрелять по людям</value>
   </data>
   <data name="BlockPropertyTitle_LargeTurretTargetLargeGrids" xml:space="preserve">
-    <value>Атаковать большие корабли</value>
+    <value>Стрелять по большим кораблям</value>
   </data>
   <data name="BlockPropertyTitle_LargeTurretTargetSmallGrids" xml:space="preserve">
-    <value>Атаковать малые корабли</value>
+    <value>Стрелять по малым кораблям</value>
   </data>
   <data name="BlockPropertyTitle_LargeTurretTargetStations" xml:space="preserve">
-    <value>Атаковать станции</value>
+    <value>Стрелять по станциям</value>
   </data>
   <data name="DisplayName_Item_OxygenBottle" xml:space="preserve">
     <value>Кислородный баллон</value>
@@ -4814,7 +4814,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Присвоение собственности</value>
   </data>
   <data name="MedicalRoom_ownershipAssignmentTooltip" xml:space="preserve">
-    <value>Medical room's owner will be set to anyone who spawns in it as long as former ownership is set to nobody.</value>
+    <value>Владельцем медицинской комнаты будет любой, пока не будет кто-то назначен.</value>
   </data>
   <data name="TerminalScenarioSettingsLabel" xml:space="preserve">
     <value>Настройки сценария:</value>
@@ -4956,9 +4956,9 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Обитаемая планета</value>
   </data>
   <data name="ScreenMedicals_NoRespawnPlace" xml:space="preserve">
-    <value>No respawn point is available! 
-Try the refresh button for any available Medical rooms.
-If there is no chance of accessing a medical room, the game will be over in {0:00}:{1:00}.</value>
+    <value>Нет доступных точек возрождения! 
+Попробуйте нажать кнопку обновления для поиска доступных медицинских комнат.
+Если нет возможности получить доступ к медицинской комнате, игра будет закончена через {0:00}:{1:00}.</value>
   </data>
   <data name="ScreenCaptionWorldGeneratorSettings" xml:space="preserve">
     <value>Настройки генератора мира</value>
@@ -5228,1748 +5228,1754 @@ If there is no chance of accessing a medical room, the game will be over in {0:0
     <value>Боты с хорошим ИИ</value>
   </data>
   <data name="BrainSimulatorIntegration_ExperimentalWarning" xml:space="preserve">
-    <value>This feature is experimental and may lead to severely reduced game performance or unstability!</value>
+    <value>Данная функция находится на экспериментальной стадии и может сильно снизить производительность, а также стабильность!</value>
   </data>
   <data name="BrainSimulatorIntegration_ExperimentalFeatureCaption" xml:space="preserve">
-    <value>Experimental Feature</value>
+    <value>Экспериментальная функция</value>
   </data>
   <data name="BrainSimulatorIntegration_ExperimentalFeatureConfirmation" xml:space="preserve">
-    <value>I have read the warning and still want to turn the feature on!</value>
+    <value>Я прочитал предупреждение и всё равно хочу включить данную функцию!</value>
   </data>
   <data name="BrainSimulatorIntegration_RequirementsNotMet" xml:space="preserve">
-    <value>Automatic mode is not supported because this computer does not meet these requirements:</value>
+    <value>Автоматический режим не поддерживается, потому что данный компьютер не соответствует следующим требованиям:</value>
   </data>
   <data name="BrainSimulatorIntegration_ManualModeAllowed" xml:space="preserve">
-    <value>You can still use the manual mode.</value>
+    <value>Вы всё равно можете использовать ручной режим.</value>
   </data>
   <data name="BrainSimulatorIntegration_BrainNotFoundCaption" xml:space="preserve">
-    <value>Brain not found</value>
+    <value>Разум не найден</value>
   </data>
   <data name="BrainSimulatorIntegration_BrainNotFoundMessage" xml:space="preserve">
-    <value>The selected brain was not found.</value>
+    <value>Выбранный разум не найден.</value>
   </data>
   <data name="BrainSimulatorIntegration_NotConnectedCaption" xml:space="preserve">
-    <value>Brain Simulator not connected</value>
+    <value>Симулятор разума не подключён</value>
   </data>
   <data name="BrainSimulatorIntegration_NotConnectedMessage" xml:space="preserve">
-    <value>Could not connect to the Brain Simulator. Please check if the settings are correct. The game will continue to try to connect.</value>
+    <value>Не удаётся подключить симулятор разума. Проверьте правильность настроек. Игра будет продолжать пытаться подключиться.</value>
   </data>
   <data name="BrainSimulatorIntegration_RunnerIssueCaption" xml:space="preserve">
-    <value>Brain Simulator issue</value>
+    <value>Проблема с симулятором разума</value>
   </data>
   <data name="BrainSimulatorIntegration_RunnerRestarted" xml:space="preserve">
-    <value>Unable to run brains automatically, the Brain Simulator has crashed and been restarted too many times. The bot will not function.</value>
+    <value>Не удаётся запустить разум автоматически, в симуляторе разума произошёл сбой, и он был перезагружен несколько раз. Бот не будет работать.</value>
   </data>
   <data name="BrainSimulatorIntegration_RunnerNotFound" xml:space="preserve">
-    <value>Unable to run brains automatically, the Brain Simulator executable has not been found. The bot will not function.</value>
+    <value>Не удаётся запустить разум автоматически, не найден исполняемый файл симулятора разума. Бот не будет работать.</value>
   </data>
   <data name="BrainSimulatorIntegration_ChooseBrainCaption" xml:space="preserve">
-    <value>Add GoodAI Bot</value>
+    <value>Добавить бота с хорошим ИИ</value>
   </data>
   <data name="BrainSimulatorIntegration_ChooseBrainLabel" xml:space="preserve">
-    <value>Brain</value>
+    <value>Разум</value>
   </data>
   <data name="BrainSimulatorIntegration_ChooseBrainAddButton" xml:space="preserve">
-    <value>Add</value>
+    <value>Добавить</value>
   </data>
   <data name="BrainSimulatorIntegration_AISchoolButton" xml:space="preserve">
-    <value>AI School</value>
+    <value>Обучить ИИ</value>
   </data>
   <data name="DisplayName_RewardPunishmentTool" xml:space="preserve">
-    <value>GoodAI Bot Feedback</value>
+    <value>Отклик бота с хорошим ИИ</value>
   </data>
   <data name="ScreenCubeBuilderAddGoodAiBot" xml:space="preserve">
-    <value>Add GoodAI bot</value>
+    <value>Добавить бота с хорошим ИИ</value>
   </data>
   <data name="DisplayName_Block_HydrogenTank" xml:space="preserve">
-    <value>Hydrogen Tank</value>
+    <value>Водородный бак</value>
   </data>
   <data name="DisplayName_Block_HydrogenTankSmall" xml:space="preserve">
-    <value>Hydrogen Tank Small</value>
+    <value>Малый водородный бак</value>
   </data>
   <data name="DisplayName_BlueprintClass_HydrogenBottles" xml:space="preserve">
-    <value>Hydrogen Bottles</value>
+    <value>Водородные баллоны</value>
   </data>
   <data name="DisplayName_Item_HydrogenBottle" xml:space="preserve">
-    <value>Hydrogen Bottle</value>
+    <value>Водородный баллон</value>
   </data>
   <data name="DisplayName_Item_HydrogenBottles" xml:space="preserve">
-    <value>Hydrogen Bottles</value>
+    <value>Водородные баллоны</value>
   </data>
   <data name="BlockPropertyTitle_CollisionAvoidance" xml:space="preserve">
-    <value>Collision avoidance</value>
+    <value>Предупреждение столкновения</value>
   </data>
   <data name="ToolTipWorldSettings_EnableDrones" xml:space="preserve">
-    <value>Random NPC pirate ship will be generated from time to time.
-These ships are enemies and will try to attack you with their drones.</value>
+    <value>Время от времени будут создаваться случайные пиратские корабли.
+Эти корабли враждебны и будут пытаться атаковать вас своими дронами.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableWolfs" xml:space="preserve">
-    <value>Enable / disable spawning of Wolves.</value>
+    <value>Включить / выключить появление волков.</value>
   </data>
   <data name="WorldSettings_EnableWolfs" xml:space="preserve">
-    <value>Enable wolves</value>
+    <value>Включить волков</value>
   </data>
   <data name="ToolTipWorldSettings_EnableSpiders" xml:space="preserve">
-    <value>Enable / disable spawning of spiders.</value>
+    <value>Включить / выключить появление пауков.</value>
   </data>
   <data name="WorldSettings_EnableSpiders" xml:space="preserve">
-    <value>Enable spiders</value>
+    <value>Включить пауков</value>
   </data>
   <data name="WorldSettings_EnableDrones" xml:space="preserve">
-    <value>Enable drones</value>
+    <value>Включить дроны</value>
   </data>
   <data name="ToolTipWorldSettings_CargoShipsEnabled" xml:space="preserve">
-    <value>Random NPC cargoships will fly through world 
-from time to time.</value>
+    <value>Время от времени по миру будут летать 
+грузовые корабли.</value>
   </data>
   <data name="ToolTipWorldSettings_ClientCanSave" xml:space="preserve">
-    <value>Client can save network game. If unchecked 
-then only server can save.</value>
+    <value>Клиент может сохранить сетевую игру. Если флажок снят,
+то только сервер может сохранить.</value>
   </data>
   <data name="ToolTipWorldSettings_Enable3rdPersonCamera" xml:space="preserve">
-    <value>Camera can be switched to 3rd person view,
-looking on your astronaut from behind.</value>
+    <value>Камера может быть переключена в режим от 3-го лица,
+смотря на вашего космонавта сзади.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableEncounters" xml:space="preserve">
-    <value>Random abandoned ships and stations can be encountered.</value>
+    <value>Могут быть найдены случайные брошенные корабли и станции.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableIngameScripts" xml:space="preserve">
-    <value>If disabled, scripts will not be run in game. Scripts are used
- in programmable block and can also be used by some 
-mods to create advanced logic and effects.</value>
+    <value>Если выключено, скрипты не будут запускаться во время игры. Скрипты используются
+в программируемых блоках, а также могут использоваться некоторыми 
+модами для создания продвинутых логистики и эффектов.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableSunRotation" xml:space="preserve">
-    <value>Sun moves around to create day and night.</value>
+    <value>Солнце движется вокруг, чтобы создать день и ночь.</value>
   </data>
   <data name="DisplayName_Item_Hydrogen" xml:space="preserve">
-    <value>Hydrogen</value>
+    <value>Водород</value>
   </data>
   <data name="TerminalControlPanel_RunCodeDefault" xml:space="preserve">
-    <value>Run with default argument</value>
+    <value>Запуск с аргументом по умолчанию</value>
   </data>
   <data name="DisplayName_Block_LargeAtmoThrust" xml:space="preserve">
-    <value>Large Atmospheric Thruster</value>
+    <value>Большой атмосферный ускоритель</value>
   </data>
   <data name="DisplayName_Block_SmallAtmoThrust" xml:space="preserve">
-    <value>Atmospheric Thrusters</value>
+    <value>Атмосферный ускоритель</value>
   </data>
   <data name="NotificationShipEnergyCritical" xml:space="preserve">
-    <value>Warning: Ship fuel is critically low. Life support failure imminent.</value>
+    <value>Внимание: Запас топлива корабля критически низок. Отказ системы жизнеобеспечения неизбежен.</value>
   </data>
   <data name="NotificationShipEnergyCriticalNoDamage" xml:space="preserve">
-    <value>Warning: Ship fuel is critically low.</value>
+    <value>Внимание: Запас топлива корабля критически низок.</value>
   </data>
   <data name="NotificationShipEnergyLow" xml:space="preserve">
-    <value>Warning: Ship fuel is low. Life support systems may fail.</value>
+    <value>Внимание: Запас топлива корабля низок. Возможен отказ системы жизнеобеспечения.</value>
   </data>
   <data name="NotificationShipEnergyLowNoDamage" xml:space="preserve">
-    <value>Warning: Ship fuel is low.</value>
+    <value>Внимание: Запас топлива корабля низок.</value>
   </data>
   <data name="DisplayName_Block_LargeHydrogenThrust" xml:space="preserve">
-    <value>Large Hydrogen Thruster</value>
+    <value>Большой водородный ускоритель</value>
   </data>
   <data name="DisplayName_Block_SmallHydrogenThrust" xml:space="preserve">
-    <value>Hydrogen Thrusters</value>
+    <value>Водородный ускоритель</value>
   </data>
   <data name="BlockPropertyDescription_Motor_SuspensionSpeed" xml:space="preserve">
-    <value>Wheels will not be propeled over this speed</value>
+    <value>Колёса не будут вращаться выше данной скорости</value>
   </data>
   <data name="BlockPropertyTitle_Motor_SuspensionSpeed" xml:space="preserve">
-    <value>Speed limit</value>
+    <value>Ограничение скорости</value>
   </data>
   <data name="BlockPropertyTitle_Motor_InvertPropulsion" xml:space="preserve">
-    <value>Invert Propulsion</value>
+    <value>Инвертировать тягу</value>
   </data>
   <data name="BlockPropertyDescription_Motor_InvertPropulsion" xml:space="preserve">
-    <value>Invert the propulsion direction.</value>
+    <value>Инвертировать направление тяги.</value>
   </data>
   <data name="BlockPropertiesText_MotorAttached" xml:space="preserve">
-    <value>Attached</value>
+    <value>Прикреплён</value>
   </data>
   <data name="BlockPropertiesText_MotorAttachingAny" xml:space="preserve">
-    <value>Looking for any rotor to attach</value>
+    <value>Найдите любой ротор для прикрепления</value>
   </data>
   <data name="BlockPropertiesText_MotorAttachingSpecific" xml:space="preserve">
-    <value>Looking for specific rotor to attach</value>
+    <value>Найдите специальный ротор для прикрепления</value>
   </data>
   <data name="BlockPropertiesText_HeadAttachingAny" xml:space="preserve">
-    <value>Looking for any Head to attach</value>
+    <value>Найдите любую насадку для прикрепления</value>
   </data>
   <data name="BlockPropertiesText_HeadAttachingSpecific" xml:space="preserve">
-    <value>Looking for specific Head to attach</value>
+    <value>Найдите специальную насадку для прикрепления</value>
   </data>
   <data name="BlockPropertiesText_MotorLocked" xml:space="preserve">
-    <value>Safety locked</value>
+    <value>На предохранителе</value>
   </data>
   <data name="BlockPropertiesText_MotorDetached" xml:space="preserve">
-    <value>Detached</value>
+    <value>Откреплён</value>
   </data>
   <data name="DisplayName_Item_Superconductor" xml:space="preserve">
-    <value>Superconductor Conduits</value>
+    <value>Каналы сверхпроводника</value>
   </data>
   <data name="BlockPropertyDescription_Connector_Strength" xml:space="preserve">
-    <value>Connector strength when aligning ship (yellow color), smaller strength of two connectors is used</value>
+    <value>Прочность соединителя при выверки корабля (жёлтый цвет), при использовании двух соединителей прочность будет меньше</value>
   </data>
   <data name="BlockPropertyTitle_Connector_Strength" xml:space="preserve">
-    <value>Strength</value>
+    <value>Прочность</value>
   </data>
   <data name="BlockPropertyTitle_Discharge" xml:space="preserve">
-    <value>Discharge</value>
+    <value>Разряжать</value>
   </data>
   <data name="ToolTipBatteryBlock_Discharge" xml:space="preserve">
-    <value>Discharge the battery</value>
+    <value>Разряжать батарею</value>
   </data>
   <data name="NotificationGasBottleRefill" xml:space="preserve">
-    <value>Gas refilled from bottles.</value>
+    <value>Газ пополняется из баллонов.</value>
   </data>
   <data name="DisplayName_Block_AirtightSlideDoor" xml:space="preserve">
-    <value>Sliding Door</value>
+    <value>Раздвижная дверь</value>
   </data>
   <data name="DisplayName_Faction_SpaceSpiders" xml:space="preserve">
     <value>{LOCG:DisplayName_Faction_SpaceSpiders_Translation}</value>
   </data>
   <data name="ScreenGraphicsOptions_VoxelQuality" xml:space="preserve">
-    <value>Voxel quality</value>
+    <value>Качество вокселя</value>
   </data>
   <data name="ScreenGraphicsOptions_ShaderQuality" xml:space="preserve">
-    <value>Shader quality</value>
+    <value>Качество шейдеров</value>
   </data>
   <data name="DisplayName_AstronautBackpack" xml:space="preserve">
-    <value>Backpack</value>
+    <value>Рюкзак</value>
   </data>
   <data name="DisplayName_Animation_SpiderAttackBite" xml:space="preserve">
-    <value>Bite attack</value>
+    <value>Атака укусом</value>
   </data>
   <data name="DisplayName_Animation_SpiderAttackLegs" xml:space="preserve">
-    <value>Leg attack</value>
+    <value>Атака лапой</value>
   </data>
   <data name="DisplayName_Animation_SpiderAttackStinger" xml:space="preserve">
-    <value>Stinger attack</value>
+    <value>Атака жалом</value>
   </data>
   <data name="DisplayName_Animation_SpiderBurrow" xml:space="preserve">
-    <value>Burrow</value>
+    <value>Зарыться</value>
   </data>
   <data name="DisplayName_Animation_SpiderDeburrow" xml:space="preserve">
-    <value>Deburrow</value>
+    <value>Вылезти</value>
   </data>
   <data name="Description_Scenario_DebugStart" xml:space="preserve">
-    <value>Minimal world with platform and few fighters, loads quickly, good for testing and debugging</value>
+    <value>Минимальный мир с платформой и несколькими истребителями, быстро загружается, хорошо подходит для тестирования и отладки</value>
   </data>
   <data name="DisplayName_Scenario_DebugStart" xml:space="preserve">
-    <value>Debug fast start</value>
+    <value>Быстрый запуск отладки</value>
   </data>
   <data name="String" xml:space="preserve">
     <value />
   </data>
   <data name="ScreenDebugAdminMenu_Caption" xml:space="preserve">
-    <value>Space Master</value>
+    <value>Мастер космоса</value>
   </data>
   <data name="ScreenDebugAdminMenu_DepowerTrash" xml:space="preserve">
-    <value>Depower trash</value>
+    <value>Отложить мусор</value>
   </data>
   <data name="ScreenDebugAdminMenu_Controlled" xml:space="preserve">
-    <value>Controlled</value>
+    <value>Управляемый</value>
   </data>
   <data name="ScreenDebugAdminMenu_Powered" xml:space="preserve">
-    <value>Powered</value>
+    <value>Запитанный</value>
   </data>
   <data name="ScreenDebugAdminMenu_Stationary" xml:space="preserve">
-    <value>Stationary</value>
+    <value>Неподвижный</value>
   </data>
   <data name="ScreenDebugAdminMenu_Stations" xml:space="preserve">
-    <value>Fixed (stations)</value>
+    <value>Зафиксированный (станции)</value>
   </data>
   <data name="ScreenDebugAdminMenu_WithMedBay" xml:space="preserve">
-    <value>With medical room</value>
+    <value>С медицинской комнатой</value>
   </data>
   <data name="ScreenDebugAdminMenu_WithProduction" xml:space="preserve">
-    <value>With production</value>
+    <value>С производством</value>
   </data>
   <data name="AdminMenuNotAvailable" xml:space="preserve">
-    <value>Admin menu is available only when you're admin or when admin promotes you to Space Master</value>
+    <value>Меню администратора доступно, только если вы администратор или когда администратор повысит вас до мастера космоса</value>
   </data>
   <data name="ScreenDebugAdminMenu_SortBy" xml:space="preserve">
-    <value>Sort by</value>
+    <value>Сортировать по</value>
   </data>
   <data name="ScreenDebugAdminMenu_Depower" xml:space="preserve">
-    <value>Depower</value>
+    <value>Отложить</value>
   </data>
   <data name="BuilderModeOff" xml:space="preserve">
-    <value>Builder mode off</value>
+    <value>Выкл. режим постройки</value>
   </data>
   <data name="BuilderModeOn" xml:space="preserve">
-    <value>Builder mode on</value>
+    <value>Вкл. режим постройки</value>
   </data>
   <data name="SwitchBuilderMode" xml:space="preserve">
-    <value>Switch cockpit builder mode</value>
+    <value>Переключить режим постройки кабины</value>
   </data>
   <data name="NotificationPlayerDemoted_SpaceMaster" xml:space="preserve">
-    <value>You have been demoted to Space Master</value>
+    <value>Вас понизили до мастера космоса</value>
   </data>
   <data name="NotificationPlayerPromoted_SpaceMaster" xml:space="preserve">
-    <value>You have been promoted to Space Master</value>
+    <value>Вас повысили до мастера космоса</value>
   </data>
   <data name="ScreenDebugAdminMenu_ReplicateEverythingServer_Tooltip" xml:space="preserve">
-    <value>You are on server and allready have all objects</value>
+    <value>Вы находитесь на сервере и уже имеют все объекты</value>
   </data>
   <data name="ScreenDebugAdminMenu_MedbayNotification" xml:space="preserve">
-    <value>Removing ships or stations with Medical Room can be dangerous, because you can remove players' only respawn points, be careful</value>
+    <value>Удаление кораблей и станций с медицинскими комнатами может быть опасным, потому что вы можете удалить единственные точки возрождения игрока, будьте осторожны</value>
   </data>
   <data name="DisplayName_Faction_SpacePirates" xml:space="preserve">
     <value>{LOCG:DisplayName_Faction_SpacePirates_Translation}</value>
   </data>
   <data name="Description_Scenario_EarthEasyStart" xml:space="preserve">
-    <value>Start on a habitable planet on a station equipped with basic vehicles. The base is under an imminent threat of pirate attacks.</value>
+    <value>Начните на обитаемой планете на станции, оснащённой базовым транспортом. База находится под неминуемой угрозой нападения пиратов.</value>
   </data>
   <data name="Description_Scenario_MarsEasyStart" xml:space="preserve">
-    <value>Start on a barren planet on a station equipped with basic vehicles. Youre under an imminent attack by pirates.</value>
+    <value>Начните на безжизненной планете на станции, оснащённой базовым транспортом. Вы находитесь под неминуемым нападением пиратов.</value>
   </data>
   <data name="DisplayName_Scenario_EarthEasyStart" xml:space="preserve">
-    <value>Easy Start Earth</value>
+    <value>Быстрый старт - Земля</value>
   </data>
   <data name="DisplayName_Scenario_MarsEasyStart" xml:space="preserve">
-    <value>Easy Start Mars</value>
+    <value>Быстрый старт - Марс</value>
   </data>
   <data name="Description_Scenario_AlienEasyStart" xml:space="preserve">
-    <value>Start on a mysterious planet and face attacks from pirates and local fauna.</value>
+    <value>Начните на загадочной планете и столкнитесь с нападениями пиратов и местной фауны.</value>
   </data>
   <data name="DisplayName_Scenario_AlienEasyStart" xml:space="preserve">
-    <value>Easy Start Alien</value>
+    <value>Быстрый старт - Чужой</value>
   </data>
   <data name="QuickstartDX11NotAvailable" xml:space="preserve">
-    <value>It seems that your system does not support DirectX 11, game will load scenario with no planets</value>
+    <value>Похоже, что ваша система не поддерживает DirectX 11, игра будет загружена без сценариев с планетами</value>
   </data>
   <data name="QuickstartDX11PleaseRestartGame" xml:space="preserve">
-    <value>Please restart the game to finish switching to DX11</value>
+    <value>Пожалуйста, перезапустите игру для завершения перехода на DX11</value>
   </data>
   <data name="QuickstartDX11SwitchQuestion" xml:space="preserve">
-    <value>Please switch to DirectX 11 to play a planet scenario</value>
+    <value>Пожалуйста, перейдите на DirectX 11, чтобы играть в сценарии с планетами</value>
   </data>
   <data name="QuickstartNoPlanets" xml:space="preserve">
-    <value>Game will load scenario with no planets</value>
+    <value>Игра будет загружена со сценариями без планет</value>
   </data>
   <data name="QuickstartNoDx9SelectDifferent" xml:space="preserve">
-    <value>It seems that your system does not support DirectX 11, please select scenario with no planets</value>
+    <value>Похоже, что ваша система не поддерживает DirectX 11, пожалуйста, выберите сценарий без планет</value>
   </data>
   <data name="QuickstartSelectDifferent" xml:space="preserve">
-    <value>Please select scenario with no planets</value>
+    <value>Пожалуйста, выберите сценарий без планет</value>
   </data>
   <data name="Description_Scenario_MoonEasyStart" xml:space="preserve">
-    <value>Start on a moon with basic mining machinery but there is a threat of pirates occupying the moon's pole.</value>
+    <value>Начните на луне с базовой горнодобывающей техникой, но есть угроза от пиратов, занимающих полюс луны.</value>
   </data>
   <data name="DisplayName_Faction_FirstColonyFaction" xml:space="preserve">
     <value>{LOCG:DisplayName_Faction_FirstColonyFaction_Translation}</value>
   </data>
   <data name="DisplayName_Scenario_MoonEasyStart" xml:space="preserve">
-    <value>Easy Start Moon</value>
+    <value>Быстрый старт - Луна</value>
   </data>
   <data name="DisplayName_PlanetaryLander" xml:space="preserve">
     <value>PlanetaryLander</value>
   </data>
   <data name="NotificationStationRotationOff" xml:space="preserve">
-    <value>Press {0} for station rotation mode</value>
+    <value>Нажмите {0} для режима вращения станции</value>
   </data>
   <data name="DisplayName_Item_EliteAutomaticRifle" xml:space="preserve">
-    <value>Elite Automatic Rifle</value>
+    <value>Элитная автоматическая винтовка</value>
   </data>
   <data name="DisplayName_Item_PreciseAutomaticRifle" xml:space="preserve">
-    <value>Precise Automatic Rifle</value>
+    <value>Точная автоматическая винтовка</value>
   </data>
   <data name="DisplayName_Item_RapidFireAutomaticRifle" xml:space="preserve">
-    <value>Rapid-Fire Automatic Rifle</value>
+    <value>Скорострельная автоматическая винтовка</value>
   </data>
   <data name="BlockPropertyTitle_LargeTurretTargetNeutrals" xml:space="preserve">
-    <value>Target neutrals</value>
+    <value>Стрелять по нейтралам</value>
   </data>
   <data name="WorkshopTag_Planet" xml:space="preserve">
-    <value>Planet</value>
+    <value>Планета</value>
   </data>
   <data name="TooltipScreenMods_Category_Planet" xml:space="preserve">
-    <value>Planet</value>
+    <value>Планета</value>
   </data>
   <data name="BriefingTutorial01Movements" xml:space="preserve">
-    <value>Learn movement essentials, how to keep your engineer alive with life support energy and oxygen and how to use each of the character tools, the welder, grinder and hand drill.</value>
+    <value>Узнайте основы передвижения, как сохранить вашему инженеру жизнь, поддерживая уровни энергии системы жизнеобеспечения и кислорода, а также как пользоваться каждым инструментом персонажа: сварочным аппаратом, болгаркой и ручным буром.</value>
   </data>
   <data name="BriefingTutorial02Inventory" xml:space="preserve">
-    <value>An introduction to player and cargo inventories, how to add/withdraw items and a basic initiation to control panels and terminals for controlling block functions.</value>
+    <value>Инструктаж по работе с инвентарём игрока и грузовыми инвентарями, как добавлять/выкладывать предметы, а также базовые понятия по управлению панелями и терминалами для управления функциями блока.</value>
   </data>
   <data name="BriefingTutorial03Energy" xml:space="preserve">
-    <value>Learn how to recharge your suit energy by tackling a series of small challenges that 
-  explain the behaviour of power within Space Engineers and the different ways you can provide it.</value>
+    <value>Узнайте, как пополнить энергию вашего костюма, решая ряд небольших задач, которые 
+  объясняют механику поведения энергии в Space Engineers, а также различные способы её получения.</value>
   </data>
   <data name="BriefingTutorial04Oxygen" xml:space="preserve">
-    <value>This tutorial covers the various oxygen related blocks, oxygen farms, generators, vents, bottles, tanks and ice, including their control panel functions. The concept of creating an airtight room for pressurization is also addressed.</value>
+    <value>Данное обучение затрагивает блоки, связанные с кислородом: кислородные фермы, генераторы, вентиляции, баллоны, баки и лёд, включая их функции панели управления. Также рассматривается концепция создания воздухонепроницаемого помещения для повышения давления.</value>
   </data>
   <data name="BriefingTutorial05OreRefining" xml:space="preserve">
-    <value>The basics of infrastructure and industry are taught in this tutorial. You will learn how to mine ores, process them in a refinery and then commission new block components to be made in the assembler from the refined elements.</value>
+    <value>В данном обучении затрагиваются основы инфраструктур и промышленности. Вы узнаете, как добывать руды, как перерабатывать их в очистителе, а затем отправлять их на компоненты новых блоков, которые будут изготавливаться в сборщике из очищенных элементов.</value>
   </data>
   <data name="BriefingTutorial06Conveyors" xml:space="preserve">
-    <value>Setting up a good conveyor system is very useful and can save you a lot of time. Learn how to move items through conveyors and the different ways to have separate systems interact or connect with each other.</value>
+    <value>Установка хорошей конвейерной системы очень полезна и может сэкономить вам много времени. Узнайте, как перемещать предметы по конвейерам и различные способы взаимодействия отдельных систем или соединения их друг с другом.</value>
   </data>
   <data name="BriefingTutorial07Jetpack" xml:space="preserve">
-    <value>The jetpack tutorial displays the controls needed for flight which is followed by a series of assault course style sections to challenge your ability to fly quickly and accurately, you have a limited time from the moment you begin each section to reach the exit door. Watch out for hazards!</value>
+    <value>В руководстве по реактивному ранцу показаны элементы управления, необходимые для полёта, за которым следует серия курсов по различным стилям нападению, которые научать вас летать быстро и точно, у вас будет ограниченное время после начала курса, чтобы добраться до выхода. Берегитесь опасностей!</value>
   </data>
   <data name="BriefingTutorial08YourFirstShip" xml:space="preserve">
-    <value>The true test of any engineer is the ability to build a space-worthy ship from scratch, this tutorial will provide instruction on how to build a simple one-person transport vessel. Learn how to place blocks, weld them to completion and make a simple flight, you will also be taught essential rules of ship building that you can apply to create your own designs.</value>
+    <value>Истинным испытанием для любого инженера является способность постройки космического корабля с нуля, в этом обучении вам будут даны инструкции по постройке простого одноместного транспортного судна. Узнайте, как размещать блоки, сваривать их до завершения и совершить первый простой полёт, вам также будут даны основы правил кораблестроения, которые вы также можете применять в будущем при построении своих собственных проектов.</value>
   </data>
   <data name="BriefingTutorial09ShipFlight" xml:space="preserve">
-    <value>This tutorial offers instruction on how to fly a ship and use the three ship tools. You must use each ship in turn to navigate through several chambers that demonstrate how to grind, weld and drill as well as how to stock a weld ships cargo and how to dock with connectors.</value>
+    <value>В данном обучении представлен инструктаж, как летать на корабле, а также как использовать три типа корабельных инструмента. Вы должны использовать каждый корабль поочерёдно для перемещения между участками, которые демонстрируют, как дробить, сваривать и бурить, а также, как складировать груз и состыковываться с помощью соединителей.</value>
   </data>
   <data name="BriefingTutorial10Grids" xml:space="preserve">
-    <value>This tutorial aims to illuminate the nature of small, large and station grids, the rules that govern them and how you can join them with the merge block. There is also a brief section on floating objects.</value>
+    <value>Данное обучение направлено на освоение малых, больших и станционных сетей, правила, регулирующие их, и способы их объединения со стыковочным блоком. Также имеется обучающий раздел по парящим объектам.</value>
   </data>
   <data name="DisplayName_Item_AngleGrinder2" xml:space="preserve">
-    <value>Enhanced Grinder</value>
+    <value>Улучшенная болгарка</value>
   </data>
   <data name="DisplayName_Item_AngleGrinder3" xml:space="preserve">
-    <value>Proficient Grinder</value>
+    <value>Профессиональная болгарка</value>
   </data>
   <data name="DisplayName_Item_AngleGrinder4" xml:space="preserve">
-    <value>Elite Grinder</value>
+    <value>Элитная болгарка</value>
   </data>
   <data name="DisplayName_Item_HandDrill2" xml:space="preserve">
-    <value>Enhanced Hand Drill</value>
+    <value>Улучшенный ручной бур</value>
   </data>
   <data name="DisplayName_Item_HandDrill3" xml:space="preserve">
-    <value>Proficient Hand Drill</value>
+    <value>Профессиональный ручной бур</value>
   </data>
   <data name="DisplayName_Item_HandDrill4" xml:space="preserve">
-    <value>Elite Hand Drill</value>
+    <value>Элитный ручной бур</value>
   </data>
   <data name="DisplayName_Item_Welder2" xml:space="preserve">
-    <value>Enhanced Welder</value>
+    <value>Улучшенный сварочный аппарат</value>
   </data>
   <data name="DisplayName_Item_Welder3" xml:space="preserve">
-    <value>Proficient Welder</value>
+    <value>Профессиональный сварочный аппарат</value>
   </data>
   <data name="DisplayName_Item_Welder4" xml:space="preserve">
-    <value>Elite Welder</value>
+    <value>Элитный сварочный аппарат</value>
   </data>
   <data name="ScreenDebugSpawnMenu_EmptyVoxelMap" xml:space="preserve">
-    <value>Empty Voxel Map</value>
+    <value>Пустая воксельная карта</value>
   </data>
   <data name="LowMemSwitchToLowQuestion" xml:space="preserve">
-    <value>Your game has ran out of memory last time. Do you want to switch to LOW preset and restart game to apply changes?</value>
+    <value>Для вашей игры в прошлый раз не хватило памяти. Вы хотите переключиться на предустановку «НИЗКО» и перезапустить игру для применения изменений?</value>
   </data>
   <data name="TrainingLevel_Planetary" xml:space="preserve">
-    <value>Planetary</value>
+    <value>Планетарный</value>
   </data>
   <data name="BlockPropertyTitle_WeldForce" xml:space="preserve">
-    <value>Safety lock override</value>
+    <value>Предохранительное перекрытие</value>
   </data>
   <data name="BlockPropertyTitle_WeldSpeed" xml:space="preserve">
-    <value>Safety lock speed</value>
+    <value>Предохранительная скорость</value>
   </data>
   <data name="ProgrammableBlock_Exception_NestedTooComplex" xml:space="preserve">
-    <value>Script execution halted temporarily. The combined execution between a calling programmable block and this script became too complex. This script has not been terminated, but the calling script has.</value>
+    <value>Выполнение скрипта временно приостановлено. Комбинированное выполнение между вызывающим программируемым блоком и этим скриптом стало слишком сложным. Этот скрипт не был прерван, но вызывающий был.</value>
   </data>
   <data name="DisplayName_OpenHelmet" xml:space="preserve">
-    <value>Open Helmet</value>
+    <value>Открыть шлем</value>
   </data>
   <data name="DisplayName_CloseHelmet" xml:space="preserve">
-    <value>Close Helmet</value>
+    <value>Закрыть шлем</value>
   </data>
   <data name="Description_OpenHelmet" xml:space="preserve">
-    <value>Open Helmet</value>
+    <value>Открыть шлем</value>
   </data>
   <data name="Description_CloseHelmet" xml:space="preserve">
-    <value>Close Helmet</value>
+    <value>Закрыть шлем</value>
   </data>
   <data name="GPS_Body_Location_Name" xml:space="preserve">
-    <value>Body Location</value>
+    <value>Расположение тела</value>
   </data>
   <data name="GPS_Body_Location_Desc" xml:space="preserve">
-    <value>Last known body location</value>
+    <value>Последнее известное расположение тела</value>
   </data>
   <data name="DisplayName_AlienLander" xml:space="preserve">
-    <value>Alien Planet Landing</value>
+    <value>Высадка на чужую планету</value>
   </data>
   <data name="DisplayName_MarsLander" xml:space="preserve">
-    <value>Mars Planet Landing</value>
+    <value>Высадка на Марс</value>
   </data>
   <data name="BlockActionTitle_AddPistonHead" xml:space="preserve">
-    <value>Add Piston Head</value>
+    <value>Добавить насадку поршня</value>
   </data>
   <data name="BlockActionTooltip_AddPistonHead" xml:space="preserve">
-    <value>Tries to add a piston head if no head is present.</value>
+    <value>Попытаться добавить насадку поршня, если насадка отсутствует.</value>
   </data>
   <data name="BlockActionTitle_AddRotorHead" xml:space="preserve">
-    <value>Add Rotor Head</value>
+    <value>Добавить насадку ротора</value>
   </data>
   <data name="BlockActionTooltip_AddRotorHead" xml:space="preserve">
-    <value>Tries to add a Rotor head if no head is present.</value>
+    <value>Попытаться добавить насадку ротора, если насадка отсутствует.</value>
   </data>
   <data name="BlockActionTitle_AddSmallRotorHead" xml:space="preserve">
-    <value>Add Small Head</value>
+    <value>Добавить малую насадку</value>
   </data>
   <data name="BlockActionTooltip_AddSmallRotorHead" xml:space="preserve">
-    <value>Tries to add a Small Rotor head on Large Rotor if no head is present.</value>
+    <value>Попытаться добавить насадку малого ротора на большой ротор, если насадка отсутствует.</value>
   </data>
   <data name="BlockActionTitle_AddWheel" xml:space="preserve">
-    <value>Add Wheel</value>
+    <value>Добавить колесо</value>
   </data>
   <data name="BlockActionTooltip_AddWheel" xml:space="preserve">
-    <value>Tries to add a Wheel if no wheel is present.</value>
+    <value>Попытаться добавить колесо, если колесо отсутствует.</value>
   </data>
   <data name="Notification_PistonHeadNotPlaced" xml:space="preserve">
-    <value>Piston head could not be placed.</value>
+    <value>Невозможно разместить насадку поршня.</value>
   </data>
   <data name="Notification_PistonHeadAlreadyExists" xml:space="preserve">
-    <value>Piston head already exists.</value>
+    <value>Насадка поршня уже есть.</value>
   </data>
   <data name="NotificationLandingGearSwitchLocked" xml:space="preserve">
-    <value>Landing gears Locked</value>
+    <value>Посадочные шасси заблокированы</value>
   </data>
   <data name="NotificationLandingGearSwitchUnlocked" xml:space="preserve">
-    <value>Landing gears Unlocked</value>
+    <value>Посадочные шасси разблокированы</value>
   </data>
   <data name="BlockPropertyTitle_Silent" xml:space="preserve">
-    <value>Silent</value>
+    <value>Тихий</value>
   </data>
   <data name="ToolTipTimerBlock_Silent" xml:space="preserve">
-    <value>Turn off timer beep sounds.</value>
+    <value>Выключить звуки звукового сигнала таймера.</value>
   </data>
   <data name="ProgrammableBlock_Exception_NoValidConstructor" xml:space="preserve">
-    <value>This program has no valid constructor.</value>
+    <value>Эта программа не имеет действительного конструктора.</value>
   </data>
   <data name="ProgrammableBlock_DefaultScript_Constructor" xml:space="preserve">
-    <value>The constructor, called only once every session and
-always before any other method is called. Use it to
-initialize your script. 
+    <value>Конструктор вызывается только один раз за сессию и
+всегда до другого вызываемого метода. Используйте его для
+инициализации вашего скрипта. 
     
-The constructor is optional and can be removed if not
-needed.</value>
+Конструктор необязателен и может быть удалён, если
+не требуется.</value>
   </data>
   <data name="ProgrammableBlock_DefaultScript_Main" xml:space="preserve">
-    <value>The main entry point of the script, invoked every time
-one of the programmable block's Run actions are invoked.
+    <value>Основная точка входа скрипта, вызываемая при каждом
+вызове одного из действий запуска программируемого блока.
 
-The method itself is required, but the argument above
-can be removed if not needed.</value>
+Сам метод является обязательным, но аргумент выше
+может быть удалён, если не требуется.</value>
   </data>
   <data name="ProgrammableBlock_DefaultScript_Save" xml:space="preserve">
-    <value>Called when the program needs to save its state. Use
-this method to save your state to the Storage field
-or some other means. 
+    <value>Вызывается, когда программа должна сохранить своё состояние. Используйте
+этот метод для сохранения состояния в поле «Хранилище»
+или другими способами. 
 
-This method is optional and can be removed if not
-needed.</value>
+Данный метод необязателен и может быть удалён, если
+не требуется.</value>
   </data>
   <data name="NotificationHandbrakeOff" xml:space="preserve">
-    <value>Handbrake off</value>
+    <value>Ручной тормоз выкл</value>
   </data>
   <data name="NotificationHandbrakeOn" xml:space="preserve">
-    <value>Handbrake on</value>
+    <value>Ручной тормоз вкл</value>
   </data>
   <data name="ScreenDebugAdminMenu_RemoveFloating" xml:space="preserve">
-    <value>Remove floating objects</value>
+    <value>Удалить парящие объекты</value>
   </data>
   <data name="BlockPropertyTitle_RemoteBlockSpeedLimit" xml:space="preserve">
-    <value>Speed limit</value>
+    <value>Ограничение скорости</value>
   </data>
   <data name="NotificationConnectorsDisabled" xml:space="preserve">
-    <value>Connectors Disabled</value>
+    <value>Соединители отключены</value>
   </data>
   <data name="NotificationConnectorsEnabled" xml:space="preserve">
-    <value>Connectors Enabled</value>
+    <value>Соединители включены</value>
   </data>
   <data name="NotificationCannotJumpOutsideWorld" xml:space="preserve">
-    <value>Jump drives cannot be used to jump outside world limits.</value>
+    <value>Прыжковые двигатели нельзя использовать для прыжков за пределы мира.</value>
   </data>
   <data name="BroadcastStatus_IsPreviewGrid" xml:space="preserve">
-    <value>Preview Grid</value>
+    <value>Просмотр сети</value>
   </data>
   <data name="ProgrammableBlock_Editor_CompilationOkWarningList" xml:space="preserve">
-    <value>Warning list</value>
+    <value>Список предупреждений</value>
   </data>
   <data name="CubeBuilder_CubeSizeModeChange" xml:space="preserve">
-    <value>Press {0} again{1}to change block size.</value>
+    <value>Нажмите {0} ещё раз {1}, чтобы изменить размер блока.</value>
   </data>
   <data name="BlockSize_NotAvailable" xml:space="preserve">
-    <value>This block is for {0} only</value>
+    <value>Этот блок только для {0}</value>
   </data>
   <data name="TerminalTab_Info_ConvertButton_TT" xml:space="preserve">
-    <value>Converts this station to a ship.
-Ships can move and rotate.
-WARNING: Make sure your station is not connected to asteroid
-when you convert to a ship. If it was, it might explode on you 
-when it changes to a ship.</value>
+    <value>Преобразует эту станцию в корабль.
+Корабли могут двигаться и поворачивать.
+ВНИМАНИЕ: Убедитесь, что ваша станция не соединена с астероидом,
+когда вы преобразуете её в корабль. Если это будет так, она может взорваться
+с вами, когда будет изменяться в корабль.</value>
   </data>
   <data name="TerminalTab_Info_ConvertToStationButton" xml:space="preserve">
-    <value>Convert to station</value>
+    <value>Преобразовать в станцию</value>
   </data>
   <data name="TerminalTab_Info_ConvertToStationButton_TT" xml:space="preserve">
-    <value>Converts this ship to a station.
-Ship has to be stationary in order to convert it to a station
-(both angular and linear velocity have to be 0).
-Stations are more performance friendly.
-WARNING: Converting ship to a station is possible in planets gravity,
-but it will be converted to a ship in the moment of station being
-split and not in voxel. </value>
+    <value>Преобразует этот корабль в станцию.
+Корабль должен быть неподвижен, чтобы преобразовать его в станцию
+(угловая и линейная скорости должны быть равны 0).
+Станции более дружелюбны к производительности.
+ВНИМАНИЕ: Преобразование корабля в станцию возможно и при
+планетарной гравитации, но она будет преобразована в
+корабль в момент разделения станции, а не в воксель. </value>
   </data>
   <data name="RemoteControlCoord" xml:space="preserve">
-    <value>Coords:</value>
+    <value>Координаты:</value>
   </data>
   <data name="RemoteControlUsedBy" xml:space="preserve">
-    <value>Controlled by another player: </value>
+    <value>Управляется другим игроком: </value>
   </data>
   <data name="RemoteControlWaypoint" xml:space="preserve">
-    <value>Current waypoint:</value>
+    <value>Текущая путевая точка:</value>
   </data>
   <data name="MessageBoxTextAreYouSureEnableOxygenPressurization" xml:space="preserve">
-    <value>Are you sure you want to enable airtightness? This can have negative influence to performance.</value>
+    <value>Вы уверены, что хотите включить герметичность? Это может негативно повлиять на производительность.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableOxygenPressurization" xml:space="preserve">
-    <value>Allow pressurization of ships and stations.</value>
+    <value>Позволяет герметизировать корабли и станции.</value>
   </data>
   <data name="World_Settings_EnableOxygenPressurization" xml:space="preserve">
-    <value>Enable airtightness</value>
+    <value>Включить герметизацию</value>
   </data>
   <data name="ControlName_CubeDefaultMountpoint" xml:space="preserve">
-    <value>Reset orientation</value>
+    <value>Сброс ориентации</value>
   </data>
   <data name="NotificationHint_CubeDefaultMountpoint" xml:space="preserve">
-    <value>Press {0} to toggle auto orientation</value>
+    <value>Нажмите {0} для переключения автоматической ориентации</value>
   </data>
   <data name="MaxBackupSaves" xml:space="preserve">
-    <value>Max backup saves</value>
+    <value>Максимум резервных сохранений</value>
   </data>
   <data name="ToolTipWorldSettingsMaxBackupSaves" xml:space="preserve">
-    <value>Configure the maximum number of saves that 
-should be backed up. The backup folder is located
-on the respective save directory. When this is 0 then 
-the backup feature is disabled and all backups are 
-deleted upon save!</value>
+    <value>Настройте максимальное количество сохранений, для которых 
+должны быть созданы резервные копии. Папка резервных копий находится
+там же, где и папка с сохранениями. Если значение 0, то 
+функция резервирования будет отключена, и все резервные копии 
+удаляются при сохранении!</value>
   </data>
   <data name="TerminalTab_Chat_ChatHistory" xml:space="preserve">
-    <value>-Global Chat History-</value>
+    <value>-История общего чата-</value>
   </data>
   <data name="ScreenDebugAdminMenu_AdminTools" xml:space="preserve">
-    <value>Admin Tools</value>
+    <value>Инструменты админа</value>
   </data>
   <data name="ScreenDebugAdminMenu_Cleanup" xml:space="preserve">
-    <value>Cleanup</value>
+    <value>Очистка</value>
   </data>
   <data name="ScreenDebugAdminMenu_Invulnerable" xml:space="preserve">
-    <value>Invulnerable</value>
+    <value>Неуязвимость</value>
   </data>
   <data name="ScreenDebugAdminMenu_InvulnerableToolTip" xml:space="preserve">
-    <value>Makes you invulnerable to all damage, and invisible to turrets.</value>
+    <value>Делает вас невосприимчивым к любому урону, а также невидимым для турелей.</value>
   </data>
   <data name="ScreenDebugAdminMenu_ModeSelect" xml:space="preserve">
-    <value>Mode Select</value>
+    <value>Выбор режима</value>
   </data>
   <data name="ScreenDebugAdminMenu_ShowPlayers" xml:space="preserve">
-    <value>Show All Players</value>
+    <value>Отобразить всех игроков</value>
   </data>
   <data name="ScreenDebugAdminMenu_ShowPlayersToolTip" xml:space="preserve">
-    <value>Shows all player names on HUD, even when broadcast is off.</value>
+    <value>Отображает имена всех игроков на ИЛС, даже когда вещание отключено.</value>
   </data>
   <data name="ScreenDebugAdminMenu_TeleportHere" xml:space="preserve">
-    <value>Teleport Here</value>
+    <value>Телепортироваться сюда</value>
   </data>
   <data name="ScreenDebugAdminMenu_TeleportHereToolTip" xml:space="preserve">
-    <value>Teleports your character to the spectator camera.</value>
+    <value>Телепортирует вашего персонажа к камере наблюдателя.</value>
   </data>
   <data name="ScreenDebugAdminMenu_UseTerminals" xml:space="preserve">
-    <value>Can Use All Terminals</value>
+    <value>Возможность использовать все терминалы</value>
   </data>
   <data name="ScreenDebugAdminMenu_UseTerminalsToolTip" xml:space="preserve">
-    <value>Allows you to use any terminal, regardless of ownership.</value>
+    <value>Позволяет вам использовать любой терминал, независимо от принадлежности.</value>
   </data>
   <data name="ScreenDebugAdminMenu_EntityList" xml:space="preserve">
-    <value>Entity List</value>
+    <value>Список сущностей</value>
   </data>
   <data name="ScreenDebugAdminMenu_SortOptions" xml:space="preserve">
-    <value>Sort Options</value>
+    <value>Настройки сортировки</value>
   </data>
   <data name="ScreenDebugAdminMenu_StopAll" xml:space="preserve">
-    <value>Stop All Entities</value>
+    <value>Остановить все сущности</value>
   </data>
   <data name="DetectedEntity_Asteroid" xml:space="preserve">
-    <value>Asteroid</value>
+    <value>Астероид</value>
   </data>
   <data name="DetectedEntity_CharacterHuman" xml:space="preserve">
-    <value>Human</value>
+    <value>Человек</value>
   </data>
   <data name="DetectedEntity_LargeGrid" xml:space="preserve">
-    <value>Large Grid</value>
+    <value>Большая сеть</value>
   </data>
   <data name="DetectedEntity_Meteor" xml:space="preserve">
-    <value>Meteor</value>
+    <value>Метеорит</value>
   </data>
   <data name="DetectedEntity_Planet" xml:space="preserve">
-    <value>Planet</value>
+    <value>Планета</value>
   </data>
   <data name="DetectedEntity_SmallGrid" xml:space="preserve">
-    <value>Small Grid</value>
+    <value>Малая сеть</value>
   </data>
   <data name="DetectedEntity_Unknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>Неизвестно</value>
   </data>
   <data name="NotificationShipOverLimits" xml:space="preserve">
-    <value>Cannot place. Ship would exceed regulations.</value>
+    <value>Невозможно разместить. Корабль превышает нормы.</value>
   </data>
   <data name="WorldSettings_MaxBlocksPerPlayer" xml:space="preserve">
-    <value>Max blocks per player</value>
+    <value>Макс. блоков на игрока</value>
   </data>
   <data name="WorldSettings_MaxGridSize" xml:space="preserve">
-    <value>Max ship size</value>
+    <value>Макс. размер корабля</value>
   </data>
   <data name="ToolTipWorldSettingsMaxBlocksPerPlayer" xml:space="preserve">
-    <value>Maximum number of blocks each player can build. 
-Destroyed blocks are refunded.</value>
+    <value>Максимальное количество блоков, которое может построить игрок. 
+Уничтоженные блоки возвращаются.</value>
   </data>
   <data name="ToolTipWorldSettingsMaxGridSize" xml:space="preserve">
-    <value>Maximum size (in blocks) of ships and stations.</value>
+    <value>Максимальный размер (в блоках) кораблей и станций.</value>
   </data>
   <data name="TerminalTab_Info_Assign" xml:space="preserve">
-    <value>Assign</value>
+    <value>Назначить</value>
   </data>
   <data name="TerminalTab_Info_BlocksLower" xml:space="preserve">
-    <value>blocks</value>
+    <value>блоков</value>
   </data>
   <data name="TerminalTab_Info_Overview" xml:space="preserve">
-    <value>Owned blocks overview</value>
+    <value>Обзор собственных блоков</value>
   </data>
   <data name="TerminalTab_Info_YouBuilt" xml:space="preserve">
-    <value>You built</value>
+    <value>Вы построили</value>
   </data>
   <data name="ToolTipWorldSettings_EnableRemoteBlockRemoval" xml:space="preserve">
-    <value>Enable players to remotely remove owned blocks
- to free up their limit.</value>
+    <value>Разрешить игрокам удалённо удалять принадлежащие блоки,
+ чтобы освободить их лимит.</value>
   </data>
   <data name="WorldSettings_EnableRemoteBlockRemoval" xml:space="preserve">
-    <value>Remote block removal</value>
+    <value>Удалённое удаление блока</value>
   </data>
   <data name="ToolTipWorldSettings_StationVoxelSupport" xml:space="preserve">
-    <value>By enabling this option grids will no longer turn
-dynamic when disconnected from static grids.</value>
+    <value>При включении этой опции сети больше не будут
+динамическими при отсоединении от статических сетей.</value>
   </data>
   <data name="WorldSettings_StationVoxelSupport" xml:space="preserve">
-    <value>Unsupported stations</value>
+    <value>Неподдерживаемые станции</value>
   </data>
   <data name="BlockPropertyTitle_AssignedCamera" xml:space="preserve">
-    <value>Assigned camera</value>
+    <value>Назначенная камера</value>
   </data>
   <data name="Terminal_ShowInInventory" xml:space="preserve">
-    <value>Show block in Inventory Screen</value>
+    <value>Отображать блок на экране инвентаря</value>
   </data>
   <data name="Terminal_ShowInInventoryToolTip" xml:space="preserve">
-    <value>Show block in inventory screen. If you access the block directly it will be visible regardless of this setting.</value>
+    <value>Отображать блок на экране инвентаря. При непосредственном доступе к блоку он будет виден независимо от этого параметра.</value>
   </data>
   <data name="NotificationPlayerDemoted_None" xml:space="preserve">
-    <value>You have been demoted to Player</value>
+    <value>Вы были понижены до игрока</value>
   </data>
   <data name="NotificationPlayerDemoted_Scripter" xml:space="preserve">
-    <value>You have been demoted to Scripter</value>
+    <value>Вы были понижены до скриптера</value>
   </data>
   <data name="NotificationPlayerPromoted_Admin" xml:space="preserve">
-    <value>You have been promoted to Administrator</value>
+    <value>Вы были повышены до администратора</value>
   </data>
   <data name="NotificationPlayerPromoted_Scripter" xml:space="preserve">
-    <value>You have been promoted to Scripter</value>
+    <value>Вы были повышены до скриптера</value>
   </data>
   <data name="TerminalControlPanel_Recompile" xml:space="preserve">
-    <value>Recompile</value>
+    <value>Перекомпилировать</value>
   </data>
   <data name="TerminalControlPanel_Recompile_Tooltip" xml:space="preserve">
-    <value>Recompiles the current script.</value>
+    <value>Перекомпилировать текущий скрипт.</value>
   </data>
   <data name="NotificationPlayerDemoted_Moderator" xml:space="preserve">
-    <value>You have heen demoted to Moderator</value>
+    <value>Вы были понижены до модератора</value>
   </data>
   <data name="NotificationPlayerPromoted_Moderator" xml:space="preserve">
-    <value>You have been promoted to Moderator</value>
+    <value>Вы были повышены до модератора</value>
   </data>
   <data name="ScreenDebugSpawnMenu_CurrentTarget" xml:space="preserve">
-    <value>Current target: </value>
+    <value>Текущая цель: </value>
   </data>
   <data name="ScreenDebugSpawnMenu_SpawnTargeted" xml:space="preserve">
-    <value>Spawn into targeted container</value>
+    <value>Создать в целевом контейнере</value>
   </data>
   <data name="HudInfoMagnetic" xml:space="preserve">
-    <value>Magnetic</value>
+    <value>Магнитный</value>
   </data>
   <data name="BlockPropertyTitle_Font" xml:space="preserve">
-    <value>Font</value>
+    <value>Шрифт</value>
   </data>
   <data name="Terminal_RemoteControl_Button" xml:space="preserve">
-    <value>Remote Access</value>
+    <value>Удалённый доступ</value>
   </data>
   <data name="BlockPropertyTitle_SensorDetectSubgrids" xml:space="preserve">
-    <value>Detect subgrids</value>
+    <value>Обнаружение подгрупп</value>
   </data>
   <data name="BroadcastScreen_TakeControlButton" xml:space="preserve">
-    <value>Take Control</value>
+    <value>Взять управление</value>
   </data>
   <data name="BroadcastScreen_UnavailableControlButton" xml:space="preserve">
-    <value>Unavailable</value>
+    <value>Недоступный</value>
   </data>
   <data name="BroadcastScreen_NoOwnership" xml:space="preserve">
-    <value>Wrong ownership setting.</value>
+    <value>Неправильная настройка принадлежности.</value>
   </data>
   <data name="BroadcastScreen_Ownership" xml:space="preserve">
-    <value>Ownership correct</value>
+    <value>Принадлежность верна</value>
   </data>
   <data name="BroadcastScreen_TakeControlButton_NoMainRemoteControl" xml:space="preserve">
-    <value>Multiple Remote Controllers on grid. Set one as main!</value>
+    <value>В сети несколько пультов дистанционного управления. Выберите один в качестве основного!</value>
   </data>
   <data name="BroadcastScreen_TakeControlButton_NoRemoteToolTip" xml:space="preserve">
-    <value>No Remote Controller on grid.</value>
+    <value>В сети нет пультов дистанционного управления.</value>
   </data>
   <data name="BroadcastScreen_TakeControlButton_RemoteToolTip" xml:space="preserve">
-    <value>Remote Control ready</value>
+    <value>Дистанционное управление готово</value>
   </data>
   <data name="BroadcastScreen_TakeControlButton_ToolTip" xml:space="preserve">
-    <value>Take control of target grid.</value>
+    <value>Взять управление целевой сетью.</value>
   </data>
   <data name="BroadcastScreen_TerminalButton_NoStableConnectionToolTip" xml:space="preserve">
-    <value>Cannot establish connection to grid.</value>
+    <value>Не удаётся установить подключение к сети.</value>
   </data>
   <data name="BroadcastScreen_TerminalButton_StableConnectionToolTip" xml:space="preserve">
-    <value>Connection stable</value>
+    <value>Соединение стабильное</value>
   </data>
   <data name="BroadcastScreen_TerminalButton_ToolTip" xml:space="preserve">
-    <value>Open terminal of target grid.</value>
+    <value>Открыть терминал целевой сети.</value>
   </data>
   <data name="TerminalControlPanel_Cockpit_MainRemoteControl" xml:space="preserve">
-    <value>Main Remote Control</value>
+    <value>Основное дистанционное управление</value>
   </data>
   <data name="BroadcastScreen_TerminalButton_PlayerBroadcastOffToolTip" xml:space="preserve">
-    <value>Players antenna off</value>
+    <value>Антенна игроков выкл</value>
   </data>
   <data name="DetectedEntity_CharacterOther" xml:space="preserve">
-    <value>Animal</value>
+    <value>Животное</value>
   </data>
   <data name="ToolTipAudioOptionsEnableReverb" xml:space="preserve">
-    <value>Enable sound echo. Note that if your audio rate is larger than 
-48kHz, this feature will not work.
-(You can configure the audio rate in system's speaker properties)</value>
+    <value>Включить звуковое эхо. Обратите внимание, что если частота звука превышает 
+48 кГц, эта функция не будет работать.
+(Вы можете настроить частоту звука в свойствах динамиков системы)</value>
   </data>
   <data name="DisplayName_Dead_Astronaut" xml:space="preserve">
-    <value>Dead Astronaut</value>
+    <value>Мёртвый космонавт</value>
   </data>
   <data name="Terminal_CustomData" xml:space="preserve">
-    <value>Custom Data</value>
+    <value>Пользовательские данные</value>
   </data>
   <data name="Terminal_CustomDataTooltip" xml:space="preserve">
-    <value>Shows and editor for custom data to be used by scripts and mods</value>
+    <value>Отобразить и редактировать пользовательские данные, которые будут использоваться скриптами и модами</value>
   </data>
   <data name="Notification_BlueprintScriptRemoved" xml:space="preserve">
-    <value>Some scripts were removed from this blueprint because you do not have Scripter permissions</value>
+    <value>Некоторые скрипты были удалены из этого чертежа, так как у вас нет прав скриптера</value>
   </data>
   <data name="WorldSettings_AsteroidAmountProceduralNone" xml:space="preserve">
-    <value>Infinite: None</value>
+    <value>Бесконечно: нет</value>
   </data>
   <data name="BlockPropertyTitle_AssignedPB" xml:space="preserve">
-    <value>Assigned Programmable Block</value>
+    <value>Назначенный программируемый блок</value>
   </data>
   <data name="Antenna_IgnoreAlliedBroadcast" xml:space="preserve">
-    <value>Ignore Allied Broadcast</value>
+    <value>Игнорировать вещание союзников</value>
   </data>
   <data name="Antenna_IgnoreAlliedBroadcastTooltip" xml:space="preserve">
-    <value>Ignores broadcasts sent by friendly antenna that do not belong to you</value>
+    <value>Игнорирует вещания, отправленные дружественной антенной, которая не принадлежит вам</value>
   </data>
   <data name="Antenna_IgnoreOtherBroadcast" xml:space="preserve">
-    <value>Ignore Other Broadcast</value>
+    <value>Игнорировать прочие вещания</value>
   </data>
   <data name="Antenna_IgnoreOtherBroadcastTooltip" xml:space="preserve">
-    <value>Ignores broadcasts sent by neutral and enemy antenna</value>
+    <value>Игнорирует вещания, отправленные нейтральной или вражеской антенной</value>
   </data>
   <data name="Notification_NoControlOtherShip" xml:space="preserve">
-    <value>A connected ship has taken control</value>
+    <value>Присоединённый корабль взят под контроль</value>
   </data>
   <data name="SoundBlock_SoundName_Drone_Huge" xml:space="preserve">
-    <value>Drone - Huge</value>
+    <value>Огромный дрон</value>
   </data>
   <data name="SoundBlock_SoundName_Drone_Large" xml:space="preserve">
-    <value>Drone - Large</value>
+    <value>Большой дрон</value>
   </data>
   <data name="SoundBlock_SoundName_Drone_Medium" xml:space="preserve">
-    <value>Drone - Medium</value>
+    <value>Средний дрон</value>
   </data>
   <data name="SoundBlock_SoundName_Drone_Small" xml:space="preserve">
-    <value>Drone - Small</value>
+    <value>Малый дрон</value>
   </data>
   <data name="ScreenMainMenu_DeluxeLine1" xml:space="preserve">
-    <value>DELUXE version is now available!</value>
+    <value>Версия DELUXE теперь доступна!</value>
   </data>
   <data name="ScreenMainMenu_DeluxeLine2" xml:space="preserve">
-    <value>Buy it on {0} to get special content!</value>
+    <value>Приобретите её в {0} для получения специального контента!</value>
   </data>
   <data name="ScreenMainMenu_SkinSaleLine1" xml:space="preserve">
-    <value>Limited offer of skins!</value>
+    <value>Ограниченное предложение на скины!</value>
   </data>
   <data name="ScreenMainMenu_SkinSaleLine2" xml:space="preserve">
-    <value>Grab it on {0}!</value>
+    <value>Заберите в {0}!</value>
+  </data>
+  <data name="ScreenMainMenu_GhostSkinLine1" xml:space="preserve">
+    <value>Специальное предложение на Хэллоуин!</value>
+  </data>
+  <data name="ScreenMainMenu_GhostSkinLine2" xml:space="preserve">
+    <value>Заберите в {0}!</value>
   </data>
   <data name="WorkshopTag_Hud" xml:space="preserve">
-    <value>Hud</value>
+    <value>ИЛС</value>
   </data>
   <data name="MultiplayerJoinProductionMultipliers" xml:space="preserve">
-    <value>Production multipliers</value>
+    <value>Множители производства</value>
   </data>
   <data name="ServerDetails_AssemblerSpeedMultiplier" xml:space="preserve">
-    <value>Assembler Speed Multiplier</value>
+    <value>Множитель скорости сборки</value>
   </data>
   <data name="ServerDetails_AssemblerEfficiencyMultiplier" xml:space="preserve">
-    <value>Assembler Efficiency Multiplier</value>
+    <value>Множитель эффективности сборки</value>
   </data>
   <data name="ServerDetails_RefinerySpeedMultiplier" xml:space="preserve">
-    <value>Refinery Speed Multiplier</value>
+    <value>Множитель скорости очистки</value>
   </data>
   <data name="ServerDetails_MaxFloatingObjects" xml:space="preserve">
-    <value>Max Floating Objects</value>
+    <value>Макс. парящих объектов</value>
   </data>
   <data name="ServerDetails_MaxGridSize" xml:space="preserve">
-    <value>Max Grid Size</value>
+    <value>Макс. размер сети</value>
   </data>
   <data name="ServerDetails_MaxBlocksPerPlayer" xml:space="preserve">
-    <value>Max Blocks Per Player</value>
+    <value>Макс. блоков на игрока</value>
   </data>
   <data name="ServerDetails_EnableRemoteBlockRemoval" xml:space="preserve">
-    <value>Remote Removal of Owned Blocks</value>
+    <value>Удалённое удаление принадлежащих блоков</value>
   </data>
   <data name="ServerDetails_EnvironmentHostility" xml:space="preserve">
-    <value>Environment Hostility</value>
+    <value>Враждебность окружения</value>
   </data>
   <data name="ServerDetails_AutoHealing" xml:space="preserve">
-    <value>Auto Healing</value>
+    <value>Автолечение</value>
   </data>
   <data name="ServerDetails_WeaponsEnabled" xml:space="preserve">
-    <value>Weapons</value>
+    <value>Оружие</value>
   </data>
   <data name="ServerDetails_ShowPlayerNamesOnHud" xml:space="preserve">
-    <value>Show Player Names On HUD</value>
+    <value>Отображать имена игроков на ИЛС</value>
   </data>
   <data name="Parachute_AutoDeploy" xml:space="preserve">
-    <value>Auto deploy</value>
+    <value>Автораскрытие</value>
   </data>
   <data name="Parachute_AutoDeployOff" xml:space="preserve">
-    <value>Auto deploy off</value>
+    <value>Выкл. автораскрытие</value>
   </data>
   <data name="Parachute_AutoDeployOn" xml:space="preserve">
-    <value>Auto deploy on</value>
+    <value>Вкл. автораскрытие</value>
   </data>
   <data name="Parachute_AutoDeployTooltip" xml:space="preserve">
-    <value>Parachute will auto deploy at auto deploy height if descending to the ground.</value>
+    <value>Парашют будет автоматически раскрываться при достижении высоты автоматического раскрытия во время приземления.</value>
   </data>
   <data name="Parachute_DeployHeightTitle" xml:space="preserve">
-    <value>Auto deploy height</value>
+    <value>Высота авто-раскрытия</value>
   </data>
   <data name="Parachute_DeployHeightTooltip" xml:space="preserve">
-    <value>Height that the parachute will automatically deploy if auto deploy is On</value>
+    <value>Высота, на которой парашют будет автоматически раскрываться, если включено автораскрытие</value>
   </data>
   <data name="Parachute_ConstraintItem" xml:space="preserve">
-    <value>Parachute Material</value>
+    <value>Материал парашюта</value>
   </data>
   <data name="DisplayName_Block_ParachuteHatch" xml:space="preserve">
-    <value>Parachute Hatch</value>
+    <value>Купол парашюта</value>
   </data>
   <data name="DisplayName_Item_CanvasCartridge" xml:space="preserve">
-    <value>Canvas</value>
+    <value>Полотно</value>
   </data>
   <data name="ServerDetails_ThrusterDamage" xml:space="preserve">
-    <value>Thruster Damage</value>
+    <value>Урон ускорителей</value>
   </data>
   <data name="ServerDetails_CargoShipsEnabled" xml:space="preserve">
-    <value>Cargo Ships</value>
+    <value>Грузовые корабли</value>
   </data>
   <data name="ServerDetails_WorldSizeKm" xml:space="preserve">
-    <value>World Size in Km</value>
+    <value>Размер мира в км</value>
   </data>
   <data name="ServerDetails_RespawnShipDelete" xml:space="preserve">
-    <value>Delete Respawn Ships</value>
+    <value>Удалять корабли возрождения</value>
   </data>
   <data name="ServerDetails_WelderSpeedMultiplier" xml:space="preserve">
-    <value>Welder Speed Multiplier</value>
+    <value>Множитель скорости сварки</value>
   </data>
   <data name="ServerDetails_GrinderSpeedMultiplier" xml:space="preserve">
-    <value>Grinder Speed Multiplier</value>
+    <value>Множитель скорости разборки</value>
   </data>
   <data name="ServerDetails_RealisticSound" xml:space="preserve">
-    <value>Realistic Sound</value>
+    <value>Реалистичный звук</value>
   </data>
   <data name="ServerDetails_HackSpeedMultiplier" xml:space="preserve">
-    <value>Hack Speed Multiplier</value>
+    <value>Множитель скорости взлома</value>
   </data>
   <data name="ServerDetails_PermanentDeath" xml:space="preserve">
-    <value>Permanent Death</value>
+    <value>Постоянная смерть</value>
   </data>
   <data name="ServerDetails_SpawnShipTimeMultiplier" xml:space="preserve">
-    <value>Respawn Ship Time Multiplier</value>
+    <value>Множитель времени до корабля возрождения</value>
   </data>
   <data name="ServerDetails_ProceduralDensity" xml:space="preserve">
-    <value>Procedural Density</value>
+    <value>Процедурная плотность</value>
   </data>
   <data name="ServerDetails_DestructibleBlocks" xml:space="preserve">
-    <value>Destructible Blocks</value>
+    <value>Разрушаемые блоки</value>
   </data>
   <data name="ServerDetails_EnableIngameScripts" xml:space="preserve">
-    <value>Ingame Scripts</value>
+    <value>Скрипты в игре</value>
   </data>
   <data name="ServerDetails_ViewDistance" xml:space="preserve">
-    <value>View Distance</value>
+    <value>Расстояние видимости</value>
   </data>
   <data name="ServerDetails_FloraDensity" xml:space="preserve">
-    <value>Flora Density</value>
+    <value>Плотность флоры</value>
   </data>
   <data name="ServerDetails_EnableToolShake" xml:space="preserve">
-    <value>Tool Shake</value>
+    <value>Вибрация инструментов</value>
   </data>
   <data name="ServerDetails_EnableOxygen" xml:space="preserve">
-    <value>Oxygen</value>
+    <value>Кислород</value>
   </data>
   <data name="ServerDetails_EnableOxygenPressurization" xml:space="preserve">
-    <value>Airtightness</value>
+    <value>Герметичность</value>
   </data>
   <data name="ServerDetails_Enable3rdPersonView" xml:space="preserve">
-    <value>3rd Person View</value>
+    <value>Вид от 3-го лица</value>
   </data>
   <data name="ServerDetails_EnableEncounters" xml:space="preserve">
-    <value>Encounters</value>
+    <value>Случайные встречи</value>
   </data>
   <data name="ServerDetails_EnableFlora" xml:space="preserve">
-    <value>Flora</value>
+    <value>Флора</value>
   </data>
   <data name="ServerDetails_EnableConvertToStation" xml:space="preserve">
-    <value>Enable Convert To Station</value>
+    <value>Включить преобразование в станцию</value>
   </data>
   <data name="ServerDetails_StationVoxelSupport" xml:space="preserve">
-    <value>Enable Station Grid With Voxel</value>
+    <value>Включить сеть станции с вокселем</value>
   </data>
   <data name="ServerDetails_EnableSunRotation" xml:space="preserve">
-    <value>Sun Rotation</value>
+    <value>Вращение Солнца</value>
   </data>
   <data name="ServerDetails_SunRotationIntervalMinutes" xml:space="preserve">
-    <value>Sun Rotation Interval</value>
+    <value>Интервал вращения Солнца</value>
   </data>
   <data name="ServerDetails_EnableJetpack" xml:space="preserve">
-    <value>Jetpack</value>
+    <value>Реактивный ранец</value>
   </data>
   <data name="ServerDetails_SpawnWithTools" xml:space="preserve">
-    <value>Spawn With Tools</value>
+    <value>Возрождение с инструментами</value>
   </data>
   <data name="ServerDetails_EnableVoxelDestruction" xml:space="preserve">
-    <value>Voxel Destruction</value>
+    <value>Уничтожение вокселя</value>
   </data>
   <data name="ServerDetails_EnableDrones" xml:space="preserve">
-    <value>Drones</value>
+    <value>Дроны</value>
   </data>
   <data name="ServerDetails_EnableWolfs" xml:space="preserve">
-    <value>Wolves</value>
+    <value>Волки</value>
   </data>
   <data name="ServerDetails_EnableSpiders" xml:space="preserve">
-    <value>Spiders</value>
+    <value>Пауки</value>
   </data>
   <data name="ServerDetails_BlockTypeLimits" xml:space="preserve">
-    <value>Block Type Limits</value>
+    <value>Ограничения типа блока</value>
   </data>
   <data name="ServerDetails_EnableScripterRole" xml:space="preserve">
-    <value>Scripter Role</value>
+    <value>Роль скриптера</value>
   </data>
   <data name="ServerDetails_EnableBlockLimits" xml:space="preserve">
-    <value>Block Limits</value>
+    <value>Ограничения блоков</value>
   </data>
   <data name="ServerDetails_ServerManagement" xml:space="preserve">
-    <value>Server Management</value>
+    <value>Управление сервером</value>
   </data>
   <data name="Notification_WheelNotPlaced" xml:space="preserve">
-    <value>Wheel could not be placed. Try to remove any obstacles first.</value>
+    <value>Невозможно разместить колесо. Попробуйте сначала убрать все препятствия.</value>
   </data>
   <data name="LoadingWheel_Streaming" xml:space="preserve">
-    <value>Streaming</value>
+    <value>Поток</value>
   </data>
   <data name="NotificationGridReachedPhysicalLimit" xml:space="preserve">
-    <value>Warning! Grid's number of physical shapes is approaching limit. Further modifications may cause issues with physics.</value>
+    <value>Внимание! Количество физических форм сети приближается к пределу. Дальнейшие изменения могут вызвать проблемы с физикой.</value>
   </data>
   <data name="TerminalTab_Info_Shapes" xml:space="preserve">
-    <value>Physical shapes: {0}/{1}</value>
+    <value>Физические формы: {0}/{1}</value>
   </data>
   <data name="ToolTipOptionsSpace_Audio" xml:space="preserve">
-    <value>Configure audio options.</value>
+    <value>Настройка параметров звука.</value>
   </data>
   <data name="ToolTipOptionsSpace_Controls" xml:space="preserve">
-    <value>Configure game contorls.</value>
+    <value>Настройка параметров управления.</value>
   </data>
   <data name="ToolTipOptionsSpace_Credits" xml:space="preserve">
-    <value>View credits.</value>
+    <value>Просмотр авторов.</value>
   </data>
   <data name="ToolTipOptionsSpace_Display" xml:space="preserve">
-    <value>Configure display options.</value>
+    <value>Настройка параметров изображения.</value>
   </data>
   <data name="ToolTipOptionsSpace_Game" xml:space="preserve">
-    <value>Configure game options.</value>
+    <value>Настройка параметров игры.</value>
   </data>
   <data name="ToolTipOptionsSpace_Graphics" xml:space="preserve">
-    <value>Configure graphics options.</value>
+    <value>Настройка параметров графики.</value>
   </data>
   <data name="ToolTipOptionsDisplay_WindowMode" xml:space="preserve">
-    <value>Choose whether the game should appear
-fullscreen or in a window.</value>
+    <value>Выберите режим запуска игры:
+в полном экране или в окне.</value>
   </data>
   <data name="ToolTipOptionsGame_BuildingMode" xml:space="preserve">
-    <value>Select default block-placement mode.
-(Affects only building in creative)</value>
+    <value>Выберите режим размещения блоков по умолчанию.
+(Влияет только на постройку в творческом режиме)</value>
   </data>
   <data name="ToolTipOptionsGame_Language" xml:space="preserve">
-    <value>Choose your preffered language settings.</value>
+    <value>Выберите желаемый язык.</value>
   </data>
   <data name="ToolTipJoinGameServerDetails_AddFavorite" xml:space="preserve">
-    <value>Add selected server to favorites.</value>
+    <value>Добавить выбранный сервер в избранное.</value>
   </data>
   <data name="ToolTipJoinGameServerDetails_Mods" xml:space="preserve">
-    <value>View server mods.</value>
+    <value>Просмотр режимов сервера.</value>
   </data>
   <data name="ToolTipJoinGameServerDetails_Players" xml:space="preserve">
-    <value>View online players.</value>
+    <value>Просмотр игроков в сети.</value>
   </data>
   <data name="ToolTipJoinGameServerDetails_RemoveFavorite" xml:space="preserve">
-    <value>Remove selected server from favorites.</value>
+    <value>Удалить выбранный сервер из избранного.</value>
   </data>
   <data name="ToolTipJoinGameServerDetails_Settings" xml:space="preserve">
-    <value>View server settings.</value>
+    <value>Просмотр настроек сервера.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_Advanced" xml:space="preserve">
-    <value>Configure advanced search settings.</value>
+    <value>Настройка параметров расширенного поиска.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_Defaults" xml:space="preserve">
-    <value>Restore server search settings to default value.</value>
+    <value>Сброс параметра поиска серверов до значения по умолчанию.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_MaximumFilterValue" xml:space="preserve">
-    <value>Maximum filter value.</value>
+    <value>Максимальное значение фильтра.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_MinimumFilterValue" xml:space="preserve">
-    <value>Minimum filter value.</value>
+    <value>Минимальное значение фильтра.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_Ping" xml:space="preserve">
-    <value>Filter by latency.</value>
+    <value>Фильтровать по задержке.</value>
     <comment>.</comment>
   </data>
   <data name="ToolTipJoinGameServerSearch_Mods" xml:space="preserve">
-    <value>Configure mods search settings.</value>
+    <value>Настройка параметров поиска модов.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_Settings" xml:space="preserve">
-    <value>Configure basic server search settings.</value>
+    <value>Настройка параметров обычного поиска серверов.</value>
   </data>
   <data name="ToolTipJoinGame_Advanced" xml:space="preserve">
-    <value>Open advanced server search settings.</value>
+    <value>Открыть параметры расширенного поиска серверов.</value>
   </data>
   <data name="ToolTipJoinGame_DirectConnect" xml:space="preserve">
-    <value>Connect to a server via IP.</value>
+    <value>Подключиться к серверу по IP.</value>
   </data>
   <data name="ToolTipJoinGame_JoinWorld" xml:space="preserve">
-    <value>Join selected server.</value>
+    <value>Присоединиться к выбранному серверу.</value>
   </data>
   <data name="ToolTipJoinGame_Refresh" xml:space="preserve">
-    <value>Refresh server list.</value>
+    <value>Обновить список серверов.</value>
   </data>
   <data name="ToolTipJoinGame_ServerDetails" xml:space="preserve">
-    <value>Open server details screen.</value>
+    <value>Открыть окно информации о сервере.</value>
   </data>
   <data name="ToolTipLoadGame_Backups" xml:space="preserve">
-    <value>Show backups for selected save file.</value>
+    <value>Отобразить резервные копии для выбранного сохранения.</value>
   </data>
   <data name="ToolTipLoadGame_Delete" xml:space="preserve">
-    <value>Delete selected save file.</value>
+    <value>Удалить выбранное сохранение.</value>
   </data>
   <data name="ToolTipLoadGame_EditSettings" xml:space="preserve">
-    <value>Edit world settings of selected save file.</value>
+    <value>Изменить настройки мира выбранного сохранения.</value>
   </data>
   <data name="ToolTipLoadGame_Load" xml:space="preserve">
-    <value>Load and play selected world.</value>
+    <value>Загрузить и играть в выбранном мире.</value>
   </data>
   <data name="ToolTipLoadGame_SaveAs" xml:space="preserve">
-    <value>Create a new save file from a selected world.</value>
+    <value>Создать новое сохранение выбранного мира.</value>
   </data>
   <data name="ToolTipNewGameCustomGame_Advanced" xml:space="preserve">
-    <value>Open advanced world configuration screen.</value>
+    <value>Открыть окно расширенных настроек выбранного мира.</value>
   </data>
   <data name="ToolTipNewGameCustomGame_Mods" xml:space="preserve">
-    <value>Open mod configuration screen.</value>
+    <value>Открыть окно параметров мода.</value>
   </data>
   <data name="ToolTipNewGame_Campaign" xml:space="preserve">
-    <value>Start a new campaign game.</value>
+    <value>Начать новую кампанию.</value>
   </data>
   <data name="ToolTipNewGame_CustomGame" xml:space="preserve">
-    <value>Create a new custom world.</value>
+    <value>Создать новый пользовательский мир.</value>
   </data>
   <data name="ToolTipNewGame_WorkshopContent" xml:space="preserve">
-    <value>Choose one of your subscribed workshop items or browse for more.</value>
+    <value>Выбрать один из ваших предметов подписки мастерской или просмотреть другие.</value>
   </data>
   <data name="ToolTipOptionsAudio_EnableVoiceChat" xml:space="preserve">
-    <value>Enable in-game voice chat.</value>
+    <value>Включить голосовой чат в игре.</value>
   </data>
   <data name="ToolTipOptionsAudio_HudWarnings" xml:space="preserve">
-    <value>Use sound warnings, when low on oxygen, health or power.</value>
+    <value>Использовать голосовые предупреждения при низких уровнях кислорода, здоровья или энергии.</value>
   </data>
   <data name="ToolTipOptionsAudio_MusicVolume" xml:space="preserve">
-    <value>Configure volume level of in-game music.</value>
+    <value>Настройка уровня громкости музыки в игре.</value>
   </data>
   <data name="ToolTipOptionsAudio_MuteWhenInactive" xml:space="preserve">
-    <value>Disable all sound when game window loses focus.</value>
+    <value>Отключать все звуки, когда игра свёрнута.</value>
   </data>
   <data name="ToolTipOptionsAudio_SoundVolume" xml:space="preserve">
-    <value>Configure volume level of sound effects.</value>
+    <value>Настройка уровня громкости звуковых эффектов.</value>
   </data>
   <data name="ToolTipOptionsAudio_SpeedBasedSounds" xml:space="preserve">
-    <value>Play ship engine sounds based solely on the speed of the craft.
-Uncheck for realistic sound.</value>
+    <value>Проигрывать звуки двигателя, основанные исключительно на скорости корабля.
+Снимите флажок для реалистичного звука.</value>
   </data>
   <data name="ToolTipOptionsAudio_UseContextualMusic" xml:space="preserve">
-    <value>Change music according to current in-game situation.</value>
+    <value>Изменять музыку по текущей ситуации.</value>
   </data>
   <data name="ToolTipOptionsAudio_VoiceChatVolume" xml:space="preserve">
-    <value>Configure volume level of player voice chat.</value>
+    <value>Настройка уровня громкости голосового чата игрока.</value>
   </data>
   <data name="ToolTipOptionsControls_Category" xml:space="preserve">
-    <value>Choose controls category.</value>
+    <value>Выбрать категорию элементов управления.</value>
   </data>
   <data name="ToolTipOptionsControls_ClickToEdit" xml:space="preserve">
-    <value>Click to edit.</value>
+    <value>Нажмите для изменения.</value>
   </data>
   <data name="ToolTipOptionsControls_Defaults" xml:space="preserve">
-    <value>Set controls to default values.</value>
+    <value>Установить управление до значений по умолчанию.</value>
   </data>
   <data name="ToolTipOptionsControls_InvertMouseX" xml:space="preserve">
-    <value>Reverse horizontal movement of mouse.</value>
+    <value>Обратное горизонтальное движение мыши.</value>
   </data>
   <data name="ToolTipOptionsControls_InvertMouseY" xml:space="preserve">
-    <value>Reverse vertical movement of mouse.</value>
+    <value>Обратное вертикальное движение мыши.</value>
   </data>
   <data name="ToolTipOptionsControls_JoystickDeadzoneWidth" xml:space="preserve">
-    <value>Adjust how much movement of the joystick is needed before it activates.</value>
+    <value>Отрегулируйте, сколько движений джойстика необходимо, прежде чем он активируется.</value>
   </data>
   <data name="ToolTipOptionsControls_JoystickGradualPrecision" xml:space="preserve">
-    <value>Change how sensitive your joystick is to slow movements.</value>
+    <value>Измените чувствительность джойстика к медленным движениям.</value>
   </data>
   <data name="ToolTipOptionsControls_JoystickOrGamepad" xml:space="preserve">
-    <value>Enable the control &amp; use of joysticks and gamepads in the game.</value>
+    <value>Включите управление, использующее джойстик или геймпад в игре.</value>
   </data>
   <data name="ToolTipOptionsControls_JoystickSensitivity" xml:space="preserve">
-    <value>Adjust sensitivty of your joystick.</value>
+    <value>Отрегулируйте чувствительность джойстика.</value>
   </data>
   <data name="ToolTipOptionsControls_MouseSensitivity" xml:space="preserve">
-    <value>Change how sensitive your mouse is to movement.</value>
+    <value>Измените чувствительность вашей мыши для движения.</value>
   </data>
   <data name="ToolTipOptionsGraphics_AmbientOcclusion" xml:space="preserve">
-    <value>Darken the areas that are less exposed to the ambient light.</value>
+    <value>Затемнение областей, которые менее подвержены воздействию окружающего света.</value>
   </data>
   <data name="ToolTipOptionsGraphics_AnisotropicFiltering" xml:space="preserve">
-    <value>Improve render quality of textures.</value>
+    <value>Улучшение качества визуализации текстур.</value>
   </data>
   <data name="ToolTipOptionsGraphics_Antialiasing" xml:space="preserve">
-    <value>Smooth out hard edges around objects.</value>
+    <value>Сгладить жёсткие края вокруг объектов.</value>
   </data>
   <data name="ToolTipOptionsGraphics_GrassDensity" xml:space="preserve">
-    <value>Set density of grass.</value>
+    <value>Установить плотность травы.</value>
   </data>
   <data name="ToolTipOptionsGraphics_GrassDrawDistance" xml:space="preserve">
-    <value>Modify grass render distance.</value>
+    <value>Измените расстояние прорисовки травы.</value>
   </data>
   <data name="ToolTipOptionsGraphics_ModelQuality" xml:space="preserve">
-    <value>Set model complexity.</value>
+    <value>Установить сложность модели.</value>
   </data>
   <data name="ToolTipOptionsGraphics_QualityPreset" xml:space="preserve">
-    <value>Choose a quality preset, according to your HW specifications.</value>
+    <value>Выберите предустановку качества, соответствующую вашим аппаратным техническим требованиям.</value>
   </data>
   <data name="ToolTipOptionsGraphics_ShaderQuality" xml:space="preserve">
-    <value>Select quality of render effects.
-Higher settings may affect performance.</value>
+    <value>Выберите качество визуализации эффектов.
+Более высокие настройки могут повлиять на производительность.</value>
   </data>
   <data name="ToolTipOptionsGraphics_ShadowQuality" xml:space="preserve">
-    <value>Select shadow resolution.</value>
+    <value>Выберите разрешение теней.</value>
   </data>
   <data name="ToolTipOptionsGraphics_TextureQuality" xml:space="preserve">
-    <value>Set texture detail.</value>
+    <value>Установить детализацию текстур.</value>
   </data>
   <data name="ToolTipOptionsGraphics_TreeDrawDistance" xml:space="preserve">
-    <value>Select tree render distance.</value>
+    <value>Выберите расстояние визуализации деревьев.</value>
   </data>
   <data name="ToolTipOptionsGraphics_VoxelQuality" xml:space="preserve">
-    <value>Choose visual complexity of distant voxels.</value>
+    <value>Выберите визуальную сложность отдалённых вокселей.</value>
   </data>
   <data name="ToolTipWorldSettings_AssemblerEfficiency" xml:space="preserve">
-    <value>Select assembler efficiency multiplier.</value>
+    <value>Выберите множитель эффективности сборки.</value>
   </data>
   <data name="ToolTipWorldSettings_DayDuration" xml:space="preserve">
-    <value>Adjust lenght of the day cycle.</value>
+    <value>Отрегулируйте длину дневного цикла.</value>
   </data>
   <data name="ToolTipWorldSettings_GrindingSpeed" xml:space="preserve">
-    <value>Select grinding speed multiplier.</value>
+    <value>Выберите множитель скорости разборки.</value>
   </data>
   <data name="ToolTipWorldSettings_InventorySize" xml:space="preserve">
-    <value>Adjust inventory size of your character.</value>
+    <value>Отрегулируйте размер инвентаря вашего персонажа.</value>
   </data>
   <data name="ToolTipWorldSettings_RefinerySpeed" xml:space="preserve">
-    <value>Select refinery speed multiplier.</value>
+    <value>Выберите множитель скорости очистки.</value>
   </data>
   <data name="ToolTipWorldSettings_RespawnShipCooldown" xml:space="preserve">
-    <value>Select respawn ship cooldown multiplier.</value>
+    <value>Выберите множитель времени до появления корабля возрождения.</value>
   </data>
   <data name="ToolTipWorldSettings_WeldingSpeed" xml:space="preserve">
-    <value>Select welding speed multiplier.</value>
+    <value>Выберите множитель скорости сварки.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_Search" xml:space="preserve">
-    <value>Update current server search filter.</value>
+    <value>Обновить текущий фильтр поиска серверов.</value>
   </data>
   <data name="ToolTipJoinGame_Search" xml:space="preserve">
-    <value>Search by entering name of the server.</value>
+    <value>Искать по введённому названию сервера.</value>
   </data>
   <data name="ToolTipJoinGame_SearchClear" xml:space="preserve">
-    <value>Clear search.</value>
+    <value>Очистить поиск.</value>
   </data>
   <data name="ToolTipMods_Ok" xml:space="preserve">
-    <value>Apply mod configuration.</value>
+    <value>Применить параметры мода.</value>
   </data>
   <data name="ToolTipMods_Search" xml:space="preserve">
-    <value>Search for a mod by typing its name.</value>
+    <value>Искать мод по введённому названию.</value>
   </data>
   <data name="ToolTipNewGame_Start" xml:space="preserve">
-    <value>Start selected world.</value>
+    <value>Запустить выбранный мир.</value>
   </data>
   <data name="ToolTipOptionsSpace_Cancel" xml:space="preserve">
-    <value>Return to previous menu.</value>
+    <value>Вернуться в предыдущее меню.</value>
   </data>
   <data name="ToolTipOptionsSpace_Ok" xml:space="preserve">
-    <value>Apply changes.</value>
+    <value>Применить изменения.</value>
   </data>
   <data name="ToolTipJoinGameDirectConnect_Favorite" xml:space="preserve">
-    <value>Check to add this IP to your favorite servers list.</value>
+    <value>Выберите, чтобы добавить этот IP в ваш список избранных серверов.</value>
   </data>
   <data name="ToolTipJoinGameDirectConnect_IP" xml:space="preserve">
-    <value>Insert server IP.</value>
+    <value>Введите IP сервера.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_AllowedGroups" xml:space="preserve">
-    <value>Show servers supporting steam group whitelisting.</value>
+    <value>Отображать сервера, поддерживающие белый список групп steam.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_CompatibleVersions" xml:space="preserve">
-    <value>Show only servers with compatible version.</value>
+    <value>Отображать сервера только с совместимой версией.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_Creative" xml:space="preserve">
-    <value>Show creative servers.</value>
+    <value>Отображать сервера только с творческим режимом.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_EvnironmentHostility" xml:space="preserve">
-    <value>Show only servers with corresponding level of
-environment hostility.</value>
+    <value>Отображать сервера только с соответствующим уровнем
+враждебности окружения.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_HasPassword" xml:space="preserve">
-    <value>Show servers with password.</value>
+    <value>Отображать сервера с паролем.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_SameGameData" xml:space="preserve">
-    <value>Show only servers with same game data.</value>
+    <value>Отображать сервера только с похожими игровыми данными.</value>
   </data>
   <data name="ToolTipJoinGameServerSearch_Survival" xml:space="preserve">
-    <value>Show survival servers.</value>
+    <value>Отображать сервера с режимом выживания.</value>
   </data>
   <data name="ToolTipNewsletter_Close" xml:space="preserve">
-    <value>Close this window.</value>
+    <value>Закрыть это окно.</value>
   </data>
   <data name="ToolTipNewsletter_DontAskAgain" xml:space="preserve">
-    <value>Check this, if you don't want to see this popup again.</value>
+    <value>Выберите, если не хотите видеть это всплывающее окно снова.</value>
   </data>
   <data name="ToolTipNewsletter_Email" xml:space="preserve">
-    <value>Insert your email adress.</value>
+    <value>Введите ваш электронный адрес.</value>
   </data>
   <data name="ToolTipNewsletter_Ok" xml:space="preserve">
-    <value>Proceed.</value>
+    <value>Продолжить.</value>
   </data>
   <data name="ToolTipOptionsGraphics_FOV" xml:space="preserve">
-    <value>Adjust view cone of character camera in degrees.</value>
+    <value>Отрегулируйте конус обзора камеры персонажа в градусах.</value>
   </data>
   <data name="CopyObject" xml:space="preserve">
-    <value>Copy object</value>
+    <value>Скопировать объект</value>
   </data>
   <data name="CopyObjectDetached" xml:space="preserve">
-    <value>Copy object detached</value>
+    <value>Скопировать объект отдельно</value>
   </data>
   <data name="CreateManageBlueprints" xml:space="preserve">
-    <value>Create/manage blueprints</value>
+    <value>Создать/управлять чертежами</value>
   </data>
   <data name="DeleteObject" xml:space="preserve">
-    <value>Delete object</value>
+    <value>Удалить объект</value>
   </data>
   <data name="OpenAdminScreen" xml:space="preserve">
-    <value>Open admin screen</value>
+    <value>Открыть окно админа</value>
   </data>
   <data name="OpenBlueprints" xml:space="preserve">
-    <value>Open blueprint screen</value>
+    <value>Открыть окно чертежей</value>
   </data>
   <data name="OpenSpawnScreen" xml:space="preserve">
-    <value>Open spawn screen</value>
+    <value>Открыть окно создания</value>
   </data>
   <data name="PasteObject" xml:space="preserve">
-    <value>Paste object</value>
+    <value>Вставить объект</value>
   </data>
   <data name="PickColorFromCube" xml:space="preserve">
-    <value>Pick color from cube into slot</value>
+    <value>Взять цвет куба в слот</value>
   </data>
   <data name="ContainerDropSystemBeaconText" xml:space="preserve">
-    <value>Container drop</value>
+    <value>Брошенный контейнер</value>
   </data>
   <data name="ContainerDropSystemContainerLarge" xml:space="preserve">
-    <value>Strong unknown signal</value>
+    <value>Сильный неизвестный сигнал</value>
   </data>
   <data name="ContainerDropSystemContainerSmall" xml:space="preserve">
-    <value>Unknown signal</value>
+    <value>Неизвестный сигнал</value>
   </data>
   <data name="ContainerDropSystemContainerWasDetected" xml:space="preserve">
-    <value>{0} was detected.</value>
+    <value>Обнаружен {0}.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableContainerDrops" xml:space="preserve">
-    <value>Enable / Disable spawning of Unknown Signals</value>
+    <value>Включить / отключить появление неизвестных сигналов</value>
   </data>
   <data name="WorldSettings_EnableContainerDrops" xml:space="preserve">
-    <value>Enable unknown signals</value>
+    <value>Включить неизвестные сигналы</value>
   </data>
   <data name="AGravity" xml:space="preserve">
-    <value>A-Gravity</value>
+    <value>А-гравитация</value>
   </data>
   <data name="AttachToSelectedEntity" xml:space="preserve">
-    <value>Attach to selected entity</value>
+    <value>Прикрепить к выбранной сущности</value>
   </data>
   <data name="BlueprintsScreen" xml:space="preserve">
-    <value>Blueprints screen</value>
+    <value>Окно чертежей</value>
   </data>
   <data name="CannotFindBlueprint" xml:space="preserve">
-    <value>Cannot find the blueprint file.</value>
+    <value>Невозможно найти файл чертежа.</value>
   </data>
   <data name="CannotFindBlueprintSteam" xml:space="preserve">
-    <value>Couldn't load blueprints from {0} workshop</value>
+    <value>Невозможно загрузить чертёж их мастерской {0}</value>
   </data>
   <data name="CreateFromClipboard" xml:space="preserve">
-    <value>Create from clipboard</value>
+    <value>Создать из буфера обмена</value>
   </data>
   <data name="CutsceneToolsButton" xml:space="preserve">
-    <value>Cutscenes tools</value>
+    <value>Инструменты видеосцен</value>
   </data>
   <data name="CycleHUD" xml:space="preserve">
     <value>Сменить ИЛС</value>
   </data>
   <data name="DeleteBlueprintQuestion" xml:space="preserve">
-    <value>Are you sure you want to delete this blueprint?</value>
+    <value>Вы уверены, что хотите удалить этот чертёж?</value>
   </data>
   <data name="DeleteEntity" xml:space="preserve">
-    <value>Delete Entity</value>
+    <value>Удалить сущность</value>
   </data>
   <data name="DisableTransformation" xml:space="preserve">
-    <value>Disable Transformation</value>
+    <value>Отключить преобразование</value>
   </data>
   <data name="DisplaySettings" xml:space="preserve">
-    <value>Display settings</value>
+    <value>Настройки изображения</value>
   </data>
   <data name="EntityRename" xml:space="preserve">
-    <value>Entity Rename</value>
+    <value>Переименование сущности</value>
   </data>
   <data name="EntitySpawnOn" xml:space="preserve">
-    <value>Entity Spawn on</value>
+    <value>Вкл. создание сущности</value>
   </data>
   <data name="Number" xml:space="preserve">
-    <value>Number</value>
+    <value>Число</value>
   </data>
   <data name="PGravity" xml:space="preserve">
-    <value>P-Gravity</value>
+    <value>П-гравитация</value>
   </data>
   <data name="PressNumberAgain" xml:space="preserve">
-    <value>Press number again to switch size</value>
+    <value>Нажмите число снова, чтобы изменить размер</value>
   </data>
   <data name="RefreshBlueprints" xml:space="preserve">
-    <value>Refresh blueprints</value>
+    <value>Обновить чертежи</value>
   </data>
   <data name="ReplaceWithClipboard" xml:space="preserve">
-    <value>Replace with clipboard</value>
+    <value>Заменить из буфера обмена</value>
   </data>
   <data name="RunningLevelScripts" xml:space="preserve">
-    <value>Running Level Scripts</value>
+    <value>Запущенные скрипты уровня</value>
   </data>
   <data name="RunningStateMachines" xml:space="preserve">
-    <value>Running State Machines</value>
+    <value>Запущенные состояния механизмов</value>
   </data>
   <data name="ScriptingToolsCutscenes" xml:space="preserve">
-    <value>Scripting Tools - Cutscenes</value>
+    <value>Инструменты для скриптов - видеосцены</value>
   </data>
   <data name="ScriptingToolsTransformations" xml:space="preserve">
-    <value>Scripting Tools - Transformations</value>
+    <value>Инструменты для скриптов - преобразования</value>
   </data>
   <data name="SelectedBlock" xml:space="preserve">
-    <value>Selected Block</value>
+    <value>Выбранный блок</value>
   </data>
   <data name="SelectedEntity" xml:space="preserve">
-    <value>Selected Entity</value>
+    <value>Выбранная сущность</value>
   </data>
   <data name="SelectedTrigger" xml:space="preserve">
-    <value>Selected Trigger</value>
+    <value>Выбранный переключатель</value>
   </data>
   <data name="SetTriggerSizeDialog" xml:space="preserve">
-    <value>Set trigger size dialog</value>
+    <value>Установить размер окна переключателя</value>
   </data>
   <data name="SharedBlueprint" xml:space="preserve">
-    <value>Shared Blueprint</value>
+    <value>Общий чертёж</value>
   </data>
   <data name="SharedBlueprintNotify" xml:space="preserve">
-    <value>{0} just shared a blueprint with you.</value>
+    <value>{0} только что поделился чертежом с вами.</value>
   </data>
   <data name="SharedBlueprintQuestion" xml:space="preserve">
-    <value>Do you want to open this blueprint in {0} workshop?</value>
+    <value>Вы хотите открыть этот чертёж в мастерской {0}?</value>
   </data>
   <data name="SpawnEntity" xml:space="preserve">
-    <value>Spawn Entity</value>
+    <value>Создать сущность</value>
   </data>
   <data name="TerminalAccess" xml:space="preserve">
-    <value>Terminal Access</value>
+    <value>Войти в терминал</value>
   </data>
   <data name="TerminalControl" xml:space="preserve">
-    <value>Control</value>
+    <value>Управление</value>
   </data>
   <data name="TerminalDistance" xml:space="preserve">
-    <value>Distance</value>
+    <value>Расстояние</value>
   </data>
   <data name="TerminalName" xml:space="preserve">
-    <value>Name</value>
+    <value>Название</value>
   </data>
   <data name="TerminalStatus" xml:space="preserve">
-    <value>Status</value>
+    <value>Статус</value>
   </data>
   <data name="TransformationToolsButton" xml:space="preserve">
-    <value>Transformation tools</value>
+    <value>Инструменты преобразования</value>
   </data>
   <data name="TriggerNotSelected" xml:space="preserve">
-    <value>Trigger not selected</value>
+    <value>Переключатель не выбран</value>
   </data>
   <data name="Triggers" xml:space="preserve">
-    <value>Triggers</value>
+    <value>Переключатели</value>
   </data>
   <data name="UnsavedChanges" xml:space="preserve">
-    <value>Unsaved changes</value>
+    <value>Несохранённые изменения</value>
   </data>
   <data name="UnsavedChangesQuestion" xml:space="preserve">
-    <value>You have unsaved changes. Do you want to save current cutscene first?</value>
+    <value>У вас есть несохранённые изменения. Вы уверены, что сначала хотите сохранить текущую видеосцену?</value>
   </data>
   <data name="Dampeners" xml:space="preserve">
-    <value>Dampeners</value>
+    <value>Гасители</value>
   </data>
   <data name="O2High" xml:space="preserve">
-    <value>High</value>
+    <value>высоко</value>
   </data>
   <data name="O2Low" xml:space="preserve">
-    <value>Low</value>
+    <value>низко</value>
   </data>
   <data name="O2None" xml:space="preserve">
-    <value>None</value>
+    <value>нет</value>
   </data>
   <data name="OFF" xml:space="preserve">
-    <value>OFF</value>
+    <value>ВЫКЛ</value>
   </data>
   <data name="ON" xml:space="preserve">
-    <value>ON</value>
+    <value>ВКЛ</value>
   </data>
   <data name="BlindJump" xml:space="preserve">
-    <value>Blind Jump</value>
+    <value>Прыжок вслепую</value>
   </data>
   <data name="BlockPropertiesText_CurrentJump" xml:space="preserve">
-    <value>Current jump:</value>
+    <value>Текущий прыжок:</value>
   </data>
   <data name="BlockPropertiesText_Effectiveness" xml:space="preserve">
-    <value>Effectiveness:</value>
+    <value>Эффективность:</value>
   </data>
   <data name="BlockPropertiesText_Efficiency" xml:space="preserve">
-    <value>Power Efficiency:</value>
+    <value>Энергоэффективность:</value>
   </data>
   <data name="BlockPropertiesText_MaxJump" xml:space="preserve">
-    <value>Max jump distance:</value>
+    <value>Макс. расстояние прыжка:</value>
   </data>
   <data name="BlockPropertiesText_Productivity" xml:space="preserve">
-    <value>Productivity:</value>
+    <value>Производительность:</value>
   </data>
   <data name="LCD_Arrow" xml:space="preserve">
-    <value>Arrow</value>
+    <value>Стрелка</value>
   </data>
   <data name="LCD_Construction" xml:space="preserve">
-    <value>Construction</value>
+    <value>Сооружение</value>
   </data>
   <data name="LCD_Cross" xml:space="preserve">
-    <value>Cross</value>
+    <value>Крест</value>
   </data>
   <data name="LCD_Danger" xml:space="preserve">
-    <value>Danger</value>
+    <value>Опасность</value>
   </data>
   <data name="LCD_NoEntry" xml:space="preserve">
-    <value>No Entry</value>
+    <value>Входа нет</value>
   </data>
   <data name="LCD_Offline" xml:space="preserve">
-    <value>Offline</value>
+    <value>Не в сети</value>
   </data>
   <data name="LCD_Online" xml:space="preserve">
-    <value>Online</value>
+    <value>В сети</value>
   </data>
   <data name="LCD_WhiteScreen" xml:space="preserve">
-    <value>White screen</value>
+    <value>Белый экран</value>
   </data>
   <data name="Oxygen_Disabled" xml:space="preserve">
-    <value>Oxygen or Airtightness disabled in world settings!</value>
+    <value>Кислород или герметичность отключены в настройках мира!</value>
   </data>
   <data name="Oxygen_Filled" xml:space="preserve">
-    <value>Filled:</value>
+    <value>Заполнен: {0}% ({1} Л/{2} Л)</value>
   </data>
   <data name="Oxygen_NotPressurized" xml:space="preserve">
-    <value>Room pressure: Not pressurized</value>
+    <value>Давление в комнате: не под давлением</value>
   </data>
   <data name="Oxygen_Pressure" xml:space="preserve">
-    <value>Room pressure:</value>
+    <value>Давление в комнате:</value>
   </data>
   <data name="Signal_Enemy" xml:space="preserve">
-    <value> Enemy Signals</value>
+    <value> Вражеские сигналы</value>
   </data>
   <data name="Signal_Friendly" xml:space="preserve">
-    <value> Friendly Signals</value>
+    <value> Дружественные сигналы</value>
   </data>
   <data name="Signal_Mixed" xml:space="preserve">
-    <value> Mixed Signals</value>
+    <value> Смешанные сигналы</value>
   </data>
   <data name="Signal_Neutral" xml:space="preserve">
-    <value> Neutral Signals</value>
+    <value> Нейтральные сигналы</value>
   </data>
   <data name="Signal_Own" xml:space="preserve">
-    <value> Own Signals</value>
+    <value> Мои сигналы</value>
   </data>
   <data name="TerminalTab_Info_ShipName" xml:space="preserve">
-    <value>Ship Name</value>
+    <value>Название корабля</value>
   </data>
   <data name="CustomWorld_CrashedRedShip" xml:space="preserve">
-    <value>Crashed Red Ship</value>
+    <value>Крушение красного корабля</value>
   </data>
   <data name="CustomWorld_DeadDropArena" xml:space="preserve">
-    <value>Dead Drop Arena</value>
+    <value>Тайная арена</value>
   </data>
   <data name="CustomWorld_EasyStartAlien" xml:space="preserve">
-    <value>Easy Start Alien</value>
+    <value>Быстрый старт - Чужой</value>
   </data>
   <data name="CustomWorld_EasyStartEarth" xml:space="preserve">
-    <value>Easy Start Earth</value>
+    <value>Быстрый старт - Земля</value>
   </data>
   <data name="CustomWorld_EasyStartGreen" xml:space="preserve">
-    <value>Easy Start Green</value>
+    <value>Быстрый старт - Зелень</value>
   </data>
   <data name="CustomWorld_EasyStartMars" xml:space="preserve">
-    <value>Easy Start Mars</value>
+    <value>Быстрый старт - Марс</value>
   </data>
   <data name="CustomWorld_EasyStartMoon" xml:space="preserve">
-    <value>Easy Start Moon</value>
+    <value>Быстрый старт - Луна</value>
   </data>
   <data name="CustomWorld_EasyStartSpace" xml:space="preserve">
-    <value>Easy Start Space</value>
+    <value>Быстрый старт - Космос</value>
   </data>
   <data name="CustomWorld_EmptyWorld" xml:space="preserve">
-    <value>Empty World</value>
+    <value>Пустой мир</value>
   </data>
   <data name="CustomWorld_LoneSurvivor" xml:space="preserve">
-    <value>Lone Survivor</value>
+    <value>Выживший-одиночка</value>
   </data>
   <data name="CustomWorld_RivalPlatforms" xml:space="preserve">
-    <value>Rival Platforms</value>
+    <value>Соперничающие платформы</value>
   </data>
   <data name="CustomWorld_StarSystem" xml:space="preserve">
-    <value>Star System</value>
+    <value>Звёздная система</value>
   </data>
   <data name="Department_AdditionalArtists" xml:space="preserve">
-    <value>Additional Artists</value>
+    <value>Вспомогательные художники</value>
   </data>
   <data name="Department_AdditionalDesigners" xml:space="preserve">
-    <value>Additional Designers</value>
+    <value>Вспомогательные дизайнеры</value>
   </data>
   <data name="Department_AdditionalProgrammers" xml:space="preserve">
-    <value>Additional Programmers</value>
+    <value>Вспомогательные программисты</value>
   </data>
   <data name="Department_AdditionalTesters" xml:space="preserve">
-    <value>Additional Testers</value>
+    <value>Вспомогательные тестировщики</value>
   </data>
   <data name="Department_Artists" xml:space="preserve">
-    <value>Artists</value>
+    <value>Художники</value>
   </data>
   <data name="Department_AssistentProducer" xml:space="preserve">
-    <value>Assistent Producer</value>
+    <value>Помощники продюсера</value>
   </data>
   <data name="Department_CommunityManagers" xml:space="preserve">
-    <value>Community Managers</value>
+    <value>Менеджер сообщества</value>
   </data>
   <data name="Department_CommunityPr" xml:space="preserve">
-    <value>Community &amp; PR Manager</value>
+    <value>Менеджер сообщества &amp; PR</value>
   </data>
   <data name="Department_ExecutiveProducer" xml:space="preserve">
-    <value>Executive Producer</value>
+    <value>Исполнительный продюсер</value>
   </data>
   <data name="Department_LeadProgrammers" xml:space="preserve">
-    <value>Lead Programmers</value>
+    <value>Ведущий программист</value>
   </data>
   <data name="Department_GameDesigners" xml:space="preserve">
-    <value>Game Designers</value>
+    <value>Игровой дизайнер</value>
   </data>
   <data name="Department_LeadProducer" xml:space="preserve">
-    <value>Lead Producer</value>
+    <value>Ведущий продюсер</value>
   </data>
   <data name="Department_LeadTester" xml:space="preserve">
-    <value>Lead Tester</value>
+    <value>Ведущий тестировщик</value>
   </data>
   <data name="Department_ModContributors" xml:space="preserve">
-    <value>Mod Contributors</value>
+    <value>Авторы модификаций</value>
   </data>
   <data name="Department_MoreInfo" xml:space="preserve">
-    <value>For more information see</value>
+    <value>Для дополнительной информации смотрите</value>
   </data>
   <data name="Department_Music" xml:space="preserve">
-    <value>Music</value>
+    <value>Музыка</value>
   </data>
   <data name="Department_Office" xml:space="preserve">
-    <value>Office</value>
+    <value>Отдел</value>
   </data>
   <data name="Department_Programmers" xml:space="preserve">
-    <value>Programmers</value>
+    <value>Программисты</value>
   </data>
   <data name="Department_SoundDesign" xml:space="preserve">
-    <value>Sound Design</value>
+    <value>Звуковой дизайнер</value>
   </data>
   <data name="Department_SpecialThanks" xml:space="preserve">
-    <value>Special Thanks</value>
+    <value>Особая благодарность</value>
   </data>
   <data name="Department_Testers" xml:space="preserve">
-    <value>Testers</value>
+    <value>Тестировщики</value>
   </data>
   <data name="Department_Translators" xml:space="preserve">
-    <value>Translators</value>
+    <value>Переводчики</value>
   </data>
   <data name="NoticeLine_01" xml:space="preserve">
-    <value>Powered by VRAGE 2.0</value>
+    <value>Работает на VRAGE 2.0</value>
   </data>
   <data name="NoticeLine_02" xml:space="preserve">
     <value>Copyright © 2013-2016 KEEN SWH LTD.</value>
   </data>
   <data name="NoticeLine_03" xml:space="preserve">
-    <value>Space Engineers® and VRAGE™ are trademarks of KEEN SWH LTD.</value>
+    <value>Space Engineers® и VRAGE™ являются торговыми марками KEEN SWH LTD.</value>
   </data>
   <data name="NoticeLine_04" xml:space="preserve">
     <value>www.keenswh.com</value>
   </data>
   <data name="NoticeLine_05" xml:space="preserve">
-    <value>“Space Engineers” uses Havok®.</value>
+    <value>«Space Engineers» использует Havok®.</value>
   </data>
   <data name="NoticeLine_06" xml:space="preserve">
-    <value>©Copyright 1999-2008 Havok.com, Inc (and its Licensors). All Rights Reserved.</value>
+    <value>©Copyright 1999-2008 Havok.com, Inc (и её лицензиаты). Все права сохранены.</value>
   </data>
   <data name="NoticeLine_07" xml:space="preserve">
-    <value>See www.havok.com for details.</value>
+    <value>Смотрите www.havok.com для дополнительной информации.</value>
   </data>
   <data name="Person_FB" xml:space="preserve">
-    <value>Like us on Facebook: www.facebook.com/SpaceEngineers</value>
+    <value>Поддержите нас на Facebook: www.facebook.com/SpaceEngineers</value>
   </data>
   <data name="Person_Twitter" xml:space="preserve">
-    <value>Follow us on Twitter: twitter.com/SpaceEngineersG</value>
+    <value>Подпишитесь на нас в Twitter: twitter.com/SpaceEngineersG</value>
   </data>
   <data name="Person_Web" xml:space="preserve">
     <value>www.SpaceEngineersGame.com</value>
   </data>
   <data name="Asteroids" xml:space="preserve">
-    <value>Asteroids</value>
+    <value>Астероиды</value>
   </data>
   <data name="BiggestDistanceFromPlayers" xml:space="preserve">
     <value>BiggestDistanceFromPlayers</value>
@@ -6981,7 +6987,7 @@ environment hostility.</value>
     <value>BlockCount</value>
   </data>
   <data name="Characters" xml:space="preserve">
-    <value>Characters</value>
+    <value>Персонажи</value>
   </data>
   <data name="DisplayName" xml:space="preserve">
     <value>DisplayName</value>
@@ -6993,7 +6999,7 @@ environment hostility.</value>
     <value>DistanceFromPlayers</value>
   </data>
   <data name="Fastest" xml:space="preserve">
-    <value>Fastest</value>
+    <value>Самый быстрый</value>
   </data>
   <data name="FloatingObjects" xml:space="preserve">
     <value>FloatingObjects</value>
@@ -7002,13 +7008,13 @@ environment hostility.</value>
     <value>GPS</value>
   </data>
   <data name="Grids" xml:space="preserve">
-    <value>Grids</value>
+    <value>Сети</value>
   </data>
   <data name="LargeGrids" xml:space="preserve">
     <value>LargeGrids</value>
   </data>
   <data name="Mass" xml:space="preserve">
-    <value>Mass</value>
+    <value>Масса</value>
   </data>
   <data name="MostActiveDrills" xml:space="preserve">
     <value>MostActiveDrills</value>
@@ -7038,162 +7044,165 @@ environment hostility.</value>
     <value>OwnerName</value>
   </data>
   <data name="Planets" xml:space="preserve">
-    <value>Planets</value>
+    <value>Планеты</value>
   </data>
   <data name="SmallGrids" xml:space="preserve">
     <value>SmallGrids</value>
   </data>
   <data name="Speed" xml:space="preserve">
-    <value>Speed</value>
+    <value>Скорость</value>
   </data>
   <data name="StaticObjects" xml:space="preserve">
     <value>StaticObjects</value>
   </data>
   <data name="Jump_Achievable" xml:space="preserve">
-    <value>Achievable percentage of the jump </value>
+    <value>Достижимый процент прыжка </value>
   </data>
   <data name="Jump_Blind" xml:space="preserve">
-    <value>Blind Jump</value>
+    <value>Прыжок вслепую</value>
   </data>
   <data name="Jump_CrewCount" xml:space="preserve">
-    <value>Seated crew on board: </value>
+    <value>Находящийся на борту экипаж: </value>
   </data>
   <data name="Jump_Destination" xml:space="preserve">
-    <value>Jump destination: </value>
+    <value>Целевая точка прыжка: </value>
   </data>
   <data name="Jump_Distance" xml:space="preserve">
-    <value>Distance to the proximity of coordinate: </value>
+    <value>Расстояние до ближайших координат: </value>
   </data>
   <data name="Jump_DistanceToDest" xml:space="preserve">
-    <value>Distance to destination: </value>
+    <value>Расстояние до целевой точки: </value>
   </data>
   <data name="Jump_DriveCount" xml:space="preserve">
-    <value>Operational jump drives: </value>
+    <value>Работающие прыжковые двигатели: </value>
   </data>
   <data name="Jump_MinDistance" xml:space="preserve">
-    <value>Minimum jump distance: </value>
+    <value>Минимальное расстояние прыжка: </value>
   </data>
   <data name="Jump_Obstacle" xml:space="preserve">
-    <value>(Obstacle Detected)</value>
+    <value>(обнаружены препятствия)</value>
   </data>
   <data name="Jump_ObstacleTruncation" xml:space="preserve">
-    <value>Obstacle Detected! Jump Distance will be truncated. \n</value>
+    <value>Обнаружены препятствия! Расстояние прыжка будет усечено. \n</value>
   </data>
   <data name="Jump_Weight" xml:space="preserve">
-    <value>Weight of transported mass: </value>
+    <value>Вес перевозимой массы: </value>
   </data>
   <data name="NotAvailable" xml:space="preserve">
-    <value>Not Available</value>
+    <value>Недоступно</value>
   </data>
   <data name="TerminalControlPanel_EditCode_Tooltip_Steam" xml:space="preserve">
-    <value>Opens code editor where you can create new scripts and upload/download them from {0} workshop</value>
+    <value>Открыть редактор кода, где вы сможете создать новые скрипты и загрузить их в/из мастерской {0}</value>
   </data>
   <data name="TerminalControlPanel_EditCode_Tooltip_WeGame" xml:space="preserve">
-    <value>Opens code editor where you can create new scripts and upload/download them from WeGame workshop</value>
+    <value>Открыть редактор кода, где вы сможете создать новые скрипты и загрузить их в/из мастерской WeGame</value>
   </data>
   <data name="WwwLinkNotAllowed_Steam" xml:space="preserve">
-    <value>This link is not allowed and will not open.
-Allowed sites: steamcommunity, youtube, KSH forum.</value>
+    <value>Эта ссылка не разрешена и не будет открыта.
+Разрешённые сайты: сообщество steam, youtube, форум KSH.</value>
   </data>
   <data name="WwwLinkNotAllowed_WeGame" xml:space="preserve">
-    <value>This link is not allowed and will not open.
-Allowed sites: WeGame, youtube, KSH forum.</value>
+    <value>Эта ссылка не разрешена и не будет открыта.
+Разрешённые сайты: WeGame, youtube, форум KSH.</value>
   </data>
   <data name="Depower" xml:space="preserve">
-    <value>Depower</value>
+    <value>Отложить</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>None</value>
+    <value>Нет</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>Remove</value>
+    <value>Удалить</value>
   </data>
   <data name="Stop" xml:space="preserve">
-    <value>Stop</value>
+    <value>Остановить</value>
   </data>
   <data name="DisplayName_Faction_FirstColonyFaction_Translation" xml:space="preserve">
-    <value>First Colony</value>
+    <value>Первая колония</value>
   </data>
   <data name="DisplayName_Faction_SpacePirates_Translation" xml:space="preserve">
-    <value>Space Pirates</value>
+    <value>Космические пираты</value>
   </data>
   <data name="DisplayName_Faction_SpaceSpiders_Translation" xml:space="preserve">
-    <value>Space spiders</value>
+    <value>Космические пауки</value>
   </data>
   <data name="Cobalt" xml:space="preserve">
-    <value>Cobalt</value>
+    <value>Кобальт</value>
   </data>
   <data name="Gold" xml:space="preserve">
-    <value>Gold</value>
+    <value>Золото</value>
   </data>
   <data name="Ice" xml:space="preserve">
-    <value>Ice</value>
+    <value>Лёд</value>
   </data>
   <data name="Iron" xml:space="preserve">
-    <value>Iron</value>
+    <value>Железо</value>
   </data>
   <data name="Magnesium" xml:space="preserve">
-    <value>Magnesium</value>
+    <value>Магний</value>
   </data>
   <data name="Nickel" xml:space="preserve">
-    <value>Nickel</value>
+    <value>Никель</value>
   </data>
   <data name="Platinum" xml:space="preserve">
-    <value>Platinum</value>
+    <value>Платина</value>
   </data>
   <data name="Silicon" xml:space="preserve">
-    <value>Silicon</value>
+    <value>Кремний</value>
   </data>
   <data name="Silver" xml:space="preserve">
-    <value>Silver</value>
+    <value>Серебро</value>
   </data>
   <data name="Uranium" xml:space="preserve">
-    <value>Uranium</value>
+    <value>Уран</value>
   </data>
   <data name="MessageBoxTextRestartNeededAfterLanguageSwitch" xml:space="preserve">
-    <value>Some texts might need game restart to be reloaded.</value>
+    <value>Для перезагрузки некоторых текстов может потребоваться перезагрузка игры.</value>
   </data>
   <data name="DetailScreen_Button_Close" xml:space="preserve">
-    <value>Close</value>
+    <value>Закрыть</value>
   </data>
   <data name="DetailScreen_Button_OpenInWorkshop" xml:space="preserve">
-    <value>Open In Workshop</value>
+    <value>Открыть в мастерской</value>
   </data>
   <data name="DetailScreen_Button_SendToPlayer" xml:space="preserve">
-    <value>Send to Player</value>
+    <value>Отправить игроку</value>
   </data>
   <data name="BlueprintInfo_Author" xml:space="preserve">
-    <value>Author: </value>
+    <value>Автор: </value>
   </data>
   <data name="BlueprintInfo_Name" xml:space="preserve">
-    <value>Name: </value>
+    <value>Название: </value>
   </data>
   <data name="BlueprintInfo_NumberOfBlocks" xml:space="preserve">
-    <value>Number of blocks: </value>
+    <value>Количество блоков: </value>
   </data>
   <data name="DisplayName_Rifle" xml:space="preserve">
-    <value>Rifle</value>
+    <value>Винтовка</value>
   </data>
   <data name="DetailScreen_Button_Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Удалить</value>
   </data>
   <data name="DetailScreen_Button_OpenWorkshop" xml:space="preserve">
-    <value>Open WorkShop</value>
+    <value>Открыть мастерскую</value>
   </data>
   <data name="DetailScreen_Button_Publish" xml:space="preserve">
-    <value>Publish</value>
+    <value>Опубликовать</value>
   </data>
   <data name="DetailScreen_Button_Rename" xml:space="preserve">
-    <value>Rename</value>
+    <value>Переименовать</value>
   </data>
   <data name="ToolTipCharacterScreen_HideDuplicates" xml:space="preserve">
-    <value>Show only one item in case you own
-multiple items of the same type.</value>
+    <value>Отображать только один предмет, если у вас есть
+множество предметов подобного типа.</value>
   </data>
   <data name="ToolTipCharacterScreen_Model" xml:space="preserve">
-    <value>Change your character model.</value>
+    <value>Изменить модель вашего персонажа.</value>
   </data>
   <data name="ControlName_InertialDampeners" xml:space="preserve">
-    <value>Inertia dampeners</value>
+    <value>Инерционные гасители</value>
+  </data>
+  <data name="ToolTipCharacterScreen_ShowOnlyDuplicates" xml:space="preserve">
+    <value>Отображать только те предметы, которыми вы владели более одного раза.</value>
   </data>
 </root>

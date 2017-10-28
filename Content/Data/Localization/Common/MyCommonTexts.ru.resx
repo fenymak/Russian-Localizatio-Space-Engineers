@@ -1126,7 +1126,7 @@
     <value>Одиночный блок</value>
   </data>
   <data name="ControlName_Suicide" xml:space="preserve">
-    <value>Самоубийство</value>
+    <value>Возродиться</value>
   </data>
   <data name="MultiplayerErrorStartingServer" xml:space="preserve">
     <value>Невозможно запустить сервер сетевой игры, ошибка: {0}</value>
@@ -1287,7 +1287,7 @@
     <value>Размер мира</value>
   </data>
   <data name="MessageBoxTextSuicide" xml:space="preserve">
-    <value>Вы уверены, что хотите совершить самоубийство?</value>
+    <value>Вы хотите возродиться?</value>
   </data>
   <data name="MultiplayerErrorServerHasLeft" xml:space="preserve">
     <value>Хозяин сервера покинул игру</value>
@@ -2090,7 +2090,7 @@
     <value>От 3-го лица</value>
   </data>
   <data name="ControlMenuItemLabel_CommitSuicide" xml:space="preserve">
-    <value>Самоубийство</value>
+    <value>Возродиться</value>
   </data>
   <data name="ControlMenuItemLabel_QuickLoad" xml:space="preserve">
     <value>Быстрая загрузка/переподключение</value>
@@ -3109,19 +3109,19 @@
     <value>У вас нет ни одного предмета. Вы можете получить предметы, играя в игру, или обмениваясь с другими игроками.</value>
   </data>
   <data name="GpsContainerRemainingTimeMins" xml:space="preserve">
-    <value>T - {0} мин.</value>
+    <value>В - {0} мин.</value>
   </data>
   <data name="GpsContainerRemainingTimeSec" xml:space="preserve">
-    <value>T - {0} сек.</value>
+    <value>В - {0} сек.</value>
   </data>
   <data name="GpsContainerRemainingTimeSecs" xml:space="preserve">
-    <value>T - {0} сек.</value>
+    <value>В - {0} сек.</value>
   </data>
   <data name="GpsContainerRemainingTimeMinSec" xml:space="preserve">
-    <value>T - {0} мин. {1} сек.</value>
+    <value>В - {0} мин. {1} сек.</value>
   </data>
   <data name="GpsContainerRemainingTimeMinSecs" xml:space="preserve">
-    <value>T - {0} мин. {1} сек.</value>
+    <value>В - {0} мин. {1} сек.</value>
   </data>
   <data name="ScreenLoadInventoryLeftClickTip" xml:space="preserve">
     <value>ЛКМ - экипировать</value>
@@ -3560,5 +3560,59 @@ https://support.microsoft.com/kb/3120241
   </data>
   <data name="DownloadingMods_Completed" xml:space="preserve">
     <value>Завершено </value>
+  </data>
+  <data name="CraftButton" xml:space="preserve">
+    <value>Сделать за {0} жетонов</value>
+  </data>
+  <data name="ScreenLoadInventoryCraftedLabel" xml:space="preserve">
+    <value>Вы сделали</value>
+  </data>
+  <data name="ScreenLoadInventoryCraftTooltip" xml:space="preserve">
+    <value>Сделать один случайный скин выбранной редкости</value>
+  </data>
+  <data name="ScreenLoadInventoryCurrencyCost" xml:space="preserve">
+    <value>Стоимость: {0}</value>
+  </data>
+  <data name="ScreenLoadInventoryCurrencyCurrent" xml:space="preserve">
+    <value>У вас {0} жетонов</value>
+  </data>
+  <data name="ScreenLoadInventoryRecycleItem" xml:space="preserve">
+    <value>Переработать предмет в {0} жетон(ов)</value>
+  </data>
+  <data name="ScreenLoadInventoryRecycling" xml:space="preserve">
+    <value>Переработка</value>
+  </data>
+  <data name="ScreenLoadInventoryRecyclingFilterTooltip" xml:space="preserve">
+    <value>Отображать панель переработки/создания</value>
+  </data>
+  <data name="ScreenLoadInventoryShowOnlyDuplicates" xml:space="preserve">
+    <value>Отобразить только дубликаты</value>
+  </data>
+  <data name="ScreenLoadInventoryRecycleItemMessageText" xml:space="preserve">
+    <value>Вы уверены, что хотите переработать этот предмет?</value>
+  </data>
+  <data name="ScreenLoadInventoryRecycleItemMessageTitle" xml:space="preserve">
+    <value>Подтверждение переработки предмета</value>
+  </data>
+  <data name="ScreenLoadInventorySelectRarity" xml:space="preserve">
+    <value>Выбрать редкость предмета:</value>
+  </data>
+  <data name="ScreenLoadInventoryColoring" xml:space="preserve">
+    <value>Окраска</value>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="Exceptional" xml:space="preserve">
+    <value>Исключительный</value>
+  </data>
+  <data name="Rare" xml:space="preserve">
+    <value>Редкий</value>
+  </data>
+  <data name="Uncommon" xml:space="preserve">
+    <value>Необычный</value>
+  </data>
+  <data name="Unusual" xml:space="preserve">
+    <value>Особенный</value>
   </data>
 </root>
