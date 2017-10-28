@@ -134,7 +134,7 @@
     <value>ВЫХОД</value>
   </data>
   <data name="LCD_M01_03" xml:space="preserve">
-    <value>Шлюз</value>
+    <value>Воздушный шлюз</value>
   </data>
   <data name="LCD_M01_04" xml:space="preserve">
     <value>-----------------------------------------------
@@ -149,19 +149,19 @@
   </data>
   <data name="LCD_M01_06" xml:space="preserve">
     <value>--------------------------------
- Медотсек
- Инструмент перезарядки 
+ Медкомната
+ Зарядка 
  Энергия здесь
 ---------------------------</value>
   </data>
   <data name="LCD_M01_07" xml:space="preserve">
-    <value>Спасательные капсулы --&gt;</value>
+    <value>Спасат. капсулы --&gt;</value>
   </data>
   <data name="LCD_M01_08" xml:space="preserve">
-    <value>Осталась 1 спасательная капсула</value>
+    <value>Осталась 1 капсула</value>
   </data>
   <data name="LCD_M01_09" xml:space="preserve">
-    <value>Нет оставшихся спасательных капсул</value>
+    <value>Нет оставшихся капсул</value>
   </data>
   <data name="LCD_M01_10" xml:space="preserve">
     <value>doop</value>
@@ -182,9 +182,11 @@
   </data>
   <data name="LCD_M01_13" xml:space="preserve">
     <value>---------------------------------
- Обнаружена пробоина
+ Обнаружена
+ пробоина
  Сбой в системе
- жизнеобеспечения
+ жизне-
+ обеспечения
 ----------------------------------</value>
   </data>
   <data name="LCD_M01_14" xml:space="preserve">
@@ -194,12 +196,12 @@
 ////////////\\\\\\\\\\\\\\\</value>
   </data>
   <data name="LCD_M01_15" xml:space="preserve">
-    <value>\/ Спасательные капсулы</value>
+    <value>Спасательные капсулы</value>
   </data>
   <data name="LCD_M01_16" xml:space="preserve">
     <value>////////\\\\\\\\\\\\\\\\ 
  Капсула 06
- Departed
+ Разрушена
 ////////\\\\\\\\\\\\\\</value>
   </data>
   <data name="LCD_M01_17" xml:space="preserve">
@@ -218,7 +220,7 @@
     <value>Открыть ангар</value>
   </data>
   <data name="LCD_M01_22" xml:space="preserve">
-    <value>Открыть шлюз</value>
+    <value>Открыть воздушный шлюз</value>
   </data>
   <data name="LCD_M01_23" xml:space="preserve">
     <value>Получить кислородный баллон</value>
@@ -227,10 +229,10 @@
     <value>дверь ангара</value>
   </data>
   <data name="LCD_M01_25" xml:space="preserve">
-    <value>Pressurise</value>
+    <value>Герметизировать</value>
   </data>
   <data name="LCD_M01_26" xml:space="preserve">
-    <value>Seal and pressurise</value>
+    <value>Запечатать и герметизировать</value>
   </data>
   <data name="LCD_M02_01" xml:space="preserve">
     <value>---------------------------------------------------------------

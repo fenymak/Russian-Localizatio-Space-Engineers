@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>56465</Id>
+  <Language>ru-RU</Language>
+  <Context>Mission02</Context>
+  <ResourceName>OfficialCampaign01M2</ResourceName>
+  <Default>false</Default>
+  <ResXName>OfficialCampaign01M2.ru.resx</ResXName>
+  <Entries />
+</MyObjectBuilder_Localization>

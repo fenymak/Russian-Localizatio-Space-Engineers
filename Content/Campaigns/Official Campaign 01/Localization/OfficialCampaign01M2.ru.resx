@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>Engineer, I owe you an apology, we didn't realise that a Sol Cooperative representative was aboard the station when we attacked.</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>I speak on behalf of the Independent Terran Workers, we were employed by R.O.S. to build and operate the facility you just left.</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>The company discovered an artefact of unknown origin but instead of reporting it, concealed its existence and attacked our workers, killing many of us, all to maintain its deceit.</value>
+  </data>
+  <data name="Chat_Rebel_Outro4" xml:space="preserve">
+    <value>We rose up to fight back and now seek to recover this artefact to deny the corporation from exploiting it to further increase their power.</value>
+  </data>
+  <data name="Chat_Rebel_Outro5" xml:space="preserve">
+    <value>We insist you come aboard our ship, we need to show you the actions of the corporation personally.</value>
+  </data>
+  <data name="Chat_VA_BaseStart" xml:space="preserve">
+    <value>Explore the base. Find a way deeper into the facility.</value>
+  </data>
+  <data name="Chat_VA_BlastDoorClosed" xml:space="preserve">
+    <value>The security system has sealed the blast door! There must be another route.. accessing schematics..  get to the elevator!</value>
+  </data>
+  <data name="Chat_VA_ControlTower" xml:space="preserve">
+    <value>You have located the control tower. The security lockdown can be lifted from here.</value>
+  </data>
+  <data name="Chat_VA_Detection" xml:space="preserve">
+    <value>Detected local energy signature, it appears to be an additional ROS facility but I have no official record of its existence.</value>
+  </data>
+  <data name="Chat_VA_ElevatorBroken" xml:space="preserve">
+    <value>The elevator is not responding to controls.</value>
+  </data>
+  <data name="Chat_VA_ElevatorLocked" xml:space="preserve">
+    <value>The elevator is currently locked. Finding control room is recommended.</value>
+  </data>
+  <data name="Chat_VA_Excavation1" xml:space="preserve">
+    <value>The projector is displaying a scan of some kind of artefact, they must have excavated from this location and moved it elsewhere.</value>
+  </data>
+  <data name="Chat_VA_Excavation2" xml:space="preserve">
+    <value>Warning: Security drone AI has been activated!</value>
+  </data>
+  <data name="Chat_VA_InfoAboutEscapeShip" xml:space="preserve">
+    <value>[go to escape ship text]</value>
+  </data>
+  <data name="Chat_VA_Investigation" xml:space="preserve">
+    <value>Investigation recommended, additional information could be contained within that may shed light on the conflict.</value>
+  </data>
+  <data name="Chat_VA_Landing" xml:space="preserve">
+    <value>Moon landing complete, scanning...</value>
+  </data>
+  <data name="Chat_VA_LandingGearsWarning" xml:space="preserve">
+    <value>Warning, landing gears are currently locked.</value>
+  </data>
+  <data name="Chat_VA_NoHydrogenBottle" xml:space="preserve">
+    <value>It is recommended to take hydrogen bottle as well. Hydrogen is requiered for personal jetpack.</value>
+  </data>
+  <data name="Chat_VA_NoOxygenBottle" xml:space="preserve">
+    <value>It is recommended to take oxygen bottle as well. It can be crucial to survival in space.</value>
+  </data>
+  <data name="Chat_VA_PitBottom" xml:space="preserve">
+    <value>There is surely an explanation for why they built this, I think the answer lies in these tunnels.</value>
+  </data>
+  <data name="Chat_VA_PitDrones" xml:space="preserve">
+    <value>Automated defense drone. Their AI is currently offline.</value>
+  </data>
+  <data name="Chat_VA_PitTop" xml:space="preserve">
+    <value>The main shaft is now accessible, I wonder why it goes so deep?</value>
+  </data>
+  <data name="Chat_VA_Start1" xml:space="preserve">
+    <value>It is recommended to equip yourself with backup oxygen and hydrogen bottles.</value>
+  </data>
+  <data name="Chat_VA_Start2" xml:space="preserve">
+    <value>There are spare bottles in that cargo container in the floor.</value>
+  </data>
+  <data name="Chat_VA_Welder" xml:space="preserve">
+    <value>This welder tool is much more powerful than your currnet one.</value>
+  </data>
+  <data name="GPS_ControlTower" xml:space="preserve">
+    <value>Control Tower</value>
+  </data>
+  <data name="GPS_ControlTowerPanel" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="GPS_Elevator" xml:space="preserve">
+    <value>Elevator</value>
+  </data>
+  <data name="GPS_EscapeShip" xml:space="preserve">
+    <value>Escape Ship</value>
+  </data>
+  <data name="GPS_Excavation" xml:space="preserve">
+    <value>Excavation Site</value>
+  </data>
+  <data name="GPS_ExitCoords" xml:space="preserve">
+    <value>Nav. Comp. Coordinates</value>
+  </data>
+  <data name="GPS_MineEntrance" xml:space="preserve">
+    <value>Mine Entrance</value>
+  </data>
+  <data name="GPS_MoonBase" xml:space="preserve">
+    <value>Moon Base Lobby</value>
+  </data>
+  <data name="Hint_HowToDragAndDrop" xml:space="preserve">
+    <value>Or you can drag the items from the right inventory to yours.</value>
+  </data>
+  <data name="Hint_HowToLeaveSeat" xml:space="preserve">
+    <value>Use [ {0} ] key to exit the seat.</value>
+  </data>
+  <data name="Hint_HowToLight" xml:space="preserve">
+    <value>You can use [ {0} ] key to toggle your headlight.</value>
+  </data>
+  <data name="Hint_HowToRetrieveAnItem" xml:space="preserve">
+    <value>Double click an item to move it to your inventory.</value>
+  </data>
+  <data name="Hint_HowToUseInventory" xml:space="preserve">
+    <value>Look at the square access port and press [ {0} ] to open inventory.</value>
+  </data>
+  <data name="Hint_HowToUseJetpack" xml:space="preserve">
+    <value>You can enable/disable jetpack by pressing [ {0} ].</value>
+  </data>
+  <data name="Hint_HowToggleLandingGears" xml:space="preserve">
+    <value>Use [ {0} ] to unlock/lock landing gears.</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite1" xml:space="preserve">
+    <value>We are finally ready to</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite2" xml:space="preserve">
+    <value>begin the extraction.</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite3" xml:space="preserve">
+    <value>It will be much easier</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite4" xml:space="preserve">
+    <value>to study the artefact at</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite5" xml:space="preserve">
+    <value>the main base.</value>
+  </data>
+  <data name="Quest01_Bottles" xml:space="preserve">
+    <value>Prepare to Leave the Escape Pod</value>
+  </data>
+  <data name="Quest01_Bottles_Drag" xml:space="preserve">
+    <value>Double click or drag all items from the inventory on the right to your personal inventory on the left.</value>
+  </data>
+  <data name="Quest01_Bottles_Escape" xml:space="preserve">
+    <value>Press [ {0} ], [ {1} ] or [ Escape ] to close the screen.</value>
+  </data>
+  <data name="Quest01_Bottles_OpenInventory" xml:space="preserve">
+    <value>Access the floor cargo ([ {0} ] or [ {1} ] key).</value>
+  </data>
+  <data name="Quest01_Bottles_Seat" xml:space="preserve">
+    <value>Exit passenger seat by pressing [ {0} ].</value>
+  </data>
+  <data name="Quest02_EnterBase" xml:space="preserve">
+    <value>Investigate the Nearby Structure</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls1" xml:space="preserve">
+    <value>Use character movement keys to fly.</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls2" xml:space="preserve">
+    <value>Use [ {0} ] to ascend and [ {1} ] to descend.</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls3" xml:space="preserve">
+    <value>Use [ {0} ] and [ {1} ] keys to roll left or right.</value>
+  </data>
+  <data name="Quest02_EnterBase_GoTo" xml:space="preserve">
+    <value>Go to the highlighted coordinates</value>
+  </data>
+  <data name="Quest02_EnterBase_Jetpack" xml:space="preserve">
+    <value>Toggle your jetpack on/off by pressing [ {0} ].</value>
+  </data>
+  <data name="Quest03_LocateTower" xml:space="preserve">
+    <value>Gain Access to the Facility</value>
+  </data>
+  <data name="Quest03_LocateTower_Base" xml:space="preserve">
+    <value>Enter the base through the highlighted doors.</value>
+  </data>
+  <data name="Quest03_LocateTower_Open" xml:space="preserve">
+    <value>Use the Button Panel to release the security lockdown.</value>
+  </data>
+  <data name="Quest03_LocateTower_Tower" xml:space="preserve">
+    <value>Go to the control tower.</value>
+  </data>
+  <data name="Quest04_Descent" xml:space="preserve">
+    <value>Go Deeper into the Facility.</value>
+  </data>
+  <data name="Quest04_Descent_Elevator" xml:space="preserve">
+    <value>Enter the elevator.</value>
+  </data>
+  <data name="Quest04_Descent_UseElevator" xml:space="preserve">
+    <value>Use the Button Panel to activate the elevator.</value>
+  </data>
+  <data name="Quest04_Descent_WaitForIt" xml:space="preserve">
+    <value>Wait for the elevator reach its destination.</value>
+  </data>
+  <data name="Quest05_ExcavationSite" xml:space="preserve">
+    <value>Locate Excavation Site</value>
+  </data>
+  <data name="Quest05_ExcavationSite_ActivateProjector" xml:space="preserve">
+    <value>Use the Button Panel to activate the projector.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Explore" xml:space="preserve">
+    <value>Search for the excavation site in one of these tunnels.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Light" xml:space="preserve">
+    <value>Use [ {0} ] key to toggle your suit light on/off.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Located" xml:space="preserve">
+    <value>Location of site was found and has been marked with GPS</value>
+  </data>
+  <data name="Quest06_Escape" xml:space="preserve">
+    <value>Escape the Tunnels</value>
+  </data>
+  <data name="Quest06_Escape_Drones" xml:space="preserve">
+    <value>The security drones are activating.</value>
+  </data>
+  <data name="Quest06_Escape_Fight" xml:space="preserve">
+    <value>Fight or flee from the drones, get back to the main shaft.</value>
+  </data>
+  <data name="Quest06_Escape_GPS" xml:space="preserve">
+    <value>Exit coordinates are marked with GPS.</value>
+  </data>
+  <data name="Quest07_Elevator" xml:space="preserve">
+    <value>Escape Using the Elevator</value>
+  </data>
+  <data name="Quest07_Elevator_BlastDoor" xml:space="preserve">
+    <value>Use the Button Panel to activate the elevator.</value>
+  </data>
+  <data name="Quest08_Maintenance" xml:space="preserve">
+    <value>Enter the Maintenance Corridor</value>
+  </data>
+  <data name="Quest08_Maintenance_Elevator" xml:space="preserve">
+    <value>I've put the elevator into diagnostic mode, it will go to the maintenance access subfloor.</value>
+  </data>
+  <data name="Quest08_Maintenance_Quest" xml:space="preserve">
+    <value>Get through this tunnel, it leads to a backup ship hangar.</value>
+  </data>
+  <data name="Quest09_EscapeShip" xml:space="preserve">
+    <value>Escape Using the Ship</value>
+  </data>
+  <data name="Quest09_EscapeShip_Enter" xml:space="preserve">
+    <value>Enter the ships cockpit by pressing [ {0} ]</value>
+  </data>
+  <data name="Quest09_EscapeShip_Gears" xml:space="preserve">
+    <value>Unlock landing gears by pressing [ {0} ]</value>
+  </data>
+  <data name="Quest09_EscapeShip_Power" xml:space="preserve">
+    <value>Turn on power by pressing [ {0} ]</value>
+  </data>
+  <data name="Quest10_End" xml:space="preserve">
+    <value>Fly to the given coordinates.</value>
+  </data>
+  <data name="Quest10_End_Movement" xml:space="preserve">
+    <value>Press [ {0} ]  to fly out of the hangar.</value>
+  </data>
+  <data name="Quest10_End_Quest" xml:space="preserve">
+    <value>Use the same controls for your jetpack to fly the ship.</value>
+  </data>
+</root>

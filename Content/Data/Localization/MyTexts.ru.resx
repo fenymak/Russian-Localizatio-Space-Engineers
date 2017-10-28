@@ -2713,13 +2713,13 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Смещение ротора</value>
   </data>
   <data name="DisplayName_Block_ArmorCenter" xml:space="preserve">
-    <value>Взрывозащитная дверь</value>
+    <value>Взрывостойкая дверь</value>
   </data>
   <data name="DisplayName_Block_ArmorCorner" xml:space="preserve">
-    <value>Взрывозащитная дверь (угол)</value>
+    <value>Взрывостойкая дверь (угол)</value>
   </data>
   <data name="DisplayName_Block_ArmorSide" xml:space="preserve">
-    <value>Взрывозащитная дверь (край)</value>
+    <value>Взрывостойкая дверь (край)</value>
   </data>
   <data name="BlockAction_RemoveFromToolbar" xml:space="preserve">
     <value>[убрать из панели]</value>
@@ -2758,7 +2758,7 @@ Shift-{0} непосредственно приведёт вас в меню а�
     <value>Часть ротора</value>
   </data>
   <data name="DisplayName_Block_ArmorInvCorner" xml:space="preserve">
-    <value>Взрывозащитная дверь (обратный угол)</value>
+    <value>Взрывостойкая дверь (обратный угол)</value>
   </data>
   <data name="BlockPropertyDescription_GyroOverride" xml:space="preserve">
     <value>Если указано, гироскоп не будет реагировать на управление из кабины, но будет управляться вручную с помощью ползунков управления в терминале</value>

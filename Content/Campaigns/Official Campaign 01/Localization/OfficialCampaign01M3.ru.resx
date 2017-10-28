@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_AboutPower2" xml:space="preserve">
+    <value>Those solar panels need a power kickstart so they can realign and begin supplying energy.</value>
+  </data>
+  <data name="Chat_Rebel_AboutPower3" xml:space="preserve">
+    <value>There are some components in this container. Sending coordinates.</value>
+  </data>
+  <data name="Chat_Rebel_Intro1" xml:space="preserve">
+    <value>Welcome to our former settlement, there used to be over a hundred of us living here, working and trying to build a new colony, we thought the R.O.S. contract would be the start of a new era, growing into something even bigger.</value>
+  </data>
+  <data name="Chat_Rebel_Intro2" xml:space="preserve">
+    <value>Shortly after the artefact was excavated they sent their gunships, mercilessly slaughtered almost all of us and left the colony in ruins as you see before you.</value>
+  </data>
+  <data name="Chat_Rebel_Intro3" xml:space="preserve">
+    <value>The reason we have brought you here is to ask for your help, we cannot strike at the corporation alone but with your engineering skills we might have a chance, there is an old frigate in the hangar here, it was damaged in the attack but with your abilities I'm sure you will be able to get it flying again.</value>
+  </data>
+  <data name="Chat_Rebel_Intro4" xml:space="preserve">
+    <value>We are planning an assault on the corporation fleet and need every ship we can get.</value>
+  </data>
+  <data name="Chat_Rebel_Intro5" xml:space="preserve">
+    <value>Good luck engineer!</value>
+  </data>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>We did it! They are retreating!</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>Finally those bastards have a taste of the suffering they inflicted on us!</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>We couldn't have done it without you but it's not over yet, we still need to take the artefact from them, it mustn't be allowed to remain in the hands of people who would use its secrets for their own egomaniacal ends.</value>
+  </data>
+  <data name="Chat_VA_AboutPower1" xml:space="preserve">
+    <value>I'm not detecting any power signatures from the base.</value>
+  </data>
+  <data name="Chat_VA_ActivateTorpedo" xml:space="preserve">
+    <value>Torpedo door opening. Activate the torpedo systems from the same panel.</value>
+  </data>
+  <data name="Chat_VA_AmmoHaveEnough" xml:space="preserve">
+    <value>You now have enough boxes. Please bring them to the ship.</value>
+  </data>
+  <data name="Chat_VA_AmmoQuest" xml:space="preserve">
+    <value>Ship is currently without ammo. Please bring atleast 80 gatling ammunition boxes to the ship.</value>
+  </data>
+  <data name="Chat_VA_AmmoReady" xml:space="preserve">
+    <value>Ammunition is loaded and ready to be distributed on demand.</value>
+  </data>
+  <data name="Chat_VA_BatteryWrongPlace" xml:space="preserve">
+    <value>The battery needs to be in direct contact with the red platform, try flying up and looking down at it when placing.</value>
+  </data>
+  <data name="Chat_VA_EnemyShips" xml:space="preserve">
+    <value>Enemy ships are in torpedo range. Open torpedo door from panel nearby torpedo.</value>
+  </data>
+  <data name="Chat_VA_FuelDone" xml:space="preserve">
+    <value>Reactors are coming online. Good job.</value>
+  </data>
+  <data name="Chat_VA_FuelLocation" xml:space="preserve">
+    <value>Fuel storage container located at the following coordinates.</value>
+  </data>
+  <data name="Chat_VA_FuelPlaced" xml:space="preserve">
+    <value>Fuel is ready but the conveyor system is off-line. Please turn on the battery.</value>
+  </data>
+  <data name="Chat_VA_GearsUnlocked" xml:space="preserve">
+    <value>Hangar landing gears unlocked. You are free to lift off.</value>
+  </data>
+  <data name="Chat_VA_GoToShip" xml:space="preserve">
+    <value>Hangar coordinates uploaded to NavComp.</value>
+  </data>
+  <data name="Chat_VA_GoToShipStatus" xml:space="preserve">
+    <value>Activate hangar control station to receive current ship status.</value>
+  </data>
+  <data name="Chat_VA_GotFuel" xml:space="preserve">
+    <value>Uranium ingots will power the reactors of your ship. Bring it to the backup reactor of your ship. </value>
+  </data>
+  <data name="Chat_VA_GrindBlock" xml:space="preserve">
+    <value>Try out your new grinder tool on the old thruster behind you.</value>
+  </data>
+  <data name="Chat_VA_GrindDone1" xml:space="preserve">
+    <value>You now have the necessary components required for repairs.</value>
+  </data>
+  <data name="Chat_VA_GrindDone2" xml:space="preserve">
+    <value>The damaged thruster is now highlighted for easier repair.</value>
+  </data>
+  <data name="Chat_VA_GrindDone3" xml:space="preserve">
+    <value>Explore the base site to find more old parts to grind down. </value>
+  </data>
+  <data name="Chat_VA_LaunchTorpedo" xml:space="preserve">
+    <value>Torpedo is ready for launch from flight seat nearby.</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNoStatus" xml:space="preserve">
+    <value>Roof mechanism is disabled until you turn on the control station.</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNotReady" xml:space="preserve">
+    <value>Roof mechanism is disabled until the ship is ready.</value>
+  </data>
+  <data name="Chat_VA_RepairsDone" xml:space="preserve">
+    <value>Thrusters repaired. Good job.</value>
+  </data>
+  <data name="Chat_VA_RepairsDoneCompletely" xml:space="preserve">
+    <value>Repairs are complete.</value>
+  </data>
+  <data name="Chat_VA_RepairsDonePart2" xml:space="preserve">
+    <value>Activating highlight for missing thrusters.</value>
+  </data>
+  <data name="Chat_VA_RoofReady" xml:space="preserve">
+    <value>Hangar roof is opening.</value>
+  </data>
+  <data name="Chat_VA_TankingConnectorSwitch" xml:space="preserve">
+    <value>Connectors cannot be unlocked during tanking procedure.</value>
+  </data>
+  <data name="Chat_VA_TankingInProgress" xml:space="preserve">
+    <value>Tanking is in progress. Please wait until it is completed.</value>
+  </data>
+  <data name="Chat_VA_TankingPumpsSwitch" xml:space="preserve">
+    <value>Piston cannot be activated when connectod to the ship.</value>
+  </data>
+  <data name="Chat_VA_ToolsLocation" xml:space="preserve">
+    <value>You need a grinder tool to get the required materials for repairing your ship. Find them at the storage. </value>
+  </data>
+  <data name="Chat_VA_TorpedoDoorNotReady" xml:space="preserve">
+    <value>Torpedo cannot be activated before door is opened.</value>
+  </data>
+  <data name="GPS_AmmoCargo" xml:space="preserve">
+    <value>Ship Ammo Cargo</value>
+  </data>
+  <data name="GPS_BackupReactor" xml:space="preserve">
+    <value>Backup Reactor</value>
+  </data>
+  <data name="GPS_Battery" xml:space="preserve">
+    <value>Ship battery</value>
+  </data>
+  <data name="GPS_BatterySpareParts" xml:space="preserve">
+    <value>Spare parts for battery</value>
+  </data>
+  <data name="GPS_Cargo" xml:space="preserve">
+    <value>Main cargo container</value>
+  </data>
+  <data name="GPS_Cockpit" xml:space="preserve">
+    <value>Flight Seat</value>
+  </data>
+  <data name="GPS_ControlStation" xml:space="preserve">
+    <value>Control Room</value>
+  </data>
+  <data name="GPS_DamagedBlock" xml:space="preserve">
+    <value>WELD: Damaged thruster </value>
+  </data>
+  <data name="GPS_Enemy" xml:space="preserve">
+    <value>Enemy Ship</value>
+  </data>
+  <data name="GPS_FuelBox" xml:space="preserve">
+    <value>Uranium Storage</value>
+  </data>
+  <data name="GPS_GrindThis" xml:space="preserve">
+    <value>GRIND: Old Thruster</value>
+  </data>
+  <data name="GPS_Hangar" xml:space="preserve">
+    <value>Hangar entrance</value>
+  </data>
+  <data name="GPS_Location" xml:space="preserve">
+    <value>Rendevous Coordinates</value>
+  </data>
+  <data name="GPS_TankingPanel" xml:space="preserve">
+    <value>Tanking Control Panel</value>
+  </data>
+  <data name="GPS_ToolBox" xml:space="preserve">
+    <value>Tool Storage</value>
+  </data>
+  <data name="GPS_TorpedoCockpit" xml:space="preserve">
+    <value>Launch Seat</value>
+  </data>
+  <data name="GPS_TorpedoPanel" xml:space="preserve">
+    <value>Torpedo Control Panel</value>
+  </data>
+  <data name="GPS_Weakpoint" xml:space="preserve">
+    <value>Wp </value>
+  </data>
+  <data name="GPS_WeldThis" xml:space="preserve">
+    <value>Thruster Under Construction</value>
+  </data>
+  <data name="HowToHint_EquipAWelder" xml:space="preserve">
+    <value>Drag the welder from the selection and drop it to your toolbar.</value>
+  </data>
+  <data name="HowToHint_HowToTransferItems" xml:space="preserve">
+    <value>Double click the items from the right inventory to transfer them to yours.</value>
+  </data>
+  <data name="HowToHint_SelectABattery" xml:space="preserve">
+    <value>Drag and drop the battery block to your toolbar. Or use a double click.</value>
+  </data>
+  <data name="HowToHint_SelectAToolSection" xml:space="preserve">
+    <value>Switch to the character tools section.</value>
+  </data>
+  <data name="Panel_Working" xml:space="preserve">
+    <value>           Working</value>
+  </data>
+  <data name="Quest01_BatteryItems" xml:space="preserve">
+    <value>Get spare parts for new battery</value>
+  </data>
+  <data name="Quest01_BatteryItems_AccessItems" xml:space="preserve">
+    <value>Aim at the access port and press [ {0} ] or [ {1} ] to open inventory screen</value>
+  </data>
+  <data name="Quest01_BatteryItems_Approach" xml:space="preserve">
+    <value>Approach the marked container</value>
+  </data>
+  <data name="Quest01_BatteryItems_DragItems" xml:space="preserve">
+    <value>Drag items from cargo inventory to your inventory.</value>
+  </data>
+  <data name="Quest01_BatteryItems_LeaveShip" xml:space="preserve">
+    <value>Exit the transport ship.</value>
+  </data>
+  <data name="Quest02_BatteryPlace" xml:space="preserve">
+    <value>Build a battery block</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Close" xml:space="preserve">
+    <value>Click the X or press Escape to exit.</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Drag" xml:space="preserve">
+    <value>Add the battery to your toolbar.</value>
+  </data>
+  <data name="Quest02_BatteryPlace_GScreen" xml:space="preserve">
+    <value>Open the Toolbar Screen by pressing [ {0} ]</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Place" xml:space="preserve">
+    <value>Place a battery on the red platform by pressing left mouse button.</value>
+  </data>
+  <data name="Quest03_BatteryWeld" xml:space="preserve">
+    <value>Weld the battery</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Drag" xml:space="preserve">
+    <value>Switch to the tab "Character Tools" and add welder to your toolbar. Close the screen afterwards.</value>
+  </data>
+  <data name="Quest03_BatteryWeld_GScreen" xml:space="preserve">
+    <value>Open Toolbar Screen by pressing [ {0} ]</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Weld" xml:space="preserve">
+    <value>Aim at the block and hold left mouse button until the battery is fully built.</value>
+  </data>
+  <data name="Quest04_ControlTower" xml:space="preserve">
+    <value>Activate control room</value>
+  </data>
+  <data name="Quest04_ControlTower_Activate" xml:space="preserve">
+    <value>Use the marked button panel.</value>
+  </data>
+  <data name="Quest04_ControlTower_Elevator" xml:space="preserve">
+    <value>Enter the hangar by using the elevator.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip" xml:space="preserve">
+    <value>Restore power to the ship</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Inventory" xml:space="preserve">
+    <value>Transfer uranium ingots from cargo container to your inventory, access with [ {0} ] or [ {1} ]  keys.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Place" xml:space="preserve">
+    <value>Place the uranium into the ships reactor.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Uranium" xml:space="preserve">
+    <value>Acquire uranium from storage.</value>
+  </data>
+  <data name="Quest06_GrinderTool" xml:space="preserve">
+    <value>Acquire grinder tool</value>
+  </data>
+  <data name="Quest06_GrinderTool_GetGrinder" xml:space="preserve">
+    <value>There is a spare grinder tool in the marked cargo container.</value>
+  </data>
+  <data name="Quest06_GrinderTool_Purpose" xml:space="preserve">
+    <value>A grinder can be used to disassemble blocks and salvage components.</value>
+  </data>
+  <data name="Quest07_GrindThruster" xml:space="preserve">
+    <value>Get components for repairs</value>
+  </data>
+  <data name="Quest07_GrindThruster_Drag" xml:space="preserve">
+    <value>Switch to the tab "Character Tools" and add proficient grinder tool to your toolbar.</value>
+  </data>
+  <data name="Quest07_GrindThruster_Equip" xml:space="preserve">
+    <value>Open Toolbar Screen by pressing [ {0} ]</value>
+  </data>
+  <data name="Quest07_GrindThruster_Grind" xml:space="preserve">
+    <value>Approach highlighted thruster and grind it by holding left mouse button.</value>
+  </data>
+  <data name="Quest08_RepairThrusters" xml:space="preserve">
+    <value>Repair highlighted thruster</value>
+  </data>
+  <data name="Quest08_RepairThrusters_ActualCount" xml:space="preserve">
+    <value>Thrusters repaired: {0} / 3</value>
+  </data>
+  <data name="Quest08_RepairThrusters_LookAround" xml:space="preserve">
+    <value>There are</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseGrinder" xml:space="preserve">
+    <value>Extra components can be found by grinding other unused thrusters.</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseWelder" xml:space="preserve">
+    <value>Switch to your welder and repair the damaged thruster.</value>
+  </data>
+  <data name="Quest09_Tanking" xml:space="preserve">
+    <value>Fill the ships hydrogen tanks</value>
+  </data>
+  <data name="Quest09_Tanking_Control" xml:space="preserve">
+    <value>Use button 1 to extend the connector, then use button 2 to lock it.</value>
+  </data>
+  <data name="Quest09_Tanking_Disconnect" xml:space="preserve">
+    <value>Press button 2 to unlock and disconnect.</value>
+  </data>
+  <data name="Quest09_Tanking_Fill" xml:space="preserve">
+    <value>Hydrogen levels: {0}%</value>
+  </data>
+  <data name="Quest09_Tanking_Wait" xml:space="preserve">
+    <value>Wait for the process to complete.</value>
+  </data>
+  <data name="Quest10_Ammo" xml:space="preserve">
+    <value>Load ammunition into the ship</value>
+  </data>
+  <data name="Quest10_Ammo_Hint" xml:space="preserve">
+    <value>There are spare boxes around base defenses</value>
+  </data>
+  <data name="Quest10_Ammo_PlayerCount" xml:space="preserve">
+    <value>You have {0} boxes</value>
+  </data>
+  <data name="Quest10_Ammo_Quest" xml:space="preserve">
+    <value>Bring 80 gatling ammunition boxes into highlighted ship containers</value>
+  </data>
+  <data name="Quest10_Ammo_ShipCount" xml:space="preserve">
+    <value>Ship cargo: {0} / 80</value>
+  </data>
+  <data name="Quest11_Roof" xml:space="preserve">
+    <value>Open the hangar roof</value>
+  </data>
+  <data name="Quest11_Roof_Hint" xml:space="preserve">
+    <value>Use the button panel in the control room.</value>
+  </data>
+  <data name="Quest12_Combat" xml:space="preserve">
+    <value>Destroy enemy capital ship</value>
+  </data>
+  <data name="Quest12_Combat_Cancel" xml:space="preserve">
+    <value>Exit turret control by pressing [ {0} ]</value>
+  </data>
+  <data name="Quest12_Combat_Turrets" xml:space="preserve">
+    <value>Use missile turrets accessible from flight seat by using [ {0} ], [ {1} ], [ {2} ] and [ {3} ] keys</value>
+  </data>
+  <data name="Quest12_Combat_Weakpoint" xml:space="preserve">
+    <value>Target marked weak parts of the ship</value>
+  </data>
+  <data name="Quest12_Combat_WeakpointCount" xml:space="preserve">
+    <value>Weakpoints destroyed: {0}/{1}</value>
+  </data>
+  <data name="Quest12_Flying" xml:space="preserve">
+    <value>Pilot the ship out of the hangar</value>
+  </data>
+  <data name="Quest12_Flying_Cockpit" xml:space="preserve">
+    <value>Press [ {0} ] to enter the highlighted flight seat.</value>
+  </data>
+  <data name="Quest12_Flying_Coordinates" xml:space="preserve">
+    <value>Fly to the rendevous coordinates</value>
+  </data>
+  <data name="Quest12_Flying_Start" xml:space="preserve">
+    <value>Press and hold [ {0} ] key to thrust up and get safely clear of the hangar.</value>
+  </data>
+  <data name="Quest12_Flying_VHint" xml:space="preserve">
+    <value>Press [ {0} ] key to toggle third person view</value>
+  </data>
+  <data name="ShipStatus_Status_Closed" xml:space="preserve">
+    <value>closed</value>
+  </data>
+  <data name="ShipStatus_Status_Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="ShipStatus_Status_FuelInCargo" xml:space="preserve">
+    <value>fuel not distributed</value>
+  </data>
+  <data name="ShipStatus_Status_Full" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ShipStatus_Status_Missing" xml:space="preserve">
+    <value>missing</value>
+  </data>
+  <data name="ShipStatus_Status_NoFuel" xml:space="preserve">
+    <value>no fuel in system</value>
+  </data>
+  <data name="ShipStatus_Status_OffLine" xml:space="preserve">
+    <value>off-line</value>
+  </data>
+  <data name="ShipStatus_Status_OnLine" xml:space="preserve">
+    <value>on-line</value>
+  </data>
+  <data name="ShipStatus_Status_Open" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="ShipStatus_Status_Ready" xml:space="preserve">
+    <value>ready</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs1" xml:space="preserve">
+    <value>repairs required</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs2" xml:space="preserve">
+    <value>thrusters missing</value>
+  </data>
+  <data name="ShipStatus_Title_Ammo" xml:space="preserve">
+    <value>AMMUNITION: </value>
+  </data>
+  <data name="ShipStatus_Title_Hydrogen" xml:space="preserve">
+    <value>HYDROGEN TANK: </value>
+  </data>
+  <data name="ShipStatus_Title_Main" xml:space="preserve">
+    <value>                 SHIP STATUS</value>
+  </data>
+  <data name="ShipStatus_Title_Reactors" xml:space="preserve">
+    <value>REACTORS: </value>
+  </data>
+  <data name="ShipStatus_Title_Repair" xml:space="preserve">
+    <value>STATUS: </value>
+  </data>
+  <data name="ShipStatus_Title_Roof" xml:space="preserve">
+    <value>HANGAR ROOF: </value>
+  </data>
+  <data name="TankingStatus_Status_Idle" xml:space="preserve">
+    <value>inactive</value>
+  </data>
+  <data name="TankingStatus_Status_Locked" xml:space="preserve">
+    <value>locked</value>
+  </data>
+  <data name="TankingStatus_Status_PumpingDone" xml:space="preserve">
+    <value>tank is full</value>
+  </data>
+  <data name="TankingStatus_Status_Unlocked" xml:space="preserve">
+    <value>unlocked</value>
+  </data>
+  <data name="TankingStatus_Status_Working" xml:space="preserve">
+    <value>pumping</value>
+  </data>
+  <data name="TankingStatus_Title_Connector" xml:space="preserve">
+    <value>Connector: </value>
+  </data>
+  <data name="TankingStatus_Title_Fuel" xml:space="preserve">
+    <value>Tank Level: {0}%</value>
+  </data>
+  <data name="TankingStatus_Title_Pumps" xml:space="preserve">
+    <value>Pumps: </value>
+  </data>
+  <data name="GPS_RedPlatform" xml:space="preserve">
+    <value>Place Battery Here</value>
+  </data>
+</root>

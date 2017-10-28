@@ -2991,7 +2991,7 @@
 {2}</value>
   </data>
   <data name="ScreenCaptionInventory" xml:space="preserve">
-    <value>Настроить</value>
+    <value>Персонализация</value>
   </data>
   <data name="Inventory_Icon" xml:space="preserve">
     <value>Значок</value>

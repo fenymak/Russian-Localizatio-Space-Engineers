@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Enemy_Arrival" xml:space="preserve">
+    <value>I will send you back to the Sol Cooperative in a box!</value>
+  </data>
+  <data name="Chat_Enemy_BossTalk" xml:space="preserve">
+    <value>I'll be with you soon Engineer, in the meantime please enjoy the company of my drone army!</value>
+  </data>
+  <data name="Chat_Monolith_Come" xml:space="preserve">
+    <value>Eng--in--eer...... Come... there is... much for you to see...</value>
+  </data>
+  <data name="Chat_VA_AboutArena" xml:space="preserve">
+    <value>This appears to be where the R.O.S.4 corporation makes all its small ships and drones.</value>
+  </data>
+  <data name="Chat_VA_AboutTube" xml:space="preserve">
+    <value>Newly made drones will exit through these tubes.</value>
+  </data>
+  <data name="Chat_VA_BossDead" xml:space="preserve">
+    <value>You did it. I didn't think you would. I was already halfway done writing the mission failure report.</value>
+  </data>
+  <data name="Chat_VA_BossWarning" xml:space="preserve">
+    <value>Warning, large ship detected, recommend evasive maneuvers.</value>
+  </data>
+  <data name="Chat_VA_Fan" xml:space="preserve">
+    <value>Ok, not sure why that is there, probably best to avoid it.</value>
+  </data>
+  <data name="Chat_VA_FighterShips" xml:space="preserve">
+    <value>These ships are unlocked, I recommend "borrowing" one for this encounter.</value>
+  </data>
+  <data name="Chat_VA_OverView" xml:space="preserve">
+    <value>This is an impressive factory, for a human design at least, except maybe for that giant fan.</value>
+  </data>
+  <data name="Chat_VA_SecurityDrone" xml:space="preserve">
+    <value>Security drone has been activated.</value>
+  </data>
+  <data name="Chat_VA_SecurityDroneWarning" xml:space="preserve">
+    <value>Warning, security drone activated.</value>
+  </data>
+  <data name="Chat_VA_SeesMonolith" xml:space="preserve">
+    <value>So that's the artefact, I'm receiving all kinds of strange signals from it.</value>
+  </data>
+  <data name="Chat_VA_ShowControlBlock" xml:space="preserve">
+    <value>Shooting these control blocks will interfere with hostile drone programming.</value>
+  </data>
+  <data name="GPS_HackModuleCreator" xml:space="preserve">
+    <value>Assembler control</value>
+  </data>
+  <data name="GPS_Module" xml:space="preserve">
+    <value>Hack Module</value>
+  </data>
+  <data name="GPS_Monolith" xml:space="preserve">
+    <value>Artefact</value>
+  </data>
+  <data name="GPS_SecurityDrone" xml:space="preserve">
+    <value>Security Drone</value>
+  </data>
+  <data name="GPS_Socket" xml:space="preserve">
+    <value>Control Block</value>
+  </data>
+  <data name="GPS_TugShip" xml:space="preserve">
+    <value>Transgressor - Combat Ship </value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Quest01_Preparation" xml:space="preserve">
+    <value>Prepare yourself for combat</value>
+  </data>
+  <data name="Quest01_Preparation_drone" xml:space="preserve">
+    <value>Destroy the hostile security drone</value>
+  </data>
+  <data name="Quest01_Preparation_gears" xml:space="preserve">
+    <value>Press [ {0} ] to unlock landing gears</value>
+  </data>
+  <data name="Quest01_Preparation_ship" xml:space="preserve">
+    <value>Enter one of the highlighted ships</value>
+  </data>
+  <data name="Quest02_FirstTower" xml:space="preserve">
+    <value>Destroy the control block to hack new drones</value>
+  </data>
+  <data name="Quest02_FirstTower_Attack" xml:space="preserve">
+    <value>Destroy the exposed control block</value>
+  </data>
+  <data name="Quest02_FirstTower_NextExposed" xml:space="preserve">
+    <value>Next exposed control block: {0}</value>
+  </data>
+  <data name="Quest02_FirstTower_NextExposedTime" xml:space="preserve">
+    <value>Next exposure in: {0}s</value>
+  </data>
+  <data name="Quest02_FirstTower_Wait" xml:space="preserve">
+    <value>Survive until next exposure</value>
+  </data>
+  <data name="Quest03_Combat" xml:space="preserve">
+    <value>Survive until control blocks re-emerge</value>
+  </data>
+  <data name="Quest03_Combat_HelpYourDrones" xml:space="preserve">
+    <value>Help friendly drones (green) to defeat hostile drones (red)</value>
+  </data>
+  <data name="Quest03_Combat_TimeLeft" xml:space="preserve">
+    <value>Hacking completed in {0}:{1}{2}</value>
+  </data>
+  <data name="Quest03_Combat_WaitForHacking" xml:space="preserve">
+    <value>Survive until the hacking is completed</value>
+  </data>
+  <data name="Quest04_SecondTower" xml:space="preserve">
+    <value>Destroy a second control block </value>
+  </data>
+  <data name="Quest05_DefeatBoss" xml:space="preserve">
+    <value>Defeat {0}</value>
+  </data>
+  <data name="Quest05_DefeatBoss_Quest" xml:space="preserve">
+    <value>Destroy the CEO's ship</value>
+  </data>
+  <data name="Quest05_WaitForBoss" xml:space="preserve">
+    <value>Survive until Marcus arrives</value>
+  </data>
+  <data name="Quest05_WaitForBoss_Boss" xml:space="preserve">
+    <value>Large entity incoming in: {0}s</value>
+  </data>
+  <data name="Quest05_WaitForBoss_Intro" xml:space="preserve">
+    <value>Destroy more red drones</value>
+  </data>
+  <data name="Quest06_Monolith" xml:space="preserve">
+    <value>Locate the artefact and discover its purpose</value>
+  </data>
+  <data name="Quest06_Monolith_End" xml:space="preserve">
+    <value>Approach the artefact</value>
+  </data>
+  <data name="Quest06_Monolith_Location" xml:space="preserve">
+    <value>Secret corridor marked with GPS</value>
+  </data>
+  <data name="Terminology_Central" xml:space="preserve">
+    <value>Central</value>
+  </data>
+  <data name="Terminology_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="Terminology_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+</root>

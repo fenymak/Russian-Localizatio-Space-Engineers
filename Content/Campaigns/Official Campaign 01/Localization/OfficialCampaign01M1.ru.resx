@@ -118,130 +118,130 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Chat_VA_Airlock" xml:space="preserve">
-    <value>Simulations indicate only a 2% chance that the cause of damage was accidental.</value>
+    <value>Симуляции показывает только 2% вероятность того, что причина повреждения была случайной.</value>
   </data>
   <data name="Chat_VA_AttackWarning" xml:space="preserve">
-    <value>Engineer, your ship has been critically damaged. This will look bad on your report.</value>
+    <value>Инженер, ваш корабль серьёзно повреждён. Это будет плохо выглядеть в отчёте.</value>
   </data>
   <data name="Chat_VA_AttackWarningpart2" xml:space="preserve">
-    <value>Emergency evacuation recommended, original mission terminated.</value>
+    <value>Рекомендуется немедленная эвакуация, первоначальная миссия отменена.</value>
   </data>
   <data name="Chat_VA_AttackWarningpart3" xml:space="preserve">
-    <value>Quickest route to escape pods marked with GPS.</value>
+    <value>Самый быстрый маршрут до спасательных капсул отмечен на GPS.</value>
   </data>
   <data name="Chat_VA_BreachDetected" xml:space="preserve">
-    <value>Sorry I can't override the safeguards, this stations system cannot be reasoned with.</value>
+    <value>К сожалению, я не могу обойти защиту, системы этой станции не поддаются изменению.</value>
   </data>
   <data name="Chat_VA_BridgeInfo1" xml:space="preserve">
-    <value>Docking to station is in progress.</value>
+    <value>Состыковка со станцией в процессе.</value>
   </data>
   <data name="Chat_VA_BridgeInfo2" xml:space="preserve">
-    <value>The station isn't responding to communications.</value>
+    <value>Станция не отвечает на сообщения.</value>
   </data>
   <data name="Chat_VA_BridgeInfo3" xml:space="preserve">
-    <value>Manual exploration is required to determine what happened here.</value>
+    <value>Для определения того, что здесь произошло, требуется произвести разведку вручную.</value>
   </data>
   <data name="Chat_VA_CommandCenter" xml:space="preserve">
-    <value>Station designs indicate the command center should be on the upper floor.</value>
+    <value>Конструкция станции говорит о том, что командный центр должен находиться на верхнем этаже.</value>
   </data>
   <data name="Chat_VA_DoorDamaged" xml:space="preserve">
-    <value>This door apears damaged. You can fix it using the tools scattered around.</value>
+    <value>Эта дверь повреждена. Вы можете починить её с помощью инструментов, разбросанных вокруг.</value>
   </data>
   <data name="Chat_VA_EnergyLoss" xml:space="preserve">
-    <value>Warning, suit malfunction detected. Energy level is dropping.</value>
+    <value>Внимание, обнаружена неисправность костюма. Уровень энергии падает.</value>
   </data>
   <data name="Chat_VA_EnergyStabilize" xml:space="preserve">
-    <value>Suit malfunction repaired. Visiting recharge station is recommended.</value>
+    <value>Неисправность костюма устранена. Рекомендуется посетить станцию подзарядки.</value>
   </data>
   <data name="Chat_VA_EnterEscapePod" xml:space="preserve">
-    <value>Enter the seat to Evacuate the station.</value>
+    <value>Сядьте в кресло, чтобы эвакуироваться со станции.</value>
   </data>
   <data name="Chat_VA_EnterTheStation" xml:space="preserve">
-    <value>Proceed with caution, falling off the station will result in a negative Engineer performance report.</value>
+    <value>Продолжайте с осторожностью, падение станции приведёт к негативному отчёту о производительности инженера.</value>
   </data>
   <data name="Chat_VA_GetOxygenBottle" xml:space="preserve">
-    <value>Engineer, remember to breathe oxygen. Oxygen is essential to astronaut performance.</value>
+    <value>Инженер, не забывайте дышать кислородом. Кислород необходим для поддержания космонавта в форме.</value>
   </data>
   <data name="Chat_VA_GoToTheAirlock" xml:space="preserve">
-    <value>Engineer, prepare to disembark and commence station investigation.</value>
+    <value>Инженер, подготовьтесь к высадке и начните расследование на станции.</value>
   </data>
   <data name="Chat_VA_GoToTheBridge" xml:space="preserve">
-    <value>Please go to ship bridge for briefing.</value>
+    <value>Пожалуйста, идите к мостику корабля для получения инструктажа.</value>
   </data>
   <data name="Chat_VA_Helmet" xml:space="preserve">
-    <value>Warning, movement outside of pressurized enviroment without helmet is not recommended.</value>
+    <value>Внимание, перемещение в разгерметизированной обстановке не рекомендуется без шлема.</value>
   </data>
   <data name="Chat_VA_Introduction" xml:space="preserve">
-    <value>Активирован Виртуальный Инженерный Помощник.</value>
+    <value>Активирован Виртуальный Помощник Инженера.</value>
   </data>
   <data name="Chat_VA_Outro" xml:space="preserve">
-    <value>Reports of conflict confirmed, R.O.S. station has been attacked and destroyed by an unknown group. Engineer ship destroyed, evacuating to moon surface.</value>
+    <value>Отчёты о конфликте подтвердились, станция R.O.S. подверглась нападению и была уничтожена неизвестной группой. Корабль инженера уничтожен, эвакуация на поверхность луны.</value>
   </data>
   <data name="Chat_VA_StartExploring" xml:space="preserve">
-    <value>Ship auto pilot engaged, moving to safe distance.</value>
+    <value>Автопилот корабля активирован, перемещение на безопасное расстояние.</value>
   </data>
   <data name="Chat_VA_UseRedPanel" xml:space="preserve">
-    <value>The station is reporting heavy damage to systems.</value>
+    <value>Станция сообщает о серьёзном повреждении систем.</value>
   </data>
   <data name="Chat_VA_WakeUp" xml:space="preserve">
-    <value>Starting the Cryochamber thawing procedure.</value>
+    <value>Запущена процедура разморозки криокамеры.</value>
   </data>
   <data name="GPS_Airlock" xml:space="preserve">
-    <value>Airlock</value>
+    <value>Воздушный шлюз</value>
   </data>
   <data name="GPS_BluePanel" xml:space="preserve">
-    <value>Blue Panel</value>
+    <value>Синяя панель</value>
   </data>
   <data name="GPS_Bridge" xml:space="preserve">
-    <value>Bridge</value>
+    <value>Мостик</value>
   </data>
   <data name="GPS_ControlPanel" xml:space="preserve">
-    <value>Control Panel</value>
+    <value>Панель управления</value>
   </data>
   <data name="GPS_DamagedDoor" xml:space="preserve">
-    <value>Damaged Door</value>
+    <value>Повреждённая дверь</value>
   </data>
   <data name="GPS_EscapePod" xml:space="preserve">
-    <value>Escape pod</value>
+    <value>Спасательная капсула</value>
   </data>
   <data name="GPS_MedicalBay" xml:space="preserve">
-    <value>Medical Bay - recharge here</value>
+    <value>Медотсек - зарядитесь здесь</value>
   </data>
   <data name="GPS_RedPanel" xml:space="preserve">
-    <value>Red Panel</value>
+    <value>Красная панель</value>
   </data>
   <data name="GPS_StationFrontDoor" xml:space="preserve">
-    <value>Station airlock</value>
+    <value>Воздушный шлюз станции</value>
   </data>
   <data name="GPS_ToCommandCenter" xml:space="preserve">
-    <value>To Command Center</value>
+    <value>В командный центр</value>
   </data>
   <data name="GPS_ToEscapePods" xml:space="preserve">
-    <value>To escape pods</value>
+    <value>К спасательным капсулам</value>
   </data>
   <data name="LCDPanel_Bridge_Approaching" xml:space="preserve">
-    <value>Approaching the station...</value>
+    <value>Приближение к станции...</value>
   </data>
   <data name="LCDPanel_Bridge_Distance" xml:space="preserve">
-    <value>Distance: {0}m</value>
+    <value>Расстояние: {0} м</value>
   </data>
   <data name="LCDPanel_Bridge_Locked" xml:space="preserve">
-    <value>Locked to station</value>
+    <value>Заблокирован до станции</value>
   </data>
   <data name="LCDPanel_Oxy_Amount" xml:space="preserve">
-    <value>Room oxygen: {0}%</value>
+    <value>Кислород в комнате: {0}%</value>
   </data>
   <data name="LCDPanel_Oxy_NoPressure" xml:space="preserve">
-    <value>Room is not pressurized</value>
+    <value>Комната разгерметизирована</value>
   </data>
   <data name="LCDPanel_Oxy_PressurePreporeLine1" xml:space="preserve">
-    <value>Blast doors are closing,</value>
+    <value>Взрывостойкие двери закрываются,</value>
   </data>
   <data name="LCDPanel_Oxy_PressurePreporeLine2" xml:space="preserve">
-    <value>preparing for pressurization...</value>
+    <value>подготовка к герметизации...</value>
   </data>
   <data name="LCDPanel_Oxy_Pressurized" xml:space="preserve">
-    <value>Room is pressurized.</value>
+    <value>Комната герметична.</value>
   </data>
   <data name="Notification_Intro" xml:space="preserve">
     <value>Авто-журнал корабля - Приближение к месту назначения. Продолжительность полёта 576 земных часов. Начало процедуры реанимации инженера...</value>
@@ -277,126 +277,126 @@
     <value>Идите в шлюзовой отсек, расположенный на нижней палубе.</value>
   </data>
   <data name="Quest04B_Helmet" xml:space="preserve">
-    <value>Open the airlock</value>
+    <value>Откройте воздушный шлюз</value>
   </data>
   <data name="Quest04B_Helmet_RedPanel" xml:space="preserve">
-    <value>Open the hangar doors with the port button panel.</value>
+    <value>Откройте двери ангара с помощью кнопок на кнопочной панели.</value>
   </data>
   <data name="Quest04B_Helmet_toggle" xml:space="preserve">
-    <value>Toggle your helmet by pressing [ {0} ] key</value>
+    <value>Переключите ваш шлем, нажав [ {0} ]</value>
   </data>
   <data name="Quest04_Equipment" xml:space="preserve">
-    <value>Acquire Personal Oxygen Supplies</value>
+    <value>Получите личный запас кислорода</value>
   </data>
   <data name="Quest04_Equipment_Button" xml:space="preserve">
-    <value>Use the starboard button panel to dispense a new oxygen bottle.</value>
+    <value>Используйте кнопочную панель по правому борту для получения нового кислородного баллона.</value>
   </data>
   <data name="Quest04_Equipment_PickUp" xml:space="preserve">
-    <value>Pick up objects by looking at them and pressing the [ {0} ] key.</value>
+    <value>Подберите предметы, наведя на них и нажав [ {0} ].</value>
   </data>
   <data name="Quest04_Equipment_UseKey" xml:space="preserve">
-    <value>Press [ {0} ] to activate buttons on a button panel.</value>
+    <value>Нажмите [ {0} ] для активации кнопок на кнопочной панели.</value>
   </data>
   <data name="Quest05_EnterStation" xml:space="preserve">
-    <value>Board the Station</value>
+    <value>Взойдите на станцию</value>
   </data>
   <data name="Quest05_EnterStation_Airlock" xml:space="preserve">
-    <value>Proceed to station airlock.</value>
+    <value>Пройдите в воздушный шлюз станции.</value>
   </data>
   <data name="Quest05_EnterStation_AirlockButton" xml:space="preserve">
-    <value>Use the button panel to cycle the airlock.</value>
+    <value>Используйте кнопочную панель для переключения воздушного шлюза.</value>
   </data>
   <data name="Quest05_EnterStation_Caution" xml:space="preserve">
-    <value>Station airlock coordinates updated.</value>
+    <value>Координаты воздушного шлюза станции обновлены.</value>
   </data>
   <data name="Quest06_Explore" xml:space="preserve">
-    <value>Locate the Stations Command Center</value>
+    <value>Найдите командный центр станции</value>
   </data>
   <data name="Quest06_ExplorePartOne_Crouch" xml:space="preserve">
-    <value>Press [ {0} ] to crouch.</value>
+    <value>Нажмите [ {0} ], чтобы присесть.</value>
   </data>
   <data name="Quest06_ExplorePartOne_Search" xml:space="preserve">
-    <value>Get to the command center by following GPS waypoints</value>
+    <value>Доберитесь до командного центра, следуя указателям GPS</value>
   </data>
   <data name="Quest07_Breach" xml:space="preserve">
-    <value>Repressurize the Life Support Room.</value>
+    <value>Разгерметизация комнаты жизнеобеспечения.</value>
   </data>
   <data name="Quest07_Breach_Intro" xml:space="preserve">
-    <value>Major hull breach detected.</value>
+    <value>Обнаружена крупная пробоина в корпусе.</value>
   </data>
   <data name="Quest07_Breach_Intro2" xml:space="preserve">
-    <value>Station safeguards won't allow doors to open until pressurization is restored.</value>
+    <value>Защита станции не позволит открыть двери до тех пор, пока давление не будет восстановлено.</value>
   </data>
   <data name="Quest07_Breach_Intro3" xml:space="preserve">
-    <value>Investigate the nearby button panel to attempt closing the ceiling blast doors.</value>
+    <value>Изучите ближайшую кнопочную панель, чтобы попытаться закрыть переборочные взрывостойкие двери.</value>
   </data>
   <data name="Quest07_Breach_Pressurizing" xml:space="preserve">
-    <value>Pressurization in progress. Standby.</value>
+    <value>Герметизация в процессе. Ожидайте.</value>
   </data>
   <data name="Quest08_ExplorePartTwo_Intro" xml:space="preserve">
-    <value>Safeguard doors are opening, continue to the command center.</value>
+    <value>Защитные двери открыты, продолжайте движение к командному центру.</value>
   </data>
   <data name="Quest09_DamagedDoor" xml:space="preserve">
-    <value>Repair Damaged Door</value>
+    <value>Почините повреждённую дверь</value>
   </data>
   <data name="Quest09_DamagedDoor_Energy" xml:space="preserve">
-    <value>Recharge energy at medical bay (hold [ {0} ] key)</value>
+    <value>Зарядите энергию в медицинском отсеке (удерживайте [ {0} ])</value>
   </data>
   <data name="Quest09_DamagedDoor_PickUpComponents" xml:space="preserve">
-    <value>Pick up all higlighted items ([ {0} ] key).</value>
+    <value>Поднимите все подсвеченные предметы ([ {0} ]).</value>
   </data>
   <data name="Quest09_DamagedDoor_PickUpMotors" xml:space="preserve">
-    <value>Components picked up: {0}/{1}</value>
+    <value>Подобрано компонентов: {0}/{1}</value>
   </data>
   <data name="Quest09_DamagedDoor_PickUpWelder" xml:space="preserve">
-    <value>Look at an item and press [ {0} ] to pick it up.</value>
+    <value>Посмотрите на предмет и нажмите клавишу [ {0} ], чтобы подобрать его.</value>
   </data>
   <data name="Quest09_DamagedDoor_Repair" xml:space="preserve">
-    <value>Approach the door and hold left mouse button to start welding.</value>
+    <value>Подойдите к двери и удерживайте ЛКМ, чтобы начать сварку.</value>
   </data>
   <data name="Quest10_ExplorePartThree_Intro" xml:space="preserve">
-    <value>Continue to the command center located nearby.</value>
+    <value>Продолжайте движение к командному центру, расположенному неподалёку.</value>
   </data>
   <data name="Quest10_ExplorePartThree_IntroPart2" xml:space="preserve">
-    <value>The Command Center is close.</value>
+    <value>Командный центр закрыт.</value>
   </data>
   <data name="Quest11_Attacked" xml:space="preserve">
-    <value>Evacuate the Station Immediately</value>
+    <value>Немедленно эвакуируйтесь со станции</value>
   </data>
   <data name="Quest11_Attacked_Direction" xml:space="preserve">
-    <value>Follow GPS waypoints to the escape pods</value>
+    <value>Следуйте указателям GPS до спасательных капсул</value>
   </data>
   <data name="Quest11_Attacked_EscapePods" xml:space="preserve">
-    <value>New route confirmed, head to escape pods.</value>
+    <value>Новый маршрут подтверждён, направляйтесь к спасательным капсулам.</value>
   </data>
   <data name="Quest11_Attacked_Intro" xml:space="preserve">
-    <value>The station is under attack by unknown assailants.</value>
+    <value>Станция находится под нападением неизвестных.</value>
   </data>
   <data name="Quest11_Attacked_Sprint" xml:space="preserve">
-    <value>Sprint by holding [ {0} ] key</value>
+    <value>Ускорьтесь, нажав [ {0} ]</value>
   </data>
   <data name="Quest12_Jumping" xml:space="preserve">
-    <value>Navigate through the Damaged Corridor</value>
+    <value>Перейдите по повреждённому коридору</value>
   </data>
   <data name="Quest12_Jumping_Danger" xml:space="preserve">
-    <value>Navigate through the damaged corridor</value>
+    <value>Перейдите по повреждённому коридору</value>
   </data>
   <data name="Quest12_Jumping_Gaps" xml:space="preserve">
-    <value>You will have to jump over the breaks in this corridor.</value>
+    <value>Вам придётся перепрыгнуть через проломы в этом коридоре.</value>
   </data>
   <data name="Quest12_Jumping_Jump" xml:space="preserve">
-    <value>Use [ {0} ] key to jump over gaps.</value>
+    <value>Используйте [ {0} ] для прыжка через проломы.</value>
   </data>
   <data name="Quest13_GoToEscapePods" xml:space="preserve">
-    <value>Get to the Escape Pod</value>
+    <value>Доберитесь до спасательной капсулы</value>
   </data>
   <data name="Quest13_GoToEscapePods_Stairs" xml:space="preserve">
-    <value>Continue towards the last GPS marker</value>
+    <value>Следуйте в направлении последней метки GPS</value>
   </data>
   <data name="Quest14_EscapePod" xml:space="preserve">
-    <value>Escape!</value>
+    <value>Спасайтесь!</value>
   </data>
   <data name="Quest14_EscapePod_How" xml:space="preserve">
-    <value>Approach the seat and press [ {0} ].</value>
+    <value>Подойдите к креслу и нажмите [ {0} ].</value>
   </data>
 </root>
