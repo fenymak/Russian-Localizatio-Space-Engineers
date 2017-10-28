@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>97572</Id>
+  <Language>ru-RU</Language>
+  <Context>Common</Context>
+  <ResourceName>OfficialCampaign01Common</ResourceName>
+  <Default>false</Default>
+  <ResXName>OfficialCampaign01Common.ru.resx</ResXName>
+  <Entries />
+</MyObjectBuilder_Localization>

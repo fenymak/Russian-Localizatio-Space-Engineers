@@ -1,0 +1,3564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MessageBoxTextAreYouSureYouWantToExit" xml:space="preserve">
+    <value>Вы уверены, что хотите выйти?</value>
+  </data>
+  <data name="AssignControlKeyboard" xml:space="preserve">
+    <value>Пожалуйста, нажмите кнопку</value>
+  </data>
+  <data name="AssignControlMouse" xml:space="preserve">
+    <value>Пожалуйста, нажмите кнопку мыши</value>
+  </data>
+  <data name="ScreenOptionsButtonAudio" xml:space="preserve">
+    <value>Звук</value>
+  </data>
+  <data name="ScreenCaptionAudioOptions" xml:space="preserve">
+    <value>Настройки звука</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="CanNotAssignControl" xml:space="preserve">
+    <value>НЕЛЬЗЯ НАЗНАЧИТЬ КНОПКУ</value>
+  </data>
+  <data name="LoadScreenButtonContinueLastGame" xml:space="preserve">
+    <value>Продолжить последнюю игру</value>
+  </data>
+  <data name="ControlAlreadyAssigned" xml:space="preserve">
+    <value>{0} уже назначена для {1}.
+Переназначить клавишу?</value>
+  </data>
+  <data name="ControlIsNotValid" xml:space="preserve">
+    <value>Данная кнопка не может быть назначена.</value>
+  </data>
+  <data name="ScreenCaptionControls" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="ScreenMenuButtonCredits" xml:space="preserve">
+    <value>Создатели</value>
+  </data>
+  <data name="KeysDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="KeysDown" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="DoYouWantToKeepTheseSettingsXSecondsRemaining" xml:space="preserve">
+    <value>Хотите подтвердить эти настройки? Осталось {0} секунд.</value>
+  </data>
+  <data name="KeysEnd" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="ScreenMenuButtonExitToMainMenu" xml:space="preserve">
+    <value>Выйти в главное меню</value>
+  </data>
+  <data name="ScreenMenuButtonExitToWindows" xml:space="preserve">
+    <value>Выйти в Windows</value>
+  </data>
+  <data name="FieldOfView" xml:space="preserve">
+    <value>Угол обзора</value>
+  </data>
+  <data name="ScreenOptionsButtonGame" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="ScreenCaptionGameOptions" xml:space="preserve">
+    <value>Настройки игры</value>
+  </data>
+  <data name="ScreenOptionsControls_Gamepad" xml:space="preserve">
+    <value>Геймпад</value>
+  </data>
+  <data name="ScreenOptionsControls_AnalogAxes" xml:space="preserve">
+    <value>Аналоговый</value>
+  </data>
+  <data name="GameVolume" xml:space="preserve">
+    <value>Громкость звука</value>
+  </data>
+  <data name="ControlTypeGeneral" xml:space="preserve">
+    <value>Контроллеры</value>
+  </data>
+  <data name="HardwareCursor" xml:space="preserve">
+    <value>Аппаратный курсор</value>
+  </data>
+  <data name="ControlName_Help" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="KeysHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="KeysInsert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="InvertMouseX" xml:space="preserve">
+    <value>Инвертировать по оси X</value>
+  </data>
+  <data name="InvertMouseY" xml:space="preserve">
+    <value>Инвертировать по оси Y</value>
+  </data>
+  <data name="Joystick" xml:space="preserve">
+    <value>Джойстик или геймпад</value>
+  </data>
+  <data name="JoystickButtonLeft" xml:space="preserve">
+    <value>ДжойстикКнопкаВлево</value>
+  </data>
+  <data name="JoystickButtonRight" xml:space="preserve">
+    <value>ДжойстикКнопкаВправо</value>
+  </data>
+  <data name="JoystickButtonUp" xml:space="preserve">
+    <value>ДжойстикКнопкаВверх</value>
+  </data>
+  <data name="JoystickButtonDown" xml:space="preserve">
+    <value>ДжойстикКнопкаВниз</value>
+  </data>
+  <data name="JoystickDeadzone" xml:space="preserve">
+    <value>Мёртвая зона джостика </value>
+  </data>
+  <data name="JoystickExponent" xml:space="preserve">
+    <value>Точность джойстика</value>
+  </data>
+  <data name="JoystickSensitivity" xml:space="preserve">
+    <value>Чувствительность джойстика</value>
+  </data>
+  <data name="ScreenOptionsControls_Keyboard" xml:space="preserve">
+    <value>Клавиатура</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="KeysLeft" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="KeysLeftAlt" xml:space="preserve">
+    <value>Левый Alt</value>
+  </data>
+  <data name="KeysLeftControl" xml:space="preserve">
+    <value>Левый Ctrl</value>
+  </data>
+  <data name="LeftMouseButton" xml:space="preserve">
+    <value>ЛКМ</value>
+  </data>
+  <data name="KeysLeftShift" xml:space="preserve">
+    <value>Левый Shift</value>
+  </data>
+  <data name="LoadScreenButtonLoad" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="LoadingPleaseWaitUppercase" xml:space="preserve">
+    <value>ЗАГРУЗКА, ПОЖАЛУЙСТА, ПОДОЖДИТЕ...</value>
+  </data>
+  <data name="MessageBoxCaptionError" xml:space="preserve">
+    <value>ОШИБКА</value>
+  </data>
+  <data name="MessageBoxCaptionPleaseConfirm" xml:space="preserve">
+    <value>ПОЖАЛУЙСТА, ПОДТВЕРДИТЕ</value>
+  </data>
+  <data name="MessageBoxCaptionExit" xml:space="preserve">
+    <value>ВЫХОД</value>
+  </data>
+  <data name="MiddleMouseButton" xml:space="preserve">
+    <value>СКМ</value>
+  </data>
+  <data name="ScreenOptionsControls_Mouse" xml:space="preserve">
+    <value>Мышь</value>
+  </data>
+  <data name="MouseSensitivity" xml:space="preserve">
+    <value>Чувствительность мыши</value>
+  </data>
+  <data name="MouseXButton1" xml:space="preserve">
+    <value>ЛКМ</value>
+  </data>
+  <data name="MouseXButton2" xml:space="preserve">
+    <value>ПКМ</value>
+  </data>
+  <data name="ControlTypeNavigation" xml:space="preserve">
+    <value>Передвижение</value>
+  </data>
+  <data name="ScreenCaptionNewWorld" xml:space="preserve">
+    <value>Новый мир</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="KeysNumPad0" xml:space="preserve">
+    <value>Num 0</value>
+  </data>
+  <data name="KeysNumPad1" xml:space="preserve">
+    <value>Num 1</value>
+  </data>
+  <data name="KeysNumPad2" xml:space="preserve">
+    <value>Num 2</value>
+  </data>
+  <data name="KeysNumPad3" xml:space="preserve">
+    <value>Num 3</value>
+  </data>
+  <data name="KeysNumPad4" xml:space="preserve">
+    <value>Num 4</value>
+  </data>
+  <data name="KeysNumPad5" xml:space="preserve">
+    <value>Num 5</value>
+  </data>
+  <data name="KeysNumPad6" xml:space="preserve">
+    <value>Num 6</value>
+  </data>
+  <data name="KeysNumPad7" xml:space="preserve">
+    <value>Num 7</value>
+  </data>
+  <data name="KeysNumPad8" xml:space="preserve">
+    <value>Num 8</value>
+  </data>
+  <data name="KeysNumPad9" xml:space="preserve">
+    <value>Num 9</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ScreenCaptionOptions" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="KeysPageDown" xml:space="preserve">
+    <value>PgDown</value>
+  </data>
+  <data name="KeysPageUp" xml:space="preserve">
+    <value>PgUp</value>
+  </data>
+  <data name="RecommendedAspectRatio" xml:space="preserve">
+    <value>Рекомендуемое соотношение сторон: {0}</value>
+  </data>
+  <data name="Revert" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="KeysRight" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="KeysRightAlt" xml:space="preserve">
+    <value>Правый Alt</value>
+  </data>
+  <data name="KeysRightControl" xml:space="preserve">
+    <value>Правый Ctrl</value>
+  </data>
+  <data name="RightMouseButton" xml:space="preserve">
+    <value>ПКМ</value>
+  </data>
+  <data name="KeysRightShift" xml:space="preserve">
+    <value>Правый Shift</value>
+  </data>
+  <data name="SelectControl" xml:space="preserve">
+    <value>ВЫБЕРИТЕ КЛАВИШУ</value>
+  </data>
+  <data name="ServerShutdownNotificationCaption" xml:space="preserve">
+    <value>ЗАПЛАНИРОВАННОЕ ОТКЛЮЧЕНИЕ СЕРВЕРА</value>
+  </data>
+  <data name="SorryButSelectedSettingsAreNotSupportedByYourHardware" xml:space="preserve">
+    <value>Извините, выбранные настройки не поддерживаются вашим оборудованием.</value>
+  </data>
+  <data name="KeysSpace" xml:space="preserve">
+    <value>Пробел</value>
+  </data>
+  <data name="StartGameInProgressPleaseWait" xml:space="preserve">
+    <value>Игра запускается... пожалуйста, подождите.</value>
+  </data>
+  <data name="ControlName_StrafeLeft" xml:space="preserve">
+    <value>Двигаться влево</value>
+  </data>
+  <data name="ControlName_StrafeRight" xml:space="preserve">
+    <value>Двигаться вправо</value>
+  </data>
+  <data name="ControlTypeSystems1" xml:space="preserve">
+    <value>Системы 1</value>
+  </data>
+  <data name="ControlTypeSystems2" xml:space="preserve">
+    <value>Системы 2</value>
+  </data>
+  <data name="KeysTab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="TitleFailedToStartInternetBrowser" xml:space="preserve">
+    <value>Не удалось запустить браузер</value>
+  </data>
+  <data name="UnknownControl_None" xml:space="preserve">
+    <value>Не назначено</value>
+  </data>
+  <data name="KeysUp" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="ControlName_UseOrInteract" xml:space="preserve">
+    <value>Использовать/взаимодействовать</value>
+  </data>
+  <data name="ControlName_PickUp" xml:space="preserve">
+    <value>Взять</value>
+  </data>
+  <data name="VerticalSync" xml:space="preserve">
+    <value>Вертикальная синхронизация</value>
+  </data>
+  <data name="CaptureMouse" xml:space="preserve">
+    <value>Capture mouse</value>
+  </data>
+  <data name="VideoMode" xml:space="preserve">
+    <value>Режим видео</value>
+  </data>
+  <data name="ControlTypeToolsOrWeapons" xml:space="preserve">
+    <value>Инструменты/оружие</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="JoystickRotationXpos" xml:space="preserve">
+    <value>JRX +</value>
+  </data>
+  <data name="JoystickRotationYpos" xml:space="preserve">
+    <value>JRY +</value>
+  </data>
+  <data name="JoystickRotationZpos" xml:space="preserve">
+    <value>JRZ +</value>
+  </data>
+  <data name="JoystickSlider1pos" xml:space="preserve">
+    <value>JS1+</value>
+  </data>
+  <data name="JoystickSlider2pos" xml:space="preserve">
+    <value>JS2+</value>
+  </data>
+  <data name="JoystickRotationXneg" xml:space="preserve">
+    <value>JRX-</value>
+  </data>
+  <data name="JoystickRotationYneg" xml:space="preserve">
+    <value>JRY-</value>
+  </data>
+  <data name="JoystickRotationZneg" xml:space="preserve">
+    <value>JRZ-</value>
+  </data>
+  <data name="JoystickSlider1neg" xml:space="preserve">
+    <value>JS1-</value>
+  </data>
+  <data name="JoystickSlider2neg" xml:space="preserve">
+    <value>JS2+</value>
+  </data>
+  <data name="KeysDecimal" xml:space="preserve">
+    <value>Num .</value>
+  </data>
+  <data name="KeysBackslash" xml:space="preserve">
+    <value>\</value>
+  </data>
+  <data name="KeysComma" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="KeysMinus" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="KeysOpenBracket" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="KeysCloseBracket" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="KeysPeriod" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="KeysPipe" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="KeysPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="KeysQuestion" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="KeysQuotes" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="KeysSemicolon" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="KeysTilde" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="KeysMultiply" xml:space="preserve">
+    <value>Num *</value>
+  </data>
+  <data name="KeysDivide" xml:space="preserve">
+    <value>Num /</value>
+  </data>
+  <data name="KeysAdd" xml:space="preserve">
+    <value>Num +</value>
+  </data>
+  <data name="KeysSubtract" xml:space="preserve">
+    <value>Num −</value>
+  </data>
+  <data name="KeysCapsLock" xml:space="preserve">
+    <value>Caps Lock</value>
+  </data>
+  <data name="KeysEnter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="KeysBackspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="ApplyingPleaseWait" xml:space="preserve">
+    <value>Применение изменений... пожалуйста, подождите</value>
+  </data>
+  <data name="MP_YouHaveBeenKilled" xml:space="preserve">
+    <value>Вы были убиты</value>
+  </data>
+  <data name="MusicVolume" xml:space="preserve">
+    <value>Громкость музыки</value>
+  </data>
+  <data name="VideoAdapter" xml:space="preserve">
+    <value>Видеоадаптер</value>
+  </data>
+  <data name="DefaultFOV" xml:space="preserve">
+    <value>По умолчанию: {0:F1}</value>
+  </data>
+  <data name="WorldLoaded" xml:space="preserve">
+    <value>Мир {0} загружен</value>
+  </data>
+  <data name="ControlName_Screenshot" xml:space="preserve">
+    <value>Скриншот</value>
+  </data>
+  <data name="ControlName_PreviousColor" xml:space="preserve">
+    <value>Предыдущий цвет/камера</value>
+  </data>
+  <data name="ControlName_NextColor" xml:space="preserve">
+    <value>Следующий цвет/камера</value>
+  </data>
+  <data name="WorldSaved" xml:space="preserve">
+    <value>Мир {0} сохранён</value>
+  </data>
+  <data name="Blueprints" xml:space="preserve">
+    <value>Чертежи</value>
+  </data>
+  <data name="Factions" xml:space="preserve">
+    <value>Фракции</value>
+  </data>
+  <data name="BlueprintMaterials" xml:space="preserve">
+    <value>Материалы чертежа</value>
+  </data>
+  <data name="ProductionQueue" xml:space="preserve">
+    <value>Производственная очередь</value>
+  </data>
+  <data name="LoadScreenButtonEditSettings" xml:space="preserve">
+    <value>Изменить настройки</value>
+  </data>
+  <data name="ScreenCaptionCustomWorld" xml:space="preserve">
+    <value>Своя игра</value>
+  </data>
+  <data name="ErrorNameTooLong" xml:space="preserve">
+    <value>Слишком длинное название (не более 128 символов)</value>
+  </data>
+  <data name="ErrorNameTooShort" xml:space="preserve">
+    <value>Название слишком короткое (минимум 5 символов)</value>
+  </data>
+  <data name="ErrorNameInvalid" xml:space="preserve">
+    <value>Название содержит недопустимые символы Windows. Пожалуйста, удалите их и попробуйте снова</value>
+  </data>
+  <data name="WorldSettings_GameModeSurvival" xml:space="preserve">
+    <value>Выживание</value>
+  </data>
+  <data name="ScreenMenuButtonJoinWorld" xml:space="preserve">
+    <value>Присоединиться к игре</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="WorldSettings_OnlineMode" xml:space="preserve">
+    <value>Сетевой режим</value>
+  </data>
+  <data name="WorldSettings_OnlineModeOffline" xml:space="preserve">
+    <value>Не в сети</value>
+  </data>
+  <data name="WorldSettings_OnlineModePrivate" xml:space="preserve">
+    <value>Частный</value>
+  </data>
+  <data name="WorldSettings_OnlineModePublic" xml:space="preserve">
+    <value>Публичный</value>
+  </data>
+  <data name="ScreenNewWorldButtonQuickstart" xml:space="preserve">
+    <value>Быстрый старт</value>
+  </data>
+  <data name="ToolTipWorldSettingsName" xml:space="preserve">
+    <value>Название должно содержать от {0} до {1} буквенно-цифровых символов</value>
+  </data>
+  <data name="MessageBoxTextAreYouSureYouWantToDeleteSave" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить «{0}»?</value>
+  </data>
+  <data name="ScreenCaptionLoadWorld" xml:space="preserve">
+    <value>Загрузка мира</value>
+  </data>
+  <data name="LoadScreenButtonSaveAs" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="WorldSettings_GameModeCreative" xml:space="preserve">
+    <value>Творческий</value>
+  </data>
+  <data name="PlayerCharacter" xml:space="preserve">
+    <value>Персонаж игрока</value>
+  </data>
+  <data name="WorldSettings_AutoSave" xml:space="preserve">
+    <value>Автосохранение</value>
+  </data>
+  <data name="ToolTipWorldSettingsAutoSave" xml:space="preserve">
+    <value>Автосохранение сохраняет прогресс игрового мира каждые {0} минут, или когда вы выходите из игры.</value>
+  </data>
+  <data name="MessageBoxTextDoYouWantToSaveYourProgress" xml:space="preserve">
+    <value>Вы хотите сохранить игру?</value>
+  </data>
+  <data name="SaveWorld" xml:space="preserve">
+    <value>Сохранить мир</value>
+  </data>
+  <data name="ScreenMenuButtonSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SavingPleaseWait" xml:space="preserve">
+    <value>Идёт сохранение... пожалуйста, подождите</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Расширенные</value>
+  </data>
+  <data name="AdvancedControls" xml:space="preserve">
+    <value>Расширенное управление</value>
+  </data>
+  <data name="ControlName_Backward" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="BasicControls" xml:space="preserve">
+    <value>Основные элементы управления</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ControlName_DownOrCrouch" xml:space="preserve">
+    <value>Вниз/присесть</value>
+  </data>
+  <data name="ControlName_FirstOrThirdPerson" xml:space="preserve">
+    <value>Вид от первого/вид от третьего лица</value>
+  </data>
+  <data name="ControlName_Forward" xml:space="preserve">
+    <value>Вперёд</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Следующая страница</value>
+  </data>
+  <data name="NotificationNeedShowHelpScreen" xml:space="preserve">
+    <value>Нажмите {0}, чтобы посмотреть справку по игре</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="ShowControlsHints" xml:space="preserve">
+    <value>Отображать подсказки по управлению</value>
+  </data>
+  <data name="SteamGuide" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="ControlName_UpOrJump" xml:space="preserve">
+    <value>Вверх/прыжок</value>
+  </data>
+  <data name="ControlName_CubeRotateVerticalNeg" xml:space="preserve">
+    <value>Вращать блок по вертикали -</value>
+  </data>
+  <data name="ControlName_CubeRotateVerticalPos" xml:space="preserve">
+    <value>Вращать блок по вертикали +</value>
+  </data>
+  <data name="ControlName_CubeRotateHorizontalNeg" xml:space="preserve">
+    <value>Вращать блок по горизонтали -</value>
+  </data>
+  <data name="ControlName_CubeRotateHorizontalPos" xml:space="preserve">
+    <value>Вращать блок по горизонтали +</value>
+  </data>
+  <data name="ControlName_CubeRotateRollNeg" xml:space="preserve">
+    <value>Вращать блок по плоскости -</value>
+  </data>
+  <data name="ControlName_CubeRotateRollPos" xml:space="preserve">
+    <value>Вращать блок по плоскости +</value>
+  </data>
+  <data name="ControlName_Slot0" xml:space="preserve">
+    <value>Снять</value>
+  </data>
+  <data name="ControlName_Slot1" xml:space="preserve">
+    <value>Выбрать предмет из слота 1</value>
+  </data>
+  <data name="ControlName_Slot2" xml:space="preserve">
+    <value>Выбрать предмет из слота 2</value>
+  </data>
+  <data name="ControlName_Slot3" xml:space="preserve">
+    <value>Выбрать предмет из слота 3</value>
+  </data>
+  <data name="ControlName_Slot4" xml:space="preserve">
+    <value>Выбрать предмет из слота 4</value>
+  </data>
+  <data name="ControlName_Slot5" xml:space="preserve">
+    <value>Выбрать предмет из слота 5</value>
+  </data>
+  <data name="ControlName_Slot6" xml:space="preserve">
+    <value>Выбрать предмет из слота 6</value>
+  </data>
+  <data name="ControlName_Slot7" xml:space="preserve">
+    <value>Выбрать предмет из слота 7</value>
+  </data>
+  <data name="ControlName_Slot8" xml:space="preserve">
+    <value>Выбрать предмет из слота 8</value>
+  </data>
+  <data name="ControlName_Slot9" xml:space="preserve">
+    <value>Выбрать предмет из слота 9</value>
+  </data>
+  <data name="MessageBoxTextAreYouSureYouWantToQuickLoad" xml:space="preserve">
+    <value>Вы уверенны, что хотите использовать быструю загрузку?</value>
+  </data>
+  <data name="MessageBoxTextAreYouSureYouWantToQuickSave" xml:space="preserve">
+    <value>Вы уверенны, что хотите использовать быстрое сохранение?</value>
+  </data>
+  <data name="ControlName_ToolbarConfig" xml:space="preserve">
+    <value>Настройка панели инструментов</value>
+  </data>
+  <data name="ControlName_HoldToLookAround" xml:space="preserve">
+    <value>Удерживайте, чтобы осмотреться</value>
+  </data>
+  <data name="ControlName_ToggleSignalsMode" xml:space="preserve">
+    <value>Переключение режима сигнала</value>
+  </data>
+  <data name="ControlName_ToggleSignalsMode_Tooltip" xml:space="preserve">
+    <value>Переключение сигналов между режимом затухания и всегда видимым режимом.</value>
+  </data>
+  <data name="ControlName_HoldToSprint" xml:space="preserve">
+    <value>Удерживайте, чтобы бежать</value>
+  </data>
+  <data name="LoadingPleaseWait" xml:space="preserve">
+    <value>Загрузка, пожалуйста, подождите...</value>
+  </data>
+  <data name="NoPlaceToCreateGrid" xml:space="preserve">
+    <value>Нет места для создания нового блока. Наведите курсор на пустое место.</value>
+  </data>
+  <data name="ControlName_HudOnOff" xml:space="preserve">
+    <value>Интерфейс вкл/выкл</value>
+  </data>
+  <data name="ScreenCubeBuilderHint" xml:space="preserve">
+    <value>Подсказка: перетащите значок на панель инструментов и выберите его с помощью цифр на клавиатуре</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Сохранено</value>
+  </data>
+  <data name="HideWeapon" xml:space="preserve">
+    <value>Убрать оружие</value>
+  </data>
+  <data name="Thrust" xml:space="preserve">
+    <value>Тяга</value>
+  </data>
+  <data name="SomeWorldFilesCouldNotBeLoaded" xml:space="preserve">
+    <value>Один из файлов мира/сохранения повреждён и не может быть загружен. 
+Подробности смотрите в логе.</value>
+  </data>
+  <data name="WorldFileIsCorruptedAndCouldNotBeLoaded" xml:space="preserve">
+    <value>Файл мира повреждён и не может быть загружен.</value>
+  </data>
+  <data name="ToolTipNewWorldCustomWorld" xml:space="preserve">
+    <value>Создать новый мир с пользовательскими настройками.</value>
+  </data>
+  <data name="ToolTipVideoOptionsRenderQuality" xml:space="preserve">
+    <value>Высшее качество визуализации означает лучшие визуальные эффекты, большее расстояние видимости и больше спецэффектов - однако, это более требовательно к производительности компьютера (ЦП и ГП). 
+Если игра не работает плавно, снизьте этот параметр.</value>
+													  
+  </data>
+  <data name="ToolTipVideoOptionsVideoAdapter" xml:space="preserve">
+    <value>Выберите графический адаптер и/или монитор.
+Для смены адаптера требуется перезапустить игру.</value>
+  </data>
+  <data name="ToolTipVideoOptionsVideoMode" xml:space="preserve">
+    <value>Выберите разрешение экрана.
+Мы рекомендуем использовать соотношение сторон, совместимое с вашим монитором.
+Вы можете уменьшить разрешение в пользу более высокой производительности.</value>
+  </data>
+  <data name="ToolTipVideoOptionsHardwareCursor" xml:space="preserve">
+    <value>Системный курсор мыши не влияет на частоту кадров в игре. Мы рекомендуем включить его.</value>
+  </data>
+  <data name="ToolTipVideoOptionsCaptureMouse" xml:space="preserve">
+    <value>Выберите, должен ли курсор захватываться игровым окном. 
+(Оконный и полноэкранный режимы окна)</value>
+  </data>
+  <data name="ToolTipVideoOptionsVerticalSync" xml:space="preserve">
+    <value>Игра будет синхронизирована с частотой обновления вашего
+монитора, что может устранить некоторые графические искажения,
+но также повлиять на производительность.</value>
+  </data>
+  <data name="ToolTipVideoOptionsFieldOfView" xml:space="preserve">
+    <value>Горизонтальный угол обзора.</value>
+  </data>
+  <data name="MessageBoxTextRestartNeededAfterAdapterSwitch" xml:space="preserve">
+    <value>Для смены адаптера требуется перезапустить игру.
+Перезапустить сейчас?</value>		 
+  </data>
+  <data name="ToolTipGameOptionsShowControlsHints" xml:space="preserve">
+    <value>Отображать подсказки по управлению во время игры.</value>
+  </data>
+  <data name="WorldNotSaved" xml:space="preserve">
+    <value>Не удалось сохранить мир «{0}». Это может быть вызвано нехваткой памяти или проблемами во время записи файлов. Обработка этого мира может привести к потери прогресса. Вы можете проверить лог-файл, чтобы узнать больше о том, что могло вызвать эту ошибку.</value>
+  </data>
+  <data name="NotificationMemoryOverload" xml:space="preserve">
+    <value>Недостаточно памяти для добавления новых объектов</value>
+  </data>
+  <data name="BetterGCIsAvailable" xml:space="preserve">
+    <value>Мы обнаружили на вашем компьютере видеокарту лучше, чем та, на которой сейчас запущена игра. Пожалуйста, проверьте настройки в панели управления NVIDIA/AMD.</value>
+  </data>
+  <data name="MessageBoxCaptionWarning" xml:space="preserve">
+    <value>ВНИМАНИЕ</value>
+  </data>
+  <data name="MessageBoxTextOpenBrowser" xml:space="preserve">
+    <value>В вашем интернет-браузере откроется {0}. Игра будет продолжать работать.
+Хотите продолжить?</value>
+  </data>
+  <data name="MessageBoxTextNoSavedWorlds" xml:space="preserve">
+    <value>Нет сохранённых миров. Пожалуйста, начните с создания нового мира.</value>
+  </data>
+  <data name="MessageBoxCaptionVideoTutorial" xml:space="preserve">
+    <value>Видео-обучение</value>
+  </data>
+  <data name="MessageBoxTextSaveChangesBeforeExit" xml:space="preserve">
+    <value>Сохранить изменения перед выходом?</value>
+  </data>
+  <data name="ErrorNameAlreadyExists" xml:space="preserve">
+    <value>Название уже используется. Пожалуйста, выберите другое название.</value>
+  </data>
+  <data name="NotificationBuildingFormat" xml:space="preserve">
+    <value>Нажмите {0}, чтобы установить блок</value>
+  </data>
+  <data name="NotificationColorFormat" xml:space="preserve">
+    <value>Нажмите {0} или {1}, чтобы изменить цвет. Удерживайте {2}, чтобы применить цвет. Удерживайте {3} или {4}, чтобы увеличить размер кисти.</value>
+  </data>
+  <data name="NotificationHideHintsInGameOptions" xml:space="preserve">
+    <value>Вы можете отключить эти подсказки в настройках игры</value>
+  </data>
+  <data name="NotificationHudHideFormat" xml:space="preserve">
+    <value>Нажмите {0},чтобы скрыть/показать интерфейс</value>
+  </data>
+  <data name="NotificationRotationFormat" xml:space="preserve">
+    <value>Нажмите {0}, {1}, {2}, {3}, {4}, {5} для вращения</value>
+  </data>
+  <data name="NotificationScreenFormat" xml:space="preserve">
+    <value>Нажмите {0}, чтобы настроить панель инструментов</value>
+  </data>
+  <data name="NotificationSlotEquipFormat" xml:space="preserve">
+    <value>Нажмите {0}, {1}, {2}, ..., чтобы использовать соответствующий слот</value>
+  </data>
+  <data name="NotificationToolDisabled" xml:space="preserve">
+    <value>Этот инструмент/оружие отключено</value>
+  </data>
+  <data name="NotificationUnlimitedBuildingFormat" xml:space="preserve">
+    <value>Нажмите {0}, чтобы добавить блок, нажмите {1}, чтобы удалить блок. Удерживайте {2} для быстрого строительства</value>
+  </data>
+  <data name="ControlDescQuickLoad" xml:space="preserve">
+    <value>Быстрая загрузка</value>
+  </data>
+  <data name="ControlDescQuickSave" xml:space="preserve">
+    <value>Быстрое сохранение</value>
+  </data>
+  <data name="MouseWheel" xml:space="preserve">
+    <value>Колесо мыши</value>
+  </data>
+  <data name="ScreenCubeBuilderBuildingBlocks" xml:space="preserve">
+    <value>Закладки:</value>
+  </data>
+  <data name="ScreenCubeBuilderCreativeMode" xml:space="preserve">
+    <value>Творческий режим</value>
+  </data>
+  <data name="ScreenCubeBuilderSubtitle" xml:space="preserve">
+    <value>Настройте панель инструментов (назначьте строительные блоки, инструменты и оружие)</value>
+  </data>
+  <data name="ScreenCubeBuilderToolbar" xml:space="preserve">
+    <value>Панель инструментов</value>
+  </data>
+  <data name="ScreenCubeBuilderToolbarConfig" xml:space="preserve">
+    <value>Настройка панели инструментов</value>
+  </data>
+  <data name="SteamOverlayDisabledCaption" xml:space="preserve">
+    <value>Оверлей {0} отключён</value>
+  </data>
+  <data name="LoadScreenButtonPublish" xml:space="preserve">
+    <value>Опубликовать</value>
+  </data>
+  <data name="MessageBoxTextWorldPublished" xml:space="preserve">
+    <value>Публикация успешно завершена. Если у вас включён оверлей {0}, откроется
+страница и вы сможете редактировать параметры, такие как название, описание
+и видимость (по умолчанию - общедоступно)</value>
+  </data>
+  <data name="MessageBoxTextWorldPublishFailed" xml:space="preserve">
+    <value>Не удалось опубликовать в мастерской {0}</value>
+  </data>
+  <data name="MessageBoxTextModPublished" xml:space="preserve">
+    <value>Публикация успешно завершена. Если у вас включён оверлей {0}, откроется
+страница и вы сможете редактировать параметры, такие как название, описание
+и видимость (по умолчанию - общедоступно)</value>
+  </data>
+  <data name="MessageBoxTextModPublishFailed" xml:space="preserve">
+    <value>Не удалось опубликовать в мастерской {0}</value>
+  </data>
+  <data name="ProgressTextPublishingWorld" xml:space="preserve">
+    <value>Публикация... пожалуйста, подождите.</value>
+  </data>
+  <data name="ProgressTextUploadingWorld" xml:space="preserve">
+    <value>Загрузка... пожалуйста, подождите.</value>
+  </data>
+  <data name="ScreenMenuButtonSubscribedWorlds" xml:space="preserve">
+    <value>Мастерская</value>
+  </data>
+  <data name="ProgressTextCreatingWorld" xml:space="preserve">
+    <value>Создание мира... пожалуйста, подождите.</value>
+  </data>
+  <data name="ScreenCaptionWorkshop" xml:space="preserve">
+    <value>Контент мастерской</value>
+  </data>
+  <data name="ScreenMenuButtonRecommend" xml:space="preserve">
+    <value>Рекомендовать</value>
+  </data>
+  <data name="MessageBoxCaptionWorldPublished" xml:space="preserve">
+    <value>МИР ОПУБЛИКОВАН</value>
+  </data>
+  <data name="MessageBoxCaptionWorldPublishFailed" xml:space="preserve">
+    <value>НЕ УДАЛОСЬ ОПУБЛИКОВАТЬ МИР</value>
+  </data>
+  <data name="MessageBoxCaptionModPublished" xml:space="preserve">
+    <value>МОД ОПУБЛИКОВАН</value>
+  </data>
+  <data name="MessageBoxCaptionModPublishFailed" xml:space="preserve">
+    <value>НЕ УДАЛОСЬ ОПУБЛИКОВАТЬ МОД</value>
+  </data>
+  <data name="ScreenLoadSubscribedWorldCopyAndLoad" xml:space="preserve">
+    <value>Быстрый старт</value>
+  </data>
+  <data name="LoadScreenButtonTooltipPublish" xml:space="preserve">
+    <value>Опубликовать выбранный мир в мастерской {0}</value>
+  </data>
+  <data name="ToolTipMenuSubscribedWorlds" xml:space="preserve">
+    <value>Просмотреть список миров, на которые вы подписаны в мастерской {0}.</value>
+  </data>
+  <data name="MessageBoxCaptionDoYouWishToPublishWorld" xml:space="preserve">
+    <value>ОПУБЛИКОВАТЬ МИР</value>
+  </data>
+  <data name="MessageBoxCaptionDoYouWishToUpdateWorld" xml:space="preserve">
+    <value>ОБНОВИТЬ МИР</value>
+  </data>
+  <data name="MessageBoxTextDoYouWishToPublishWorld" xml:space="preserve">
+    <value>Вы уверенны, что хотите загрузить и опубликовать выбранный мир в мастерской {0}?
+Обратите внимание, что отправляя данный предмет, вы соглашаетесь с условиями юридического соглашения мастерской (см. {1})</value>
+  </data>
+  <data name="MessageBoxTextDoYouWishToUpdateWorld" xml:space="preserve">
+    <value>Вы уверенны, что хотите загрузить и перезаписать выбранный мир в мастерской {0}?</value>
+  </data>
+  <data name="MessageBoxCaptionDoYouWishToPublishMod" xml:space="preserve">
+    <value>ОПУБЛИКОВАТЬ МОД</value>
+  </data>
+  <data name="MessageBoxCaptionDoYouWishToUpdateMod" xml:space="preserve">
+    <value>ОБНОВИТЬ МОД</value>
+  </data>
+  <data name="MessageBoxTextDoYouWishToPublishMod" xml:space="preserve">
+    <value>Вы уверенны, что хотите загрузить и опубликовать выбранный мод в мастерской {0}?
+Обратите внимание, что отправляя данный предмет, вы соглашаетесь с условиями юридического соглашения мастерской (см. {1})</value>
+  </data>
+  <data name="MessageBoxTextDoYouWishToUpdateMod" xml:space="preserve">
+    <value>Вы уверенны, что хотите загрузить и перезаписать выбранный мод в мастерской {0}?</value>
+  </data>
+  <data name="ScreenLoadSubscribedWorldBrowseWorkshop" xml:space="preserve">
+    <value>Просмотр мастерской</value>
+  </data>
+  <data name="ScreenLoadSubscribedWorldRefresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="NotificationNoWeaponSelected" xml:space="preserve">
+    <value>Оружие не выбрано</value>
+  </data>
+  <data name="NotificationSwitchedToWeaponType" xml:space="preserve">
+    <value>Сменить на тип оружия «{0}»</value>
+  </data>
+  <data name="NotificationInertiaDampenersOff" xml:space="preserve">
+    <value>Гаситель инерции выключен</value>
+  </data>
+  <data name="NotificationInertiaDampenersOn" xml:space="preserve">
+    <value>Гаситель инерции включён</value>
+  </data>
+  <data name="LoadScreenButtonDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ScreenCaptionEditSettings" xml:space="preserve">
+    <value>Изменить настройки</value>
+  </data>
+  <data name="ScreenCaptionSaveAs" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="ScreenMenuButtonHelp" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="ScreenMenuButtonLoadWorld" xml:space="preserve">
+    <value>Загрузить мир</value>
+  </data>
+  <data name="ScreenMenuButtonNewWorld" xml:space="preserve">
+    <value>Новый мир</value>
+  </data>
+  <data name="ScreenMenuButtonOptions" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ScreenNewWorldButtonCustomWorld" xml:space="preserve">
+    <value>Пользовательский мир</value>
+  </data>
+  <data name="ScreenOptionsButtonControls" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="MessageBoxCaptionResetControlsToDefault" xml:space="preserve">
+    <value>СБРОСИТЬ УПРАВЛЕНИЕ</value>
+  </data>
+  <data name="MessageBoxTextResetControlsToDefault" xml:space="preserve">
+    <value>Вы уверены, что хотите сбросить все назначения до настроек по умолчанию?</value>
+  </data>
+  <data name="ScreenshotFailed" xml:space="preserve">
+    <value>Не удалось сделать скриншот</value>
+  </data>
+  <data name="ScreenshotSaved" xml:space="preserve">
+    <value>Скриншот {0} сохранён</value>
+  </data>
+  <data name="ExportToObjComplete" xml:space="preserve">
+    <value>Экспортировано в: {0}</value>
+  </data>
+  <data name="ExportToObjFailed" xml:space="preserve">
+    <value>Не удалось экспортировать в OBJ–файл</value>
+  </data>
+  <data name="ScreenLoadSubscribedWorldOpenInWorkshop" xml:space="preserve">
+    <value>Открыть в мастерской</value>
+  </data>
+  <data name="ToolTipWorkshopBrowseWorkshop" xml:space="preserve">
+    <value>Открыть оверлей {0} со страницей мастерской</value>
+  </data>
+  <data name="ToolTipWorkshopCopyAndLoad" xml:space="preserve">
+    <value>Запустить с параметрами по умолчанию.</value>
+  </data>
+  <data name="ToolTipWorkshopOpenInWorkshop" xml:space="preserve">
+    <value>Открыть выбранный мир в мастерской {0}</value>
+  </data>
+  <data name="ToolTipWorkshopRefresh" xml:space="preserve">
+    <value>Обновить список миров, на которые вы подписаны.</value>
+  </data>
+  <data name="SettingSymmetryX" xml:space="preserve">
+    <value>Симметрия по X плоскости: {0} - установить, {1} - сбросить</value>
+  </data>
+  <data name="SettingSymmetryXOffset" xml:space="preserve">
+    <value>Симметрия по X плоскости (смещение): {0} - установить, {1} - сбросить</value>
+  </data>
+  <data name="SettingSymmetryY" xml:space="preserve">
+    <value>Симметрия по Y плоскости: {0} - установить, {1} - сбросить</value>
+  </data>
+  <data name="SettingSymmetryYOffset" xml:space="preserve">
+    <value>Симметрия по Y плоскости (смещение): {0} - установить, {1} - сбросить</value>
+  </data>
+  <data name="SettingSymmetryZ" xml:space="preserve">
+    <value>Симметрия по Z плоскости: {0} - установить, {1} - сбросить</value>
+  </data>
+  <data name="SettingSymmetryZOffset" xml:space="preserve">
+    <value>Симметрия по Z плоскости (смещение): {0} - установить, {1} - сбросить</value>
+  </data>
+  <data name="NotificationPickupObject" xml:space="preserve">
+    <value>Нажмите {0}, чтобы взять {1}</value>
+  </data>
+  <data name="CubeBuilderPasteNotification" xml:space="preserve">
+    <value>Нажмите ЛКМ или Ctrl+V, чтобы вставить объект</value>
+  </data>
+  <data name="MessageBoxTextErrorLoadingEntities" xml:space="preserve">
+    <value>Произошла ошибка при добавлении одного или нескольких объектов. Смотрите лог-файл для более подробной информации.</value>
+  </data>
+  <data name="MessageBoxTextAreYouSureToMoveGridToClipboard" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить выбранный объект? (копия будет храниться в буфере обмена)</value>
+  </data>
+  <data name="MessageBoxTextMemoryLimitReachedDuringLoad" xml:space="preserve">
+    <value>Во время загрузки мира был достигнут предел памяти, и некоторые объекты не
+были добавлены. Если вы использовали функцию исправления большого мира, а игра недавно
+обновилась, то, скорее всего, эта функция отключилась.</value>
+  </data>
+  <data name="ScreenOptionsControls_Keyboard2" xml:space="preserve">
+    <value>Клавиатура 2</value>
+  </data>
+  <data name="DialogTextDownloadingWorld" xml:space="preserve">
+    <value>Загрузка мира: {0}%
+Размер мира: {1}</value>
+  </data>
+  <data name="DialogTextDownloadWorldFailed" xml:space="preserve">
+    <value>Не удалось загрузить мир!</value>
+  </data>
+  <data name="DialogTextJoiningWorld" xml:space="preserve">
+    <value>Присоединение к миру</value>
+  </data>
+  <data name="DialogTextJoinWorldFailed" xml:space="preserve">
+    <value>Не удалось присоединиться к миру, причина: {0}</value>
+  </data>
+  <data name="GpuUnderMinimumNotification" xml:space="preserve">
+    <value>Мы обнаружили, что ваша видеокарта не соответствует минимальным требованиям, и это может привести к проблемам с производительностью и вылетам. Спасибо за ваше понимание.</value>
+  </data>
+  <data name="ShowRotationHints" xml:space="preserve">
+    <value>Отображать подсказки по вращению</value>
+  </data>
+  <data name="ToolTipGameOptionsShowRotationHints" xml:space="preserve">
+    <value>Отображать подсказки по вращению во время строительства.</value>
+  </data>
+  <data name="UnknownControl_Unassigned" xml:space="preserve">
+    <value>[не назначено]</value>
+  </data>
+  <data name="ScreenOptionsGame_BuildingMode" xml:space="preserve">
+    <value>Режим строительства</value>
+  </data>
+  <data name="ScreenOptionsGame_Line" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="ScreenOptionsGame_Plane" xml:space="preserve">
+    <value>Плоскость</value>
+  </data>
+  <data name="ScreenOptionsGame_SingleBlock" xml:space="preserve">
+    <value>Одиночный блок</value>
+  </data>
+  <data name="ControlName_Suicide" xml:space="preserve">
+    <value>Самоубийство</value>
+  </data>
+  <data name="MultiplayerErrorStartingServer" xml:space="preserve">
+    <value>Невозможно запустить сервер сетевой игры, ошибка: {0}</value>
+  </data>
+  <data name="AlreadyUsedBySomebodyElse" xml:space="preserve">
+    <value>Объект используется кем-то ещё</value>
+  </data>
+  <data name="MultiplayerJoinFriendsGames" xml:space="preserve">
+    <value>Игры друзей</value>
+  </data>
+  <data name="ScreenCaptionPlayers" xml:space="preserve">
+    <value>Игроки</value>
+  </data>
+  <data name="ScreenPlayersLobby_Friends" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="ScreenPlayersLobby_Private" xml:space="preserve">
+    <value>Частный</value>
+  </data>
+  <data name="ScreenPlayersLobby_Public" xml:space="preserve">
+    <value>Публичный</value>
+  </data>
+  <data name="ScreenPlayers_FactionName" xml:space="preserve">
+    <value>Фракция</value>
+  </data>
+  <data name="ScreenPlayers_FactionTag" xml:space="preserve">
+    <value>Метка</value>
+  </data>
+  <data name="ScreenPlayers_Factions" xml:space="preserve">
+    <value>Фракции</value>
+  </data>
+  <data name="ScreenPlayers_GameOwner" xml:space="preserve">
+    <value>Создатель игры</value>
+  </data>
+  <data name="ScreenPlayers_Invite" xml:space="preserve">
+    <value>Пригласить</value>
+  </data>
+  <data name="ScreenPlayers_Kick" xml:space="preserve">
+    <value>Исключить</value>
+  </data>
+  <data name="ScreenPlayers_PlayerName" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="DialogDownloadWorld_WorldDoesNotExists" xml:space="preserve">
+    <value>Игра более не существует.</value>
+  </data>
+  <data name="MessageBoxCaptionKicked" xml:space="preserve">
+    <value>ИСКЛЮЧЁН</value>
+  </data>
+  <data name="MessageBoxTextYouHaveBeenKicked" xml:space="preserve">
+    <value>Вы были исключены из игры её владельцем.</value>
+  </data>
+  <data name="NotificationPasteFailed" xml:space="preserve">
+    <value>Не удалось вставить, выбранная область занята.</value>
+  </data>
+  <data name="WorldSettings_OnlineModeFriends" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="MessageBoxTextAreYouSureYouWantToReconnect" xml:space="preserve">
+    <value>Вы уверены, что хотите заново подключиться к текущей многопользовательской игре?</value>
+  </data>
+  <data name="NotificationMultiplayerDisabled" xml:space="preserve">
+    <value>Вы находитесь в автономном режиме, поэтому многопользовательский режим отключён. Вы должны изменить настройки в главном меню.</value>
+  </data>
+  <data name="SteamIsOfflinePleaseRestart" xml:space="preserve">
+    <value>{0} в автономной режиме. Пожалуйста, переключите {0} в обычный режим или перезапустите его, если проблема осталась</value>
+  </data>
+  <data name="MultiplayerCompatibleVersions" xml:space="preserve">
+    <value>Совместимые версии</value>
+  </data>
+  <data name="MaxPlayers" xml:space="preserve">
+    <value>Максимум игроков</value>
+  </data>
+  <data name="DialogWaitingForWorldData" xml:space="preserve">
+    <value>Ожидание данных мира</value>
+  </data>
+  <data name="MultiplayerErrorConnectionFailed" xml:space="preserve">
+    <value>Не удалось подключиться к серверу: {0}</value>
+  </data>
+  <data name="MultiplayerStateConnectingToServer" xml:space="preserve">
+    <value>Подключение к серверу</value>
+  </data>
+  <data name="MultiplayerStateWaitingForServer" xml:space="preserve">
+    <value>Ожидание ответа сервера</value>
+  </data>
+  <data name="HarvestingWarningInventoryMightBeTruncatedAreYouSure" xml:space="preserve">
+    <value>Выбранный тип игры более ограничен, чем базовый. Это значит, что объём вашего инвентаря может быть меньше, и вы можете потерять некоторые вещи! Вы уверены, что хотите сменить тип игры?</value>
+  </data>
+  <data name="ScreenCaptionFriendWorlds" xml:space="preserve">
+    <value>Миры друзей</value>
+  </data>
+  <data name="ScreenCaptionPublicWorlds" xml:space="preserve">
+    <value>Публичные миры</value>
+  </data>
+  <data name="ControlName_CubeColorChange" xml:space="preserve">
+    <value>Перекрасить блок</value>
+  </data>
+  <data name="NotificationWeaponDisabledInSettings" xml:space="preserve">
+    <value>Это оружие отключено в настройках мира</value>
+  </data>
+  <data name="ControlDescPlayersList" xml:space="preserve">
+    <value>Отображать игроков (только в сетевой игре)</value>
+  </data>
+  <data name="ScreenMenuButtonPlayers" xml:space="preserve">
+    <value>Игроки</value>
+  </data>
+  <data name="ItemDamagedDescription" xml:space="preserve">
+    <value> (Повреждён)</value>
+  </data>
+  <data name="MultiplaterJoin_ServerIsNotResponding" xml:space="preserve">
+    <value>Сервер не отвечает</value>
+  </data>
+  <data name="UnsupportedAspectRatio" xml:space="preserve">
+    <value>Неподдерживаемое соотношение сторон</value>
+  </data>
+  <data name="OnlyFriendsCanJoinThisGame" xml:space="preserve">
+    <value>Только друзья могут присоединиться к этой игре</value>
+  </data>
+  <data name="ToolTipWorldSettingsDescription" xml:space="preserve">
+    <value>Описание мира.</value>
+  </data>
+  <data name="ScreenOptionsGame_UIOpacity" xml:space="preserve">
+    <value>Прозрачность пользовательского
+интерфейса</value>
+  </data>
+  <data name="ScreenOptionsGame_UIBkOpacity" xml:space="preserve">
+    <value>Прозрачность фона
+пользовательского интерфейса</value>
+  </data>
+  <data name="ScreenOptionsGame_HUDBkOpacity" xml:space="preserve">
+    <value>Прозрачность фона ИЛС</value>
+  </data>
+  <data name="NotificationInventoryFull" xml:space="preserve">
+    <value>Инвентарь полон</value>
+  </data>
+  <data name="NotificationInventoryNotEmpty" xml:space="preserve">
+    <value>В этом инвентаре по-прежнему есть предметы</value>
+  </data>
+  <data name="OutOfAmmo" xml:space="preserve">
+    <value>В {0} закончились боеприпасы</value>
+  </data>
+  <data name="NotificationMissingComponentToPlaceBlockFormat" xml:space="preserve">
+    <value>Вам нужно {0} для постройки {1}</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_GameMode" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_Players" xml:space="preserve">
+    <value>Игроки</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_Username" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_World" xml:space="preserve">
+    <value>Мир</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_WorldSize" xml:space="preserve">
+    <value>Размер мира</value>
+  </data>
+  <data name="MessageBoxTextSuicide" xml:space="preserve">
+    <value>Вы уверены, что хотите совершить самоубийство?</value>
+  </data>
+  <data name="MultiplayerErrorServerHasLeft" xml:space="preserve">
+    <value>Хозяин сервера покинул игру</value>
+  </data>
+  <data name="NotificationRespawn" xml:space="preserve">
+    <value>Вы мертвы. Возрождение через {0} секунд</value>
+  </data>
+  <data name="HudBlockInfo_Required" xml:space="preserve">
+    <value>Требуется</value>
+  </data>
+  <data name="JoinGame_GameTypeToolTip_MultipliersFormat" xml:space="preserve">
+    <value>Размер инвентаря {0}x
+Эффективность сборки {1}x
+Скорость очистки {2}x</value>
+  </data>
+  <data name="NotificationClientConnected" xml:space="preserve">
+    <value>Игрок подключился: {0}</value>
+  </data>
+  <data name="NotificationClientDisconnected" xml:space="preserve">
+    <value>Игрок отключился: {0}</value>
+  </data>
+  <data name="MultiplayerError_IncorrectVersion" xml:space="preserve">
+    <value>Сервер использует другую версию игры. Ваша версия: {0}; Версия сервера: {1}. Вы можете изменить ветку перед запуском игры, в свойствах игры.</value>
+  </data>
+  <data name="ShowCrosshair" xml:space="preserve">
+    <value>Отображать прицел</value>
+  </data>
+  <data name="ToolTipGameOptionsShowCrosshair" xml:space="preserve">
+    <value>Установите, будет ли отображаться прицел для оружия.</value>
+  </data>
+  <data name="MessageBoxTextSavingInProgress" xml:space="preserve">
+    <value>Игра уже сохраняется.</value>
+  </data>
+  <data name="ScreenOptionsGame_LocalizationWarning" xml:space="preserve">
+    <value>* Локализовано сообществом.</value>
+  </data>
+  <data name="ScreenOptionsGame_MoreInfo" xml:space="preserve">
+    <value>Нажмите для получения
+дополнительной информации</value>
+  </data>
+  <data name="Multiplayer_IndirectConnection" xml:space="preserve">
+    <value>Нет доступных прямых соединений.</value>
+  </data>
+  <data name="Multiplayer_NoConnection" xml:space="preserve">
+    <value>Нет соединения с сервером.</value>
+  </data>
+  <data name="GamePaused" xml:space="preserve">
+    <value>Игра приостановлена</value>
+  </data>
+  <data name="ControlDescPauseGame" xml:space="preserve">
+    <value>Приостановить игру (только в одиночном режиме)</value>
+  </data>
+  <data name="ControlName_PauseGame" xml:space="preserve">
+    <value>Приостановить игру</value>
+  </data>
+  <data name="KeysPause" xml:space="preserve">
+    <value>Пауза</value>
+    <comment>KeysPause - клавиша Pause/Break на клавиатуре (переводить в случае, если на клавиатуре используется другое название).</comment>
+  </data>
+  <data name="NotificationWeaponNotWorking" xml:space="preserve">
+    <value>{0} не работает</value>
+  </data>
+  <data name="DialogAmount_AddAmountCaption" xml:space="preserve">
+    <value>Добавляемое количество</value>
+  </data>
+  <data name="DialogAmount_SetValueCaption" xml:space="preserve">
+    <value>Задать значение</value>
+  </data>
+  <data name="NotificationHealthCritical" xml:space="preserve">
+    <value>Критический уровень здоровья. Немедленно обратитесь за медицинской помощью.</value>
+  </data>
+  <data name="NotificationHealthLow" xml:space="preserve">
+    <value>Низкий уровень здоровья.</value>
+  </data>
+  <data name="MultiplayerError_DifferentData" xml:space="preserve">
+    <value>Игровые данные сервера отличаются от данных вашего клиента</value>
+  </data>
+  <data name="MultiplayerJoin_IncompatibleGameDataLabel" xml:space="preserve">
+    <value>Игры, помеченные знаком *, имеют несовместимые игровые данные</value>
+  </data>
+  <data name="ScreenPlayers_Rank" xml:space="preserve">
+    <value>Ранг</value>
+  </data>
+  <data name="MultiplayerJoinServers" xml:space="preserve">
+    <value>Только выделенные сервера</value>
+  </data>
+  <data name="MultiplayerErrorAlreadyJoined" xml:space="preserve">
+    <value>Пользователь уже присоединился</value>
+  </data>
+  <data name="MultiplayerErrorNotInGroup" xml:space="preserve">
+    <value>Вы не состоите в группе {0}. Хотите посетить веб-страницу данной группы?</value>
+  </data>
+  <data name="MultiplayerErrorServerFull" xml:space="preserve">
+    <value>Сервер заполнен</value>
+  </data>
+  <data name="MultiplayerErrorSteamServersOffline" xml:space="preserve">
+    <value>Сервера {0} отключены, либо группа сервера не существует</value>
+  </data>
+  <data name="MultiplayerErrorTicketInvalid" xml:space="preserve">
+    <value>Приглашение недействительно</value>
+  </data>
+  <data name="MultiplayerJoinLANServers" xml:space="preserve">
+    <value>Только локальная сеть</value>
+  </data>
+  <data name="JoinGame_TabTitle_Friends" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="JoinGame_TabTitle_LAN" xml:space="preserve">
+    <value>Локальная сеть</value>
+  </data>
+  <data name="JoinGame_TabTitle_Lobbies" xml:space="preserve">
+    <value>Игры</value>
+  </data>
+  <data name="JoinGame_TabTitle_Servers" xml:space="preserve">
+    <value>Сервера</value>
+  </data>
+  <data name="JoinGame_Title" xml:space="preserve">
+    <value>Присоединиться к игре</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_Ping" xml:space="preserve">
+    <value>Пинг</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="MultiplayerErrorLoggedInElseWhere" xml:space="preserve">
+    <value>Зарегистрирован в другом месте</value>
+  </data>
+  <data name="MultiplayerErrorNoLicenseOrExpired" xml:space="preserve">
+    <value>Лицензии нет, либо она истекла</value>
+  </data>
+  <data name="MultiplayerErrorTicketAlreadyUsed" xml:space="preserve">
+    <value>Приглашение уже использовано</value>
+  </data>
+  <data name="MultiplayerErrorTicketCanceled" xml:space="preserve">
+    <value>Приглашение отклонено</value>
+  </data>
+  <data name="MultiplayerErrorUserNotConnected" xml:space="preserve">
+    <value>Пользователь не присоединился</value>
+  </data>
+  <data name="MultiplayerErrorVACBanned" xml:space="preserve">
+    <value>Заблокирован VAC</value>
+  </data>
+  <data name="MultiplayerErrorVACCheckTimedOut" xml:space="preserve">
+    <value>Превышено время ожидания VAC</value>
+  </data>
+  <data name="MultiplayerJoinAllowedGroups" xml:space="preserve">
+    <value>Доступные группы</value>
+  </data>
+  <data name="NewsDownloadingFailed" xml:space="preserve">
+    <value>Не удалось загрузить новости</value>
+  </data>
+  <data name="MessageBoxCaptionInfo" xml:space="preserve">
+    <value>ИНФО</value>
+  </data>
+  <data name="MultiplayerErrorGroupIdInvalid" xml:space="preserve">
+    <value>Идентификатор группы сервера недействителен, администратор сервера должен выставить действующий идентификатор в настройках сервера
+(или же 0, чтобы отключить проверку)</value>
+  </data>
+  <data name="JoinGame_TabTooltip_LAN" xml:space="preserve">
+    <value>Список локальных выделенных серверов.</value>
+  </data>
+  <data name="JoinGame_TabTooltip_Lobbies" xml:space="preserve">
+    <value>Список игр, созданных игроками.</value>
+  </data>
+  <data name="JoinGame_TabTooltip_Servers" xml:space="preserve">
+    <value>Список выделенных серверов по интернету.</value>
+  </data>
+  <data name="PlayerCharacterColor" xml:space="preserve">
+    <value>Цвет игрока</value>
+  </data>
+  <data name="NotificationHintPressToUseWardrobe" xml:space="preserve">
+    <value>Нажмите {0}, чтобы изменить ваш внешний вид</value>
+  </data>
+  <data name="ScreenOptionsVideo_WindowMode" xml:space="preserve">
+    <value>Оконный режим</value>
+  </data>
+  <data name="ScreenOptionsVideo_WindowMode_Fullscreen" xml:space="preserve">
+    <value>Полный экран</value>
+  </data>
+  <data name="ScreenOptionsVideo_WindowMode_FullscreenWindow" xml:space="preserve">
+    <value>Полный экран (в окне без рамки)</value>
+  </data>
+  <data name="ScreenOptionsVideo_WindowMode_Window" xml:space="preserve">
+    <value>Окно</value>
+  </data>
+  <data name="SpectatorControls" xml:space="preserve">
+    <value>Наблюдение</value>
+  </data>
+  <data name="SpectatorControls_Delta_Desc" xml:space="preserve">
+    <value>Наблюдение с фиксированной относительно объекта камерой</value>
+  </data>
+  <data name="MultiplayerErrorBannedByAdmins" xml:space="preserve">
+    <value>Вас заблокировали на этом сервере</value>
+  </data>
+  <data name="MultiplayerErrorBannedByAdminsWithDialog" xml:space="preserve">
+    <value>Вас заблокировали на этом сервере.
+Открыть профиль администратора?</value>
+  </data>
+  <data name="MessageBoxTextYouHaveBeenBanned" xml:space="preserve">
+    <value>Администратор сервера заблокировал вас.</value>
+  </data>
+  <data name="ScreenPlayers_Ban" xml:space="preserve">
+    <value>Заблокировать</value>
+  </data>
+  <data name="HudMarker_ReturnToWorld" xml:space="preserve">
+    <value>Вернитесь в игровую область!</value>
+  </data>
+  <data name="NotificationLeavingWorld" xml:space="preserve">
+    <value>Предупреждение: вы умрёте через {0:F1} метров!</value>
+  </data>
+  <data name="ScreenCaptionAdvancedSettings" xml:space="preserve">
+    <value>Расширенные настройки мира</value>
+  </data>
+  <data name="Spectator" xml:space="preserve">
+    <value>Наблюдатель</value>
+  </data>
+  <data name="SpectatorControls_Delta" xml:space="preserve">
+    <value>Орбитальный наблюдатель</value>
+  </data>
+  <data name="SpectatorControls_Free" xml:space="preserve">
+    <value>Свободный наблюдатель</value>
+  </data>
+  <data name="SpectatorControls_None" xml:space="preserve">
+    <value>Управление игроком</value>
+  </data>
+  <data name="SpectatorControls_Static" xml:space="preserve">
+    <value>Статичный наблюдатель</value>
+  </data>
+  <data name="MessageBoxErrorFactionsNameAlreadyExists" xml:space="preserve">
+    <value>Выбранное название фракции уже существует</value>
+  </data>
+  <data name="MessageBoxErrorFactionsTagAlreadyExists" xml:space="preserve">
+    <value>Выбранная метка уже существует</value>
+  </data>
+  <data name="MessageBoxErrorFactionsNameTooShort" xml:space="preserve">
+    <value>В имени фракции должно быть не менее 4 символов</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Исключить</value>
+  </data>
+  <data name="Leader" xml:space="preserve">
+    <value>Лидер</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Участник</value>
+  </data>
+  <data name="MessageBoxConfirmFactionsKickPlayer" xml:space="preserve">
+    <value>Вы уверены, что хотите исключить игрока «{0}» из вашей фракции?</value>
+  </data>
+  <data name="MessageBoxConfirmFactionsLeave" xml:space="preserve">
+    <value>Вы уверены, что хотите покинуть фракцию «{0}»?</value>
+  </data>
+  <data name="Promote" xml:space="preserve">
+    <value>Повысить</value>
+  </data>
+  <data name="Demote" xml:space="preserve">
+    <value>Понизить</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Доступ запрещён</value>
+  </data>
+  <data name="Founder" xml:space="preserve">
+    <value>Основатель</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="Deny" xml:space="preserve">
+    <value>Отклонить</value>
+  </data>
+  <data name="MessageBoxConfirmFactionsAcceptJoin" xml:space="preserve">
+    <value>Вы уверены, что хотите принять
+игрока «{0}» в вашу фракцию?</value>
+  </data>
+  <data name="MessageBoxConfirmFactionsDenyJoin" xml:space="preserve">
+    <value>Вы уверены, что не хотите принять
+игрока «{0}» в вашу фракцию?</value>
+  </data>
+  <data name="MessageBoxConfirmFactionsDemote" xml:space="preserve">
+    <value>Вы уверены, что хотите понизить «{0}» до звания участника?</value>
+  </data>
+  <data name="MessageBoxConfirmFactionsPromote" xml:space="preserve">
+    <value>Вы уверены, что хотите повысить «{0}» до звания лидера?</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Кандидат</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Метка</value>
+  </data>
+  <data name="SessionDeleteFailed" xml:space="preserve">
+    <value>Не удалось удалить сессию</value>
+  </data>
+  <data name="Medicals_Title" xml:space="preserve">
+    <value>Медицинские комнаты</value>
+  </data>
+  <data name="MessageBoxTextChangeOwner" xml:space="preserve">
+    <value>Вы уверены, что хотите изменить владельца на {0}?</value>
+  </data>
+  <data name="Respawn" xml:space="preserve">
+    <value>Возрождение</value>
+  </data>
+  <data name="MultiplayerJoinSameGameData" xml:space="preserve">
+    <value>Одинаковые игровые данные</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="PlayerInfo_Dead" xml:space="preserve">
+    <value>мёртв</value>
+  </data>
+  <data name="ScreenMods_ActiveMods" xml:space="preserve">
+    <value>Действующие моды</value>
+  </data>
+  <data name="ScreenMods_AvailableMods" xml:space="preserve">
+    <value>Доступные моды</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveLeft" xml:space="preserve">
+    <value>Отключить мод.</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveLeftAll" xml:space="preserve">
+    <value>Отключить все моды.</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveRight" xml:space="preserve">
+    <value>Включить мод.</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveRightAll" xml:space="preserve">
+    <value>Включить все моды.</value>
+  </data>
+  <data name="WorldSettings_Mods" xml:space="preserve">
+    <value>Моды</value>
+  </data>
+  <data name="WorldSettings_Advanced" xml:space="preserve">
+    <value>Расширенные</value>
+  </data>
+  <data name="ToolTipWorkshopOpenModInWorkshop" xml:space="preserve">
+    <value>Открыть мод в мастерской {0}.</value>
+  </data>
+  <data name="ToolTipWorkshopRefreshMod" xml:space="preserve">
+    <value>Обновить список модов, на которые вы подписаны.</value>
+  </data>
+  <data name="JoinGame_SearchLabel" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="ProgressTextDownloadingMods" xml:space="preserve">
+    <value>Загрузка мода </value>
+  </data>
+  <data name="NotificationClientCannotSave" xml:space="preserve">
+    <value>Сохранение игры клиентами отключено на этом сервере</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveDown" xml:space="preserve">
+    <value>Передвинуть мод ниже.</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveUp" xml:space="preserve">
+    <value>Передвинуть мод выше.</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveBottom" xml:space="preserve">
+    <value>Передвинуть мод вниз.</value>
+  </data>
+  <data name="ToolTipScreenMods_MoveTop" xml:space="preserve">
+    <value>Передвинуть мод вверх.</value>
+  </data>
+  <data name="MessageBoxTextCannotCreateGroup" xml:space="preserve">
+    <value>Вы не можете создавать группу с блоками, к которым вы не имеете доступа.</value>
+  </data>
+  <data name="MessageBoxTextCannotDeleteGroup" xml:space="preserve">
+    <value>Вы не можете удалить группу с блоками, к которым вы не имеете доступа.</value>
+  </data>
+  <data name="MessageBoxTextYouHaveBeenKickedFromFaction" xml:space="preserve">
+    <value>Вас исключили из фракции.</value>
+  </data>
+  <data name="MessageBoxTextYouHaveBeenAcceptedToFaction" xml:space="preserve">
+    <value>Вас приняли в фракцию.</value>
+  </data>
+  <data name="ControlName_ToolbarDown" xml:space="preserve">
+    <value>Предыдущая панель инструментов</value>
+  </data>
+  <data name="ControlName_ToolbarUp" xml:space="preserve">
+    <value>Следующая панель инструментов</value>
+  </data>
+  <data name="DialogTextDownloadModsFailed" xml:space="preserve">
+    <value>Не удалось загрузить моды! Проверьте моды в настройках мира.</value>
+  </data>
+  <data name="DialogTextDownloadModsFailedSteamOffline" xml:space="preserve">
+    <value>{0} в автономной режиме. Пожалуйста, попробуйте сменить настройки мира на «не в сети» и загрузить мир снова.</value>
+  </data>
+  <data name="ProgressTextCheckingMods" xml:space="preserve">
+    <value>Проверка обновлений модов... пожалуйста, подождите.</value>
+  </data>
+  <data name="ScreenDebugOfficial_Caption" xml:space="preserve">
+    <value>Экран отладки</value>
+  </data>
+  <data name="ScreenDebugOfficial_EnableDebugDraw" xml:space="preserve">
+    <value>Включить экран отладки</value>
+  </data>
+  <data name="ScreenDebugOfficial_ErrorLogCaption" xml:space="preserve">
+    <value>Лог ошибок загрузки:</value>
+  </data>
+  <data name="ScreenDebugOfficial_ModelDummies" xml:space="preserve">
+    <value>Манекены моделей</value>
+  </data>
+  <data name="ScreenDebugOfficial_MountPoints" xml:space="preserve">
+    <value>Точки размещения</value>
+  </data>
+  <data name="ScreenDebugOfficial_NoErrorText" xml:space="preserve">
+    <value>Ошибок при загрузке не было</value>
+  </data>
+  <data name="ScreenDebugOfficial_PhysicsPrimitives" xml:space="preserve">
+    <value>Физические примитивы</value>
+  </data>
+  <data name="ScreenDebugOfficial_OpenErrorLog" xml:space="preserve">
+    <value>Открытие в новом окне</value>
+  </data>
+  <data name="ScreenDebugOfficial_ReloadTextures" xml:space="preserve">
+    <value>Перезагрузка текстур</value>
+  </data>
+  <data name="DialogTextLocalModsDisabledInMultiplayer" xml:space="preserve">
+    <value>Локальные моды недоступны в сетевой игре. Взамен используйте моды из мастерской.</value>
+  </data>
+  <data name="ScreenMods_LocalMod" xml:space="preserve">
+    <value>Локальный мод</value>
+  </data>
+  <data name="ScreenMods_MissingDetails" xml:space="preserve">
+    <value>Невозможно получить информацию о моде от {0}</value>
+  </data>
+  <data name="ScreenMods_MissingLocalMod" xml:space="preserve">
+    <value>Отсутствует локальный мод</value>
+  </data>
+  <data name="ScreenMods_WorkshopMod" xml:space="preserve">
+    <value>Мод из мастерской</value>
+  </data>
+  <data name="ScreenDebugOfficial_ReloadModels" xml:space="preserve">
+    <value>Перезагрузка моделей</value>
+  </data>
+  <data name="ScreenDebugOfficial_CopyErrorLogToClipboard" xml:space="preserve">
+    <value>Скопировать лог в буфер обмена</value>
+  </data>
+  <data name="NotificationLeavingWorld_Creative" xml:space="preserve">
+    <value>Внимание: все корабли в радиусе {0:F1} м будут уничтожены!</value>
+  </data>
+  <data name="PlayerCharacterModel" xml:space="preserve">
+    <value>Модель игрока</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_Mods" xml:space="preserve">
+    <value>Моды</value>
+  </data>
+  <data name="NotificationHintPressToUse" xml:space="preserve">
+    <value>Нажмите {0} для использования {1}</value>
+  </data>
+  <data name="JoinGame_SelectServerToShowModList" xml:space="preserve">
+    <value>Выберите сервер для просмотра списка модов</value>
+  </data>
+  <data name="ScreenMods_SearchLabel" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="JoinGame_BadModsListResponse" xml:space="preserve">
+    <value>Невозможно получить список модов от сервера</value>
+  </data>
+  <data name="HudWarnings" xml:space="preserve">
+    <value>Предупреждения ИЛС</value>
+  </data>
+  <data name="DialogTextIncompatibleWorldVersion" xml:space="preserve">
+    <value>Невозможно загрузить этот мир. Он был создан в более новой версии игры или в другой ветке игры. Вы можете изменить ветку перед запуском игры, в свойствах игры.</value>
+  </data>
+  <data name="MessageBoxTextPublishFailed_AccessDenied" xml:space="preserve">
+    <value>Этот предмет мастерской, возможно, не принадлежит вам.
+Убедитесь, что вы вошли со своей учётной записи.</value>
+  </data>
+  <data name="ScreenDebugOfficial_SavePrefab" xml:space="preserve">
+    <value>Экспорт скопированного объекта в файл</value>
+  </data>
+  <data name="ToolTipSaveShip" xml:space="preserve">
+    <value>Сохранить объект из копии в файл.</value>
+  </data>
+  <data name="AddNewNPC" xml:space="preserve">
+    <value>Добавить новый идентификатор врага</value>
+  </data>
+  <data name="DisplayName_BlueprintClass_Tools" xml:space="preserve">
+    <value>Инструменты</value>
+  </data>
+  <data name="ScreenCaptionWorkshopTags" xml:space="preserve">
+    <value>Выберите метки</value>
+  </data>
+  <data name="WorkshopTag_Animation" xml:space="preserve">
+    <value>Анимация</value>
+  </data>
+  <data name="WorkshopTag_Block" xml:space="preserve">
+    <value>Блок</value>
+  </data>
+  <data name="WorkshopTag_Character" xml:space="preserve">
+    <value>Персонаж</value>
+  </data>
+  <data name="WorkshopTag_Other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="WorkshopTag_Skybox" xml:space="preserve">
+    <value>Текстура космоса</value>
+  </data>
+  <data name="MessageBoxTextPublishFailed_OwnerMismatchMod" xml:space="preserve">
+    <value>Невозможно обновить, поскольку вы не владелец этого мода.</value>
+  </data>
+  <data name="MessageBoxErrorModLoadingFailure" xml:space="preserve">
+    <value>Некоторые моды не были загружены из-за ошибок. Подробности смотрите в лог-файле или
+запустите игру в одиночном режиме для доступа к экрану отладки модов.</value>
+  </data>
+  <data name="RenderIterpolation" xml:space="preserve">
+    <value>Интерполяция кадров</value>
+  </data>
+  <data name="ToolTipVideoOptionRenderIterpolation" xml:space="preserve">
+    <value>Уменьшает рывки и делает игру плавной.</value>
+  </data>
+  <data name="WorkshopTag_ModPack" xml:space="preserve">
+    <value>Набор модов</value>
+  </data>
+  <data name="CustomText" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ScreenCubeBuilderBlockCategories" xml:space="preserve">
+    <value>Закладки объектов:</value>
+  </data>
+  <data name="ScreenCubeBuilderBlockSearch" xml:space="preserve">
+    <value>Поиск:</value>
+  </data>
+  <data name="ControlDescCopyPasteMove" xml:space="preserve">
+    <value>Перемещать вставляемый объект</value>
+  </data>
+  <data name="WorkshopTag_Script" xml:space="preserve">
+    <value>Скрипт</value>
+  </data>
+  <data name="NotificationCopyPasteBlockNotAvailable" xml:space="preserve">
+    <value>Некоторые блоки во вставляемом объекте недоступны в этом мире</value>
+  </data>
+  <data name="ConvertingObjs" xml:space="preserve">
+    <value>Конвертирование моделей. Пожалуйста, подождите.</value>
+  </data>
+  <data name="ConvertToObjDone" xml:space="preserve">
+    <value>Все модели конвертированы.</value>
+  </data>
+  <data name="ExportingToObj" xml:space="preserve">
+    <value>Экспортирование модели. Пожалуйста, подождите.</value>
+  </data>
+  <data name="MessageBoxTextDoYouWantToPasteGridWithMissingBlocks" xml:space="preserve">
+    <value>Вставляемый корабль содержит блоки, недоступные в этом мире.
+Эти блоки не будут вставлены, что может привести к расколу корабля.
+Вы действительно хотите вставить этот корабль?</value>
+  </data>
+  <data name="NotificationCopyPasteFloatingObjectNotAvailable" xml:space="preserve">
+    <value>Предмет не доступен в этом мире</value>
+  </data>
+  <data name="ShipWelder_HelpOthers" xml:space="preserve">
+    <value>Помощь другим</value>
+  </data>
+  <data name="PlacingObjectsToScene" xml:space="preserve">
+    <value>Размещение игровых объектов. Пожалуйста, подождите.</value>
+  </data>
+  <data name="ControlTypeSystems3" xml:space="preserve">
+    <value>Панель инструментов 3</value>
+  </data>
+  <data name="NotificationSwitchedToWeapon" xml:space="preserve">
+    <value>Оружие сменено на: {0}</value>
+  </data>
+  <data name="Thrust_Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Thrust_Down" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="Thrust_Forward" xml:space="preserve">
+    <value>Вперёд</value>
+  </data>
+  <data name="Thrust_Left" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="Thrust_Right" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="Thrust_Up" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="SelectBlueprint" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="DisplayName_Animation_Facepalm" xml:space="preserve">
+    <value>Рукалицо</value>
+  </data>
+  <data name="AvailableBlueprints" xml:space="preserve">
+    <value>Доступные чертежи</value>
+  </data>
+  <data name="VoxelHandProperty_Sphere_Radius" xml:space="preserve">
+    <value>Радиус</value>
+  </data>
+  <data name="VoxelHandProperty_Box_Width" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="VoxelHandProperty_Box_Depth" xml:space="preserve">
+    <value>Глубина</value>
+  </data>
+  <data name="VoxelHandProperty_Box_Height" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="VoxelHandSettingScreen_HandDistance" xml:space="preserve">
+    <value>Дистанция</value>
+  </data>
+  <data name="VoxelHandSettingScreen_HandSettings" xml:space="preserve">
+    <value>Настройки кисти</value>
+  </data>
+  <data name="VoxelHandSettingScreen_HandTransparency" xml:space="preserve">
+    <value>Прозрачность</value>
+  </data>
+  <data name="VoxelHandSettingScreen_ShapeSettings" xml:space="preserve">
+    <value>Настройки формы</value>
+  </data>
+  <data name="VoxelHandProperty_Capsule_Length" xml:space="preserve">
+    <value>Длина</value>
+  </data>
+  <data name="VoxelHandProperty_Capsule_Radius" xml:space="preserve">
+    <value>Радиус</value>
+  </data>
+  <data name="ExportToObjModded" xml:space="preserve">
+    <value>Модель содержит блоки из модов. Только модели со стандартными блоками могут быть экспортированы.</value>
+  </data>
+  <data name="VoxelHandSettingScreen_HandSnapToVoxel" xml:space="preserve">
+    <value>Привязать к воксельной сетке</value>
+  </data>
+  <data name="VoxelHandSettingScreen_FreezePhysics" xml:space="preserve">
+    <value>Заморозить физику</value>
+  </data>
+  <data name="VoxelHandProperty_AutoLevel_Area" xml:space="preserve">
+    <value>Область</value>
+  </data>
+  <data name="VoxelHandProperty_AutoLevel_Axis" xml:space="preserve">
+    <value>Выбрать ось</value>
+  </data>
+  <data name="VoxelHandProperty_AutoLevel_AxisX" xml:space="preserve">
+    <value>Ось X</value>
+  </data>
+  <data name="VoxelHandProperty_AutoLevel_AxisY" xml:space="preserve">
+    <value>Ось Y</value>
+  </data>
+  <data name="VoxelHandProperty_AutoLevel_AxisZ" xml:space="preserve">
+    <value>Ось Z</value>
+  </data>
+  <data name="VoxelHandSettingScreen_HandMaterial" xml:space="preserve">
+    <value>Материал</value>
+  </data>
+  <data name="NotificationNewFactionChatMessage" xml:space="preserve">
+    <value>Новое сообщение в чате фракции {0}</value>
+  </data>
+  <data name="NotificationNewGlobalChatMessage" xml:space="preserve">
+    <value>Новое сообщение в общем чате</value>
+  </data>
+  <data name="NotificationNewPlayerChatMessage" xml:space="preserve">
+    <value>Новое сообщение от {0}</value>
+  </data>
+  <data name="ErrorDescriptionTooLong" xml:space="preserve">
+    <value>Описание слишком длинное (не более 8000 символов)</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="TooltipScreenMods_SelectCategories" xml:space="preserve">
+    <value>Выберите категории.</value>
+  </data>
+  <data name="JoinGame_GameTypeToolTip_ViewDistance" xml:space="preserve">
+    <value>Дальность прорисовки: {0} м</value>
+  </data>
+  <data name="VoxelHandSettingScreen_HandProjectToVoxel" xml:space="preserve">
+    <value>Проекция на воксель</value>
+  </data>
+  <data name="ControlDescNextVoxelMaterial" xml:space="preserve">
+    <value>Следующий воксельный материал</value>
+  </data>
+  <data name="ControlDescOpenVoxelHandSettings" xml:space="preserve">
+    <value>Открывает настройки воксельной кисти</value>
+  </data>
+  <data name="ControlDescPreviousVoxelMaterial" xml:space="preserve">
+    <value>Предыдущий воксельный материал</value>
+  </data>
+  <data name="BlueprintsMessageBoxDesc_Replace" xml:space="preserve">
+    <value>Вы уверены, что хотите заменить существующий чертёж новым из буфера обмена?</value>
+  </data>
+  <data name="BlueprintsMessageBoxTitle_Replace" xml:space="preserve">
+    <value>Заменить</value>
+  </data>
+  <data name="NotificationTextPanelReadOnly" xml:space="preserve">
+    <value>Текстовая панель только для чтения</value>
+  </data>
+  <data name="MessageBoxTextTooLongText" xml:space="preserve">
+    <value>Текст слишком длинный. Хотите его обрезать?</value>
+  </data>
+  <data name="ControlDescExportModel" xml:space="preserve">
+    <value>Экспортировать модель</value>
+  </data>
+  <data name="VoxelHandSettingScreen_HandShowGizmos" xml:space="preserve">
+    <value>Показывать границы объектов</value>
+  </data>
+  <data name="MessageBoxTextOpenUrlOverlayNotEnabled" xml:space="preserve">
+    <value>В вашем интернет-браузере откроется {0}, поскольку оверлей {1} выключен
+или не удалось его запустить. Игра будет продолжать работать.
+Хотите продолжить?</value>
+  </data>
+  <data name="NotificationRotationFormatCombined" xml:space="preserve">
+    <value>Нажмите {0} для вращения блока</value>
+  </data>
+  <data name="NotificationCompoundBuildingFormat" xml:space="preserve">
+    <value>Нажмите {0} или {1} для включения совмещённого строительства</value>
+  </data>
+  <data name="NotificationSwitchBuildingModeFormat" xml:space="preserve">
+    <value>Нажмите {0} для включения динамического строительства</value>
+  </data>
+  <data name="ControlName_SwitchWalk" xml:space="preserve">
+    <value>Переключение ходьбы</value>
+  </data>
+  <data name="JoinGame_TabTooltip_Favorites" xml:space="preserve">
+    <value>Список избранных серверов</value>
+  </data>
+  <data name="JoinGame_TabTitle_Favorites" xml:space="preserve">
+    <value>Избранное</value>
+  </data>
+  <data name="JoinGame_TabTitle_History" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="JoinGame_TabTooltip_Friends" xml:space="preserve">
+    <value>Список серверов, на которых сейчас играют ваши друзья.</value>
+  </data>
+  <data name="JoinGame_TabTooltip_History" xml:space="preserve">
+    <value>Список ранее посещённых серверов.</value>
+  </data>
+  <data name="JoinGame_Favorites_Add" xml:space="preserve">
+    <value>Добавить сервер в избранное</value>
+  </data>
+  <data name="JoinGame_Favorites_Remove" xml:space="preserve">
+    <value>Удалить сервер из избранного</value>
+  </data>
+  <data name="ControlName_VoxelHandSettings" xml:space="preserve">
+    <value>Открыть настройки воксельной кисти</value>
+  </data>
+  <data name="NotificationVoxelHandHintFormat" xml:space="preserve">
+    <value>Нажмите {0}, чтобы открыть настройки воксельной кисти</value>
+  </data>
+  <data name="NotificationVoxelMaterialFormat" xml:space="preserve">
+    <value>Нажмите {0} или {1}, чтобы изменить воксельный материал</value>
+  </data>
+  <data name="BotSettingsScreen_EnableBotsDebugging" xml:space="preserve">
+    <value>Включить отладку ботов</value>
+  </data>
+  <data name="BotSettingsScreen_NextBot" xml:space="preserve">
+    <value>Следующий бот</value>
+  </data>
+  <data name="BotSettingsScreen_PreviousBot" xml:space="preserve">
+    <value>Предыдущий бот</value>
+  </data>
+  <data name="BotSettingsScreen_Title" xml:space="preserve">
+    <value>Настройки ботов</value>
+  </data>
+  <data name="ScreenDebugOfficial_BotSettings" xml:space="preserve">
+    <value>Настройки ботов</value>
+  </data>
+  <data name="ReportBug" xml:space="preserve">
+    <value>Сообщить об ошибке</value>
+  </data>
+  <data name="ControlName_ToolbarNextItem" xml:space="preserve">
+    <value>След. элемент панели инструментов</value>
+  </data>
+  <data name="ControlName_ToolbarPreviousItem" xml:space="preserve">
+    <value>Пред. элемент панели инструментов</value>
+  </data>
+  <data name="ControlTypeToolsOrWeapons2" xml:space="preserve">
+    <value>Инструменты/оружие 2</value>
+  </data>
+  <data name="ControlName_BuildMode" xml:space="preserve">
+    <value>Режим строительства</value>
+  </data>
+  <data name="ScreenControlMenu_Title" xml:space="preserve">
+    <value>Меню управления</value>
+  </data>
+  <data name="ControlName_ControlMenu" xml:space="preserve">
+    <value>Открыть меню управления</value>
+  </data>
+  <data name="ControlMenuItemValue_Off" xml:space="preserve">
+    <value>Выкл</value>
+  </data>
+  <data name="ControlMenuItemValue_On" xml:space="preserve">
+    <value>Вкл</value>
+  </data>
+  <data name="ControlMenuItemLabel_CameraMode" xml:space="preserve">
+    <value>Режим камеры</value>
+  </data>
+  <data name="ControlMenuItemValue_FPP" xml:space="preserve">
+    <value>От 1-го лица</value>
+  </data>
+  <data name="ControlMenuItemValue_TPP" xml:space="preserve">
+    <value>От 3-го лица</value>
+  </data>
+  <data name="ControlMenuItemLabel_CommitSuicide" xml:space="preserve">
+    <value>Самоубийство</value>
+  </data>
+  <data name="ControlMenuItemLabel_QuickLoad" xml:space="preserve">
+    <value>Быстрая загрузка/переподключение</value>
+  </data>
+  <data name="ControlMenuItemLabel_ShowColorPicker" xml:space="preserve">
+    <value>Отображать цветоподборщик</value>
+  </data>
+  <data name="ControlMenuItemLabel_ShowToolbarScreen" xml:space="preserve">
+    <value>Отображать панель инструментов</value>
+  </data>
+  <data name="ControlMenuItemLabel_ToggleHud" xml:space="preserve">
+    <value>Переключить интерфейс</value>
+  </data>
+  <data name="ControlMenuItemLabel_PauseGame" xml:space="preserve">
+    <value>Приостановить игру</value>
+  </data>
+  <data name="MessageBoxTextErrorFeatureNotAvailableYet" xml:space="preserve">
+    <value>Функция пока не доступна</value>
+  </data>
+  <data name="NotificationMaximumNumberBots" xml:space="preserve">
+    <value>Достигнуто максимальное число ботов</value>
+  </data>
+  <data name="Hud_BuildMode" xml:space="preserve">
+    <value>Режим строительства</value>
+  </data>
+  <data name="NotificationJoystickCompoundBuildingFormat" xml:space="preserve">
+    <value>Нажмите {0} для включения совмещённого строительства</value>
+  </data>
+  <data name="NotificationJoystickControlMenuFormat" xml:space="preserve">
+    <value>Нажмите {0} для доступа к меню управления</value>
+  </data>
+  <data name="NotificationJoystickMenus" xml:space="preserve">
+    <value>Чтобы показать помощь или изменить панель инструментов, откройте меню управления</value>
+  </data>
+  <data name="NotificationJoystickSlotEquipFormat" xml:space="preserve">
+    <value>Нажмите {0} или {1}, чтобы выбрать слоты панели инструментов</value>
+  </data>
+  <data name="NotificationJoystickUnlimitedBuildingFormat" xml:space="preserve">
+    <value>Нажмите {0}, чтобы добавить блок, нажмите {1}, чтобы удалить блок</value>
+  </data>
+  <data name="NotificationJoystickVoxelMaterialFormat" xml:space="preserve">
+    <value>Нажмите {0}, чтобы изменить воксельный материал</value>
+  </data>
+  <data name="Notification_GameplayOptions" xml:space="preserve">
+    <value>Нажмите {0}, чтобы изменить настройки игры</value>
+  </data>
+  <data name="ControlMenuItemLabel_Wardrobe" xml:space="preserve">
+    <value>Изменить внешний вид</value>
+  </data>
+  <data name="NotificationHintJoystickPressToOpenInventory" xml:space="preserve">
+    <value>Откройте меню управления, чтобы открыть инвентарь {0}</value>
+  </data>
+  <data name="NotificationHintPressToOpenBuildMode" xml:space="preserve">
+    <value>Нажмите {0}, чтобы перейти в режим строительства</value>
+  </data>
+  <data name="WorldSettings_Physics" xml:space="preserve">
+    <value>Физика</value>
+  </data>
+  <data name="WorldSettings_Physics_Fast" xml:space="preserve">
+    <value>Быстрая</value>
+  </data>
+  <data name="WorldSettings_Physics_Normal" xml:space="preserve">
+    <value>Нормальная</value>
+  </data>
+  <data name="WorldSettings_Physics_Precise" xml:space="preserve">
+    <value>Точная</value>
+  </data>
+  <data name="WorldSettings_Physics_Tooltip" xml:space="preserve">
+    <value>Более высокие настройки улучшают симуляцию, НО сильно влияют на производительность.</value>
+  </data>
+  <data name="ScreenCaptionGraphicsOptions" xml:space="preserve">
+    <value>Настройки графики</value>
+  </data>
+  <data name="ScreenGraphicsOptions_AnisotropicFiltering" xml:space="preserve">
+    <value>Анизотропная фильтрация</value>
+  </data>
+  <data name="ScreenGraphicsOptions_AnisotropicFiltering_Off" xml:space="preserve">
+    <value>Выкл</value>
+  </data>
+  <data name="ScreenGraphicsOptions_AntiAliasing" xml:space="preserve">
+    <value>Сглаживание</value>
+  </data>
+  <data name="ScreenGraphicsOptions_AntiAliasing_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ScreenGraphicsOptions_FoliageDetails" xml:space="preserve">
+    <value>Детализация растительности</value>
+  </data>
+  <data name="ScreenGraphicsOptions_FoliageDetails_Disabled" xml:space="preserve">
+    <value>Отключена</value>
+  </data>
+  <data name="ScreenGraphicsOptions_FoliageDetails_High" xml:space="preserve">
+    <value>Высокая</value>
+  </data>
+  <data name="ScreenGraphicsOptions_FoliageDetails_Low" xml:space="preserve">
+    <value>Низкая</value>
+  </data>
+  <data name="ScreenGraphicsOptions_FoliageDetails_Medium" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="ScreenGraphicsOptions_MultiThreadedRendering" xml:space="preserve">
+    <value>Многопотоковый рендеринг</value>
+  </data>
+  <data name="ScreenGraphicsOptions_QualityPreset" xml:space="preserve">
+    <value>Настройки графики</value>
+  </data>
+  <data name="ScreenGraphicsOptions_QualityPreset_Custom" xml:space="preserve">
+    <value>Пользовательские</value>
+  </data>
+  <data name="ScreenGraphicsOptions_QualityPreset_High" xml:space="preserve">
+    <value>Высокие</value>
+  </data>
+  <data name="ScreenGraphicsOptions_QualityPreset_Low" xml:space="preserve">
+    <value>Низкие</value>
+  </data>
+  <data name="ScreenGraphicsOptions_QualityPreset_Medium" xml:space="preserve">
+    <value>Средние</value>
+  </data>
+  <data name="ScreenGraphicsOptions_ShadowMapResolution_High" xml:space="preserve">
+    <value>Высокое</value>
+  </data>
+  <data name="ScreenGraphicsOptions_ShadowMapResolution_Disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="ScreenGraphicsOptions_ShadowMapResolution_Low" xml:space="preserve">
+    <value>Низкое</value>
+  </data>
+  <data name="ScreenGraphicsOptions_TextureQuality" xml:space="preserve">
+    <value>Качество текстур</value>
+  </data>
+  <data name="ScreenGraphicsOptions_TextureQuality_High" xml:space="preserve">
+    <value>Высокое</value>
+  </data>
+  <data name="ScreenGraphicsOptions_TextureQuality_Low" xml:space="preserve">
+    <value>Низкое</value>
+  </data>
+  <data name="ScreenGraphicsOptions_TextureQuality_Medium" xml:space="preserve">
+    <value>Среднее</value>
+  </data>
+  <data name="ControlName_VoiceChat" xml:space="preserve">
+    <value>Голосовой чат</value>
+  </data>
+  <data name="ControlName_CubeSizeMode" xml:space="preserve">
+    <value>Кнопка переключения размера куба</value>
+  </data>
+  <data name="ControlName_CubeSizeMode_Tooltip" xml:space="preserve">
+    <value>Нажмите для переключения между маленьким и большим размерами блока</value>
+  </data>
+  <data name="EnableVoiceChat" xml:space="preserve">
+    <value>Включить голосовой чат</value>
+  </data>
+  <data name="ScreenGraphicsOptions_Tonemapping" xml:space="preserve">
+    <value>Тональное отображение</value>
+  </data>
+  <data name="WorldSettings_VegetationDistance" xml:space="preserve">
+    <value>Дальность прорисовки деревьев</value>
+  </data>
+  <data name="WorldSettings_GrassDrawDistance" xml:space="preserve">
+    <value>Дальность прорисовки травы</value>
+  </data>
+  <data name="WorldSettings_GrassDensity" xml:space="preserve">
+    <value>Плотность травы</value>
+  </data>
+  <data name="MessageBoxTextGuideQuestion" xml:space="preserve">
+    <value>Вы хотите начать просмотр обучающего видео? Помните: вы всегда можете
+вернуться, нажав «Руководства» в разделе «Справка» (нажмите F1).</value>
+  </data>
+  <data name="NotificationIncompleteGrid" xml:space="preserve">
+    <value>В инвентаре можно размещать только полностью построенные и неповреждённые блоки.</value>
+  </data>
+  <data name="ScreenPlayers_Muted" xml:space="preserve">
+    <value>Приглушить</value>
+  </data>
+  <data name="VoiceChatVolume" xml:space="preserve">
+    <value>Громкость голосового чата</value>
+  </data>
+  <data name="JoinGame_ColumnTitle_RemainingTime" xml:space="preserve">
+    <value>Оставшееся время</value>
+  </data>
+  <data name="JoinGame_Lobby" xml:space="preserve">
+    <value>Лобби</value>
+  </data>
+  <data name="JoinGame_Waiting" xml:space="preserve">
+    <value>Ожидание</value>
+  </data>
+  <data name="MultiplayerErrorSessionEnded" xml:space="preserve">
+    <value>Игровая сессия закончилась. Не стесняйтесь присоединиться к другой.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_EnableAdminMode" xml:space="preserve">
+    <value>Включить творческий режим</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_EnableAdminMode_Tooltip" xml:space="preserve">
+    <value>Включение позволяет копировать/вставлять корабли, станции, создавать объекты (SHIFT+F10), наблюдать (F8) и телепортироваться (CTRL+Пробел)</value>
+  </data>
+  <data name="ScreenPlayers_Demote" xml:space="preserve">
+    <value>Понизить</value>
+  </data>
+  <data name="ScreenPlayers_Promote" xml:space="preserve">
+    <value>Повысить</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Accelerating" xml:space="preserve">
+    <value>Ускорение</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_DistanceFromPlayer" xml:space="preserve">
+    <value>Удаление от игрока на {0} (м)</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Linear" xml:space="preserve">
+    <value>Линейное перемещение</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_WithBlockCount" xml:space="preserve">
+    <value>Меньше блоков, чем {0}</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_RemoveTrash" xml:space="preserve">
+    <value>Удалить мусор</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_StopTrash" xml:space="preserve">
+    <value>Остановить мусор</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_NumberOfLocalTrash" xml:space="preserve">
+    <value>Количество локального мусора: {0}</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_TrashRemoval" xml:space="preserve">
+    <value>Добавить в мусор</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ContinuousTrashInterval" xml:space="preserve">
+    <value>Непрерывный интервал мусора</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_TrashAction" xml:space="preserve">
+    <value>Действие мусора</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_PauseTrashButton" xml:space="preserve">
+    <value>Приостановить</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ResumeTrashButton" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_PauseTrashButtonTooltip" xml:space="preserve">
+    <value>Отключить удаление мусора</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ShowTrashAdminView" xml:space="preserve">
+    <value>Отображать информацию мусора</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplicateEverything" xml:space="preserve">
+    <value>Симуляция всего локально</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplicateEverything_Tooltip" xml:space="preserve">
+    <value>ИСПОЛЬЗОВАТЬ С ИСКЛЮЧИТЕЛЬНОЙ ОСТОРОЖНОСТЬЮ! 
+    Ваша игра может зависнуть, пока полностью не завершится процесс. 
+    Осторожно, в основном это свойственно для отладки. Этот параметр позволит имитировать компьютеру всё происходящее на сервере.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_CurrentValue" xml:space="preserve">
+    <value>Текущее значение: {0}</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_CycleObjects" xml:space="preserve">
+    <value>Переключить объекты</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Next" xml:space="preserve">
+    <value>Следующий</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Previous" xml:space="preserve">
+    <value>Предыдущий</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_First" xml:space="preserve">
+    <value>Сначала</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Stop" xml:space="preserve">
+    <value>Остановить</value>
+  </data>
+  <data name="DisplayName_Flammables" xml:space="preserve">
+    <value>Огнеопасный</value>
+  </data>
+  <data name="MessageBoxErrorFactionsTag" xml:space="preserve">
+    <value>Длина метки фракции должна составлять ровно 3 символа</value>
+  </data>
+  <data name="Multiplayer_LastMsg" xml:space="preserve">
+    <value>Сообщение от сервера не получено в течение {0} секунд.</value>
+  </data>
+  <data name="NPCIdentityAdded" xml:space="preserve">
+    <value>Добавлена идентификация {0}</value>
+  </data>
+  <data name="ToolTipGameOptionsUIOpacity" xml:space="preserve">
+    <value>Изменение прозрачности диалоговых окон пользовательского интерфейса.</value>
+  </data>
+  <data name="ToolTipGameOptionsUIBkOpacity" xml:space="preserve">
+    <value>Изменение прозрачности фона диалоговых окон пользовательского интерфейса.</value>
+  </data>
+  <data name="ToolTipGameOptionsHUDBkOpacity" xml:space="preserve">
+    <value>Изменение прозрачности фона ИЛС.</value>
+  </data>
+  <data name="WorldSettings_GameMode" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_LargeGrids" xml:space="preserve">
+    <value>Найти только большие сетки</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_SmallGrids" xml:space="preserve">
+    <value>Найти только маленькие сетки</value>
+  </data>
+  <data name="BlockPropertiesText_Type" xml:space="preserve">
+    <value>Тип: </value>
+  </data>
+  <data name="DetailLargeGrid" xml:space="preserve">
+    <value>Большая сетка</value>
+  </data>
+  <data name="DetailSmallGrid" xml:space="preserve">
+    <value>Маленькая сетка</value>
+  </data>
+  <data name="DetailStaticGrid" xml:space="preserve">
+    <value>Статичная сетка</value>
+  </data>
+  <data name="ScreenOptionsGame_ReleasingAltResetsCamera" xml:space="preserve">
+    <value>Отпускание Alt сбрасывает камеру</value>
+  </data>
+  <data name="ToolTipGameOptionsReleasingAltResetsCamera" xml:space="preserve">
+    <value>При отпускании кнопки для оглядывания, камера сбрасывается автоматически.</value>
+  </data>
+  <data name="MessageBoxCaptionNotReady" xml:space="preserve">
+    <value>Выбранная медицинская комната не готова.</value>
+  </data>
+  <data name="MessageBoxTextNotReady" xml:space="preserve">
+    <value>Выбранная медицинская комната не готова. Пожалуйста, подождите, пока она не начнёт передаваться с сервера.</value>
+  </data>
+  <data name="MessageBoxF12Question" xml:space="preserve">
+    <value>ВНИМАНИЕ</value>
+  </data>
+  <data name="MessageBoxTextF12Question" xml:space="preserve">
+    <value>Вы входите на экран отладки разработчика. 
+Некоторые функции могут привести к сбою игры или другим ошибкам. 
+Продолжить?</value>
+  </data>
+  <data name="NotificationStatNotEnough" xml:space="preserve">
+    <value>Недостаточно {0}</value>
+  </data>
+  <data name="NotificationStatZero" xml:space="preserve">
+    <value>У вас закончилось {0}</value>
+  </data>
+  <data name="MuteWhenNotInFocus" xml:space="preserve">
+    <value>Приглушить при бездействии</value>
+  </data>
+  <data name="ControlTypeNavigation2" xml:space="preserve">
+    <value>Перемещение 2</value>
+  </data>
+  <data name="ScreenLoadSubscribedWorldCopyWorld" xml:space="preserve">
+    <value>Настройка</value>
+  </data>
+  <data name="NotificationResearchUnlocked" xml:space="preserve">
+    <value>Вы открыли новые знания о {0}.</value>
+  </data>
+  <data name="NotificationResearchKnown" xml:space="preserve">
+    <value>У вас уже есть знания о {0}!</value>
+  </data>
+  <data name="MessageBoxTextWorldExistsDownloadOverwrite" xml:space="preserve">
+    <value>Мир уже существует! Загрузить/перезаписать?</value>
+  </data>
+  <data name="MessageBoxTextWorldExistsOverwrite" xml:space="preserve">
+    <value>Мир уже существует! Перезаписать?</value>
+  </data>
+  <data name="ToolTipWorkshopCopyWorld" xml:space="preserve">
+    <value>Настройте параметры перед запуском.</value>
+  </data>
+  <data name="SignalMode_Switch_DefaultMode" xml:space="preserve">
+    <value>Сигналы переключены в обычный режим.</value>
+  </data>
+  <data name="SignalMode_Switch_FullDisplay" xml:space="preserve">
+    <value>Сигналы переключены на полностью видимые.</value>
+  </data>
+  <data name="SignalMode_Switch_NoNames" xml:space="preserve">
+    <value>Сигналы переключены на отключение названий.</value>
+  </data>
+  <data name="SignalMode_Switch_Off" xml:space="preserve">
+    <value>Сигналы выключены.</value>
+  </data>
+  <data name="Notification_CannotManipulateDoor" xml:space="preserve">
+    <value>Невозможно открыть или закрыть дверь. Проверьте наличие блокирующих объектов!</value>
+  </data>
+  <data name="AudioSettings_UseMusicController" xml:space="preserve">
+    <value>Использовать контекстную музыку</value>
+  </data>
+  <data name="ControlName_ChangeBlockVariants" xml:space="preserve">
+    <value>Сменить виды блоков</value>
+  </data>
+  <data name="MessageBoxLastSessionNotFound" xml:space="preserve">
+    <value>У вас отсутствуют сохранённые игры. Ваш прогресс невозможно загрузить.</value>
+  </data>
+  <data name="NewGame_SelectionLabel" xml:space="preserve">
+    <value>Кампания</value>
+  </data>
+  <data name="ScreenCaptionNewGame" xml:space="preserve">
+    <value>Кампания</value>
+  </data>
+  <data name="ScreenMenuButtonContinueGame" xml:space="preserve">
+    <value>Продолжить игру</value>
+  </data>
+  <data name="ScreenMenuButtonCustomGame" xml:space="preserve">
+    <value>Своя игра</value>
+  </data>
+  <data name="ScreenMenuButtonJoinGame" xml:space="preserve">
+    <value>Присоединиться к игре</value>
+  </data>
+  <data name="ScreenMenuButtonLoadGame" xml:space="preserve">
+    <value>Загрузить игру</value>
+  </data>
+  <data name="ScreenMenuButtonCampaign" xml:space="preserve">
+    <value>Новая игра</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Создано</value>
+  </data>
+  <data name="LoadScreenButtonBackups" xml:space="preserve">
+    <value>Резервные копии</value>
+  </data>
+  <data name="SaveBrowserMissingBackup" xml:space="preserve">
+    <value>Отсутствует папка резервного копирования выбранной сохранённой игры.</value>
+  </data>
+  <data name="ScreenOptionsGame_Skin" xml:space="preserve">
+    <value>Скин</value>
+  </data>
+  <data name="ScreenOptionsGame_SkinWarning" xml:space="preserve">
+    <value>Примечание: в данный момент не все экраны поддерживают скины</value>
+  </data>
+  <data name="LoadingDialogServerIsLoadingWorld" xml:space="preserve">
+    <value>Сервер загружает мир</value>
+  </data>
+  <data name="AudioSettings_ShipSoundsBasedOnSpeed" xml:space="preserve">
+    <value>Звуки корабля на основе скорости</value>
+  </data>
+  <data name="ScreenMenuButtonContinue" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="Void" xml:space="preserve">
+    <value>Пустота</value>
+  </data>
+  <data name="NotificationPerformanceLow" xml:space="preserve">
+    <value>Низкая производительность игры. Причина: {0}</value>
+  </data>
+  <data name="PerformanceWarningAreaAI" xml:space="preserve">
+    <value>ИИ</value>
+  </data>
+  <data name="PerformanceWarningAreaBlocks" xml:space="preserve">
+    <value>Блоки обновлены</value>
+  </data>
+  <data name="PerformanceWarningAreaConveyor" xml:space="preserve">
+    <value>Конвейерная система</value>
+  </data>
+  <data name="PerformanceWarningAreaGrid" xml:space="preserve">
+    <value>Сетки обновлены</value>
+  </data>
+  <data name="PerformanceWarningAreaGyro" xml:space="preserve">
+    <value>Система гироскопа</value>
+  </data>
+  <data name="PerformanceWarningAreaOxygen" xml:space="preserve">
+    <value>Кислородная система</value>
+  </data>
+  <data name="PerformanceWarningAreaPhysics" xml:space="preserve">
+    <value>Физика</value>
+  </data>
+  <data name="PerformanceWarningAreaRender" xml:space="preserve">
+    <value>Визуализация (ЦП)</value>
+  </data>
+  <data name="PerformanceWarningAreaScripts" xml:space="preserve">
+    <value>Скрипты</value>
+  </data>
+  <data name="PerformanceWarningAreaTextures" xml:space="preserve">
+    <value>Загрузка сетки/текстуры</value>
+  </data>
+  <data name="ScreenOptionsGame_EnablePerformanceWarnings" xml:space="preserve">
+    <value>Отображать предупреждения в игре</value>
+  </data>
+  <data name="ToolTipGameOptionsEnablePerformanceWarnings" xml:space="preserve">
+    <value>Отображать предупреждение всякий раз, когда снижается производительность игры.</value>
+  </data>
+  <data name="PerformanceWarningAreaClearAndGeometryRender" xml:space="preserve">
+    <value>ГП (геометрия)</value>
+  </data>
+  <data name="PerformanceWarningAreaLights" xml:space="preserve">
+    <value>ГП (освещение)</value>
+  </data>
+  <data name="PerformanceWarningAreaPostProcess" xml:space="preserve">
+    <value>ГП (постобработка)</value>
+  </data>
+  <data name="PerformanceWarningAreaRenderFoliage" xml:space="preserve">
+    <value>ГП (растительность)</value>
+  </data>
+  <data name="PerformanceWarningAreaShadows" xml:space="preserve">
+    <value>ГП (тени)</value>
+  </data>
+  <data name="PerformanceWarningAreaSSAO" xml:space="preserve">
+    <value>ГП (глобальное освещение)</value>
+  </data>
+  <data name="PerformanceWarningAreaTransparentPass" xml:space="preserve">
+    <value>ГП (прозрачность)</value>
+  </data>
+  <data name="PerformanceWarningHeading" xml:space="preserve">
+    <value>ПРЕДУПРЕЖДЕНИЯ О ПРОИЗВОДИТЕЛЬНОСТИ
+Нажмите Shift+{0} для получения дополнительной информации</value>
+  </data>
+  <data name="PerformanceWarningAreaAIDescription" xml:space="preserve">
+    <value>Обновление ИИ и поиска пути. Выключение кибер-злодеев и пауков.</value>
+  </data>
+  <data name="PerformanceWarningAreaBlocksDescription" xml:space="preserve">
+    <value>Обновление отдельных блоков. Слишком много блоков в мире.</value>
+  </data>
+  <data name="PerformanceWarningAreaClearAndGeometryRenderDescription" xml:space="preserve">
+    <value>Визуализация геометрии мира. Понизьте качество вокселя.</value>
+  </data>
+  <data name="PerformanceWarningAreaConveyorDescription" xml:space="preserve">
+    <value>Обновление конвейеров. Слишком много конвейеров или
+блоков, использующих конвейеры в мире.</value>
+  </data>
+  <data name="PerformanceWarningAreaGridDescription" xml:space="preserve">
+    <value>Обновление корабельных систем, отличных от кислородной, гироскопов и конвейеров.</value>
+  </data>
+  <data name="PerformanceWarningAreaGyroDescription" xml:space="preserve">
+    <value>Обновление гироскопических систем. Слишком много гироскопов в мире.</value>
+  </data>
+  <data name="PerformanceWarningAreaLightsDescription" xml:space="preserve">
+    <value>Визуализация освещения. Слишком много искусственного света в мире.</value>
+  </data>
+  <data name="PerformanceWarningAreaOxygenDescription" xml:space="preserve">
+    <value>Обновление кислородных систем. Слишком много или слишком большие области с давлением.</value>
+  </data>
+  <data name="PerformanceWarningAreaPhysicsDescription" xml:space="preserve">
+    <value>Обновление физики. Слишком много отдельных объектов, взаимодействующих
+друг с другом.</value>
+  </data>
+  <data name="PerformanceWarningAreaPostProcessDescription" xml:space="preserve">
+    <value>Постобработка ГП. Включает сглаживание.</value>
+  </data>
+  <data name="PerformanceWarningAreaRenderDescription" xml:space="preserve">
+    <value>ЦП подготавливает мир для визуализации.</value>
+  </data>
+  <data name="PerformanceWarningAreaRenderFoliageDescription" xml:space="preserve">
+    <value>Визуализация растительности (травы). Снизьте настройки растительности.</value>
+  </data>
+  <data name="PerformanceWarningAreaScriptsDescription" xml:space="preserve">
+    <value>Выполнение скриптов программируемых блоков. Слишком много или слишком сложные скрипты.</value>
+				
+  </data>
+  <data name="PerformanceWarningAreaShadowsDescription" xml:space="preserve">
+    <value>Визуализация теней. Снизьте качество теней.</value>
+  </data>
+  <data name="PerformanceWarningAreaSSAODescription" xml:space="preserve">
+    <value>Глобальное затенение.</value>
+  </data>
+  <data name="PerformanceWarningAreaTexturesDescription" xml:space="preserve">
+    <value>Загрузка сеток или текстур.</value>
+  </data>
+  <data name="PerformanceWarningAreaTransparentPassDescription" xml:space="preserve">
+    <value>Визуализация прозрачный объектов и частиц.</value>
+  </data>
+  <data name="PerformanceWarningAreaModsDescription" xml:space="preserve">
+    <value>Данный мод замедляет вашу игру.</value>
+  </data>
+  <data name="PerformanceWarningHelpHeader" xml:space="preserve">
+    <value>Предупреждения о производительности</value>
+  </data>
+  <data name="NotificationBlocksLeft" xml:space="preserve">
+    <value>Вы можете разместить ещё {0} блоков</value>
+  </data>
+  <data name="PlayerMaxBlocks" xml:space="preserve">
+    <value>Ограничение по блокам игрока</value>
+  </data>
+  <data name="BuiltBy" xml:space="preserve">
+    <value>Построено</value>
+  </data>
+  <data name="ScreenTerminalInfo_Assign" xml:space="preserve">
+    <value>Назначить</value>
+  </data>
+  <data name="ScreenTerminalInfo_Blocks" xml:space="preserve">
+    <value>блоки</value>
+  </data>
+  <data name="MessageBoxTextConfirmAcceptTransferGrid" xml:space="preserve">
+    <value>Игрок {0} передаёт вам право на владение {1} блоками на корабле {2}. Вы принимаете?</value>
+  </data>
+  <data name="MessageBoxTextConfirmDeleteGrid" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить все свои блоки
+на {0}? Корабль может развалиться.</value>
+  </data>
+  <data name="MessageBoxTextConfirmTransferGrid" xml:space="preserve">
+    <value>Вы уверены, что хотите передать право на владение всеми
+вашими блоками на {0} игроку {1}?</value>
+  </data>
+  <data name="MessageBoxTextNotEnoughFreeBlocksForTransfer" xml:space="preserve">
+    <value>У игрока {0} недостаточно свободных блоков для принятия вашей части корабля.</value>
+  </data>
+  <data name="ScreenTerminalInfo_Overview" xml:space="preserve">
+    <value>Обзор своих блоков</value>
+  </data>
+  <data name="ScreenTerminalInfo_YouBuilt" xml:space="preserve">
+    <value>Вы построили</value>
+  </data>
+  <data name="MessageBoxTextPlayerNotOnline" xml:space="preserve">
+    <value>Игрок {0} больше не в сети.</value>
+  </data>
+  <data name="WorldSettings_BlockLimits" xml:space="preserve">
+    <value>Ограничения блоков</value>
+  </data>
+  <data name="MessageBoxTextBlockLimitDisableWarning" xml:space="preserve">
+    <value>Ограничения блоков устанавливаются для обеспечения хорошей производительности.
+Пожалуйста, отключайте этот параметр только в экспериментальных целях.</value>
+  </data>
+  <data name="ToolTipWorldSettingsBlockLimits" xml:space="preserve">
+    <value>Используйте рекомендуемые ограничения блоков.</value>
+  </data>
+  <data name="PerformanceWarningIssuesBlocks" xml:space="preserve">
+    <value>Проблемы с блоками</value>
+  </data>
+  <data name="PerformanceWarningIssuesGraphics" xml:space="preserve">
+    <value>Проблемы с графикой</value>
+  </data>
+  <data name="PerformanceWarningIssuesOther" xml:space="preserve">
+    <value>Другие проблемы</value>
+  </data>
+  <data name="ScreenOptionsButtonGraphics" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="PerformanceWarningShowAll" xml:space="preserve">
+    <value>Отображать все предупреждения</value>
+  </data>
+  <data name="ToolTipPerformanceWarningShowAll" xml:space="preserve">
+    <value>Выкл - отображать только текущие предупреждения о производительности.
+Вкл - будут отображаться все предупреждения о производительности в этой сессии.</value>
+  </data>
+  <data name="PerformanceWarningLastOccurrence" xml:space="preserve">
+    <value>Последнее событие</value>
+  </data>
+  <data name="PerformanceWarningTooManyBlocks" xml:space="preserve">
+    <value>Слишком много блоков этого типа.</value>
+  </data>
+  <data name="AudioSettings_EnableReverb" xml:space="preserve">
+    <value>Включить эхо</value>
+  </data>
+  <data name="ScreenGraphicsOptions_AmbientOcclusion" xml:space="preserve">
+    <value>Глобальное затенение</value>
+  </data>
+  <data name="ScreenGraphicsOptions_AmbientOcclusion_HBAO" xml:space="preserve">
+    <value>HBAO</value>
+  </data>
+  <data name="ScreenGraphicsOptions_AmbientOcclusion_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="MessageBoxCaptionDoYouWishToPublishCampaign" xml:space="preserve">
+    <value>ОПУБЛИКОВАТЬ КАМПАНИЮ</value>
+  </data>
+  <data name="MessageBoxCaptionCampaignPublished" xml:space="preserve">
+    <value>КАМПАНИЯ ОПУБЛИКОВАНА</value>
+  </data>
+  <data name="MessageBoxCaptionModCampaignPublishFailed" xml:space="preserve">
+    <value>НЕ УДАЛОСЬ ОПУБЛИКОВАТЬ КАМПАНИЮ</value>
+  </data>
+  <data name="MessageBoxTextDoYouWishToPublishCampaign" xml:space="preserve">
+    <value>Вы уверены, что хотите загрузить и опубликовать выбранную кампанию в мастерскую {0}?
+Обратите внимание, что отправляя данный предмет, вы соглашаетесь с условиями юридического соглашения мастерской (см. {1}).</value>
+  </data>
+  <data name="MessageBoxTextCampaignPublished" xml:space="preserve">
+    <value>Публикация успешно завершена. Если у вас включён оверлей {0}, откроется
+страница и вы сможете редактировать параметры, такие как название, описание
+и видимость (по умолчанию - общедоступно).</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_EntityName" xml:space="preserve">
+    <value>Название сущности: </value>
+  </data>
+  <data name="Multiplayer_HighPing" xml:space="preserve">
+    <value>Предупреждение (сетевая игра): подключение с высокой задержкой (>250 мс)</value>
+  </data>
+  <data name="Multiplayer_LowSimSpeed" xml:space="preserve">
+    <value>Предупреждение (сетевая игра): низкая скорость симуляции на сервере</value>
+  </data>
+  <data name="NewGameScreen_Description" xml:space="preserve">
+    <value>Начать новую кампанию.</value>
+  </data>
+  <data name="WorkshopScreen_Description" xml:space="preserve">
+    <value>Выберите один из предметов мастерской, на которые вы подписаны, или найдите другие.</value>
+  </data>
+  <data name="WorldSettingsScreen_Description" xml:space="preserve">
+    <value>Создать новый пользовательский мир.</value>
+  </data>
+  <data name="ScreenCaptionNewsletter" xml:space="preserve">
+    <value>Рассылка</value>
+  </data>
+  <data name="ScreenNewsletterConfirmationMessage" xml:space="preserve">
+    <value>На указанный адрес электронной почты было отправлено сообщение с подтверждением</value>
+  </data>
+  <data name="ScreenNewsletterEmailLabel" xml:space="preserve">
+    <value>Электронная почта</value>
+  </data>
+  <data name="ScreenNewsletterNoInterestCheckbox" xml:space="preserve">
+    <value>Не спрашивать меня больше</value>
+  </data>
+  <data name="ScreenNewsletterSubtitle" xml:space="preserve">
+    <value>Если вы хотите получать рассылку от Keen Software House, пожалуйста, предоставьте ваш адрес электронной почты.</value>
+  </data>
+  <data name="ScreenGraphicsOptions_ModelQuality" xml:space="preserve">
+    <value>Качество модели</value>
+  </data>
+  <data name="IncompatibleDataNotification" xml:space="preserve">
+    <value>Сервер имеет несовместимые данные игры.</value>
+  </data>
+  <data name="MessageBoxTextCampaignBeforeExit" xml:space="preserve">
+    <value>Вы уверены, что хотите выйти? Весь прогресс с последней точки сохранения будет потерян.</value>
+  </data>
+  <data name="MessageBoxTextAnyWorldBeforeExit" xml:space="preserve">
+    <value>Вы уверены, что хотите вернуться в главное меню?</value>
+  </data>
+  <data name="ScreenOptionsButtonDisplay" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="Functional" xml:space="preserve">
+    <value>РАБОТАЮЩИЙ</value>
+  </data>
+  <data name="Hack" xml:space="preserve">
+    <value>ВЗЛОМАННЫЙ</value>
+  </data>
+  <data name="CubeBuilderNoBlueprintPermission" xml:space="preserve">
+    <value>У вас нет разрешения на владение чертежом этого корабля</value>
+  </data>
+  <data name="MultiplayerErrorKickedByAdmins" xml:space="preserve">
+    <value>Вас недавно исключили с этого сервера.</value>
+  </data>
+  <data name="MultiplayerJoinHasPassword" xml:space="preserve">
+    <value>С паролем</value>
+  </data>
+  <data name="MultiplayerJoinOnlinePlayers" xml:space="preserve">
+    <value>Игроков в сети</value>
+  </data>
+  <data name="MultiplayerJoinConnect" xml:space="preserve">
+    <value>Подключиться</value>
+  </data>
+  <data name="MultiplayerJoinDirectConnect" xml:space="preserve">
+    <value>Прямое подключение</value>
+  </data>
+  <data name="MultiplayerJoinIPError" xml:space="preserve">
+    <value>Произошла ошибка при обработке данного IP-адреса или имени хоста. Проверьте лог-файл для более подробной информации.</value>
+  </data>
+  <data name="ServerDetails_Map" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="ServerDetails_Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="ServerDetails_Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="ServerDetails_GameMode" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="ServerDetails_InventorySizeMultiplier" xml:space="preserve">
+    <value>Множитель размера инвентаря</value>
+  </data>
+  <data name="ServerDetails_MaxPlayers" xml:space="preserve">
+    <value>Максимум игроков</value>
+  </data>
+  <data name="ServerDetails_EnableCopyPaste" xml:space="preserve">
+    <value>Копирование/вставка</value>
+  </data>
+  <data name="ServerDetails_EnableSpectator" xml:space="preserve">
+    <value>Наблюдатель</value>
+  </data>
+  <data name="ServerDetails_AutoSaveInMinutes" xml:space="preserve">
+    <value>Автосохранение в минутах</value>
+  </data>
+  <data name="ServerDetails_EnableRespawnShips" xml:space="preserve">
+    <value>Повторное появление кораблей/машин</value>
+  </data>
+  <data name="ServerDetails_FloraDensityMultiplier" xml:space="preserve">
+    <value>Множитель плотности флоры</value>
+  </data>
+  <data name="ServerDetails_AddFavorite" xml:space="preserve">
+    <value>Добавить в избранное</value>
+  </data>
+  <data name="ServerDetails_IPAddress" xml:space="preserve">
+    <value>IP-адрес</value>
+  </data>
+  <data name="ServerDetails_ModDownloadSize" xml:space="preserve">
+    <value>Размер загружаемых модов</value>
+  </data>
+  <data name="ServerDetails_ModError" xml:space="preserve">
+    <value>Произошла ошибка при получении информации о моде!</value>
+  </data>
+  <data name="ServerDetails_PlayerError" xml:space="preserve">
+    <value>Произошла ошибка при получении информации об игроке!</value>
+  </data>
+  <data name="ServerDetails_ServerEmpty" xml:space="preserve">
+    <value>Сервер пуст!</value>
+  </data>
+  <data name="ServerDetails_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ServerDetails_WorldSettings" xml:space="preserve">
+    <value>Настройки мира</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Любая</value>
+  </data>
+  <data name="ScreenLoadSubscribedWorldPause" xml:space="preserve">
+    <value>Приостановить</value>
+  </data>
+  <data name="ScreenLoadSubscribedWorldResume" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="ServerDetails_SettingError" xml:space="preserve">
+    <value>Произошла ошибка при загрузке настроек сервера!</value>
+  </data>
+  <data name="ServerSearch_Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="ServerSearch_Defaults" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="ServerSearch_EnableAdvanced" xml:space="preserve">
+    <value>Включить расширенные</value>
+  </data>
+  <data name="ServerSearch_EnableAdvancedTooltip" xml:space="preserve">
+    <value>Включить фильтры расширенного поиска.</value>
+  </data>
+  <data name="ServerSearch_EnableNumericTooltip" xml:space="preserve">
+    <value>Включить или отскочить этот фильтр.</value>
+  </data>
+  <data name="JoinGame_DirectConnect" xml:space="preserve">
+    <value>Прямое подключение</value>
+  </data>
+  <data name="JoinGame_ServerDetails" xml:space="preserve">
+    <value>Сведения о сервере</value>
+  </data>
+  <data name="ServerDetails_NoMods" xml:space="preserve">
+    <value>На сервере нет модов!</value>
+  </data>
+  <data name="ServerSearch_Exclusive" xml:space="preserve">
+    <value>Эксклюзивный</value>
+  </data>
+  <data name="ServerSearch_ExclusiveTooltip" xml:space="preserve">
+    <value>Включите, если сервер должен иметь:
+Все выбранные моды (эксклюзивный) или
+Любые выбранные моды (включающий)</value>
+  </data>
+  <data name="NextNews" xml:space="preserve">
+    <value>Отображать старые новости.</value>
+  </data>
+  <data name="PreviousNews" xml:space="preserve">
+    <value>Отображать новые новости.</value>
+  </data>
+  <data name="ToolTipContinueGame" xml:space="preserve">
+    <value>Продолжить с последнего сохранения.</value>
+  </data>
+  <data name="ToolTipExitToWindows" xml:space="preserve">
+    <value>Покинуть игру.</value>
+  </data>
+  <data name="DeveloperControls" xml:space="preserve">
+    <value>Управление разработчика</value>
+  </data>
+  <data name="SelectToolbarPage" xml:space="preserve">
+    <value>Выбрать страницу панели инструментов {0}</value>
+  </data>
+  <data name="ToolTipJoinGame" xml:space="preserve">
+    <value>Играть по сети.</value>
+  </data>
+  <data name="ToolTipLoadGame" xml:space="preserve">
+    <value>Загрузить сохранённый мир.</value>
+  </data>
+  <data name="ToolTipNewGame" xml:space="preserve">
+    <value>Начать новую игру.</value>
+  </data>
+  <data name="ToolTipOptions" xml:space="preserve">
+    <value>Изменить настройки игры.</value>
+  </data>
+  <data name="ServerSearch" xml:space="preserve">
+    <value>Расширенный поиск сервера</value>
+  </data>
+  <data name="ServerDetails_RemoveFavorite" xml:space="preserve">
+    <value>Удалить из избранного</value>
+  </data>
+  <data name="ControlTypeView" xml:space="preserve">
+    <value>Наблюдение</value>
+  </data>
+  <data name="ScreenCaptionDisplay" xml:space="preserve">
+    <value>Настройки изображения</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Начать</value>
+  </data>
+  <data name="ToolTipWorkshopPublish" xml:space="preserve">
+    <value>Опубликуйте свой мод в мастерской Steam.</value>
+  </data>
+  <data name="ModCrashedTheGame" xml:space="preserve">
+    <value>Мод вызвал сбой игры!</value>
+  </data>
+  <data name="ModCrashedTheGameInfo" xml:space="preserve">
+    <value>С модом {0} (Идентификатор мода: {1}) возникли проблемы, из-за чего произошёл сбой игры!
+Пожалуйста, свяжитесь с автором мода и сообщите ему о проблеме.
+
+Дополнительную информацию вы можете найти в логе:
+{2}</value>
+  </data>
+  <data name="ScreenCaptionInventory" xml:space="preserve">
+    <value>Настроить</value>
+  </data>
+  <data name="Inventory_Icon" xml:space="preserve">
+    <value>Значок</value>
+  </data>
+  <data name="Inventory_Quantity" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="ScreenLoadInventoryBrowseItems" xml:space="preserve">
+    <value>Хранилище</value>
+  </data>
+  <data name="ScreenLoadInventoryOpenInStore" xml:space="preserve">
+    <value>Открыть в хранилище предметов</value>
+  </data>
+  <data name="ScreenLoadInventoryViewDetails" xml:space="preserve">
+    <value>Просмотреть сведения</value>
+  </data>
+  <data name="ToolTipInventoryBrowseItems" xml:space="preserve">
+    <value>Открыть оверлей Steam с окном «Предметы»</value>
+  </data>
+  <data name="ToolTipInventoryOpenInStore" xml:space="preserve">
+    <value>Открыть выбранный мир в мастерской Steam</value>
+  </data>
+  <data name="ToolTipInventoryViewDetails" xml:space="preserve">
+    <value>Просмотреть сведения о выбранном предмете</value>
+  </data>
+  <data name="ScreenMenuButtonInventory" xml:space="preserve">
+    <value>Персонаж</value>
+  </data>
+  <data name="ToolTipMenuInventory" xml:space="preserve">
+    <value>Инвентарь</value>
+  </data>
+  <data name="ScreenMenuButtonBack" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="ScreenMenuButtonPlay" xml:space="preserve">
+    <value>Играть</value>
+  </data>
+  <data name="ScreenCaptionNewItem" xml:space="preserve">
+    <value>Вы получили новый предмет</value>
+  </data>
+  <data name="ScreenNewItemVisit" xml:space="preserve">
+    <value>Посетите медицинскую комнату, чтобы изменить свою внешность.</value>
+  </data>
+  <data name="ScreenLoadInventoryAllItems" xml:space="preserve">
+    <value>Всё</value>
+  </data>
+  <data name="ScreenLoadInventoryBoots" xml:space="preserve">
+    <value>Обувь</value>
+  </data>
+  <data name="ScreenLoadInventoryCategories" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="ScreenLoadInventoryCharacter" xml:space="preserve">
+    <value>Персонаж</value>
+  </data>
+  <data name="ScreenLoadInventoryGloves" xml:space="preserve">
+    <value>Перчатки</value>
+  </data>
+  <data name="ScreenLoadInventoryHelmet" xml:space="preserve">
+    <value>Шлема</value>
+  </data>
+  <data name="ScreenLoadInventoryInventoryGrid" xml:space="preserve">
+    <value>Инвентарь</value>
+  </data>
+  <data name="ScreenLoadInventoryShowOwnedItems" xml:space="preserve">
+    <value>Отображать только собственные предметы</value>
+  </data>
+  <data name="ScreenLoadInventorySuit" xml:space="preserve">
+    <value>Костюмы</value>
+  </data>
+  <data name="ScreenLoadInventoryTools" xml:space="preserve">
+    <value>Инструменты</value>
+  </data>
+  <data name="ScreenLoadInventoryHue" xml:space="preserve">
+    <value>Оттенок {0}°.</value>
+  </data>
+  <data name="ScreenLoadInventorySaturation" xml:space="preserve">
+    <value>Насыщенность {0}.</value>
+  </data>
+  <data name="ScreenLoadInventoryValue" xml:space="preserve">
+    <value>Яркость {0}.</value>
+  </data>
+  <data name="ScreenLoadInventoryDrill" xml:space="preserve">
+    <value>Буры</value>
+  </data>
+  <data name="ScreenLoadInventoryGrinder" xml:space="preserve">
+    <value>Болгарки</value>
+  </data>
+  <data name="ScreenLoadInventoryRifle" xml:space="preserve">
+    <value>Винтовки</value>
+  </data>
+  <data name="ScreenLoadInventoryWelder" xml:space="preserve">
+    <value>Сварочные
+аппараты</value>
+  </data>
+  <data name="ScreenLoadInventoryDeleteItem" xml:space="preserve">
+    <value>Удалить предмет</value>
+  </data>
+  <data name="ScreenLoadInventoryDeleteItemMessageText" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот предмет?</value>
+  </data>
+  <data name="ScreenLoadInventoryDeleteItemMessageTitle" xml:space="preserve">
+    <value>Удаление предмета</value>
+  </data>
+  <data name="ScreenLoadInventorySellItem" xml:space="preserve">
+    <value>Продать предмет на торговой площадке</value>
+  </data>
+  <data name="ScreenLoadInventoryHideDuplicates" xml:space="preserve">
+    <value>Скрыть дубликаты</value>
+  </data>
+  <data name="ScreenLoadInventoryToolType" xml:space="preserve">
+    <value>Тип инструмента</value>
+  </data>
+  <data name="ScreenLoadInventoryNoItem" xml:space="preserve">
+    <value>У вас нет ни одного предмета. Вы можете получить предметы, играя в игру, или обмениваясь с другими игроками.</value>
+  </data>
+  <data name="GpsContainerRemainingTimeMins" xml:space="preserve">
+    <value>T - {0} мин.</value>
+  </data>
+  <data name="GpsContainerRemainingTimeSec" xml:space="preserve">
+    <value>T - {0} сек.</value>
+  </data>
+  <data name="GpsContainerRemainingTimeSecs" xml:space="preserve">
+    <value>T - {0} сек.</value>
+  </data>
+  <data name="GpsContainerRemainingTimeMinSec" xml:space="preserve">
+    <value>T - {0} мин. {1} сек.</value>
+  </data>
+  <data name="GpsContainerRemainingTimeMinSecs" xml:space="preserve">
+    <value>T - {0} мин. {1} сек.</value>
+  </data>
+  <data name="ScreenLoadInventoryLeftClickTip" xml:space="preserve">
+    <value>ЛКМ - экипировать</value>
+  </data>
+  <data name="ScreenLoadInventoryRightClickTip" xml:space="preserve">
+    <value>ПКМ - продать/удалить</value>
+  </data>
+  <data name="ScreenLoadInventoryBuyItem" xml:space="preserve">
+    <value>Купить предмет</value>
+  </data>
+  <data name="ScreenLoadInventoryToggleHelmet" xml:space="preserve">
+    <value>Нажмите {0}, чтобы открыть/закрыть шлем</value>
+  </data>
+  <data name="ScreenCaptionClaimGameItem" xml:space="preserve">
+    <value>Специальный контент</value>
+  </data>
+  <data name="ScreenClaimItemText" xml:space="preserve">
+    <value>Испытайте свою удачу, чтобы получить новый особый предмет.</value>
+  </data>
+  <data name="ScreenCaptionNoGameItem" xml:space="preserve">
+    <value>Ничего не найдено</value>
+  </data>
+  <data name="ScreenNoGameItemText" xml:space="preserve">
+    <value>Вам не удалось найти какой-либо особый предмет. Испытайте свою удачу в другом месте.</value>
+  </data>
+  <data name="ScreenMenuButtonInventoryTooltip" xml:space="preserve">
+    <value>Настройте внешний вид своего персонажа.</value>
+  </data>
+  <data name="ScreenLoadInventoryBootsTooltip" xml:space="preserve">
+    <value>Сортировать по обуви.</value>
+  </data>
+  <data name="ScreenLoadInventoryCancelTooltip" xml:space="preserve">
+    <value>Отменить изменения внешнего вида.</value>
+  </data>
+  <data name="ScreenLoadInventoryCharacterFilterTooltip" xml:space="preserve">
+    <value>Показать скины персонажа.</value>
+  </data>
+  <data name="ScreenLoadInventoryDrillTooltip" xml:space="preserve">
+    <value>Сортировать по бурам.</value>
+  </data>
+  <data name="ScreenLoadInventoryGlovesTooltip" xml:space="preserve">
+    <value>Сортировать по перчаткам.</value>
+  </data>
+  <data name="ScreenLoadInventoryGrinderTooltip" xml:space="preserve">
+    <value>Сортировать по болгаркам.</value>
+  </data>
+  <data name="ScreenLoadInventoryHelmetTooltip" xml:space="preserve">
+    <value>Сортировать по шлемам.</value>
+  </data>
+  <data name="ScreenLoadInventoryOkTooltip" xml:space="preserve">
+    <value>Применить изменения внешнего вида.</value>
+  </data>
+  <data name="ScreenLoadInventoryRefreshTooltip" xml:space="preserve">
+    <value>Обновить инвентарь.</value>
+  </data>
+  <data name="ScreenLoadInventoryRifleTooltip" xml:space="preserve">
+    <value>Сортировать по винтовкам.</value>
+  </data>
+  <data name="ScreenLoadInventorySuitTooltip" xml:space="preserve">
+    <value>Сортировать по костюмам.</value>
+  </data>
+  <data name="ScreenLoadInventoryToolsFilterTooltip" xml:space="preserve">
+    <value>Показать скины инструментов.</value>
+  </data>
+  <data name="ScreenLoadInventoryWelderTooltip" xml:space="preserve">
+    <value>Сортировать по сварочным аппаратам.</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>Привязать</value>
+  </data>
+  <data name="TakeScreenshot" xml:space="preserve">
+    <value>Сделать скриншот</value>
+  </data>
+  <data name="Cutscene_DeleteAllNodes_Caption" xml:space="preserve">
+    <value>Удаление всех узлов видеосцен</value>
+  </data>
+  <data name="Cutscene_DeleteAllNodes_Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить ВСЕ узлы видеосцен?</value>
+  </data>
+  <data name="Cutscene_DeleteAll_Caption" xml:space="preserve">
+    <value>Удаление всех видеосцен</value>
+  </data>
+  <data name="Cutscene_DeleteAll_Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить ВСЕ видеосцены?</value>
+  </data>
+  <data name="Cutscene_DeleteNode_Caption" xml:space="preserve">
+    <value>Удаление узла видеосцены</value>
+  </data>
+  <data name="Cutscene_DeleteNode_Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить текущий узел?</value>
+  </data>
+  <data name="Cutscene_Delete_Caption" xml:space="preserve">
+    <value>Удаление видеосцены</value>
+  </data>
+  <data name="Cutscene_New_Caption" xml:space="preserve">
+    <value>Название новой видеосцены (должно быть уникальным)</value>
+  </data>
+  <data name="Cutscene_Revert_Caption" xml:space="preserve">
+    <value>Отмена изменений видеосцены</value>
+  </data>
+  <data name="Cutscene_Revert_Text" xml:space="preserve">
+    <value>Вы уверены, что хотите отменить все несохранённые изменения?</value>
+  </data>
+  <data name="Cutscene_Unsaved_Caption" xml:space="preserve">
+    <value>Несохранённые изменения</value>
+  </data>
+  <data name="Cutscene_Unsaved_Text" xml:space="preserve">
+    <value>У вас есть несохранённые изменения. Вы хотите сохранить текущую видеосцену?</value>
+  </data>
+  <data name="Cutscene_Tooltip_Action" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="Cutscene_Tooltip_AddNode" xml:space="preserve">
+    <value>Добавить узел</value>
+  </data>
+  <data name="Cutscene_Tooltip_CanSkip" xml:space="preserve">
+    <value>Можно пропустить:</value>
+  </data>
+  <data name="Cutscene_Tooltip_ClearAll" xml:space="preserve">
+    <value>Очистить всё</value>
+  </data>
+  <data name="Cutscene_Tooltip_ClearAllCutscenes" xml:space="preserve">
+    <value>Очистить все видеосцены</value>
+  </data>
+  <data name="Cutscene_Tooltip_CurrentNode" xml:space="preserve">
+    <value>Текущий узел:</value>
+  </data>
+  <data name="Cutscene_Tooltip_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Cutscene_Tooltip_Event" xml:space="preserve">
+    <value>Событие</value>
+  </data>
+  <data name="Cutscene_Tooltip_EventDelay" xml:space="preserve">
+    <value>Задержка события</value>
+  </data>
+  <data name="Cutscene_Tooltip_EventDelay_Extended" xml:space="preserve">
+    <value>Событие будет отложено на определённый период времени от начала узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_Events" xml:space="preserve">
+    <value>События:</value>
+  </data>
+  <data name="Cutscene_Tooltip_Event_Extended" xml:space="preserve">
+    <value>Название события будет вызвано в Visual Scripting.</value>
+  </data>
+  <data name="Cutscene_Tooltip_FOV" xml:space="preserve">
+    <value>ПОЛЕ ЗРЕНИЯ</value>
+  </data>
+  <data name="Cutscene_Tooltip_FOVChange" xml:space="preserve">
+    <value>Изменить поле зрения</value>
+  </data>
+  <data name="Cutscene_Tooltip_FOVChange_Extended" xml:space="preserve">
+    <value>Поле зрения изменится до этого значения в течение срока службы узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_FOV_Extended" xml:space="preserve">
+    <value>Настройка поля зрения. По умолчанию 70.</value>
+  </data>
+  <data name="Cutscene_Tooltip_Instant" xml:space="preserve">
+    <value>Мгновенно</value>
+  </data>
+  <data name="Cutscene_Tooltip_LookAt" xml:space="preserve">
+    <value>Следить</value>
+  </data>
+  <data name="Cutscene_Tooltip_LookAt_Extended1" xml:space="preserve">
+    <value>Поворот камеры от текущего вращения к данному объекту в течение срока службы узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_LookAt_Extended2" xml:space="preserve">
+    <value>Мгновенный поворот в направлении к данному объекту при запуске узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_LookRot" xml:space="preserve">
+    <value>Следящее вращение</value>
+  </data>
+  <data name="Cutscene_Tooltip_LookRot_Extended" xml:space="preserve">
+    <value>Название сущности для начального вращения, камера будет вращаться, чтобы следить за этой сущностью.</value>
+  </data>
+  <data name="Cutscene_Tooltip_MoveDown" xml:space="preserve">
+    <value>Двигаться вниз</value>
+  </data>
+  <data name="Cutscene_Tooltip_MoveTo" xml:space="preserve">
+    <value>Двигаться к</value>
+  </data>
+  <data name="Cutscene_Tooltip_MoveTo_Extended1" xml:space="preserve">
+    <value>Перемещение камеры из текущего положения в заданное положение объекта в течение срока службы узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_MoveTo_Extended2" xml:space="preserve">
+    <value>Камеры переместится в заданное положение сущности мгновенно при запуске узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_MoveUp" xml:space="preserve">
+    <value>Движение вверх</value>
+  </data>
+  <data name="Cutscene_Tooltip_New" xml:space="preserve">
+    <value>Новая видеосцена</value>
+  </data>
+  <data name="Cutscene_Tooltip_Nodes" xml:space="preserve">
+    <value>Узлы видеосцены:</value>
+  </data>
+  <data name="Cutscene_Tooltip_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Cutscene_Tooltip_OverTime" xml:space="preserve">
+    <value>Со временем</value>
+  </data>
+  <data name="Cutscene_Tooltip_Play" xml:space="preserve">
+    <value>Воспроизвести</value>
+  </data>
+  <data name="Cutscene_Tooltip_Play_Extended" xml:space="preserve">
+    <value>Воспроизвести текущую видеосцену, входящую в список воспроизведения. Не запускает события сценария. Нажмите «пробел», чтобы пропустить видеосцену.</value>
+  </data>
+  <data name="Cutscene_Tooltip_PosRot" xml:space="preserve">
+    <value>Позиция/вращение</value>
+  </data>
+  <data name="Cutscene_Tooltip_PosRot_Extended" xml:space="preserve">
+    <value>Название сущности, используемое для начальных позиции и вращения.</value>
+  </data>
+  <data name="Cutscene_Tooltip_Revert" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Cutscene_Tooltip_RotateLike" xml:space="preserve">
+    <value>Вращать как</value>
+  </data>
+  <data name="Cutscene_Tooltip_RotateLike_Extended1" xml:space="preserve">
+    <value>Поворот камеры от текущего вращения к данному вращению сущности в течение срока службы узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_RotateLike_Extended2" xml:space="preserve">
+    <value>Установите вращение камеры для данного вращения сущности мгновенно при запуске узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Cutscene_Tooltip_Selected" xml:space="preserve">
+    <value>Выбранная видеосцена:</value>
+  </data>
+  <data name="Cutscene_Tooltip_Skippable" xml:space="preserve">
+    <value>Видеосцена с возможностью пропуска с помощью пробела или возврата.</value>
+  </data>
+  <data name="Cutscene_Tooltip_SkipWarning" xml:space="preserve">
+    <value>Пропуск видеосцены всё равно запустит события сценария.</value>
+  </data>
+  <data name="Cutscene_Tooltip_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Cutscene_Tooltip_Time_Extended" xml:space="preserve">
+    <value>Продолжительность времени для выбранного узла.</value>
+  </data>
+  <data name="Cutscene_Tooltip_TrackLook" xml:space="preserve">
+    <value>Слежение</value>
+  </data>
+  <data name="Cutscene_Tooltip_TrackPos" xml:space="preserve">
+    <value>Поз. слежения</value>
+  </data>
+  <data name="Cutscene_Tooltip_TrackPosRot" xml:space="preserve">
+    <value>Поз. и вращ.</value>
+  </data>
+  <data name="Cutscene_Tooltip_TrackRot" xml:space="preserve">
+    <value>Вращ. слежения</value>
+  </data>
+  <data name="Cutscene_Tooltip_Track_Extended1" xml:space="preserve">
+    <value>Камера всегда будет отслеживать указанный объект. Остановите отслеживание, введя здесь символ «X».</value>
+  </data>
+  <data name="Cutscene_Tooltip_Track_Extended2" xml:space="preserve">
+    <value>Камера будет перемещаться и вращаться вместе с указанной сущностью. Остановите отслеживание, введя здесь символ «X». Это перезапишет другие настройки слежения.</value>
+  </data>
+  <data name="Cutscene_Tooltip_Track_Extended3" xml:space="preserve">
+    <value>Камера будет перемещаться с указанной сущностью без вращения. Остановите отслеживание, введя здесь символ «X».</value>
+  </data>
+  <data name="Cutscene_Tooltip_Track_Extended4" xml:space="preserve">
+    <value>Камера будет соответствовать вращению указанной сущности. Остановите отслеживание, введя здесь символ «X».</value>
+  </data>
+  <data name="Cutscene_Tooltip_Waypoints" xml:space="preserve">
+    <value>Линия путевых точек:</value>
+  </data>
+  <data name="Cutscene_Tooltip_Waypoints_Extended" xml:space="preserve">
+    <value>Напишите названия сущностей, отделив их символом «;». Затем камера будет двигать и вращаться по всему пути линии в течение срока службы узла.</value>
+  </data>
+  <data name="Scripting_Tooltip_Cursors" xml:space="preserve">
+    <value>Указатели:</value>
+  </data>
+  <data name="Debug" xml:space="preserve">
+    <value>ОТЛАДКА</value>
+  </data>
+  <data name="Local" xml:space="preserve">
+    <value>Локальный</value>
+  </data>
+  <data name="Official" xml:space="preserve">
+    <value>Официальный</value>
+  </data>
+  <data name="Workshop" xml:space="preserve">
+    <value>Мастерская</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Цветоподборщик</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="DeathScreen" xml:space="preserve">
+    <value>Вы погибли...</value>
+  </data>
+  <data name="Defaults" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="Hue" xml:space="preserve">
+    <value>Оттенок:</value>
+  </data>
+  <data name="Module_Attached" xml:space="preserve">
+    <value>Прикреплённые модули: </value>
+  </data>
+  <data name="Module_Damaged" xml:space="preserve">
+    <value> (повреждённый)</value>
+  </data>
+  <data name="Module_Functioning" xml:space="preserve">
+    <value> (рабочий)</value>
+  </data>
+  <data name="Module_Incompatible" xml:space="preserve">
+    <value> (несовместимый)</value>
+  </data>
+  <data name="Module_Off" xml:space="preserve">
+    <value> (выключенный)</value>
+  </data>
+  <data name="Module_Unknown" xml:space="preserve">
+    <value> - неизвестный модуль</value>
+  </data>
+  <data name="Module_UsedSlots" xml:space="preserve">
+    <value>Используемые слоты модулей улучшения: </value>
+  </data>
+  <data name="Saturation" xml:space="preserve">
+    <value>Насыщенность:</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="Unit_days" xml:space="preserve">
+    <value>дни</value>
+  </data>
+  <data name="Unit_hours" xml:space="preserve">
+    <value>часы</value>
+  </data>
+  <data name="Unit_min" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="Unit_sec" xml:space="preserve">
+    <value>сек</value>
+  </data>
+  <data name="Unit_years" xml:space="preserve">
+    <value>годы</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Яркость:</value>
+  </data>
+  <data name="DefaultSaveName" xml:space="preserve">
+    <value>Создано </value>
+  </data>
+  <data name="ErrorPopup_Hotfix_Caption" xml:space="preserve">
+    <value>.NET устарел</value>
+  </data>
+  <data name="ErrorPopup_Hotfix_Text" xml:space="preserve">
+    <value>Пожалуйста, обновите ваш .NET runtime с помощью исправления:
+https://support.microsoft.com/kb/3120241
+В противном случае игра будет работать неправильно.</value>
+  </data>
+  <data name="ErrorPopup_Whitelist_Caption" xml:space="preserve">
+    <value>Ошибка целостности белого списка</value>
+  </data>
+  <data name="ErrorPopup_Whitelist_Text" xml:space="preserve">
+    <value>API мода типа белый список имеет ошибку целостности.
+Пожалуйста, проверьте лог для получения дополнительной информации.</value>
+  </data>
+  <data name="ToolTipWorkshopBrowseWorkshop_Steam" xml:space="preserve">
+    <value>Открыть оверлей Steam с окном мастерской</value>
+  </data>
+  <data name="ToolTipWorkshopBrowseWorkshop_WeGame" xml:space="preserve">
+    <value>Открыть оверлей WeGame с окном мастерской</value>
+  </data>
+  <data name="ToolTipWorkshopOpenInWorkshop_Steam" xml:space="preserve">
+    <value>Открыть выбранный мир в мастерской Steam</value>
+  </data>
+  <data name="ToolTipWorkshopOpenInWorkshop_WeGame" xml:space="preserve">
+    <value>Открыть выбранный мир в мастерской WeGame</value>
+  </data>
+  <data name="ToolTipWorkshopOpenModInWorkshop_Steam" xml:space="preserve">
+    <value>Открыть выбранный мод в мастерской Steam</value>
+  </data>
+  <data name="ToolTipWorkshopOpenModInWorkshop_WeGame" xml:space="preserve">
+    <value>Открыть выбранный мод в мастерской WeGame</value>
+  </data>
+  <data name="Faction_PlayerApplied" xml:space="preserve">
+    <value>Игрок «{0}» подал заявку на вступление в вашу фракцию.</value>
+  </data>
+  <data name="Faction_PlayerJoined" xml:space="preserve">
+    <value>Игрок «{0}» присоединился к вашей фракции.</value>
+  </data>
+  <data name="Faction_PlayerLeft" xml:space="preserve">
+    <value>Игрок «{0}» покинул вашу фракцию.</value>
+  </data>
+  <data name="Cutscene_Delete_Text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить видеосцену «{0}»?</value>
+  </data>
+  <data name="ScreenWardrobeOld_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ScreenWardrobeOld_Hue" xml:space="preserve">
+    <value>Оттенок:</value>
+  </data>
+  <data name="ScreenWardrobeOld_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ScreenWardrobeOld_Saturation" xml:space="preserve">
+    <value>Насыщенность:</value>
+  </data>
+  <data name="ScreenWardrobeOld_Value" xml:space="preserve">
+    <value>Яркость:</value>
+  </data>
+  <data name="DownloadingMods" xml:space="preserve">
+    <value>Загрузка модов</value>
+  </data>
+  <data name="DownloadingMods_Completed" xml:space="preserve">
+    <value>Завершено </value>
+  </data>
+</root>

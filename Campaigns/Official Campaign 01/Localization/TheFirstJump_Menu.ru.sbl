@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>4244111360</Id>
+  <Language>ru-RU</Language>
+  <Context>The First Jump</Context>
+  <ResourceName>TheFirstJump_Menu</ResourceName>
+  <Default>false</Default>
+  <ResXName>TheFirstJump_Menu.ru.resx</ResXName>
+  <Entries />
+</MyObjectBuilder_Localization>
