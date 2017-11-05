@@ -527,7 +527,7 @@
     <value>По умолчанию: {0:F1}</value>
   </data>
   <data name="WorldLoaded" xml:space="preserve">
-    <value>Мир {0} загружен</value>
+    <value>Мир «{0}» загружен</value>
   </data>
   <data name="ControlName_Screenshot" xml:space="preserve">
     <value>Скриншот</value>
@@ -539,7 +539,7 @@
     <value>Следующий цвет/камера</value>
   </data>
   <data name="WorldSaved" xml:space="preserve">
-    <value>Мир {0} сохранён</value>
+    <value>Мир «{0}» сохранён</value>
   </data>
   <data name="Blueprints" xml:space="preserve">
     <value>Чертежи</value>
@@ -1917,7 +1917,7 @@
     <value>Модель содержит блоки из модов. Только модели со стандартными блоками могут быть экспортированы.</value>
   </data>
   <data name="VoxelHandSettingScreen_HandSnapToVoxel" xml:space="preserve">
-    <value>Привязать к воксельной сетке</value>
+    <value>Привязать к воксельному плану</value>
   </data>
   <data name="VoxelHandSettingScreen_FreezePhysics" xml:space="preserve">
     <value>Заморозить физику</value>
@@ -2387,22 +2387,22 @@
     <value>Режим игры</value>
   </data>
   <data name="ScreenDebugAdminMenu_LargeGrids" xml:space="preserve">
-    <value>Найти только большие сетки</value>
+    <value>Найти только большие планы</value>
   </data>
   <data name="ScreenDebugAdminMenu_SmallGrids" xml:space="preserve">
-    <value>Найти только маленькие сетки</value>
+    <value>Найти только маленькие планы</value>
   </data>
   <data name="BlockPropertiesText_Type" xml:space="preserve">
     <value>Тип: </value>
   </data>
   <data name="DetailLargeGrid" xml:space="preserve">
-    <value>Большая сетка</value>
+    <value>Большой план</value>
   </data>
   <data name="DetailSmallGrid" xml:space="preserve">
-    <value>Маленькая сетка</value>
+    <value>Маленький план</value>
   </data>
   <data name="DetailStaticGrid" xml:space="preserve">
-    <value>Статичная сетка</value>
+    <value>Статичный план</value>
   </data>
   <data name="ScreenOptionsGame_ReleasingAltResetsCamera" xml:space="preserve">
     <value>Отпускание Alt сбрасывает камеру</value>
@@ -2539,7 +2539,7 @@
     <value>Конвейерная система</value>
   </data>
   <data name="PerformanceWarningAreaGrid" xml:space="preserve">
-    <value>Сетки обновлены</value>
+    <value>Планы обновлены</value>
   </data>
   <data name="PerformanceWarningAreaGyro" xml:space="preserve">
     <value>Система гироскопа</value>
@@ -3513,20 +3513,11 @@ https://support.microsoft.com/kb/3120241
   <data name="ToolTipWorkshopBrowseWorkshop_Steam" xml:space="preserve">
     <value>Открыть оверлей Steam с окном мастерской</value>
   </data>
-  <data name="ToolTipWorkshopBrowseWorkshop_WeGame" xml:space="preserve">
-    <value>Открыть оверлей WeGame с окном мастерской</value>
-  </data>
   <data name="ToolTipWorkshopOpenInWorkshop_Steam" xml:space="preserve">
     <value>Открыть выбранный мир в мастерской Steam</value>
   </data>
-  <data name="ToolTipWorkshopOpenInWorkshop_WeGame" xml:space="preserve">
-    <value>Открыть выбранный мир в мастерской WeGame</value>
-  </data>
   <data name="ToolTipWorkshopOpenModInWorkshop_Steam" xml:space="preserve">
     <value>Открыть выбранный мод в мастерской Steam</value>
-  </data>
-  <data name="ToolTipWorkshopOpenModInWorkshop_WeGame" xml:space="preserve">
-    <value>Открыть выбранный мод в мастерской WeGame</value>
   </data>
   <data name="Faction_PlayerApplied" xml:space="preserve">
     <value>Игрок «{0}» подал заявку на вступление в вашу фракцию.</value>
