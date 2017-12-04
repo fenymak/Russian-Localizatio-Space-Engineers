@@ -1917,7 +1917,7 @@
     <value>Модель содержит блоки из модов. Только модели со стандартными блоками могут быть экспортированы.</value>
   </data>
   <data name="VoxelHandSettingScreen_HandSnapToVoxel" xml:space="preserve">
-    <value>Привязать к воксельному плану</value>
+    <value>Привязать к воксельной сетке</value>
   </data>
   <data name="VoxelHandSettingScreen_FreezePhysics" xml:space="preserve">
     <value>Заморозить физику</value>
@@ -2387,22 +2387,22 @@
     <value>Режим игры</value>
   </data>
   <data name="ScreenDebugAdminMenu_LargeGrids" xml:space="preserve">
-    <value>Найти только большие планы</value>
+    <value>Найти только большие сетки</value>
   </data>
   <data name="ScreenDebugAdminMenu_SmallGrids" xml:space="preserve">
-    <value>Найти только маленькие планы</value>
+    <value>Найти только малые сетки</value>
   </data>
   <data name="BlockPropertiesText_Type" xml:space="preserve">
     <value>Тип: </value>
   </data>
   <data name="DetailLargeGrid" xml:space="preserve">
-    <value>Большой план</value>
+    <value>Большая сетка</value>
   </data>
   <data name="DetailSmallGrid" xml:space="preserve">
-    <value>Маленький план</value>
+    <value>Малая сетка</value>
   </data>
   <data name="DetailStaticGrid" xml:space="preserve">
-    <value>Статичный план</value>
+    <value>Статичная сетка</value>
   </data>
   <data name="ScreenOptionsGame_ReleasingAltResetsCamera" xml:space="preserve">
     <value>Отпускание Alt сбрасывает камеру</value>
@@ -2539,7 +2539,7 @@
     <value>Конвейерная система</value>
   </data>
   <data name="PerformanceWarningAreaGrid" xml:space="preserve">
-    <value>Планы обновлены</value>
+    <value>Сетки обновлены</value>
   </data>
   <data name="PerformanceWarningAreaGyro" xml:space="preserve">
     <value>Система гироскопа</value>
