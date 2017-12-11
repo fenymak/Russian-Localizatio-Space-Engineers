@@ -118,28 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Chat_Rebel_Outro1" xml:space="preserve">
-    <value>Engineer, I owe you an apology, we didn't realise that a Sol Cooperative representative was aboard the station when we attacked.</value>
+    <value>Инженер, я должен принесни свои извенения. Мы не знали что представитель "Sol Cooperative" находился на борту станции, когда мы атаковали.</value>
   </data>
   <data name="Chat_Rebel_Outro2" xml:space="preserve">
-    <value>I speak on behalf of the Independent Terran Workers, we were employed by R.O.S. to build and operate the facility you just left.</value>
+    <value>Я говорю от имени "Independent Terran Workers". Мы были наняты R.O.S. для сооружения и эксплутации объекта, который вы только что покинули.</value>
   </data>
   <data name="Chat_Rebel_Outro3" xml:space="preserve">
-    <value>The company discovered an artefact of unknown origin but instead of reporting it, concealed its existence and attacked our workers, killing many of us, all to maintain its deceit.</value>
+    <value>Компания обнаружила артефакт неизвестного происхождения. Но вместо того, чтобы сообщать об этом, скрыла его существование и напала на наших рабочих, убив многих из нас, чтобы скрыть правду.</value>
   </data>
   <data name="Chat_Rebel_Outro4" xml:space="preserve">
-    <value>We rose up to fight back and now seek to recover this artefact to deny the corporation from exploiting it to further increase their power.</value>
+    <value>Мы подняли бунт и теперь пытаемся вернуть артефакт, чтобы корпорация не смогла его использовать для наращивания своей власти.</value>
   </data>
   <data name="Chat_Rebel_Outro5" xml:space="preserve">
-    <value>We insist you come aboard our ship, we need to show you the actions of the corporation personally.</value>
+    <value>Мы настаиваем, чтобы вы поднялись на борт нашего корабля. Мы должны показать вам лично все проделки корпорации.</value>
   </data>
   <data name="Chat_VA_BaseStart" xml:space="preserve">
-    <value>Explore the base. Find a way deeper into the facility.</value>
+    <value>Исследуйте базу. Найдите путь далее вглубь до объекта.</value>
   </data>
   <data name="Chat_VA_BlastDoorClosed" xml:space="preserve">
-    <value>The security system has sealed the blast door! There must be another route.. accessing schematics..  get to the elevator!</value>
+    <value>Система безопасности заблокировала дверь! Должен быть другой путь... Доступ к схемам открыт...  Доберитесь до лифта!</value>
   </data>
   <data name="Chat_VA_ControlTower" xml:space="preserve">
-    <value>You have located the control tower. The security lockdown can be lifted from here.</value>
+    <value>You have located the control tower. Отсюда можно отключить блокировку безопасности.</value>
   </data>
   <data name="Chat_VA_Detection" xml:space="preserve">
     <value>Detected local energy signature, it appears to be an additional ROS facility but I have no official record of its existence.</value>
