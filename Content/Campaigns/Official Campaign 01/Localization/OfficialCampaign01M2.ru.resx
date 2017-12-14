@@ -118,55 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Chat_Rebel_Outro1" xml:space="preserve">
-    <value>Инженер, я должен принесни свои извенения. Мы не знали что представитель "Sol Cooperative" находился на борту станции, когда мы атаковали.</value>
+    <value>Инженер, я должен принести свои извинения. Мы не знали, что представитель «Sol Cooperative» находился на борту станции, когда мы атаковали.</value>
   </data>
   <data name="Chat_Rebel_Outro2" xml:space="preserve">
-    <value>Я говорю от имени "Independent Terran Workers". Мы были наняты R.O.S. для сооружения и эксплутации объекта, который вы только что покинули.</value>
+    <value>Я говорю от имени «Independent Terran Workers». Мы были наняты R.O.S. для сооружения и эксплуатации объекта, который вы только что покинули.</value>
   </data>
   <data name="Chat_Rebel_Outro3" xml:space="preserve">
     <value>Компания обнаружила артефакт неизвестного происхождения. Но вместо того, чтобы сообщать об этом, скрыла его существование и напала на наших рабочих, убив многих из нас, чтобы скрыть правду.</value>
   </data>
   <data name="Chat_Rebel_Outro4" xml:space="preserve">
-    <value>Мы подняли бунт и теперь пытаемся вернуть артефакт, чтобы корпорация не смогла его использовать для наращивания своей власти.</value>
+    <value>Мы подняли бунт, и теперь пытаемся вернуть артефакт, чтобы корпорация не смогла его использовать для наращивания своей власти.</value>
   </data>
   <data name="Chat_Rebel_Outro5" xml:space="preserve">
     <value>Мы настаиваем, чтобы вы поднялись на борт нашего корабля. Мы должны показать вам лично все проделки корпорации.</value>
   </data>
   <data name="Chat_VA_BaseStart" xml:space="preserve">
-    <value>Исследуйте базу. Найдите путь далее вглубь до объекта.</value>
+    <value>Исследуйте базу. Найдите путь попасть глубже в комплекс.</value>
   </data>
   <data name="Chat_VA_BlastDoorClosed" xml:space="preserve">
-    <value>Система безопасности заблокировала дверь! Должен быть другой путь... Доступ открыт...  Доберитесь до элеватора!</value>
+    <value>Система безопасности заблокировала дверь! Должен быть другой путь... получение схем...  доберитесь до лифта!</value>
   </data>
   <data name="Chat_VA_ControlTower" xml:space="preserve">
-    <value>Вы находитесь в диспетчерской вышке. Отсюда можно отключить блокировку безопасности.</value>
+    <value>Вы находитесь в диспетчерской вышке. Отсюда можно снять блокировку.</value>
   </data>
   <data name="Chat_VA_Detection" xml:space="preserve">
-    <value>Обнаружена дополнительная энергетическая сигнатура. Это по видимому дополнительная установка R.O.S., но у меня нет данных о его существовании.</value>
+    <value>Обнаружена локальная энергетическая сигнатура, по всей видимости, дополнительный комплекс R.O.S., но у меня нет официальных записей о его существовании.</value>
   </data>
   <data name="Chat_VA_ElevatorBroken" xml:space="preserve">
-    <value>Элеватор не отзывается на панель управления.</value>
+    <value>Лифт не реагирует на управление.</value>
   </data>
   <data name="Chat_VA_ElevatorLocked" xml:space="preserve">
-    <value>Элеватор заблокирован. Рекомендуется найти диспетчерскую.</value>
+    <value>Лифт заблокирован. Рекомендуется найти диспетчерскую.</value>
   </data>
   <data name="Chat_VA_Excavation1" xml:space="preserve">
-    <value>Проектор показывает изображение какого то артефакта. Он должен быть раскопан и перемещен в другое место.</value>
+    <value>Проектор показывает изображение какого-то артефакта, он должен быть раскопан и перемещён в другое место.</value>
   </data>
   <data name="Chat_VA_Excavation2" xml:space="preserve">
-    <value>Внмиание! ИИ охранного дрона был активирован!</value>
+    <value>Внимание: ИИ охранного дрона был активирован!</value>
   </data>
   <data name="Chat_VA_InfoAboutEscapeShip" xml:space="preserve">
     <value>[go to escape ship text]</value>
   </data>
   <data name="Chat_VA_Investigation" xml:space="preserve">
-    <value>Рекомендуется исследовать. Внутри может быть дополнительная информация, которая может помочь пролить свет на конфликт...</value>
+    <value>Рекомендуется исследовать, внутри может быть дополнительная информация, которая может помочь пролить свет на конфликт.</value>
   </data>
   <data name="Chat_VA_Landing" xml:space="preserve">
-    <value>Высадка на Луну завершена. Сканирование...</value>
+    <value>Высадка на Луну завершена, сканирование...</value>
   </data>
   <data name="Chat_VA_LandingGearsWarning" xml:space="preserve">
-    <value>Внимание! Шасси заблокировано.</value>
+    <value>Внимание, шасси не выпущены.</value>
   </data>
   <data name="Chat_VA_NoHydrogenBottle" xml:space="preserve">
     <value>Рекомендуется взять водородный баллон. Водород необходим для работы реактивного ранца.</value>
@@ -175,19 +175,19 @@
     <value>Рекомендуется взять кислородный баллон. Он может иметь решающую роль для выживание в космосе.</value>
   </data>
   <data name="Chat_VA_PitBottom" xml:space="preserve">
-    <value>Уверен есть объяснение причин его постройки. Я думаю ответ кроется в этих туннелях.</value>
+    <value>Конечно, есть объяснение, для чего они построили это, но думаю, ответ кроется в этих туннелях.</value>
   </data>
   <data name="Chat_VA_PitDrones" xml:space="preserve">
-    <value>Автоматизированный дрон защитник. ИИ выключен.</value>
+    <value>Автоматизированный защитный дрон. Его ИИ сейчас выключен.</value>
   </data>
   <data name="Chat_VA_PitTop" xml:space="preserve">
-    <value>Доступ к главной шахте открыт. Я удивлен, почему он уходит так глубоко?</value>
+    <value>Доступ к главной шахте открыт, интересно, почему она уходит так глубоко?</value>
   </data>
   <data name="Chat_VA_Start1" xml:space="preserve">
-    <value>Рекомендуется эккипироваться кислородными баллонамии.</value>
+    <value>Рекомендуется взять запасные кислородные и водородные баллоны.</value>
   </data>
   <data name="Chat_VA_Start2" xml:space="preserve">
-    <value>В этом грузовом контейнере лежат резервные баллоны.</value>
+    <value>В этом грузовом контейнере лежат запасные баллоны.</value>
   </data>
   <data name="Chat_VA_Welder" xml:space="preserve">
     <value>Этот сварочный аппарат гораздо мощнее вашего текущего.</value>
@@ -196,10 +196,10 @@
     <value>Диспетчерская вышка</value>
   </data>
   <data name="GPS_ControlTowerPanel" xml:space="preserve">
-    <value>Панель управленияения</value>
+    <value>Панель управления</value>
   </data>
   <data name="GPS_Elevator" xml:space="preserve">
-    <value>Элеватор</value>
+    <value>Лифт</value>
   </data>
   <data name="GPS_EscapeShip" xml:space="preserve">
     <value>Спасательный корабль</value>
@@ -208,7 +208,7 @@
     <value>Раскопки</value>
   </data>
   <data name="GPS_ExitCoords" xml:space="preserve">
-    <value>Nav. Comp. Координаты</value>
+    <value>Координаты навигационного компьютера</value>
   </data>
   <data name="GPS_MineEntrance" xml:space="preserve">
     <value>Вход в шахту</value>
@@ -217,100 +217,100 @@
     <value>Холл лунной базы</value>
   </data>
   <data name="Hint_HowToDragAndDrop" xml:space="preserve">
-    <value>Либо вы можете  Or you can drag the items from the right inventory to yours.</value>
+    <value>Или вы можете перетащить предметы из нужного инвентаря в свой.</value>
   </data>
   <data name="Hint_HowToLeaveSeat" xml:space="preserve">
-    <value>Нажмите [ {0} ] чтобы встать</value>
+    <value>Нажмите [ {0} ], чтобы встать.</value>
   </data>
   <data name="Hint_HowToLight" xml:space="preserve">
-    <value>Нажмите [ {0} ] для вкл/выкл головного фонарика</value>
+    <value>Нажмите [ {0} ], чтобы вкл/выкл фонарик.</value>
   </data>
   <data name="Hint_HowToRetrieveAnItem" xml:space="preserve">
-    <value>Дважды щелкните по предмету для перемещения его в ваш инвентарь.</value>
+    <value>Дважды нажмите по предмету для перемещения его в свой инвентарь.</value>
   </data>
   <data name="Hint_HowToUseInventory" xml:space="preserve">
-    <value>Посмотрите в выделенную квадратную область и нажмите [ {0} ], для включения инвентаря.</value>
+    <value>Посмотрите в выделенную квадратную область и нажмите [ {0} ], чтобы открыть инвентарь.</value>
   </data>
   <data name="Hint_HowToUseJetpack" xml:space="preserve">
-    <value>Нажмите [ {0} ] для вкл/выкл питания реактивного ранца</value>
+    <value>Вы можете включить/выключить реактивный ранец, нажав [ {0} ].</value>
   </data>
   <data name="Hint_HowToggleLandingGears" xml:space="preserve">
-    <value>Нажмите [ {0} ] для разбл./забл. шасси</value>
+    <value>Нажмите [ {0} ], чтобы выпустить/убрать шасси.</value>
   </data>
   <data name="LCDPanel_ExtractionSite1" xml:space="preserve">
     <value>Мы наконец-то готовы</value>
   </data>
   <data name="LCDPanel_ExtractionSite2" xml:space="preserve">
-    <value>начать добычу.</value>
+    <value>начать раскопку.</value>
   </data>
   <data name="LCDPanel_ExtractionSite3" xml:space="preserve">
-    <value>Было бы намного проще</value>
+    <value>Гораздо проще будет</value>
   </data>
   <data name="LCDPanel_ExtractionSite4" xml:space="preserve">
-    <value>изучить артефакт на</value>
+    <value>изучить артефакт</value>
   </data>
   <data name="LCDPanel_ExtractionSite5" xml:space="preserve">
-    <value>главной базе.</value>
+    <value>на главной базе.</value>
   </data>
   <data name="Quest01_Bottles" xml:space="preserve">
-    <value>Приготовьтесь покинуть спасательную капсулу.</value>
+    <value>Приготовьтесь покинуть спасательную капсулу</value>
   </data>
   <data name="Quest01_Bottles_Drag" xml:space="preserve">
-    <value>Дважды щелкните или перетащите все предметы из правой области в ваш личный интвентар в левую область.</value>
+    <value>Дважды нажмите или перетащите все предметы из инвентаря справа в свой личный инвентарь слева.</value>
   </data>
   <data name="Quest01_Bottles_Escape" xml:space="preserve">
-    <value>Нажмите [ {0} ], [ {1} ] или [ Escape ], чтобы закрыть экран</value>
+    <value>Нажмите [ {0} ], [ {1} ] или [ Escape ], чтобы закрыть окно.</value>
   </data>
   <data name="Quest01_Bottles_OpenInventory" xml:space="preserve">
-    <value>Получите доступ к грузовому отсеку ([ {0} ] or [ {1} ] key).</value>
+    <value>Открыть грузовой контейнер на полу ([ {0} ] или [ {1} ]).</value>
   </data>
   <data name="Quest01_Bottles_Seat" xml:space="preserve">
-    <value>Нажмите  [ {0} ], чтобы встать с пассажирского кресла.</value>
+    <value>Нажмите [ {0} ], чтобы встать с пассажирского кресла.</value>
   </data>
   <data name="Quest02_EnterBase" xml:space="preserve">
-    <value>Исследуйте сеть тоннелей.</value>
+    <value>Исследуйте сеть тоннелей</value>
   </data>
   <data name="Quest02_EnterBase_Controls1" xml:space="preserve">
-    <value>Используйте кнопки управления персонажем для полета.</value>
+    <value>Используйте кнопки управления персонажем для полёта.</value>
   </data>
   <data name="Quest02_EnterBase_Controls2" xml:space="preserve">
-    <value>Нажмите [ {0} ] для набора высоты и [ {1} ] для снижения</value>
+    <value>Используйте [ {0} ] для набора высоты и [ {1} ] для снижения.</value>
   </data>
   <data name="Quest02_EnterBase_Controls3" xml:space="preserve">
-    <value>Нажмите [ {0} ] и [ {1} ] для наклона влево или вправо</value>
+    <value>Используйте [ {0} ] и [ {1} ] для крена влево или вправо.</value>
   </data>
   <data name="Quest02_EnterBase_GoTo" xml:space="preserve">
-    <value>Доберитесь до указанного места.</value>
+    <value>Идите до указанных координат</value>
   </data>
   <data name="Quest02_EnterBase_Jetpack" xml:space="preserve">
-    <value>Нажмите [ {0} ] для переключения питания реактивного ранца</value>
+    <value>Нажмите [ {0} ], чтобы включить/выключить реактивный ранец.</value>
   </data>
   <data name="Quest03_LocateTower" xml:space="preserve">
-    <value>Получите доступ к объекту.</value>
+    <value>Получите доступ к комплексу.</value>
   </data>
   <data name="Quest03_LocateTower_Base" xml:space="preserve">
-    <value>Зайдите в базу через указанную дверь.</value>
+    <value>Войдите на базу через указанную дверь.</value>
   </data>
   <data name="Quest03_LocateTower_Open" xml:space="preserve">
-    <value>Используйте кнопочную панель для разблокировки системы безопасности.</value>
+    <value>Используйте кнопочную панель для снятия блокировки системы безопасности.</value>
   </data>
   <data name="Quest03_LocateTower_Tower" xml:space="preserve">
-    <value>Доберитесь до диспетчерской вышки.</value>
+    <value>Идите к диспетчерской вышке.</value>
   </data>
   <data name="Quest04_Descent" xml:space="preserve">
-    <value>Идите вглубь объекта.</value>
+    <value>Идите вглубь комплекса.</value>
   </data>
   <data name="Quest04_Descent_Elevator" xml:space="preserve">
-    <value>Войдите в элеватор</value>
+    <value>Войдите в лифт</value>
   </data>
   <data name="Quest04_Descent_UseElevator" xml:space="preserve">
-    <value>Ипользуйте кнопочную панель для активации элеватора.</value>
+    <value>Используйте кнопочную панель для активации лифта.</value>
   </data>
   <data name="Quest04_Descent_WaitForIt" xml:space="preserve">
-    <value>Дождитесь пока элеватор доедет доо места назначения.</value>
+    <value>Дождитесь, пока лифт достигнет места назначения.</value>
   </data>
   <data name="Quest05_ExcavationSite" xml:space="preserve">
-    <value>Обнаружено место раскопок.</value>
+    <value>Найдите место раскопок</value>
   </data>
   <data name="Quest05_ExcavationSite_ActivateProjector" xml:space="preserve">
     <value>Используйте кнопочную панель для активации проектора.</value>
@@ -319,57 +319,57 @@
     <value>Найдите место раскопок в одном из этих тоннелей.</value>
   </data>
   <data name="Quest05_ExcavationSite_Light" xml:space="preserve">
-    <value>Нажмите [ {0} ], чтобы переключать свет вашего скафандра</value>
+    <value>Используйте [ {0} ], чтобы вкл/выкл свет вашего скафандра.</value>
   </data>
   <data name="Quest05_ExcavationSite_Located" xml:space="preserve">
-    <value>Локация обюнаружена и отмечена в GPS.</value>
+    <value>Место раскопок обнаружено и отмечено на СГП.</value>
   </data>
   <data name="Quest06_Escape" xml:space="preserve">
-    <value>Покиньте туннели.</value>
+    <value>Покиньте туннели</value>
   </data>
   <data name="Quest06_Escape_Drones" xml:space="preserve">
     <value>Охранные дроны активированы.</value>
   </data>
   <data name="Quest06_Escape_Fight" xml:space="preserve">
-    <value>Сражайтесь или бегите от дронов. Вернитесь в главную шахту.</value>
+    <value>Сражайтесь или бегите от дронов, вернитесь в главную шахту.</value>
   </data>
   <data name="Quest06_Escape_GPS" xml:space="preserve">
-    <value>Точка выхода отмечена на GPS.</value>
+    <value>Выхода отмечен на СГП.</value>
   </data>
   <data name="Quest07_Elevator" xml:space="preserve">
-    <value>Покиньте это место с помомщью элеватор.</value>
+    <value>Покиньте это место на лифте</value>
   </data>
   <data name="Quest07_Elevator_BlastDoor" xml:space="preserve">
-    <value>Ипользуйте кнопочную панель для активации элеватора.</value>
+    <value>Используйте кнопочную панель для активации лифта.</value>
   </data>
   <data name="Quest08_Maintenance" xml:space="preserve">
-    <value>Войдите в коридоры технического обслуживания.</value>
+    <value>Войдите в коридоры технического обслуживания</value>
   </data>
   <data name="Quest08_Maintenance_Elevator" xml:space="preserve">
-    <value>Я перевел элеватор в режим диагностики. Он поедет в на уровень технического обслуживания.</value>
+    <value>Я перевёл лифт в режим диагностики, он поедет на уровень технического обслуживания.</value>
   </data>
   <data name="Quest08_Maintenance_Quest" xml:space="preserve">
-    <value>Пройдите по этому туннелю. Он приведет вас в резервный ангар кораблей.</value>
+    <value>Пройдите по этому туннелю, он приведёт вас в запасной ангар с кораблями.</value>
   </data>
   <data name="Quest09_EscapeShip" xml:space="preserve">
-    <value>Покиньте это место на корабле.</value>
+    <value>Покиньте это место на корабле</value>
   </data>
   <data name="Quest09_EscapeShip_Enter" xml:space="preserve">
-    <value>Нажмите [ {0} ],чтобы зайти в кабину корабля</value>
+    <value>Залезьте в кабину корабля, нажав [ {0} ]</value>
   </data>
   <data name="Quest09_EscapeShip_Gears" xml:space="preserve">
-    <value>Нажмите [ {0} ], для спуска шасси</value>
+    <value>Выпустите шасси, нажав [ {0} ]</value>
   </data>
   <data name="Quest09_EscapeShip_Power" xml:space="preserve">
-    <value>Нажмите [ {0} ], чтобы завести двигатель</value>
+    <value>Включите питание, нажав [ {0} ]</value>
   </data>
   <data name="Quest10_End" xml:space="preserve">
-    <value>Летие к указаннгому месту.</value>
+    <value>Летите в указанные координаты</value>
   </data>
   <data name="Quest10_End_Movement" xml:space="preserve">
-    <value>Нажмите [ {0} ], чтобы вылелеть из ангара.</value>
+    <value>Нажмите [ {0} ], чтобы покинуть ангар.</value>
   </data>
   <data name="Quest10_End_Quest" xml:space="preserve">
-    <value>Для управление кораблем используйте те же клавиши, что и для управления реактивным ранцем.</value>
+    <value>Для управление кораблём используйте те же клавиши, что и для управления реактивным ранцем.</value>
   </data>
 </root>

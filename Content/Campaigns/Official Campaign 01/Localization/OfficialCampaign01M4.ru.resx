@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Chat_Enemy_BossFight" xml:space="preserve">
-    <value>Если хочешь сделать что-то хорошо, то сделай это сам. Пришло твое время умирать!</value>
+    <value>Если хочешь сделать что-то хорошо, то сделай это сам. Пришло твоё время умирать!</value>
   </data>
   <data name="Chat_Rebel_PlayerReady" xml:space="preserve">
     <value>Жди на точке, мы почти рядом.</value>
   </data>
   <data name="Chat_Rebel_Tank" xml:space="preserve">
-    <value>Рад что ты пережил это крушение. Сообщи свои координаты, у нас есть кое что для тебя ...</value>
+    <value>Рад, что ты пережил это крушение. Сообщи свои координаты, у нас есть кое-что для тебя...</value>
   </data>
   <data name="Chat_Rebel_TankDrop" xml:space="preserve">
-    <value>Отойдите от зоны посадки! В скором времени начнется сброс резервуара</value>
+    <value>Отойдите от зоны посадки! В скором времени начнётся сброс резервуара.</value>
   </data>
   <data name="Chat_Rebel_TankDropped" xml:space="preserve">
     <value>Удачи.</value>
   </data>
   <data name="Chat_Rebel_TankReady" xml:space="preserve">
-    <value>Мы на позиции, готовы к развертыванию.</value>
+    <value>Мы на позиции, готовы к развёртыванию.</value>
   </data>
   <data name="Chat_VA_DroneBlockDestroyed" xml:space="preserve">
-    <value>Дверь все еще заблокирована. Возможно потребуется уничтожить больше узлов.</value>
+    <value>Дверь по-прежнему заперта. Возможно потребуется уничтожить больше узлов.</value>
   </data>
   <data name="Chat_VA_DroneControlStart" xml:space="preserve">
     <value>Перейдите в комнату управления дверью и уничтожьте один из узлов управления.</value>
   </data>
   <data name="Chat_VA_DroneDoor" xml:space="preserve">
-    <value>Этв дверь в настоящее время заблокирована. Ее можно открыть из комнаты слева.</value>
+    <value>Эта дверь в настоящее время заперта. Её можно открыть из комнаты слева.</value>
   </data>
   <data name="Chat_VA_DroneHint" xml:space="preserve">
     <value>Доступ к этой секции ограничен. В этой зоне находится станция боевого дрона.</value>
@@ -154,31 +154,31 @@
     <value>Рекомендуется использовать ракетные пусковые установки для уничтожения ворот крепости.</value>
   </data>
   <data name="Chat_VA_FrontGateTank" xml:space="preserve">
-    <value>Рекомендуется использовать ваш гранатомет для уничтожения ворот крепости.</value>
+    <value>Рекомендуется использовать ваш гранатомёт для уничтожения ворот крепости.</value>
   </data>
   <data name="Chat_VA_Jetpack" xml:space="preserve">
-    <value>Внимание: В костюме обнаружена утечка кислорода.</value>
+    <value>Внимание: в костюме обнаружена утечка водорода.</value>
   </data>
   <data name="Chat_VA_Outro" xml:space="preserve">
-    <value>Завод дронов впереди. Я получаю странные сигналы, с которыми прежде не сталкивался. Это вероятно означает, что артефакт уже близок и скорее всего вооброжаемый мной директор компанни не будет рад видеть тебя.</value>
+    <value>Впереди завод дронов, я получаю странные сигналы, с которыми прежде не сталкивался, что, вероятно, означает, что артефакт уже близок, и, скорее всего, директор кампании, который, по моим соображениям, не будет рад видеть тебя.</value>
   </data>
   <data name="Chat_VA_ShipDestruction" xml:space="preserve">
-    <value>Внимание: Состояние ядра реактора критическое, взрыв неизбежен.</value>
+    <value>Внимание: состояние ядра реактора критическое, взрыв неизбежен.</value>
   </data>
   <data name="Chat_VA_Start" xml:space="preserve">
-    <value>Внимание: Перегрузка ядра реактора, немедленно эвакуировйте корабль.</value>
+    <value>Внимание: перегрузка ядра реактора, немедленно покиньте корабль.</value>
   </data>
   <data name="Chat_VA_TankDestruction1" xml:space="preserve">
     <value>Ваш танк более не функционирует.</value>
   </data>
   <data name="Chat_VA_TankDestruction2" xml:space="preserve">
-    <value>У меня есть альтернативное решение. На некоторых из этих разрушенных кораблей все еще функционируют турели.</value>
+    <value>У меня есть альтернативное решение, на некоторых из этих разрушенных кораблей до сих пор  работают турели.</value>
   </data>
   <data name="Chat_VA_Warning" xml:space="preserve">
-    <value>Внимание, управление кораблем отключено. Столкновение с планетой неизбежно.</value>
+    <value>Внимание, управление кораблём отключено. Столкновение с планетой неизбежно.</value>
   </data>
   <data name="Chat_VA_Wreckage" xml:space="preserve">
-    <value>Эта рухлять все еще имеет рабочее вооружение, которое вы можете использовать.</value>
+    <value>Эта рухлядь все ещё имеет рабочее вооружение, которое вы можете использовать.</value>
   </data>
   <data name="GPS_Base" xml:space="preserve">
     <value>Главный вход</value>
@@ -217,13 +217,13 @@
     <value>  Нажмите {0}, чтобы активировать</value>
   </data>
   <data name="LCD_TankPanel2_Line2" xml:space="preserve">
-    <value>Вид от третьего лица</value>
+    <value>вид от третьего лица</value>
   </data>
   <data name="Quest01_GetOut" xml:space="preserve">
-    <value>Эвакуируйте корабль!</value>
+    <value>Покиньте корабль!</value>
   </data>
   <data name="Quest01_GetOut_Countdown" xml:space="preserve">
-    <value>Корабль взорвется через {0}...</value>
+    <value>Корабль взорвётся через {0}...</value>
   </data>
   <data name="Quest01_GetOut_Line1" xml:space="preserve">
     <value>Расплавление корабельного реактора неизбежно</value>
@@ -232,52 +232,52 @@
     <value>Покиньте корабль немедленно!</value>
   </data>
   <data name="Quest02_Meeting" xml:space="preserve">
-    <value>Встретьте трансопрт Повстанцев</value>
+    <value>Встретьте транспорт повстанцев</value>
   </data>
   <data name="Quest02_Meeting_Coordinate" xml:space="preserve">
-    <value>Следуйте за указателем GPS</value>
+    <value>Следуйте за указателем СГП</value>
   </data>
   <data name="Quest02_Meeting_StayClose" xml:space="preserve">
-    <value>Встаньте рядом с указателем GPS</value>
+    <value>Встаньте рядом с указателем СГП</value>
   </data>
   <data name="Quest02_Meeting_Tank" xml:space="preserve">
-    <value>Войдите в кабину такнка</value>
+    <value>Залезьте в кабину танка</value>
   </data>
   <data name="Quest02_Meeting_Wait" xml:space="preserve">
-    <value>Дождитесь пока повстанческий корабль развернет свой танк</value>
+    <value>Дождитесь, пока повстанческий корабль развернёт свой танк</value>
   </data>
   <data name="Quest03B_OnFoot" xml:space="preserve">
     <value>Проломите защиту и проникните на базу</value>
   </data>
   <data name="Quest03B_OnFoot_TurretControlHint1" xml:space="preserve">
-    <value>Нажмите [ {0} ]  для управления турелью</value>
+    <value>Нажмите [ {0} ] для управления турелью</value>
   </data>
   <data name="Quest03B_OnFoot_TurretControlHint2" xml:space="preserve">
-    <value>Нажмите [ {0} ], чтобы снять управление турелью</value>
+    <value>Нажмите [ {0} ], чтобы выйти из управления турелью</value>
   </data>
   <data name="Quest03B_OnFoot_UseShips" xml:space="preserve">
-    <value>В обломках имеются рабочие турели. Используйте их для боя и чтобы пробить главный вход.</value>
+    <value>В обломках имеются рабочие турели, используйте их для боя и пробития главного входа.</value>
   </data>
   <data name="Quest03_Tank" xml:space="preserve">
     <value>Проломите защиту базы на танке</value>
   </data>
   <data name="Quest03_Tank_Brakes" xml:space="preserve">
-    <value>Нажмите [ {0} ] для активации ручного тормоза</value>
+    <value>Нажмите [ {0} ] для включения ручного тормоза</value>
   </data>
   <data name="Quest03_Tank_EscapeTurret" xml:space="preserve">
-    <value>Нажмите [ {0} ], чтобы выйти из режима управления турелями</value>
+    <value>Нажмите [ {0} ], чтобы выйти из управления турелями</value>
   </data>
   <data name="Quest03_Tank_FrontTurrets" xml:space="preserve">
-    <value>Используйте оружие чтобы пробить дыру в главном ходе ([ {0} ] key)</value>
+    <value>Используйте оружие, чтобы пробить дыру в главном входе ([ {0} ])</value>
   </data>
   <data name="Quest03_Tank_Quest" xml:space="preserve">
-    <value>Нажмите [ {0} ], чтобы активировать реакторы</value>
+    <value>Нажмите [ {0} ], чтобы включить реакторы</value>
   </data>
   <data name="Quest03_Tank_Turrets" xml:space="preserve">
     <value>Нажмите [ {0} ] и [ {1} ] для управления турелями</value>
   </data>
   <data name="Quest04_BaseStart" xml:space="preserve">
-    <value>Войдите во внутрь базы</value>
+    <value>Войдите внутрь базы</value>
   </data>
   <data name="Quest04_BaseStart_Exit" xml:space="preserve">
     <value>Используйте кнопочную панель для открытия двери в завод дронов</value>
