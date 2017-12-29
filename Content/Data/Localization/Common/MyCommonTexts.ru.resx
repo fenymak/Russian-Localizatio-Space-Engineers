@@ -734,7 +734,7 @@
     <value>Переключение режима сигнала</value>
   </data>
   <data name="ControlName_ToggleSignalsMode_Tooltip" xml:space="preserve">
-    <value>Переключение сигналов между режимом затухания и всегда видимым режимом.</value>
+    <value>Переключение сигналов</value>
   </data>
   <data name="ControlName_HoldToSprint" xml:space="preserve">
     <value>Удерживайте, чтобы бежать</value>
