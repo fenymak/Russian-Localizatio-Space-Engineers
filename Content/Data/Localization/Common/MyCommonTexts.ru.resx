@@ -614,7 +614,7 @@
     <value>Автосохранение</value>
   </data>
   <data name="ToolTipWorldSettingsAutoSave" xml:space="preserve">
-    <value>Автосохранение сохраняет прогресс игрового мира каждые {0} минут, или когда вы выходите из игры.</value>
+    <value>Автосохранение сохраняет прогресс игрового мира каждые {0} минут, или когда вы выходите из игры</value>
   </data>
   <data name="MessageBoxTextDoYouWantToSaveYourProgress" xml:space="preserve">
     <value>Вы хотите сохранить игру?</value>
@@ -734,7 +734,7 @@
     <value>Переключение режима сигнала</value>
   </data>
   <data name="ControlName_ToggleSignalsMode_Tooltip" xml:space="preserve">
-    <value>Переключение сигналов</value>
+    <value>Переключение сигналов в режим затухания или на постоянно видимые</value>
   </data>
   <data name="ControlName_HoldToSprint" xml:space="preserve">
     <value>Удерживайте, чтобы бежать</value>
@@ -765,10 +765,11 @@
 Подробности смотрите в логе.</value>
   </data>
   <data name="WorldFileIsCorruptedAndCouldNotBeLoaded" xml:space="preserve">
-    <value>Файл мира повреждён и не может быть загружен.</value>
+    <value>Произошла ошибка при загрузке мира!
+Проверьте лог для получения дополнительной информации.</value>
   </data>
   <data name="ToolTipNewWorldCustomWorld" xml:space="preserve">
-    <value>Создать новый мир с пользовательскими настройками.</value>
+    <value>Создать новый мир с пользовательскими настройками</value>
   </data>
   <data name="ToolTipVideoOptionsRenderQuality" xml:space="preserve">
     <value>Высшее качество визуализации означает лучшие визуальные эффекты, большее расстояние видимости и больше спецэффектов - однако, это более требовательно к производительности компьютера (ЦП и ГП). 
@@ -788,23 +789,23 @@
     <value>Системный курсор мыши не влияет на частоту кадров в игре. Мы рекомендуем включить его.</value>
   </data>
   <data name="ToolTipVideoOptionsCaptureMouse" xml:space="preserve">
-    <value>Выберите, должен ли курсор захватываться игровым окном. 
+    <value>Выберите, должен ли курсор захватываться игровым окном.
 (Оконный и полноэкранный режимы окна)</value>
   </data>
   <data name="ToolTipVideoOptionsVerticalSync" xml:space="preserve">
     <value>Игра будет синхронизирована с частотой обновления вашего
 монитора, что может устранить некоторые графические искажения,
-но также повлиять на производительность.</value>
+но также повлиять на производительность</value>
   </data>
   <data name="ToolTipVideoOptionsFieldOfView" xml:space="preserve">
-    <value>Горизонтальный угол обзора.</value>
+    <value>Горизонтальный угол обзора</value>
   </data>
   <data name="MessageBoxTextRestartNeededAfterAdapterSwitch" xml:space="preserve">
     <value>Для смены адаптера требуется перезапустить игру.
 Перезапустить сейчас?</value>		 
   </data>
   <data name="ToolTipGameOptionsShowControlsHints" xml:space="preserve">
-    <value>Отображать подсказки по управлению во время игры.</value>
+    <value>Отображать подсказки по управлению во время игры</value>
   </data>
   <data name="WorldNotSaved" xml:space="preserve">
     <value>Не удалось сохранить мир «{0}». Это может быть вызвано нехваткой памяти или проблемами во время записи файлов. Обработка этого мира может привести к потери прогресса. Вы можете проверить лог-файл, чтобы узнать больше о том, что могло вызвать эту ошибку.</value>
@@ -1042,13 +1043,13 @@
     <value>Открыть оверлей {0} со страницей мастерской</value>
   </data>
   <data name="ToolTipWorkshopCopyAndLoad" xml:space="preserve">
-    <value>Запустить с параметрами по умолчанию.</value>
+    <value>Запустить с параметрами по умолчанию</value>
   </data>
   <data name="ToolTipWorkshopOpenInWorkshop" xml:space="preserve">
     <value>Открыть выбранный мир в мастерской {0}</value>
   </data>
   <data name="ToolTipWorkshopRefresh" xml:space="preserve">
-    <value>Обновить список миров, на которые вы подписаны.</value>
+    <value>Обновить список миров, на которые вы подписаны</value>
   </data>
   <data name="SettingSymmetryX" xml:space="preserve">
     <value>Симметрия по X плоскости: {0} - установить, {1} - сбросить</value>
@@ -1108,7 +1109,7 @@
     <value>Отображать подсказки по вращению</value>
   </data>
   <data name="ToolTipGameOptionsShowRotationHints" xml:space="preserve">
-    <value>Отображать подсказки по вращению во время строительства.</value>
+    <value>Отображать подсказки по вращению во время строительства</value>
   </data>
   <data name="UnknownControl_Unassigned" xml:space="preserve">
     <value>[не назначено]</value>
@@ -1228,7 +1229,7 @@
     <value>Это оружие отключено в настройках мира</value>
   </data>
   <data name="ControlDescPlayersList" xml:space="preserve">
-    <value>Отображать игроков (только в сетевой игре)</value>
+    <value>Отображать игроков (сетевая игра)</value>
   </data>
   <data name="ScreenMenuButtonPlayers" xml:space="preserve">
     <value>Игроки</value>
@@ -1246,7 +1247,7 @@
     <value>Только друзья могут присоединиться к этой игре</value>
   </data>
   <data name="ToolTipWorldSettingsDescription" xml:space="preserve">
-    <value>Описание мира.</value>
+    <value>Описание мира</value>
   </data>
   <data name="ScreenOptionsGame_UIOpacity" xml:space="preserve">
     <value>Прозрачность пользовательского
@@ -1316,7 +1317,7 @@
     <value>Отображать прицел</value>
   </data>
   <data name="ToolTipGameOptionsShowCrosshair" xml:space="preserve">
-    <value>Установите, будет ли отображаться прицел для оружия.</value>
+    <value>Установите, будет ли отображаться прицел для оружия</value>
   </data>
   <data name="MessageBoxTextSavingInProgress" xml:space="preserve">
     <value>Игра уже сохраняется.</value>
@@ -1448,13 +1449,13 @@
 (или же 0, чтобы отключить проверку)</value>
   </data>
   <data name="JoinGame_TabTooltip_LAN" xml:space="preserve">
-    <value>Список локальных выделенных серверов.</value>
+    <value>Список локальных выделенных серверов</value>
   </data>
   <data name="JoinGame_TabTooltip_Lobbies" xml:space="preserve">
-    <value>Список игр, созданных игроками.</value>
+    <value>Список игр, созданных игроками</value>
   </data>
   <data name="JoinGame_TabTooltip_Servers" xml:space="preserve">
-    <value>Список выделенных серверов по интернету.</value>
+    <value>Список выделенных серверов по интернету</value>
   </data>
   <data name="PlayerCharacterColor" xml:space="preserve">
     <value>Цвет игрока</value>
@@ -1524,7 +1525,7 @@
     <value>Выбранная метка уже существует</value>
   </data>
   <data name="MessageBoxErrorFactionsNameTooShort" xml:space="preserve">
-    <value>В имени фракции должно быть не менее 4 символов</value>
+    <value>В имени фракции должно быть не менее 4 символов.</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Изменить</value>
@@ -1613,16 +1614,16 @@
     <value>Доступные моды</value>
   </data>
   <data name="ToolTipScreenMods_MoveLeft" xml:space="preserve">
-    <value>Отключить мод.</value>
+    <value>Отключить мод</value>
   </data>
   <data name="ToolTipScreenMods_MoveLeftAll" xml:space="preserve">
-    <value>Отключить все моды.</value>
+    <value>Отключить все моды</value>
   </data>
   <data name="ToolTipScreenMods_MoveRight" xml:space="preserve">
-    <value>Включить мод.</value>
+    <value>Включить мод</value>
   </data>
   <data name="ToolTipScreenMods_MoveRightAll" xml:space="preserve">
-    <value>Включить все моды.</value>
+    <value>Включить все моды</value>
   </data>
   <data name="WorldSettings_Mods" xml:space="preserve">
     <value>Моды</value>
@@ -1634,7 +1635,7 @@
     <value>Открыть мод в мастерской {0}.</value>
   </data>
   <data name="ToolTipWorkshopRefreshMod" xml:space="preserve">
-    <value>Обновить список модов, на которые вы подписаны.</value>
+    <value>Обновить список модов, на которые вы подписаны</value>
   </data>
   <data name="JoinGame_SearchLabel" xml:space="preserve">
     <value>Поиск</value>
@@ -1646,16 +1647,16 @@
     <value>Сохранение игры клиентами отключено на этом сервере</value>
   </data>
   <data name="ToolTipScreenMods_MoveDown" xml:space="preserve">
-    <value>Передвинуть мод ниже.</value>
+    <value>Передвинуть мод ниже</value>
   </data>
   <data name="ToolTipScreenMods_MoveUp" xml:space="preserve">
-    <value>Передвинуть мод выше.</value>
+    <value>Передвинуть мод выше</value>
   </data>
   <data name="ToolTipScreenMods_MoveBottom" xml:space="preserve">
-    <value>Передвинуть мод вниз.</value>
+    <value>Передвинуть мод вниз</value>
   </data>
   <data name="ToolTipScreenMods_MoveTop" xml:space="preserve">
-    <value>Передвинуть мод вверх.</value>
+    <value>Передвинуть мод вверх</value>
   </data>
   <data name="MessageBoxTextCannotCreateGroup" xml:space="preserve">
     <value>Вы не можете создавать группу с блоками, к которым вы не имеете доступа.</value>
@@ -1767,13 +1768,14 @@
     <value>Экспорт скопированного объекта в файл</value>
   </data>
   <data name="ToolTipSaveShip" xml:space="preserve">
-    <value>Сохранить объект из копии в файл.</value>
+    <value>Сохранить объект из буфера обмена в файл</value>
   </data>
   <data name="AddNewNPC" xml:space="preserve">
     <value>Добавить новый идентификатор врага</value>
   </data>
   <data name="DisplayName_BlueprintClass_Tools" xml:space="preserve">
-    <value>Инструменты</value>
+    <value>Инструменты
+- Нажмите на любой инструмент, чтобы собрать его</value>
   </data>
   <data name="ScreenCaptionWorkshopTags" xml:space="preserve">
     <value>Выберите метки</value>
@@ -1804,7 +1806,7 @@
     <value>Интерполяция кадров</value>
   </data>
   <data name="ToolTipVideoOptionRenderIterpolation" xml:space="preserve">
-    <value>Уменьшает рывки и делает игру плавной.</value>
+    <value>Уменьшает рывки и делает игру плавной</value>
   </data>
   <data name="WorkshopTag_ModPack" xml:space="preserve">
     <value>Набор модов</value>
@@ -1956,10 +1958,10 @@
     <value>Описание</value>
   </data>
   <data name="TooltipScreenMods_SelectCategories" xml:space="preserve">
-    <value>Выберите категории.</value>
+    <value>Выберите категории</value>
   </data>
   <data name="JoinGame_GameTypeToolTip_ViewDistance" xml:space="preserve">
-    <value>Дальность прорисовки: {0} м</value>
+    <value>Расстояние синхронизации: {0} м</value>
   </data>
   <data name="VoxelHandSettingScreen_HandProjectToVoxel" xml:space="preserve">
     <value>Проекция на воксель</value>
@@ -2018,10 +2020,10 @@
     <value>История</value>
   </data>
   <data name="JoinGame_TabTooltip_Friends" xml:space="preserve">
-    <value>Список серверов, на которых сейчас играют ваши друзья.</value>
+    <value>Список серверов, на которых сейчас играют ваши друзья</value>
   </data>
   <data name="JoinGame_TabTooltip_History" xml:space="preserve">
-    <value>Список ранее посещённых серверов.</value>
+    <value>Список ранее посещённых серверов</value>
   </data>
   <data name="JoinGame_Favorites_Add" xml:space="preserve">
     <value>Добавить сервер в избранное</value>
@@ -2159,7 +2161,7 @@
     <value>Точная</value>
   </data>
   <data name="WorldSettings_Physics_Tooltip" xml:space="preserve">
-    <value>Более высокие настройки улучшают симуляцию, НО сильно влияют на производительность.</value>
+    <value>Более высокие настройки улучшают симуляцию, НО сильно влияют на производительность</value>
   </data>
   <data name="ScreenCaptionGraphicsOptions" xml:space="preserve">
     <value>Настройки графики</value>
@@ -2211,6 +2213,9 @@
   </data>
   <data name="ScreenGraphicsOptions_ShadowMapResolution_High" xml:space="preserve">
     <value>Высокое</value>
+  </data>
+  <data name="ScreenGraphicsOptions_ShadowMapResolution_Extreme" xml:space="preserve">
+    <value>Очень высокое</value>
   </data>
   <data name="ScreenGraphicsOptions_ShadowMapResolution_Disabled" xml:space="preserve">
     <value>Отключено</value>
@@ -2366,7 +2371,7 @@
     <value>Огнеопасный</value>
   </data>
   <data name="MessageBoxErrorFactionsTag" xml:space="preserve">
-    <value>Длина метки фракции должна составлять ровно 3 символа</value>
+    <value>Длина метки фракции должна составлять ровно 3 символа.</value>
   </data>
   <data name="Multiplayer_LastMsg" xml:space="preserve">
     <value>Сообщение от сервера не получено в течение {0} секунд.</value>
@@ -2375,13 +2380,13 @@
     <value>Добавлена идентификация {0}</value>
   </data>
   <data name="ToolTipGameOptionsUIOpacity" xml:space="preserve">
-    <value>Изменение прозрачности диалоговых окон пользовательского интерфейса.</value>
+    <value>Изменение прозрачности диалоговых окон пользовательского интерфейса</value>
   </data>
   <data name="ToolTipGameOptionsUIBkOpacity" xml:space="preserve">
-    <value>Изменение прозрачности фона диалоговых окон пользовательского интерфейса.</value>
+    <value>Изменение прозрачности фона диалоговых окон пользовательского интерфейса</value>
   </data>
   <data name="ToolTipGameOptionsHUDBkOpacity" xml:space="preserve">
-    <value>Изменение прозрачности фона ИЛС.</value>
+    <value>Изменение прозрачности фона ИЛС</value>
   </data>
   <data name="WorldSettings_GameMode" xml:space="preserve">
     <value>Режим игры</value>
@@ -2408,7 +2413,7 @@
     <value>Отпускание Alt сбрасывает камеру</value>
   </data>
   <data name="ToolTipGameOptionsReleasingAltResetsCamera" xml:space="preserve">
-    <value>При отпускании кнопки для оглядывания, камера сбрасывается автоматически.</value>
+    <value>При отпускании кнопки для оглядывания, камера сбрасывается автоматически</value>
   </data>
   <data name="MessageBoxCaptionNotReady" xml:space="preserve">
     <value>Выбранная медицинская комната не готова.</value>
@@ -2452,7 +2457,7 @@
     <value>Мир уже существует! Перезаписать?</value>
   </data>
   <data name="ToolTipWorkshopCopyWorld" xml:space="preserve">
-    <value>Настройте параметры перед запуском.</value>
+    <value>Настройте параметры перед запуском</value>
   </data>
   <data name="SignalMode_Switch_DefaultMode" xml:space="preserve">
     <value>Сигналы переключены в обычный режим.</value>
@@ -2563,7 +2568,8 @@
     <value>Отображать предупреждения в игре</value>
   </data>
   <data name="ToolTipGameOptionsEnablePerformanceWarnings" xml:space="preserve">
-    <value>Отображать предупреждение всякий раз, когда снижается производительность игры.</value>
+    <value>Показывать сообщение в левом верхнем углу экрана
+при появлении нового предупреждения</value>
   </data>
   <data name="PerformanceWarningAreaClearAndGeometryRender" xml:space="preserve">
     <value>ГП (геометрия)</value>
@@ -2696,7 +2702,7 @@
 Пожалуйста, отключайте этот параметр только в экспериментальных целях.</value>
   </data>
   <data name="ToolTipWorldSettingsBlockLimits" xml:space="preserve">
-    <value>Используйте рекомендуемые ограничения блоков.</value>
+    <value>Используйте рекомендуемые ограничения блоков</value>
   </data>
   <data name="PerformanceWarningIssuesBlocks" xml:space="preserve">
     <value>Проблемы с блоками</value>
@@ -2769,7 +2775,7 @@
     <value>Выберите один из предметов мастерской, на которые вы подписаны, или найдите другие.</value>
   </data>
   <data name="WorldSettingsScreen_Description" xml:space="preserve">
-    <value>Создать новый пользовательский мир.</value>
+    <value>Создать новый пользовательский мир</value>
   </data>
   <data name="ScreenCaptionNewsletter" xml:space="preserve">
     <value>Рассылка</value>
@@ -2907,10 +2913,10 @@
     <value>Включить расширенные</value>
   </data>
   <data name="ServerSearch_EnableAdvancedTooltip" xml:space="preserve">
-    <value>Включить фильтры расширенного поиска.</value>
+    <value>Включить фильтры расширенного поиска</value>
   </data>
   <data name="ServerSearch_EnableNumericTooltip" xml:space="preserve">
-    <value>Включить или отскочить этот фильтр.</value>
+    <value>Включить или отскочить этот фильтр</value>
   </data>
   <data name="JoinGame_DirectConnect" xml:space="preserve">
     <value>Прямое подключение</value>
@@ -2930,16 +2936,16 @@
 Любые выбранные моды (включающий)</value>
   </data>
   <data name="NextNews" xml:space="preserve">
-    <value>Отображать старые новости.</value>
+    <value>Отображать старые новости</value>
   </data>
   <data name="PreviousNews" xml:space="preserve">
-    <value>Отображать новые новости.</value>
+    <value>Отображать новые новости</value>
   </data>
   <data name="ToolTipContinueGame" xml:space="preserve">
-    <value>Продолжить с последнего сохранения.</value>
+    <value>Продолжить с последнего сохранения</value>
   </data>
   <data name="ToolTipExitToWindows" xml:space="preserve">
-    <value>Покинуть игру.</value>
+    <value>Покинуть игру</value>
   </data>
   <data name="DeveloperControls" xml:space="preserve">
     <value>Управление разработчика</value>
@@ -2948,16 +2954,16 @@
     <value>Выбрать страницу панели инструментов {0}</value>
   </data>
   <data name="ToolTipJoinGame" xml:space="preserve">
-    <value>Играть по сети.</value>
+    <value>Играть по сети</value>
   </data>
   <data name="ToolTipLoadGame" xml:space="preserve">
-    <value>Загрузить сохранённый мир.</value>
+    <value>Загрузить сохранённый мир</value>
   </data>
   <data name="ToolTipNewGame" xml:space="preserve">
-    <value>Начать новую игру.</value>
+    <value>Начать новую игру</value>
   </data>
   <data name="ToolTipOptions" xml:space="preserve">
-    <value>Изменить настройки игры.</value>
+    <value>Изменить настройки игры</value>
   </data>
   <data name="ServerSearch" xml:space="preserve">
     <value>Расширенный поиск сервера</value>
@@ -2978,7 +2984,7 @@
     <value>Начать</value>
   </data>
   <data name="ToolTipWorkshopPublish" xml:space="preserve">
-    <value>Опубликуйте свой мод в мастерской Steam.</value>
+    <value>Опубликуйте свой мод в мастерской Steam</value>
   </data>
   <data name="ModCrashedTheGame" xml:space="preserve">
     <value>Мод вызвал сбой игры!</value>
@@ -3033,7 +3039,8 @@
     <value>Вы получили новый предмет</value>
   </data>
   <data name="ScreenNewItemVisit" xml:space="preserve">
-    <value>Посетите медицинскую комнату, чтобы изменить свою внешность.</value>
+    <value>Посетите медицинскую комнату,
+чтобы изменить свою внешность.</value>
   </data>
   <data name="ScreenLoadInventoryAllItems" xml:space="preserve">
     <value>Всё</value>
@@ -3066,13 +3073,13 @@
     <value>Инструменты</value>
   </data>
   <data name="ScreenLoadInventoryHue" xml:space="preserve">
-    <value>Оттенок {0}°.</value>
+    <value>Оттенок {0}°</value>
   </data>
   <data name="ScreenLoadInventorySaturation" xml:space="preserve">
-    <value>Насыщенность {0}.</value>
+    <value>Насыщенность {0}</value>
   </data>
   <data name="ScreenLoadInventoryValue" xml:space="preserve">
-    <value>Яркость {0}.</value>
+    <value>Яркость {0}</value>
   </data>
   <data name="ScreenLoadInventoryDrill" xml:space="preserve">
     <value>Буры</value>
@@ -3109,19 +3116,19 @@
     <value>У вас нет ни одного предмета. Вы можете получить предметы, играя в игру, или обмениваясь с другими игроками.</value>
   </data>
   <data name="GpsContainerRemainingTimeMins" xml:space="preserve">
-    <value>В - {0} мин.</value>
+    <value>В - {0} м</value>
   </data>
   <data name="GpsContainerRemainingTimeSec" xml:space="preserve">
-    <value>В - {0} сек.</value>
+    <value>В - {0} с</value>
   </data>
   <data name="GpsContainerRemainingTimeSecs" xml:space="preserve">
-    <value>В - {0} сек.</value>
+    <value>В - {0} с</value>
   </data>
   <data name="GpsContainerRemainingTimeMinSec" xml:space="preserve">
-    <value>В - {0} мин. {1} сек.</value>
+    <value>В - {0} м {1} с</value>
   </data>
   <data name="GpsContainerRemainingTimeMinSecs" xml:space="preserve">
-    <value>В - {0} мин. {1} сек.</value>
+    <value>В - {0} м {1} с</value>
   </data>
   <data name="ScreenLoadInventoryLeftClickTip" xml:space="preserve">
     <value>ЛКМ - экипировать</value>
@@ -3139,55 +3146,57 @@
     <value>Специальный контент</value>
   </data>
   <data name="ScreenClaimItemText" xml:space="preserve">
-    <value>Испытайте свою удачу, чтобы получить новый особый предмет.</value>
+    <value>Испытайте свою удачу, чтобы
+получить новый особый предмет.</value>
   </data>
   <data name="ScreenCaptionNoGameItem" xml:space="preserve">
     <value>Ничего не найдено</value>
   </data>
   <data name="ScreenNoGameItemText" xml:space="preserve">
-    <value>Вам не удалось найти какой-либо особый предмет. Испытайте свою удачу в другом месте.</value>
+    <value>Вам не удалось найти какой-либо особый предмет.
+Испытайте свою удачу в другом месте.</value>
   </data>
   <data name="ScreenMenuButtonInventoryTooltip" xml:space="preserve">
-    <value>Настройте внешний вид своего персонажа.</value>
+    <value>Настройте внешний вид своего персонажа</value>
   </data>
   <data name="ScreenLoadInventoryBootsTooltip" xml:space="preserve">
-    <value>Сортировать по обуви.</value>
+    <value>Сортировать по обуви</value>
   </data>
   <data name="ScreenLoadInventoryCancelTooltip" xml:space="preserve">
-    <value>Отменить изменения внешнего вида.</value>
+    <value>Отменить изменения внешнего вида</value>
   </data>
   <data name="ScreenLoadInventoryCharacterFilterTooltip" xml:space="preserve">
-    <value>Показать скины персонажа.</value>
+    <value>Показать скины персонажа</value>
   </data>
   <data name="ScreenLoadInventoryDrillTooltip" xml:space="preserve">
-    <value>Сортировать по бурам.</value>
+    <value>Сортировать по бурам</value>
   </data>
   <data name="ScreenLoadInventoryGlovesTooltip" xml:space="preserve">
-    <value>Сортировать по перчаткам.</value>
+    <value>Сортировать по перчаткам</value>
   </data>
   <data name="ScreenLoadInventoryGrinderTooltip" xml:space="preserve">
-    <value>Сортировать по болгаркам.</value>
+    <value>Сортировать по болгаркам</value>
   </data>
   <data name="ScreenLoadInventoryHelmetTooltip" xml:space="preserve">
-    <value>Сортировать по шлемам.</value>
+    <value>Сортировать по шлемам</value>
   </data>
   <data name="ScreenLoadInventoryOkTooltip" xml:space="preserve">
-    <value>Применить изменения внешнего вида.</value>
+    <value>Применить изменения внешнего вида</value>
   </data>
   <data name="ScreenLoadInventoryRefreshTooltip" xml:space="preserve">
-    <value>Обновить инвентарь.</value>
+    <value>Обновить инвентарь</value>
   </data>
   <data name="ScreenLoadInventoryRifleTooltip" xml:space="preserve">
-    <value>Сортировать по винтовкам.</value>
+    <value>Сортировать по винтовкам</value>
   </data>
   <data name="ScreenLoadInventorySuitTooltip" xml:space="preserve">
-    <value>Сортировать по костюмам.</value>
+    <value>Сортировать по костюмам</value>
   </data>
   <data name="ScreenLoadInventoryToolsFilterTooltip" xml:space="preserve">
-    <value>Показать скины инструментов.</value>
+    <value>Показать скины инструментов</value>
   </data>
   <data name="ScreenLoadInventoryWelderTooltip" xml:space="preserve">
-    <value>Сортировать по сварочным аппаратам.</value>
+    <value>Сортировать по сварочным аппаратам</value>
   </data>
   <data name="Date" xml:space="preserve">
     <value>Дата</value>
@@ -3280,13 +3289,13 @@
     <value>Задержка события</value>
   </data>
   <data name="Cutscene_Tooltip_EventDelay_Extended" xml:space="preserve">
-    <value>Событие будет отложено на определённый период времени от начала узла.</value>
+    <value>Событие будет отложено на определённый период времени от начала узла</value>
   </data>
   <data name="Cutscene_Tooltip_Events" xml:space="preserve">
     <value>События:</value>
   </data>
   <data name="Cutscene_Tooltip_Event_Extended" xml:space="preserve">
-    <value>Название события будет вызвано в Visual Scripting.</value>
+    <value>Название события будет вызвано в Visual Scripting</value>
   </data>
   <data name="Cutscene_Tooltip_FOV" xml:space="preserve">
     <value>ПОЛЕ ЗРЕНИЯ</value>
@@ -3295,10 +3304,10 @@
     <value>Изменить поле зрения</value>
   </data>
   <data name="Cutscene_Tooltip_FOVChange_Extended" xml:space="preserve">
-    <value>Поле зрения изменится до этого значения в течение срока службы узла.</value>
+    <value>Поле зрения изменится до этого значения в течение срока службы узла</value>
   </data>
   <data name="Cutscene_Tooltip_FOV_Extended" xml:space="preserve">
-    <value>Настройка поля зрения. По умолчанию 70.</value>
+    <value>Настройка поля зрения. По умолчанию 70</value>
   </data>
   <data name="Cutscene_Tooltip_Instant" xml:space="preserve">
     <value>Мгновенно</value>
@@ -3307,7 +3316,7 @@
     <value>Следить</value>
   </data>
   <data name="Cutscene_Tooltip_LookAt_Extended1" xml:space="preserve">
-    <value>Поворот камеры от текущего вращения к данному объекту в течение срока службы узла.</value>
+    <value>Поворот камеры от текущего вращения к данному объекту в течение срока службы узла</value>
   </data>
   <data name="Cutscene_Tooltip_LookAt_Extended2" xml:space="preserve">
     <value>Мгновенный поворот в направлении к данному объекту при запуске узла.</value>
@@ -3325,10 +3334,10 @@
     <value>Двигаться к</value>
   </data>
   <data name="Cutscene_Tooltip_MoveTo_Extended1" xml:space="preserve">
-    <value>Перемещение камеры из текущего положения в заданное положение объекта в течение срока службы узла.</value>
+    <value>Перемещение камеры из текущего положения в заданное положение объекта в течение срока службы узла</value>
   </data>
   <data name="Cutscene_Tooltip_MoveTo_Extended2" xml:space="preserve">
-    <value>Камеры переместится в заданное положение сущности мгновенно при запуске узла.</value>
+    <value>Камера переместится в заданное положение сущности мгновенно при запуске узла</value>
   </data>
   <data name="Cutscene_Tooltip_MoveUp" xml:space="preserve">
     <value>Движение вверх</value>
@@ -3355,7 +3364,7 @@
     <value>Позиция/вращение</value>
   </data>
   <data name="Cutscene_Tooltip_PosRot_Extended" xml:space="preserve">
-    <value>Название сущности, используемое для начальных позиции и вращения.</value>
+    <value>Название сущности, используемое для начальных позиции и вращения</value>
   </data>
   <data name="Cutscene_Tooltip_Revert" xml:space="preserve">
     <value>Отмена</value>
@@ -3364,10 +3373,10 @@
     <value>Вращать как</value>
   </data>
   <data name="Cutscene_Tooltip_RotateLike_Extended1" xml:space="preserve">
-    <value>Поворот камеры от текущего вращения к данному вращению сущности в течение срока службы узла.</value>
+    <value>Поворот камеры от текущего вращения к данному вращению сущности в течение срока службы узла</value>
   </data>
   <data name="Cutscene_Tooltip_RotateLike_Extended2" xml:space="preserve">
-    <value>Установите вращение камеры для данного вращения сущности мгновенно при запуске узла.</value>
+    <value>Установите вращение камеры для данного вращения сущности мгновенно при запуске узла</value>
   </data>
   <data name="Cutscene_Tooltip_Save" xml:space="preserve">
     <value>Сохранить</value>
@@ -3376,16 +3385,16 @@
     <value>Выбранная видеосцена:</value>
   </data>
   <data name="Cutscene_Tooltip_Skippable" xml:space="preserve">
-    <value>Видеосцена с возможностью пропуска с помощью пробела или возврата.</value>
+    <value>Видеосцена с возможностью пропуска с помощью пробела или возврата</value>
   </data>
   <data name="Cutscene_Tooltip_SkipWarning" xml:space="preserve">
-    <value>Пропуск видеосцены всё равно запустит события сценария.</value>
+    <value>Пропуск видеосцены всё равно запустит события сценария</value>
   </data>
   <data name="Cutscene_Tooltip_Time" xml:space="preserve">
     <value>Время</value>
   </data>
   <data name="Cutscene_Tooltip_Time_Extended" xml:space="preserve">
-    <value>Продолжительность времени для выбранного узла.</value>
+    <value>Продолжительность времени для выбранного узла</value>
   </data>
   <data name="Cutscene_Tooltip_TrackLook" xml:space="preserve">
     <value>Слежение</value>
@@ -3605,5 +3614,212 @@ https://support.microsoft.com/kb/3120241
   </data>
   <data name="Unusual" xml:space="preserve">
     <value>Особенный</value>
+  </data>
+  <data name="AudioSettings_EnableDoppler" xml:space="preserve">
+    <value>Включить доплер</value>
+  </data>
+  <data name="ToolTipAudioOptionsEnableDoppler" xml:space="preserve">
+    <value>Включить эффект Доплера. (Частота звуков зависит от относительного перемещения источника и приёмника.)</value>
+  </data>
+  <data name="Blueprint_Sort_Label" xml:space="preserve">
+    <value>Сортировать по:</value>
+  </data>
+  <data name="SortBy_CreationDate" xml:space="preserve">
+    <value>Дате создания</value>
+  </data>
+  <data name="SortBy_Name" xml:space="preserve">
+    <value>Названия</value>
+  </data>
+  <data name="SortBy_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="SortBy_SubscribeDate" xml:space="preserve">
+    <value>Дате подписки</value>
+  </data>
+  <data name="SortBy_UpdateDate" xml:space="preserve">
+    <value>Дате обновления</value>
+  </data>
+  <data name="DialogAmount_ParsingError" xml:space="preserve">
+    <value>Данная сумма не является допустимым номером.</value>
+  </data>
+  <data name="DialogAmount_RangeError" xml:space="preserve">
+    <value>Сумма должны быть от {0} до {1}.</value>
+  </data>
+  <data name="WarningDangerousGrids" xml:space="preserve">
+    <value>В этом мире есть сетки с небезопасными значениями.</value>
+  </data>
+  <data name="PerformanceWarningCombination" xml:space="preserve">
+    <value>Нажмите Shift + {0} для дополнительной информации</value>
+  </data>
+  <data name="PerformanceWarningHeading_Connection" xml:space="preserve">
+    <value>ПРОБЛЕМА С ПОДКЛЮЧЕНИЕМ</value>
+  </data>
+  <data name="PerformanceWarningHeading_Saving" xml:space="preserve">
+    <value>ИДЁТ СОХРАНЕНИЕ</value>
+  </data>
+  <data name="PerformanceWarningHeading_SimSpeed" xml:space="preserve">
+    <value>НИЗКАЯ СКОРОСТЬ СИМУЛЯЦИИ</value>
+  </data>
+  <data name="PerformanceWarningHeading_UnsafeGrids" xml:space="preserve">
+    <value>НЕБЕЗОПАСНЫЕ СЕТКИ</value>
+  </data>
+  <data name="PerformanceWarningInfoText" xml:space="preserve">
+    <value>Вы можете открыть это окно, нажав Shift + F1 всякий раз, когда вам нужно проверить текущие предупреждения и сообщения.</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer" xml:space="preserve">
+    <value>Сообщения сервера</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_Direct" xml:space="preserve">
+    <value>Прямое подключение</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_Latency" xml:space="preserve">
+    <value>Задержка</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_NoConnection" xml:space="preserve">
+    <value>Нет соединения</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_Response" xml:space="preserve">
+    <value>Ответ сервера</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_Saving" xml:space="preserve">
+    <value>Сохранение мира</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_Simspeed" xml:space="preserve">
+    <value>Скорость симуляции</value>
+  </data>
+  <data name="PerformanceWarningIssuesUnsafeGrids" xml:space="preserve">
+    <value>Сетки с небезопасными значениями</value>
+  </data>
+  <data name="ScreenTerminalInfo_DangerousBlocks" xml:space="preserve">
+    <value>Список опасных блоков:</value>
+  </data>
+  <data name="ControlDescF6" xml:space="preserve">
+    <value>Переключиться на астронавта</value>
+  </data>
+  <data name="ControlDescF7" xml:space="preserve">
+    <value>Фиксированное положение наблюдателя</value>
+  </data>
+  <data name="ControlDescF8" xml:space="preserve">
+    <value>Свободный наблюдатель</value>
+  </data>
+  <data name="ControlDescF9" xml:space="preserve">
+    <value>Статичный наблюдатель</value>
+  </data>
+  <data name="ControlDescMoveToSpectator" xml:space="preserve">
+    <value>Перемещение персонажа к наблюдателю</value>
+  </data>
+  <data name="HelpScreenHeader" xml:space="preserve">
+    <value>Экран помощи</value>
+  </data>
+  <data name="HelpScreen_AdvancedCamera" xml:space="preserve">
+    <value>Камера:</value>
+  </data>
+  <data name="HelpScreen_AdvancedColorPicker" xml:space="preserve">
+    <value>Цветоподборщик:</value>
+  </data>
+  <data name="HelpScreen_AdvancedControls" xml:space="preserve">
+    <value>Расширенное управление</value>
+  </data>
+  <data name="HelpScreen_AdvancedDescription" xml:space="preserve">
+    <value>Расширенные клавиши управления движением и взаимодействием, которыми должен овладеть каждый хороший инженер!</value>
+  </data>
+  <data name="HelpScreen_AdvancedGeneral" xml:space="preserve">
+    <value>Общее:</value>
+  </data>
+  <data name="HelpScreen_AdvancedGridsAndBlueprints" xml:space="preserve">
+    <value>Сетки и чертежи:</value>
+  </data>
+  <data name="HelpScreen_AdvancedSpectator" xml:space="preserve">
+    <value>Наблюдатель:</value>
+  </data>
+  <data name="HelpScreen_AdvancedVoxelHands" xml:space="preserve">
+    <value>Воксельские руки:</value>
+  </data>
+  <data name="HelpScreen_Description" xml:space="preserve">
+    <value>Вы можете открыть это окно в любое время, нажав {0}.</value>
+  </data>
+  <data name="HelpScreen_Tutorials" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="HelpScreen_SupportContactDescription" xml:space="preserve">
+    <value>Не нашли решение проблемы? Вы можете связаться с нами!</value>
+  </data>
+  <data name="HelpScreen_SupportDescription" xml:space="preserve">
+    <value>Добро пожаловать, инженер! Ознакомьтесь со следующими ссылками, чтобы найти решение ваших проблем. Кроме того, не забудьте присоединиться к нашим форумам и проголосовать за новые функции на нашем сайте обратной связи!</value>
+  </data>
+  <data name="HelpScreen_SupportLinkFeedback" xml:space="preserve">
+    <value>Сайт обратной связи для предложения и голосования за новые функции.</value>
+  </data>
+  <data name="HelpScreen_SupportLinkForum" xml:space="preserve">
+    <value>Официальные форумы Space Engineers для сообщения об ошибках и обсуждений.</value>
+  </data>
+  <data name="HelpScreen_SupportLinkSteam" xml:space="preserve">
+    <value>Наши форумы сообщества Steam, где вы можете задавать вопросы и сообщать об ошибках.</value>
+  </data>
+  <data name="HelpScreen_TutorialsLinkWiki" xml:space="preserve">
+    <value>Страница википедии, написанная и поддерживаемая нашими игроками, которая полна полезной информации.</value>
+  </data>
+  <data name="HelpScreen_HomeSelectCategory" xml:space="preserve">
+    <value>Выбрать категорию:</value>
+  </data>
+  <data name="HelpScreen_HomeSteamOverlay" xml:space="preserve">
+    <value>Открыть в Steam</value>
+  </data>
+  <data name="HelpScreen_Welcome" xml:space="preserve">
+    <value>Добро пожаловать, инженер</value>
+  </data>
+  <data name="HelpScreen_BasicControls" xml:space="preserve">
+    <value>Базовое управление</value>
+  </data>
+  <data name="HelpScreen_BasicDescription" xml:space="preserve">
+    <value>Базовые клавиши управления движением и взаимодействием, которыми должен овладеть каждый хороший инженер!</value>
+  </data>
+  <data name="HelpScreen_Support" xml:space="preserve">
+    <value>Ссылки поддержки</value>
+  </data>
+  <data name="HelpScreen_SupportContact" xml:space="preserve">
+    <value>Support@KeenSWH.com</value>
+  </data>
+  <data name="HelpScreen_TutorialsDescription" xml:space="preserve">
+    <value>Узнайте больше о Space Engineers и их сообществе, просмотрев наши руководства сообщества или наши страницы википедии!</value>
+  </data>
+  <data name="HelpScreen_TutorialsLinkSteam" xml:space="preserve">
+    <value>Руководства сообщества Steam, написанные нашими игроками.</value>
+  </data>
+  <data name="HelpScreen_TutorialsLinkYouTube" xml:space="preserve">
+    <value>Смотрите базовые обучающие ролики на нашем канале в YouTube.</value>
+  </data>
+  <data name="ScreenCaptionWelcomeScreen" xml:space="preserve">
+    <value>Добро пожаловать, инженер!</value>
+  </data>
+  <data name="ScreenGraphicsOptions_PostProcessing" xml:space="preserve">
+    <value>Включить постобработку</value>
+  </data>
+  <data name="ScreenshotMultiplier" xml:space="preserve">
+    <value>Множитель размера скриншота</value>
+  </data>
+  <data name="ScreenGraphicsOptions_FoliageDetails_Extreme" xml:space="preserve">
+    <value>Очень высокая</value>
+  </data>
+  <data name="MessageBoxTextAnselNotNvidiaGpu" xml:space="preserve">
+    <value>Ansel поддерживается только для видеокарт Nvidia</value>
+  </data>
+  <data name="MessageBoxTextAnselWrongDriverOrCard" xml:space="preserve">
+    <value>Ansel не был инициализирован. Проверьте, поддерживает ли ваша видеокарта Ansel (веб-страница Nvidia) и обновлены ли ваши драйверы.</value>
+  </data>
+  <data name="MessageBoxTextAnselCannotPauseOnlineGame" xml:space="preserve">
+    <value>Игра не приостановлена. Приостановка возможна только в одиночной игре.
+(Выход через: {0})</value>
+  </data>
+  <data name="ColorPicker_Description" xml:space="preserve">
+    <value>Выберите нужный цвет и удерживайте {0}, чтобы покрасить блок, на который вы нацелены.
+
+Нажав CTRL + {0}, окрасится средняя область.
+
+Вы можете нажать SHIFT + {0}, для покраски большой области.
+
+Нажав CTRL + SHIFT + {0}, окрасится вся выбранная сетка.
+
+Выбранный цвет автоматически применяется ко всем новым блокам, которые вы строите.</value>
   </data>
 </root>
